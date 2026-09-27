@@ -1,0 +1,6 @@
+Target_Dataset,Classifier,F1,MCC,AUC-ROC,AUC-PR
+CM1,MLP (Neural Network),0.164,0.03,0.494,0.141
+JM1,MLP (Neural Network),0.381,0.134,0.597,0.335
+KC1,MLP (Neural Network),0.315,0.096,0.563,0.327
+KC2,MLP (Neural Network),0.531,0.316,0.731,0.592
+PC1,MLP (Neural Network),0.208,0.131,0.693,0.196

@@ -1,0 +1,6 @@
+Dataset,Classifier,F1,MCC,AUC-ROC,AUC-PR
+CM1,Logistic Regression,0.378,0.314,0.781,0.42
+JM1,Logistic Regression,0.443,0.256,0.684,0.419
+KC1,Logistic Regression,0.475,0.258,0.685,0.504
+KC2,Logistic Regression,0.589,0.421,0.797,0.661
+PC1,Logistic Regression,0.344,0.318,0.842,0.345

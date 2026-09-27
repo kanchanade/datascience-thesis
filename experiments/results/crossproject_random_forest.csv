@@ -1,0 +1,6 @@
+Target_Dataset,Classifier,F1,MCC,AUC-ROC,AUC-PR
+CM1,Random Forest,0.213,0.154,0.724,0.243
+JM1,Random Forest,0.327,0.156,0.611,0.327
+KC1,Random Forest,0.28,0.122,0.611,0.348
+KC2,Random Forest,0.483,0.338,0.765,0.572
+PC1,Random Forest,0.303,0.244,0.756,0.251

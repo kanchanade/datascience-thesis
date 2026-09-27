@@ -1,0 +1,21 @@
+Dataset,Classifier,F1,MCC,AUC-ROC
+CM1,Logistic Regression,0.378,0.314,0.781
+CM1,Random Forest,0.187,0.078,0.726
+CM1,XGBoost,0.171,0.07,0.709
+CM1,MLP (Neural Network),0.255,0.174,0.677
+JM1,Logistic Regression,0.443,0.256,0.684
+JM1,Random Forest,0.391,0.245,0.684
+JM1,XGBoost,0.362,0.236,0.679
+JM1,MLP (Neural Network),0.401,0.196,0.635
+KC1,Logistic Regression,0.475,0.258,0.685
+KC1,Random Forest,0.422,0.236,0.679
+KC1,XGBoost,0.416,0.23,0.677
+KC1,MLP (Neural Network),0.421,0.203,0.615
+KC2,Logistic Regression,0.589,0.421,0.797
+KC2,Random Forest,0.566,0.397,0.776
+KC2,XGBoost,0.528,0.347,0.758
+KC2,MLP (Neural Network),0.544,0.377,0.693
+PC1,Logistic Regression,0.344,0.318,0.842
+PC1,Random Forest,0.415,0.375,0.818
+PC1,XGBoost,0.369,0.323,0.807
+PC1,MLP (Neural Network),0.361,0.328,0.793
