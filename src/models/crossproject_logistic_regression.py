@@ -13,16 +13,13 @@ RANDOM_SEED = 42
 data_folder = Path(r"C:\Users\kanch\Documents\datascience-thesis\data\processed")
 dataset_names = ["cm1", "jm1", "kc1", "kc2", "pc1"]
 
-# The 21 feature column names, in a fixed order. We always select columns using
-# this list by NAME, so it doesn't matter if one dataset's raw file happened to
-# save its columns in a slightly different order — we control the order ourselves.
 FEATURE_COLUMNS = [
     "loc", "v(g)", "ev(g)", "iv(g)", "n", "v", "l", "d", "i", "e", "b", "t",
     "lOCode", "lOComment", "lOBlank", "locCodeAndComment",
     "uniq_Op", "uniq_Opnd", "total_Op", "total_Opnd", "branchCount",
 ]
 
-# Load all 5 datasets once, up front, into a dictionary to be reuse
+# Load all 5 datasets
 all_data = {}
 for name in dataset_names:
     df = pd.read_csv(data_folder / f"{name}_cleaned.csv")
@@ -36,25 +33,23 @@ print("=" * 70)
 print("LOGISTIC REGRESSION — cross-project (leave-one-project-out)")
 print("=" * 70)
 
-# Try to hold each dataset
+# Try here to hold each dataset
 for target_name in dataset_names:
 
     # The target
     X_target, y_target = all_data[target_name]
 
-    # The source projects everything exc: the target, pooled together into
-    # one big training set
+    # The source projects everything exc: the target, pooled together into one big training set
     source_names = [name for name in dataset_names if name != target_name]
     X_source = pd.concat([all_data[name][0] for name in source_names], ignore_index=True)
     y_source = pd.concat([all_data[name][1] for name in source_names], ignore_index=True)
 
-    # Logistic Regression needs scaled features. Scaling from
-    # source data only, then apply that same scaling to the target
+    # Logistic Regression needs scaled features. Scaling from source data only, then apply that same scaling to the target
     scaler = StandardScaler()
     X_source_scaled = scaler.fit_transform(X_source)
     X_target_scaled = scaler.transform(X_target)
 
-    # Balance the source--- training data only by using SMOTE
+    # Balance the source---> training data only by using SMOTE
     smote = SMOTE(random_state=RANDOM_SEED)
     X_source_balanced, y_source_balanced = smote.fit_resample(X_source_scaled, y_source)
 
