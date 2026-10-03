@@ -8,7 +8,7 @@ from sklearn.metrics import f1_score, matthews_corrcoef, roc_auc_score, average_
 from imblearn.over_sampling import SMOTE
 
 RANDOM_SEED = 42
-
+# @TO DO change the paths to a project folder rather than absolute path here
 data_folder = Path(r"C:\Users\kanch\Documents\datascience-thesis\data\processed")
 dataset_names = ["cm1", "jm1", "kc1", "kc2", "pc1"]
 
