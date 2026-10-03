@@ -1,11 +1,4 @@
-"""
-Cross-project version of Random Forest: leave-one-project-out.
-See crossproject_logistic_regression.py for a full explanation of what
-"cross-project" and "leave-one-project-out" mean.
-
-Random Forest does not need feature scaling, so this script skips that step.
-"""
-
+# imports
 import pandas as pd
 from pathlib import Path
 
@@ -13,8 +6,9 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import f1_score, matthews_corrcoef, roc_auc_score, average_precision_score
 from imblearn.over_sampling import SMOTE
 
-RANDOM_SEED = 42
+RANDOM_SEED = 42 #set my rands
 
+# @TO DO change the paths to a project folder rather than absolute path here
 data_folder = Path(r"C:\Users\kanch\Documents\datascience-thesis\data\processed")
 dataset_names = ["cm1", "jm1", "kc1", "kc2", "pc1"]
 
@@ -34,7 +28,7 @@ for name in dataset_names:
 all_results = []
 
 print("=" * 70)
-print("RANDOM FOREST — cross-project (leave-one-project-out)")
+print("Rand Forest — cross project")
 print("=" * 70)
 
 for target_name in dataset_names:
@@ -45,7 +39,7 @@ for target_name in dataset_names:
     X_source = pd.concat([all_data[name][0] for name in source_names], ignore_index=True)
     y_source = pd.concat([all_data[name][1] for name in source_names], ignore_index=True)
 
-    # No scaling needed — go straight to SMOTE on the source (training) data
+    # No scaling req here so go straight to SMOTE on the source training data
     smote = SMOTE(random_state=RANDOM_SEED)
     X_source_balanced, y_source_balanced = smote.fit_resample(X_source, y_source)
 
@@ -73,6 +67,7 @@ for target_name in dataset_names:
     })
 
 results_table = pd.DataFrame(all_results)
+# @TO DO change the paths to a project folder rather than absolute path here
 results_folder = Path(r"C:\Users\kanch\Documents\datascience-thesis\experiments\results")
 results_folder.mkdir(parents=True, exist_ok=True)
 results_table.to_csv(results_folder / "crossproject_random_forest.csv", index=False)

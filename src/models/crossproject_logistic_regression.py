@@ -1,7 +1,4 @@
-"""
-Cross-project version of Logistic Regression: leave-one-project-out.
-"""
-
+# add imports
 import pandas as pd
 import numpy as np
 from pathlib import Path
@@ -25,11 +22,11 @@ FEATURE_COLUMNS = [
     "uniq_Op", "uniq_Opnd", "total_Op", "total_Opnd", "branchCount",
 ]
 
-# Load all 5 datasets once, up front, into a dictionary we can reuse
+# Load all 5 datasets once, up front, into a dictionary to be reuse
 all_data = {}
 for name in dataset_names:
     df = pd.read_csv(data_folder / f"{name}_cleaned.csv")
-    X = df[FEATURE_COLUMNS]              # select features in our fixed order
+    X = df[FEATURE_COLUMNS]              # select features in fixed order
     y = df["defects"].astype(int)
     all_data[name] = (X, y)
 
@@ -39,35 +36,33 @@ print("=" * 70)
 print("LOGISTIC REGRESSION — cross-project (leave-one-project-out)")
 print("=" * 70)
 
-# Try holding out each dataset in turn as the "unseen target project"
+# Try to hold each dataset
 for target_name in dataset_names:
 
-    # The target project: this is what we test on. The model never trains on this.
+    # The target
     X_target, y_target = all_data[target_name]
 
-    # The source projects: everything EXCEPT the target, pooled together into
+    # The source projects everything exc: the target, pooled together into
     # one big training set
     source_names = [name for name in dataset_names if name != target_name]
     X_source = pd.concat([all_data[name][0] for name in source_names], ignore_index=True)
     y_source = pd.concat([all_data[name][1] for name in source_names], ignore_index=True)
 
-    # Logistic Regression needs scaled features. We learn the scaling from the
-    # SOURCE data only, then apply that same scaling to the target — the model
-    # must never learn anything from the target project, since in a real
-    # cross-project scenario the target's data wouldn't be available yet.
+    # Logistic Regression needs scaled features. Scaling from
+    # source data only, then apply that same scaling to the target
     scaler = StandardScaler()
     X_source_scaled = scaler.fit_transform(X_source)
     X_target_scaled = scaler.transform(X_target)
 
-    # Balance the SOURCE (training) data only, using SMOTE
+    # Balance the source--- training data only by using SMOTE
     smote = SMOTE(random_state=RANDOM_SEED)
     X_source_balanced, y_source_balanced = smote.fit_resample(X_source_scaled, y_source)
 
-    # Train once on the pooled, balanced source data
+    # Train here on the pooled balanced source data
     model = LogisticRegression(max_iter=1000, random_state=RANDOM_SEED)
     model.fit(X_source_balanced, y_source_balanced)
 
-    # Test once on the entire held-out target project
+    # Test on the entire held out target
     y_predicted = model.predict(X_target_scaled)
     y_predicted_probability = model.predict_proba(X_target_scaled)[:, 1]
 
@@ -89,6 +84,7 @@ for target_name in dataset_names:
     })
 
 results_table = pd.DataFrame(all_results)
+# @TO DO change the paths to a project folder rather than absolute path here
 results_folder = Path(r"C:\Users\kanch\Documents\datascience-thesis\experiments\results")
 results_folder.mkdir(parents=True, exist_ok=True)
 results_table.to_csv(results_folder / "crossproject_logistic_regression.csv", index=False)

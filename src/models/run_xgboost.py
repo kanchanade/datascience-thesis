@@ -1,11 +1,4 @@
-"""
-Runs XGBoost on all 5 datasets, within-project, using 10-fold cross-validation
-and SMOTE to fix class imbalance.
-
-Like Random Forest, XGBoost does NOT need feature scaling.
-"""
-
-import pandas as pd
+#importsimport pandas as pd
 import numpy as np
 from pathlib import Path
 
@@ -16,13 +9,14 @@ from imblearn.over_sampling import SMOTE
 
 RANDOM_SEED = 42
 
+# @TO DO change the paths to a project folder rather than absolute path here
 data_folder = Path(r"C:\Users\kanch\Documents\datascience-thesis\data\processed")
 dataset_names = ["cm1", "jm1", "kc1", "kc2", "pc1"]
 
 all_results = []
 
 print("=" * 70)
-print("XGBOOST — all 5 datasets, within-project, with SMOTE")
+print("XGBOOST — all 5 datasets in project, with SMOTE")
 print("=" * 70)
 
 for dataset_name in dataset_names:
@@ -77,6 +71,7 @@ for dataset_name in dataset_names:
     })
 
 results_table = pd.DataFrame(all_results)
+# @TO DO change the paths to a project folder rather than absolute path here
 results_folder = Path(r"C:\Users\kanch\Documents\datascience-thesis\experiments\results")
 results_folder.mkdir(parents=True, exist_ok=True)
 results_table.to_csv(results_folder / "results_xgboost.csv", index=False)

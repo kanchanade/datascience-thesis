@@ -1,12 +1,4 @@
-"""
-Runs Random Forest on all 5 datasets, within-project, using 10-fold
-cross-validation and SMOTE to fix class imbalance.
-
-Random Forest does NOT need feature scaling (it makes yes/no splits on each
-feature, so the size of the numbers doesn't matter to it), so this script is
-slightly simpler than the Logistic Regression one — no scaling step.
-"""
-
+# imports
 import pandas as pd
 import numpy as np
 from pathlib import Path
@@ -16,7 +8,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import f1_score, matthews_corrcoef, roc_auc_score, average_precision_score
 from imblearn.over_sampling import SMOTE
 
-RANDOM_SEED = 42
+RANDOM_SEED = 42 # my rands
 
 data_folder = Path(r"C:\Users\kanch\Documents\datascience-thesis\data\processed")
 dataset_names = ["cm1", "jm1", "kc1", "kc2", "pc1"]
@@ -24,7 +16,7 @@ dataset_names = ["cm1", "jm1", "kc1", "kc2", "pc1"]
 all_results = []
 
 print("=" * 70)
-print("RANDOM FOREST — all 5 datasets, within-project, with SMOTE")
+print("Rand forest — all 5 datasets in project with SMOTE")
 print("=" * 70)
 
 for dataset_name in dataset_names:
@@ -80,6 +72,7 @@ for dataset_name in dataset_names:
     })
 
 results_table = pd.DataFrame(all_results)
+# @TO DO change the paths to a project folder rather than absolute path here
 results_folder = Path(r"C:\Users\kanch\Documents\datascience-thesis\experiments\results")
 results_folder.mkdir(parents=True, exist_ok=True)
 results_table.to_csv(results_folder / "results_random_forest.csv", index=False)

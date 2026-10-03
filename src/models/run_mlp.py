@@ -1,14 +1,4 @@
-"""
-Runs a Neural Network (MLP) on all 5 datasets, within-project, using 10-fold
-cross-validation and SMOTE to fix class imbalance.
-
-Note: an earlier test run of the MLP showed "ConvergenceWarning" messages,
-meaning it wasn't finishing its learning process in time. This version fixes
-that by increasing max_iter (giving it more attempts to learn) and turning on
-early_stopping (which stops training automatically once it stops improving,
-rather than always running the full number of iterations).
-"""
-
+# imports
 import pandas as pd
 import numpy as np
 from pathlib import Path
@@ -19,7 +9,7 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import f1_score, matthews_corrcoef, roc_auc_score, average_precision_score
 from imblearn.over_sampling import SMOTE
 
-RANDOM_SEED = 42
+RANDOM_SEED = 42 # my rands
 
 data_folder = Path(r"C:\Users\kanch\Documents\datascience-thesis\data\processed")
 dataset_names = ["cm1", "jm1", "kc1", "kc2", "pc1"]
@@ -58,9 +48,7 @@ for dataset_name in dataset_names:
         smote = SMOTE(random_state=RANDOM_SEED)
         X_train_balanced, y_train_balanced = smote.fit_resample(X_train, y_train)
 
-        # max_iter=2000 (up from 500) gives it more chances to finish learning.
-        # early_stopping=True makes it stop automatically once it's no longer
-        # improving, instead of always running every iteration.
+        # max_iter=2000 (up from 500)
         model = MLPClassifier(
             hidden_layer_sizes=(64, 32),
             max_iter=2000,
@@ -95,6 +83,7 @@ for dataset_name in dataset_names:
     })
 
 results_table = pd.DataFrame(all_results)
+# @TO DO change the paths to a project folder rather than absolute path here
 results_folder = Path(r"C:\Users\kanch\Documents\datascience-thesis\experiments\results")
 results_folder.mkdir(parents=True, exist_ok=True)
 results_table.to_csv(results_folder / "results_mlp.csv", index=False)

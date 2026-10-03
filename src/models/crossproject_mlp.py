@@ -1,11 +1,4 @@
-"""
-Cross-project version of the Neural Network (MLP): leave-one-project-out.
-See crossproject_logistic_regression.py for a full explanation of what
-"cross-project" and "leave-one-project-out" mean.
-
-Same convergence fix as run_mlp.py: more iterations, and early stopping.
-"""
-
+# imports
 import pandas as pd
 from pathlib import Path
 
@@ -46,7 +39,7 @@ for target_name in dataset_names:
     X_source = pd.concat([all_data[name][0] for name in source_names], ignore_index=True)
     y_source = pd.concat([all_data[name][1] for name in source_names], ignore_index=True)
 
-    # MLP needs scaled features, learned from the source data only
+    # MLP needs scaled features and learned from the source data only
     scaler = StandardScaler()
     X_source_scaled = scaler.fit_transform(X_source)
     X_target_scaled = scaler.transform(X_target)
@@ -83,6 +76,7 @@ for target_name in dataset_names:
     })
 
 results_table = pd.DataFrame(all_results)
+# @TO DO change the paths to a project folder rather than absolute path here
 results_folder = Path(r"C:\Users\kanch\Documents\datascience-thesis\experiments\results")
 results_folder.mkdir(parents=True, exist_ok=True)
 results_table.to_csv(results_folder / "crossproject_mlp.csv", index=False)

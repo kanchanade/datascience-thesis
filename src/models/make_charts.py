@@ -1,24 +1,15 @@
-"""
-Reads the 4 results CSV files (one per classifier) and makes bar charts showing
-how each classifier performed on each dataset.
-
-This makes 5 charts in total:
-  - 4 charts, one per classifier, showing its F1/MCC/AUC-ROC across all 5 datasets
-  - 1 combined chart comparing all 4 classifiers side by side (F1-score only)
-
-All charts are saved as PNG image files you can drop straight into your thesis.
-"""
-
+# imports
 import pandas as pd
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-# Where the results CSVs are, and where to save the graph images
+# Set where is the results CSVs are and where to save the graph images
+# @TO DO change the paths to a project folder rather than absolute path here
 results_folder = Path(r"C:\Users\kanch\Documents\datascience-thesis\experiments\results")
 graphs_folder = Path(r"C:\Users\kanch\Documents\datascience-thesis\docs\figures")
 graphs_folder.mkdir(parents=True, exist_ok=True)
 
-# The 4 result files we made earlier, one per classifier
+# The 4 result files made earlier one per classifier
 result_files = {
     "Logistic Regression": "results_logistic_regression.csv",
     "Random Forest": "results_random_forest.csv",
@@ -26,21 +17,16 @@ result_files = {
     "MLP (Neural Network)": "results_mlp.csv",
 }
 
-# ----------------------------------------------------------------------
-# PART 1 — one chart per classifier, showing F1 / MCC / AUC-ROC together
-# ----------------------------------------------------------------------
-
-# This will collect every classifier's results into one big table, which we
-# also need for Part 2 (the combined chart)
+# This will collect every classifiers results into a table, which I need for Part 2 (the combined chart)
 all_results = []
 
 for classifier_name, file_name in result_files.items():
 
-    # Load this classifier's results
+    # Load this classifier results
     df = pd.read_csv(results_folder / file_name)
     all_results.append(df)
 
-    # Make a bar chart with 3 bars per dataset (F1, MCC, AUC-ROC side by side)
+    # Gen: a bar chart with 3 bars per dataset (F1, MCC, AUC-ROC side by side)
     fig, ax = plt.subplots(figsize=(8, 5))
 
     x_positions = range(len(df))   # one position per dataset
@@ -59,8 +45,7 @@ for classifier_name, file_name in result_files.items():
 
     plt.tight_layout()
 
-    # Save the chart as an image file. We turn the classifier name into a
-    # simple filename (lowercase, no spaces or brackets)
+    # Save the chart as an image file. Turn the classifier name into a simple filename
     safe_name = classifier_name.lower().replace(" ", "_").replace("(", "").replace(")", "")
     output_path = graphs_folder / f"chart_{safe_name}.png"
     plt.savefig(output_path, dpi=150)
@@ -68,15 +53,11 @@ for classifier_name, file_name in result_files.items():
 
     print(f"Saved: {output_path}")
 
-# ----------------------------------------------------------------------
-# PART 2 — one combined chart comparing all 4 classifiers (F1-score only)
-# ----------------------------------------------------------------------
-
-# Combine every classifier's table into one big table
+# Combine every classifiers table into a table
 combined = pd.concat(all_results, ignore_index=True)
 
-# "Pivot" turns this into a grid: rows = datasets, columns = classifiers,
-# values = F1 score. This makes it easy to plot side-by-side bars.
+# Pivot turns into a grid: rows = datasets, columns = classifiers,
+# values = F1 score. This makes it easy to plot side by side bars.
 pivot_table = combined.pivot(index="Dataset", columns="Classifier", values="F1")
 
 fig, ax = plt.subplots(figsize=(10, 6))

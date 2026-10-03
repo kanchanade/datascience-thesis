@@ -1,11 +1,4 @@
-"""
-Runs Logistic Regression on all 5 datasets, within-project, using 10-fold
-cross-validation and SMOTE to fix class imbalance.
-
-This is the SAME method as Step 1, just repeated across all 5 datasets instead
-of just CM1, and with SMOTE added to fix the imbalance problem Step 1 revealed.
-"""
-
+#imports
 import pandas as pd
 import numpy as np
 from pathlib import Path
@@ -16,13 +9,14 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import f1_score, matthews_corrcoef, roc_auc_score, average_precision_score
 from imblearn.over_sampling import SMOTE
 
-RANDOM_SEED = 42
+RANDOM_SEED = 42 # set my random
 
-# Where our cleaned data lives
+# Where my cleaned data lives
+# @TO DO change the paths to a project folder rather than absolute path here
 data_folder = Path(r"C:\Users\kanch\Documents\datascience-thesis\data\processed")
 dataset_names = ["cm1", "jm1", "kc1", "kc2", "pc1"]
 
-# This list will collect one row of results per dataset
+# Collect one row of results per dataset in here
 all_results = []
 
 print("=" * 70)
@@ -51,7 +45,7 @@ for dataset_name in dataset_names:
         y_train = y.iloc[train_rows]
         y_test = y.iloc[test_rows]
 
-        # Logistic Regression needs scaled features (learned from training data only)
+        # Logistic regression needs scaled features
         scaler = StandardScaler()
         X_train = scaler.fit_transform(X_train)
         X_test = scaler.transform(X_test)
@@ -70,9 +64,6 @@ for dataset_name in dataset_names:
         fold_f1_scores.append(f1_score(y_test, y_predicted, zero_division=0))
         fold_mcc_scores.append(matthews_corrcoef(y_test, y_predicted))
         fold_auc_scores.append(roc_auc_score(y_test, y_predicted_probability))
-        # AUC-PR (Area Under the Precision-Recall curve) focuses specifically on
-        # how well the model finds the rare "defective" class, unlike AUC-ROC
-        # which can look artificially good on imbalanced data (Proposal 3.3.6.3)
         fold_auc_pr_scores.append(average_precision_score(y_test, y_predicted_probability))
 
     average_f1 = np.mean(fold_f1_scores)
@@ -94,6 +85,7 @@ for dataset_name in dataset_names:
 
 # Save results to a CSV file
 results_table = pd.DataFrame(all_results)
+# @TO DO change the paths to a project folder rather than absolute path here
 results_folder = Path(r"C:\Users\kanch\Documents\datascience-thesis\experiments\results")
 results_folder.mkdir(parents=True, exist_ok=True)
 results_table.to_csv(results_folder / "results_logistic_regression.csv", index=False)
