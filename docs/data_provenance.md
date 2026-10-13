@@ -4,7 +4,7 @@
 All five datasets (CM1, JM1, KC1, KC2, PC1) were sourced from a single GitHub mirror
 providing the datasets in the standard 21-metric PROMISE/tera-PROMISE schema:
 https://github.com/ApoorvaKrisna/NASA-promise-dataset-repository
-(retrieved [DATE — fill in when finalised]).
+(retrieved <YYYY-MM-DD>, commit <hash>).
 
 ## Alternative source evaluated and rejected
 The Shepperd et al. (2013) NASA MDP repository (klainfo/NASADefectDataset on GitHub)
@@ -30,7 +30,10 @@ cites. It was rejected for two reasons:
 | KC2 | 522 | 522 (matches) |
 | PC1 | 1,109 | 1,109 (matches) |
 
-JM1's discrepancy is substantial and consistent with Shepperd et al.'s (2013) general
+JM1's raw count (13,204) differs from the ~10,878-10,885 commonly cited. The cause could not
+be established. It is consistent with different distributors reporting different counts for the
+same project (Shepperd et al., 2013), but I did not verify this, so it is recorded as an
+unexplained limitation. The remaining projects match the cited figures and consistent with Shepperd et al.'s (2013) general
 finding that different distributors report different instance counts for the same
 nominal NASA MDP project.
 
@@ -76,10 +79,18 @@ turn affects SMOTE's oversampling target ratio and should be noted as a limitati
 or at least an explicit methodological choice.
 
 ## Cleaning steps applied (in order)
-1. Standardize column names and target encoding across sources
+1. Standardise column names and target encoding across sources
 2. Remove the single systematic artefact row (fractional count-metric values)
 3. Remove exact duplicate rows (all 21 features + target identical)
 4. Verify: no missing values, no zero-variance features remaining
+5. Strict level only (src/clean_data.py): remove rows that break
+   R1 all-ones row; R2 conflicting labels for identical metrics; R3 n = 0 while loc > 0;
+   R4 n != total_Op + total_Opnd; R5 loc = 0.
+
+Row counts, duplicate-removed level -> strict level: CM1 441 -> 438; JM1 8,907 -> 7,698
+(R2 = 176, R3 = 971, R4 = 139); KC1 1,211 -> 1,147; KC2 374 -> 328; PC1 953 -> 934.
+Per-rule counts are in `experiments/results/cleaning_log.csv`. The implementation is
+`src/clean_data.py`.
 
 See `src/data_processing/load_data.py` for the implementation and
 `data/processed/cleaning_log.csv` for the exact per-dataset counts.

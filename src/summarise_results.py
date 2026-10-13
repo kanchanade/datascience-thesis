@@ -2,12 +2,12 @@
 Turns the long per-seed results file into the tables Dr Dang asked for.
 
 Reads  : experiments/results/runs_<level>.csv   (one row per method/classifier/target/seed)
-Writes : experiments/results/summary_by_method.csv      mean +/- sd over seeds
-         experiments/results/summary_paired_vs_unweighted.csv
+Writes : experiments/results/summary_by_method_<level>.csv      mean +/- sd over seeds
+         experiments/results/summary_paired_vs_unweighted_<level>.csv
                                                           change vs unweighted, seed by seed
-         experiments/results/summary_per_target_ci.csv   per-target change with 95% interval
-         experiments/results/selection_frequency.csv     how often each feature was chosen
-         experiments/results/selection_distinct_sets.csv how many different feature sets appeared
+         experiments/results/summary_per_target_ci_<level>.csv   per-target change with 95% interval
+         experiments/results/selection_frequency_<level>.csv     how often each feature was chosen
+         experiments/results/selection_distinct_sets_<level>.csv how many different feature sets appeared
 
 How the numbers are built (same convention as the review's Table 8):
   1. For each seed, average a score over the 5 target projects.
@@ -48,7 +48,7 @@ def main():
             row[f"{m}_sd"] = round(g[m].std(ddof=1), 3) if len(g) > 1 else np.nan
         rows.append(row)
     by_method = pd.DataFrame(rows)
-    by_method.to_csv(folder / "summary_by_method.csv", index=False)
+    by_method.to_csv(folder / f"summary_by_method_{args.level}.csv", index=False)
     print("MEAN +/- SD OVER SEEDS (MCC and AUC-PR)")
     show = by_method.assign(
         MCC=lambda d: d.MCC_mean.map("{:.3f}".format) + " +/- " + d.MCC_sd.map("{:.3f}".format),
@@ -68,7 +68,7 @@ def main():
             row[f"{m}_seeds_better"] = f"{int((diff > 0).sum())}/{len(diff)}"
         rows.append(row)
     paired = pd.DataFrame(rows)
-    paired.to_csv(folder / "summary_paired_vs_unweighted.csv", index=False)
+    paired.to_csv(folder / f"summary_paired_vs_unweighted_{args.level}.csv", index=False)
     print("PAIRED CHANGE VS UNWEIGHTED (mean over seeds; seeds where better)")
     print(paired.to_string(index=False), "\n")
 
@@ -89,8 +89,8 @@ def main():
             row[f"{m}_CI95_high"] = round(mean + half, 3)
             row[f"{m}_exceeds_seed_noise"] = bool(n > 1 and (mean - half > 0 or mean + half < 0))
         rows.append(row)
-    pd.DataFrame(rows).to_csv(folder / "summary_per_target_ci.csv", index=False)
-    print("Per-target intervals saved to summary_per_target_ci.csv\n")
+    pd.DataFrame(rows).to_csv(folder / f"summary_per_target_ci_{args.level}.csv", index=False)
+    print(f"Per-target intervals saved to summary_per_target_ci_{args.level}.csv\n")
 
     # ---- 4. selection frequency. Only methods that actually drop features.
     #         Variance and mutual-information selection do not depend on the classifier
@@ -111,9 +111,9 @@ def main():
         set_rows.append({"Method": method, "Target": target, "Seeds": n,
                          "Distinct_feature_sets": g.Selected_Features.nunique(),
                          "Always_selected": " ".join(f for f in ev.FEATURE_COLUMNS if all(f in s for s in sets))})
-    pd.DataFrame(freq_rows).to_csv(folder / "selection_frequency.csv", index=False)
+    pd.DataFrame(freq_rows).to_csv(folder / f"selection_frequency_{args.level}.csv", index=False)
     distinct = pd.DataFrame(set_rows)
-    distinct.to_csv(folder / "selection_distinct_sets.csv", index=False)
+    distinct.to_csv(folder / f"selection_distinct_sets_{args.level}.csv", index=False)
     print("SELECTION STABILITY (distinct feature sets over seeds; features chosen in every seed)")
     print(distinct.to_string(index=False))
 
