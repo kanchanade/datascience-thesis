@@ -1,0 +1,13 @@
+# Versions the code in src/ was tested with (Python 3.11+).
+# IMPORTANT: results depend on library versions (review, Section 7.1).
+# On your own machine run:   pip freeze > requirements-frozen.txt
+# and commit that file too, so your exact versions are recorded.
+numpy==2.4.4
+pandas==3.0.2
+scipy==1.17.1
+scikit-learn==1.8.0
+imbalanced-learn==0.14.2
+xgboost==3.2.0
+shap==0.51.0
+joblib
+matplotlib
