@@ -1,0 +1,9 @@
+Classifier,Metric,Projects_within_better,Mean_within_minus_cross,p_one_sided
+Logistic Regression,MCC,4/5,0.05,0.0625
+Logistic Regression,AUC-PR,4/5,0.078,0.0625
+Random Forest,MCC,5/5,0.084,0.0312
+Random Forest,AUC-PR,5/5,0.105,0.0312
+XGBoost,MCC,4/5,0.099,0.0625
+XGBoost,AUC-PR,5/5,0.129,0.0312
+MLP,MCC,5/5,0.127,0.0312
+MLP,AUC-PR,5/5,0.145,0.0312

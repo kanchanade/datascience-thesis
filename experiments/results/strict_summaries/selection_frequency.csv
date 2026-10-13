@@ -1,0 +1,3151 @@
+Method,Target,Feature,Selected_in_seeds,Frequency
+mutualinfo_k10,CM1,loc,10,1.0
+mutualinfo_k10,CM1,v(g),2,0.2
+mutualinfo_k10,CM1,ev(g),0,0.0
+mutualinfo_k10,CM1,iv(g),5,0.5
+mutualinfo_k10,CM1,n,9,0.9
+mutualinfo_k10,CM1,v,10,1.0
+mutualinfo_k10,CM1,l,0,0.0
+mutualinfo_k10,CM1,d,1,0.1
+mutualinfo_k10,CM1,i,0,0.0
+mutualinfo_k10,CM1,e,10,1.0
+mutualinfo_k10,CM1,b,8,0.8
+mutualinfo_k10,CM1,t,9,0.9
+mutualinfo_k10,CM1,lOCode,9,0.9
+mutualinfo_k10,CM1,lOComment,0,0.0
+mutualinfo_k10,CM1,lOBlank,0,0.0
+mutualinfo_k10,CM1,locCodeAndComment,0,0.0
+mutualinfo_k10,CM1,uniq_Op,0,0.0
+mutualinfo_k10,CM1,uniq_Opnd,9,0.9
+mutualinfo_k10,CM1,total_Op,10,1.0
+mutualinfo_k10,CM1,total_Opnd,7,0.7
+mutualinfo_k10,CM1,branchCount,1,0.1
+mutualinfo_k10,JM1,loc,10,1.0
+mutualinfo_k10,JM1,v(g),2,0.2
+mutualinfo_k10,JM1,ev(g),0,0.0
+mutualinfo_k10,JM1,iv(g),8,0.8
+mutualinfo_k10,JM1,n,8,0.8
+mutualinfo_k10,JM1,v,10,1.0
+mutualinfo_k10,JM1,l,1,0.1
+mutualinfo_k10,JM1,d,0,0.0
+mutualinfo_k10,JM1,i,10,1.0
+mutualinfo_k10,JM1,e,0,0.0
+mutualinfo_k10,JM1,b,10,1.0
+mutualinfo_k10,JM1,t,1,0.1
+mutualinfo_k10,JM1,lOCode,10,1.0
+mutualinfo_k10,JM1,lOComment,0,0.0
+mutualinfo_k10,JM1,lOBlank,2,0.2
+mutualinfo_k10,JM1,locCodeAndComment,0,0.0
+mutualinfo_k10,JM1,uniq_Op,0,0.0
+mutualinfo_k10,JM1,uniq_Opnd,9,0.9
+mutualinfo_k10,JM1,total_Op,9,0.9
+mutualinfo_k10,JM1,total_Opnd,7,0.7
+mutualinfo_k10,JM1,branchCount,3,0.3
+mutualinfo_k10,KC1,loc,10,1.0
+mutualinfo_k10,KC1,v(g),5,0.5
+mutualinfo_k10,KC1,ev(g),0,0.0
+mutualinfo_k10,KC1,iv(g),5,0.5
+mutualinfo_k10,KC1,n,10,1.0
+mutualinfo_k10,KC1,v,10,1.0
+mutualinfo_k10,KC1,l,0,0.0
+mutualinfo_k10,KC1,d,0,0.0
+mutualinfo_k10,KC1,i,0,0.0
+mutualinfo_k10,KC1,e,5,0.5
+mutualinfo_k10,KC1,b,8,0.8
+mutualinfo_k10,KC1,t,7,0.7
+mutualinfo_k10,KC1,lOCode,9,0.9
+mutualinfo_k10,KC1,lOComment,0,0.0
+mutualinfo_k10,KC1,lOBlank,2,0.2
+mutualinfo_k10,KC1,locCodeAndComment,0,0.0
+mutualinfo_k10,KC1,uniq_Op,1,0.1
+mutualinfo_k10,KC1,uniq_Opnd,10,1.0
+mutualinfo_k10,KC1,total_Op,9,0.9
+mutualinfo_k10,KC1,total_Opnd,7,0.7
+mutualinfo_k10,KC1,branchCount,2,0.2
+mutualinfo_k10,KC2,loc,10,1.0
+mutualinfo_k10,KC2,v(g),3,0.3
+mutualinfo_k10,KC2,ev(g),0,0.0
+mutualinfo_k10,KC2,iv(g),6,0.6
+mutualinfo_k10,KC2,n,10,1.0
+mutualinfo_k10,KC2,v,10,1.0
+mutualinfo_k10,KC2,l,0,0.0
+mutualinfo_k10,KC2,d,1,0.1
+mutualinfo_k10,KC2,i,0,0.0
+mutualinfo_k10,KC2,e,7,0.7
+mutualinfo_k10,KC2,b,10,1.0
+mutualinfo_k10,KC2,t,9,0.9
+mutualinfo_k10,KC2,lOCode,8,0.8
+mutualinfo_k10,KC2,lOComment,0,0.0
+mutualinfo_k10,KC2,lOBlank,1,0.1
+mutualinfo_k10,KC2,locCodeAndComment,0,0.0
+mutualinfo_k10,KC2,uniq_Op,2,0.2
+mutualinfo_k10,KC2,uniq_Opnd,8,0.8
+mutualinfo_k10,KC2,total_Op,8,0.8
+mutualinfo_k10,KC2,total_Opnd,6,0.6
+mutualinfo_k10,KC2,branchCount,1,0.1
+mutualinfo_k10,PC1,loc,10,1.0
+mutualinfo_k10,PC1,v(g),5,0.5
+mutualinfo_k10,PC1,ev(g),0,0.0
+mutualinfo_k10,PC1,iv(g),5,0.5
+mutualinfo_k10,PC1,n,8,0.8
+mutualinfo_k10,PC1,v,10,1.0
+mutualinfo_k10,PC1,l,0,0.0
+mutualinfo_k10,PC1,d,2,0.2
+mutualinfo_k10,PC1,i,0,0.0
+mutualinfo_k10,PC1,e,6,0.6
+mutualinfo_k10,PC1,b,10,1.0
+mutualinfo_k10,PC1,t,6,0.6
+mutualinfo_k10,PC1,lOCode,7,0.7
+mutualinfo_k10,PC1,lOComment,0,0.0
+mutualinfo_k10,PC1,lOBlank,2,0.2
+mutualinfo_k10,PC1,locCodeAndComment,0,0.0
+mutualinfo_k10,PC1,uniq_Op,1,0.1
+mutualinfo_k10,PC1,uniq_Opnd,9,0.9
+mutualinfo_k10,PC1,total_Op,10,1.0
+mutualinfo_k10,PC1,total_Opnd,8,0.8
+mutualinfo_k10,PC1,branchCount,1,0.1
+mutualinfo_k15,CM1,loc,10,1.0
+mutualinfo_k15,CM1,v(g),10,1.0
+mutualinfo_k15,CM1,ev(g),0,0.0
+mutualinfo_k15,CM1,iv(g),9,0.9
+mutualinfo_k15,CM1,n,9,0.9
+mutualinfo_k15,CM1,v,10,1.0
+mutualinfo_k15,CM1,l,0,0.0
+mutualinfo_k15,CM1,d,9,0.9
+mutualinfo_k15,CM1,i,3,0.3
+mutualinfo_k15,CM1,e,10,1.0
+mutualinfo_k15,CM1,b,10,1.0
+mutualinfo_k15,CM1,t,10,1.0
+mutualinfo_k15,CM1,lOCode,10,1.0
+mutualinfo_k15,CM1,lOComment,0,0.0
+mutualinfo_k15,CM1,lOBlank,5,0.5
+mutualinfo_k15,CM1,locCodeAndComment,0,0.0
+mutualinfo_k15,CM1,uniq_Op,7,0.7
+mutualinfo_k15,CM1,uniq_Opnd,10,1.0
+mutualinfo_k15,CM1,total_Op,10,1.0
+mutualinfo_k15,CM1,total_Opnd,10,1.0
+mutualinfo_k15,CM1,branchCount,8,0.8
+mutualinfo_k15,JM1,loc,10,1.0
+mutualinfo_k15,JM1,v(g),8,0.8
+mutualinfo_k15,JM1,ev(g),1,0.1
+mutualinfo_k15,JM1,iv(g),10,1.0
+mutualinfo_k15,JM1,n,10,1.0
+mutualinfo_k15,JM1,v,10,1.0
+mutualinfo_k15,JM1,l,6,0.6
+mutualinfo_k15,JM1,d,6,0.6
+mutualinfo_k15,JM1,i,10,1.0
+mutualinfo_k15,JM1,e,8,0.8
+mutualinfo_k15,JM1,b,10,1.0
+mutualinfo_k15,JM1,t,9,0.9
+mutualinfo_k15,JM1,lOCode,10,1.0
+mutualinfo_k15,JM1,lOComment,1,0.1
+mutualinfo_k15,JM1,lOBlank,3,0.3
+mutualinfo_k15,JM1,locCodeAndComment,0,0.0
+mutualinfo_k15,JM1,uniq_Op,1,0.1
+mutualinfo_k15,JM1,uniq_Opnd,10,1.0
+mutualinfo_k15,JM1,total_Op,10,1.0
+mutualinfo_k15,JM1,total_Opnd,10,1.0
+mutualinfo_k15,JM1,branchCount,7,0.7
+mutualinfo_k15,KC1,loc,10,1.0
+mutualinfo_k15,KC1,v(g),10,1.0
+mutualinfo_k15,KC1,ev(g),0,0.0
+mutualinfo_k15,KC1,iv(g),8,0.8
+mutualinfo_k15,KC1,n,10,1.0
+mutualinfo_k15,KC1,v,10,1.0
+mutualinfo_k15,KC1,l,0,0.0
+mutualinfo_k15,KC1,d,10,1.0
+mutualinfo_k15,KC1,i,9,0.9
+mutualinfo_k15,KC1,e,10,1.0
+mutualinfo_k15,KC1,b,10,1.0
+mutualinfo_k15,KC1,t,10,1.0
+mutualinfo_k15,KC1,lOCode,10,1.0
+mutualinfo_k15,KC1,lOComment,0,0.0
+mutualinfo_k15,KC1,lOBlank,2,0.2
+mutualinfo_k15,KC1,locCodeAndComment,0,0.0
+mutualinfo_k15,KC1,uniq_Op,4,0.4
+mutualinfo_k15,KC1,uniq_Opnd,10,1.0
+mutualinfo_k15,KC1,total_Op,10,1.0
+mutualinfo_k15,KC1,total_Opnd,10,1.0
+mutualinfo_k15,KC1,branchCount,7,0.7
+mutualinfo_k15,KC2,loc,10,1.0
+mutualinfo_k15,KC2,v(g),8,0.8
+mutualinfo_k15,KC2,ev(g),0,0.0
+mutualinfo_k15,KC2,iv(g),10,1.0
+mutualinfo_k15,KC2,n,10,1.0
+mutualinfo_k15,KC2,v,10,1.0
+mutualinfo_k15,KC2,l,1,0.1
+mutualinfo_k15,KC2,d,9,0.9
+mutualinfo_k15,KC2,i,8,0.8
+mutualinfo_k15,KC2,e,10,1.0
+mutualinfo_k15,KC2,b,10,1.0
+mutualinfo_k15,KC2,t,10,1.0
+mutualinfo_k15,KC2,lOCode,10,1.0
+mutualinfo_k15,KC2,lOComment,0,0.0
+mutualinfo_k15,KC2,lOBlank,3,0.3
+mutualinfo_k15,KC2,locCodeAndComment,0,0.0
+mutualinfo_k15,KC2,uniq_Op,4,0.4
+mutualinfo_k15,KC2,uniq_Opnd,10,1.0
+mutualinfo_k15,KC2,total_Op,10,1.0
+mutualinfo_k15,KC2,total_Opnd,10,1.0
+mutualinfo_k15,KC2,branchCount,7,0.7
+mutualinfo_k15,PC1,loc,10,1.0
+mutualinfo_k15,PC1,v(g),8,0.8
+mutualinfo_k15,PC1,ev(g),0,0.0
+mutualinfo_k15,PC1,iv(g),9,0.9
+mutualinfo_k15,PC1,n,10,1.0
+mutualinfo_k15,PC1,v,10,1.0
+mutualinfo_k15,PC1,l,2,0.2
+mutualinfo_k15,PC1,d,9,0.9
+mutualinfo_k15,PC1,i,6,0.6
+mutualinfo_k15,PC1,e,10,1.0
+mutualinfo_k15,PC1,b,10,1.0
+mutualinfo_k15,PC1,t,10,1.0
+mutualinfo_k15,PC1,lOCode,10,1.0
+mutualinfo_k15,PC1,lOComment,0,0.0
+mutualinfo_k15,PC1,lOBlank,4,0.4
+mutualinfo_k15,PC1,locCodeAndComment,0,0.0
+mutualinfo_k15,PC1,uniq_Op,5,0.5
+mutualinfo_k15,PC1,uniq_Opnd,10,1.0
+mutualinfo_k15,PC1,total_Op,10,1.0
+mutualinfo_k15,PC1,total_Opnd,10,1.0
+mutualinfo_k15,PC1,branchCount,7,0.7
+mutualinfo_k5,CM1,loc,10,1.0
+mutualinfo_k5,CM1,v(g),1,0.1
+mutualinfo_k5,CM1,ev(g),0,0.0
+mutualinfo_k5,CM1,iv(g),2,0.2
+mutualinfo_k5,CM1,n,7,0.7
+mutualinfo_k5,CM1,v,1,0.1
+mutualinfo_k5,CM1,l,0,0.0
+mutualinfo_k5,CM1,d,0,0.0
+mutualinfo_k5,CM1,i,0,0.0
+mutualinfo_k5,CM1,e,1,0.1
+mutualinfo_k5,CM1,b,5,0.5
+mutualinfo_k5,CM1,t,2,0.2
+mutualinfo_k5,CM1,lOCode,7,0.7
+mutualinfo_k5,CM1,lOComment,0,0.0
+mutualinfo_k5,CM1,lOBlank,0,0.0
+mutualinfo_k5,CM1,locCodeAndComment,0,0.0
+mutualinfo_k5,CM1,uniq_Op,0,0.0
+mutualinfo_k5,CM1,uniq_Opnd,5,0.5
+mutualinfo_k5,CM1,total_Op,8,0.8
+mutualinfo_k5,CM1,total_Opnd,1,0.1
+mutualinfo_k5,CM1,branchCount,0,0.0
+mutualinfo_k5,JM1,loc,10,1.0
+mutualinfo_k5,JM1,v(g),0,0.0
+mutualinfo_k5,JM1,ev(g),0,0.0
+mutualinfo_k5,JM1,iv(g),1,0.1
+mutualinfo_k5,JM1,n,0,0.0
+mutualinfo_k5,JM1,v,4,0.4
+mutualinfo_k5,JM1,l,0,0.0
+mutualinfo_k5,JM1,d,0,0.0
+mutualinfo_k5,JM1,i,10,1.0
+mutualinfo_k5,JM1,e,0,0.0
+mutualinfo_k5,JM1,b,6,0.6
+mutualinfo_k5,JM1,t,0,0.0
+mutualinfo_k5,JM1,lOCode,7,0.7
+mutualinfo_k5,JM1,lOComment,0,0.0
+mutualinfo_k5,JM1,lOBlank,0,0.0
+mutualinfo_k5,JM1,locCodeAndComment,0,0.0
+mutualinfo_k5,JM1,uniq_Op,0,0.0
+mutualinfo_k5,JM1,uniq_Opnd,5,0.5
+mutualinfo_k5,JM1,total_Op,4,0.4
+mutualinfo_k5,JM1,total_Opnd,3,0.3
+mutualinfo_k5,JM1,branchCount,0,0.0
+mutualinfo_k5,KC1,loc,10,1.0
+mutualinfo_k5,KC1,v(g),1,0.1
+mutualinfo_k5,KC1,ev(g),0,0.0
+mutualinfo_k5,KC1,iv(g),0,0.0
+mutualinfo_k5,KC1,n,7,0.7
+mutualinfo_k5,KC1,v,7,0.7
+mutualinfo_k5,KC1,l,0,0.0
+mutualinfo_k5,KC1,d,0,0.0
+mutualinfo_k5,KC1,i,0,0.0
+mutualinfo_k5,KC1,e,1,0.1
+mutualinfo_k5,KC1,b,4,0.4
+mutualinfo_k5,KC1,t,0,0.0
+mutualinfo_k5,KC1,lOCode,7,0.7
+mutualinfo_k5,KC1,lOComment,0,0.0
+mutualinfo_k5,KC1,lOBlank,0,0.0
+mutualinfo_k5,KC1,locCodeAndComment,0,0.0
+mutualinfo_k5,KC1,uniq_Op,0,0.0
+mutualinfo_k5,KC1,uniq_Opnd,3,0.3
+mutualinfo_k5,KC1,total_Op,8,0.8
+mutualinfo_k5,KC1,total_Opnd,2,0.2
+mutualinfo_k5,KC1,branchCount,0,0.0
+mutualinfo_k5,KC2,loc,10,1.0
+mutualinfo_k5,KC2,v(g),1,0.1
+mutualinfo_k5,KC2,ev(g),0,0.0
+mutualinfo_k5,KC2,iv(g),1,0.1
+mutualinfo_k5,KC2,n,6,0.6
+mutualinfo_k5,KC2,v,7,0.7
+mutualinfo_k5,KC2,l,0,0.0
+mutualinfo_k5,KC2,d,0,0.0
+mutualinfo_k5,KC2,i,0,0.0
+mutualinfo_k5,KC2,e,1,0.1
+mutualinfo_k5,KC2,b,6,0.6
+mutualinfo_k5,KC2,t,1,0.1
+mutualinfo_k5,KC2,lOCode,6,0.6
+mutualinfo_k5,KC2,lOComment,0,0.0
+mutualinfo_k5,KC2,lOBlank,0,0.0
+mutualinfo_k5,KC2,locCodeAndComment,0,0.0
+mutualinfo_k5,KC2,uniq_Op,0,0.0
+mutualinfo_k5,KC2,uniq_Opnd,3,0.3
+mutualinfo_k5,KC2,total_Op,4,0.4
+mutualinfo_k5,KC2,total_Opnd,4,0.4
+mutualinfo_k5,KC2,branchCount,0,0.0
+mutualinfo_k5,PC1,loc,10,1.0
+mutualinfo_k5,PC1,v(g),2,0.2
+mutualinfo_k5,PC1,ev(g),0,0.0
+mutualinfo_k5,PC1,iv(g),1,0.1
+mutualinfo_k5,PC1,n,5,0.5
+mutualinfo_k5,PC1,v,7,0.7
+mutualinfo_k5,PC1,l,0,0.0
+mutualinfo_k5,PC1,d,0,0.0
+mutualinfo_k5,PC1,i,0,0.0
+mutualinfo_k5,PC1,e,0,0.0
+mutualinfo_k5,PC1,b,6,0.6
+mutualinfo_k5,PC1,t,1,0.1
+mutualinfo_k5,PC1,lOCode,4,0.4
+mutualinfo_k5,PC1,lOComment,0,0.0
+mutualinfo_k5,PC1,lOBlank,0,0.0
+mutualinfo_k5,PC1,locCodeAndComment,0,0.0
+mutualinfo_k5,PC1,uniq_Op,0,0.0
+mutualinfo_k5,PC1,uniq_Opnd,5,0.5
+mutualinfo_k5,PC1,total_Op,6,0.6
+mutualinfo_k5,PC1,total_Opnd,3,0.3
+mutualinfo_k5,PC1,branchCount,0,0.0
+sfrt_hard_k10 [Logistic Regression],CM1,loc,1,0.1
+sfrt_hard_k10 [Logistic Regression],CM1,v(g),10,1.0
+sfrt_hard_k10 [Logistic Regression],CM1,ev(g),0,0.0
+sfrt_hard_k10 [Logistic Regression],CM1,iv(g),1,0.1
+sfrt_hard_k10 [Logistic Regression],CM1,n,10,1.0
+sfrt_hard_k10 [Logistic Regression],CM1,v,8,0.8
+sfrt_hard_k10 [Logistic Regression],CM1,l,0,0.0
+sfrt_hard_k10 [Logistic Regression],CM1,d,10,1.0
+sfrt_hard_k10 [Logistic Regression],CM1,i,0,0.0
+sfrt_hard_k10 [Logistic Regression],CM1,e,0,0.0
+sfrt_hard_k10 [Logistic Regression],CM1,b,10,1.0
+sfrt_hard_k10 [Logistic Regression],CM1,t,0,0.0
+sfrt_hard_k10 [Logistic Regression],CM1,lOCode,0,0.0
+sfrt_hard_k10 [Logistic Regression],CM1,lOComment,0,0.0
+sfrt_hard_k10 [Logistic Regression],CM1,lOBlank,0,0.0
+sfrt_hard_k10 [Logistic Regression],CM1,locCodeAndComment,0,0.0
+sfrt_hard_k10 [Logistic Regression],CM1,uniq_Op,10,1.0
+sfrt_hard_k10 [Logistic Regression],CM1,uniq_Opnd,10,1.0
+sfrt_hard_k10 [Logistic Regression],CM1,total_Op,10,1.0
+sfrt_hard_k10 [Logistic Regression],CM1,total_Opnd,10,1.0
+sfrt_hard_k10 [Logistic Regression],CM1,branchCount,10,1.0
+sfrt_hard_k10 [Logistic Regression],JM1,loc,1,0.1
+sfrt_hard_k10 [Logistic Regression],JM1,v(g),10,1.0
+sfrt_hard_k10 [Logistic Regression],JM1,ev(g),0,0.0
+sfrt_hard_k10 [Logistic Regression],JM1,iv(g),10,1.0
+sfrt_hard_k10 [Logistic Regression],JM1,n,0,0.0
+sfrt_hard_k10 [Logistic Regression],JM1,v,6,0.6
+sfrt_hard_k10 [Logistic Regression],JM1,l,0,0.0
+sfrt_hard_k10 [Logistic Regression],JM1,d,10,1.0
+sfrt_hard_k10 [Logistic Regression],JM1,i,3,0.3
+sfrt_hard_k10 [Logistic Regression],JM1,e,0,0.0
+sfrt_hard_k10 [Logistic Regression],JM1,b,10,1.0
+sfrt_hard_k10 [Logistic Regression],JM1,t,0,0.0
+sfrt_hard_k10 [Logistic Regression],JM1,lOCode,0,0.0
+sfrt_hard_k10 [Logistic Regression],JM1,lOComment,5,0.5
+sfrt_hard_k10 [Logistic Regression],JM1,lOBlank,0,0.0
+sfrt_hard_k10 [Logistic Regression],JM1,locCodeAndComment,0,0.0
+sfrt_hard_k10 [Logistic Regression],JM1,uniq_Op,10,1.0
+sfrt_hard_k10 [Logistic Regression],JM1,uniq_Opnd,10,1.0
+sfrt_hard_k10 [Logistic Regression],JM1,total_Op,10,1.0
+sfrt_hard_k10 [Logistic Regression],JM1,total_Opnd,10,1.0
+sfrt_hard_k10 [Logistic Regression],JM1,branchCount,5,0.5
+sfrt_hard_k10 [Logistic Regression],KC1,loc,9,0.9
+sfrt_hard_k10 [Logistic Regression],KC1,v(g),10,1.0
+sfrt_hard_k10 [Logistic Regression],KC1,ev(g),0,0.0
+sfrt_hard_k10 [Logistic Regression],KC1,iv(g),0,0.0
+sfrt_hard_k10 [Logistic Regression],KC1,n,9,0.9
+sfrt_hard_k10 [Logistic Regression],KC1,v,10,1.0
+sfrt_hard_k10 [Logistic Regression],KC1,l,0,0.0
+sfrt_hard_k10 [Logistic Regression],KC1,d,10,1.0
+sfrt_hard_k10 [Logistic Regression],KC1,i,0,0.0
+sfrt_hard_k10 [Logistic Regression],KC1,e,0,0.0
+sfrt_hard_k10 [Logistic Regression],KC1,b,10,1.0
+sfrt_hard_k10 [Logistic Regression],KC1,t,0,0.0
+sfrt_hard_k10 [Logistic Regression],KC1,lOCode,0,0.0
+sfrt_hard_k10 [Logistic Regression],KC1,lOComment,2,0.2
+sfrt_hard_k10 [Logistic Regression],KC1,lOBlank,0,0.0
+sfrt_hard_k10 [Logistic Regression],KC1,locCodeAndComment,0,0.0
+sfrt_hard_k10 [Logistic Regression],KC1,uniq_Op,10,1.0
+sfrt_hard_k10 [Logistic Regression],KC1,uniq_Opnd,10,1.0
+sfrt_hard_k10 [Logistic Regression],KC1,total_Op,0,0.0
+sfrt_hard_k10 [Logistic Regression],KC1,total_Opnd,10,1.0
+sfrt_hard_k10 [Logistic Regression],KC1,branchCount,10,1.0
+sfrt_hard_k10 [Logistic Regression],KC2,loc,7,0.7
+sfrt_hard_k10 [Logistic Regression],KC2,v(g),10,1.0
+sfrt_hard_k10 [Logistic Regression],KC2,ev(g),0,0.0
+sfrt_hard_k10 [Logistic Regression],KC2,iv(g),4,0.4
+sfrt_hard_k10 [Logistic Regression],KC2,n,8,0.8
+sfrt_hard_k10 [Logistic Regression],KC2,v,1,0.1
+sfrt_hard_k10 [Logistic Regression],KC2,l,0,0.0
+sfrt_hard_k10 [Logistic Regression],KC2,d,10,1.0
+sfrt_hard_k10 [Logistic Regression],KC2,i,0,0.0
+sfrt_hard_k10 [Logistic Regression],KC2,e,0,0.0
+sfrt_hard_k10 [Logistic Regression],KC2,b,10,1.0
+sfrt_hard_k10 [Logistic Regression],KC2,t,0,0.0
+sfrt_hard_k10 [Logistic Regression],KC2,lOCode,0,0.0
+sfrt_hard_k10 [Logistic Regression],KC2,lOComment,0,0.0
+sfrt_hard_k10 [Logistic Regression],KC2,lOBlank,0,0.0
+sfrt_hard_k10 [Logistic Regression],KC2,locCodeAndComment,0,0.0
+sfrt_hard_k10 [Logistic Regression],KC2,uniq_Op,10,1.0
+sfrt_hard_k10 [Logistic Regression],KC2,uniq_Opnd,10,1.0
+sfrt_hard_k10 [Logistic Regression],KC2,total_Op,10,1.0
+sfrt_hard_k10 [Logistic Regression],KC2,total_Opnd,10,1.0
+sfrt_hard_k10 [Logistic Regression],KC2,branchCount,10,1.0
+sfrt_hard_k10 [Logistic Regression],PC1,loc,8,0.8
+sfrt_hard_k10 [Logistic Regression],PC1,v(g),10,1.0
+sfrt_hard_k10 [Logistic Regression],PC1,ev(g),0,0.0
+sfrt_hard_k10 [Logistic Regression],PC1,iv(g),2,0.2
+sfrt_hard_k10 [Logistic Regression],PC1,n,9,0.9
+sfrt_hard_k10 [Logistic Regression],PC1,v,0,0.0
+sfrt_hard_k10 [Logistic Regression],PC1,l,0,0.0
+sfrt_hard_k10 [Logistic Regression],PC1,d,10,1.0
+sfrt_hard_k10 [Logistic Regression],PC1,i,0,0.0
+sfrt_hard_k10 [Logistic Regression],PC1,e,0,0.0
+sfrt_hard_k10 [Logistic Regression],PC1,b,10,1.0
+sfrt_hard_k10 [Logistic Regression],PC1,t,0,0.0
+sfrt_hard_k10 [Logistic Regression],PC1,lOCode,1,0.1
+sfrt_hard_k10 [Logistic Regression],PC1,lOComment,0,0.0
+sfrt_hard_k10 [Logistic Regression],PC1,lOBlank,0,0.0
+sfrt_hard_k10 [Logistic Regression],PC1,locCodeAndComment,0,0.0
+sfrt_hard_k10 [Logistic Regression],PC1,uniq_Op,10,1.0
+sfrt_hard_k10 [Logistic Regression],PC1,uniq_Opnd,10,1.0
+sfrt_hard_k10 [Logistic Regression],PC1,total_Op,10,1.0
+sfrt_hard_k10 [Logistic Regression],PC1,total_Opnd,10,1.0
+sfrt_hard_k10 [Logistic Regression],PC1,branchCount,10,1.0
+sfrt_hard_k10 [MLP],CM1,loc,4,0.4
+sfrt_hard_k10 [MLP],CM1,v(g),5,0.5
+sfrt_hard_k10 [MLP],CM1,ev(g),3,0.3
+sfrt_hard_k10 [MLP],CM1,iv(g),1,0.1
+sfrt_hard_k10 [MLP],CM1,n,4,0.4
+sfrt_hard_k10 [MLP],CM1,v,2,0.2
+sfrt_hard_k10 [MLP],CM1,l,4,0.4
+sfrt_hard_k10 [MLP],CM1,d,10,1.0
+sfrt_hard_k10 [MLP],CM1,i,6,0.6
+sfrt_hard_k10 [MLP],CM1,e,0,0.0
+sfrt_hard_k10 [MLP],CM1,b,6,0.6
+sfrt_hard_k10 [MLP],CM1,t,0,0.0
+sfrt_hard_k10 [MLP],CM1,lOCode,0,0.0
+sfrt_hard_k10 [MLP],CM1,lOComment,1,0.1
+sfrt_hard_k10 [MLP],CM1,lOBlank,10,1.0
+sfrt_hard_k10 [MLP],CM1,locCodeAndComment,8,0.8
+sfrt_hard_k10 [MLP],CM1,uniq_Op,10,1.0
+sfrt_hard_k10 [MLP],CM1,uniq_Opnd,10,1.0
+sfrt_hard_k10 [MLP],CM1,total_Op,1,0.1
+sfrt_hard_k10 [MLP],CM1,total_Opnd,8,0.8
+sfrt_hard_k10 [MLP],CM1,branchCount,7,0.7
+sfrt_hard_k10 [MLP],JM1,loc,3,0.3
+sfrt_hard_k10 [MLP],JM1,v(g),5,0.5
+sfrt_hard_k10 [MLP],JM1,ev(g),2,0.2
+sfrt_hard_k10 [MLP],JM1,iv(g),2,0.2
+sfrt_hard_k10 [MLP],JM1,n,4,0.4
+sfrt_hard_k10 [MLP],JM1,v,1,0.1
+sfrt_hard_k10 [MLP],JM1,l,5,0.5
+sfrt_hard_k10 [MLP],JM1,d,10,1.0
+sfrt_hard_k10 [MLP],JM1,i,7,0.7
+sfrt_hard_k10 [MLP],JM1,e,0,0.0
+sfrt_hard_k10 [MLP],JM1,b,5,0.5
+sfrt_hard_k10 [MLP],JM1,t,0,0.0
+sfrt_hard_k10 [MLP],JM1,lOCode,0,0.0
+sfrt_hard_k10 [MLP],JM1,lOComment,10,1.0
+sfrt_hard_k10 [MLP],JM1,lOBlank,9,0.9
+sfrt_hard_k10 [MLP],JM1,locCodeAndComment,5,0.5
+sfrt_hard_k10 [MLP],JM1,uniq_Op,10,1.0
+sfrt_hard_k10 [MLP],JM1,uniq_Opnd,10,1.0
+sfrt_hard_k10 [MLP],JM1,total_Op,2,0.2
+sfrt_hard_k10 [MLP],JM1,total_Opnd,2,0.2
+sfrt_hard_k10 [MLP],JM1,branchCount,8,0.8
+sfrt_hard_k10 [MLP],KC1,loc,6,0.6
+sfrt_hard_k10 [MLP],KC1,v(g),4,0.4
+sfrt_hard_k10 [MLP],KC1,ev(g),1,0.1
+sfrt_hard_k10 [MLP],KC1,iv(g),2,0.2
+sfrt_hard_k10 [MLP],KC1,n,4,0.4
+sfrt_hard_k10 [MLP],KC1,v,0,0.0
+sfrt_hard_k10 [MLP],KC1,l,6,0.6
+sfrt_hard_k10 [MLP],KC1,d,10,1.0
+sfrt_hard_k10 [MLP],KC1,i,6,0.6
+sfrt_hard_k10 [MLP],KC1,e,0,0.0
+sfrt_hard_k10 [MLP],KC1,b,4,0.4
+sfrt_hard_k10 [MLP],KC1,t,0,0.0
+sfrt_hard_k10 [MLP],KC1,lOCode,0,0.0
+sfrt_hard_k10 [MLP],KC1,lOComment,10,1.0
+sfrt_hard_k10 [MLP],KC1,lOBlank,10,1.0
+sfrt_hard_k10 [MLP],KC1,locCodeAndComment,3,0.3
+sfrt_hard_k10 [MLP],KC1,uniq_Op,10,1.0
+sfrt_hard_k10 [MLP],KC1,uniq_Opnd,9,0.9
+sfrt_hard_k10 [MLP],KC1,total_Op,0,0.0
+sfrt_hard_k10 [MLP],KC1,total_Opnd,5,0.5
+sfrt_hard_k10 [MLP],KC1,branchCount,10,1.0
+sfrt_hard_k10 [MLP],KC2,loc,6,0.6
+sfrt_hard_k10 [MLP],KC2,v(g),3,0.3
+sfrt_hard_k10 [MLP],KC2,ev(g),1,0.1
+sfrt_hard_k10 [MLP],KC2,iv(g),1,0.1
+sfrt_hard_k10 [MLP],KC2,n,3,0.3
+sfrt_hard_k10 [MLP],KC2,v,1,0.1
+sfrt_hard_k10 [MLP],KC2,l,2,0.2
+sfrt_hard_k10 [MLP],KC2,d,10,1.0
+sfrt_hard_k10 [MLP],KC2,i,7,0.7
+sfrt_hard_k10 [MLP],KC2,e,0,0.0
+sfrt_hard_k10 [MLP],KC2,b,5,0.5
+sfrt_hard_k10 [MLP],KC2,t,0,0.0
+sfrt_hard_k10 [MLP],KC2,lOCode,1,0.1
+sfrt_hard_k10 [MLP],KC2,lOComment,10,1.0
+sfrt_hard_k10 [MLP],KC2,lOBlank,10,1.0
+sfrt_hard_k10 [MLP],KC2,locCodeAndComment,4,0.4
+sfrt_hard_k10 [MLP],KC2,uniq_Op,10,1.0
+sfrt_hard_k10 [MLP],KC2,uniq_Opnd,9,0.9
+sfrt_hard_k10 [MLP],KC2,total_Op,0,0.0
+sfrt_hard_k10 [MLP],KC2,total_Opnd,8,0.8
+sfrt_hard_k10 [MLP],KC2,branchCount,9,0.9
+sfrt_hard_k10 [MLP],PC1,loc,8,0.8
+sfrt_hard_k10 [MLP],PC1,v(g),7,0.7
+sfrt_hard_k10 [MLP],PC1,ev(g),3,0.3
+sfrt_hard_k10 [MLP],PC1,iv(g),2,0.2
+sfrt_hard_k10 [MLP],PC1,n,4,0.4
+sfrt_hard_k10 [MLP],PC1,v,2,0.2
+sfrt_hard_k10 [MLP],PC1,l,0,0.0
+sfrt_hard_k10 [MLP],PC1,d,9,0.9
+sfrt_hard_k10 [MLP],PC1,i,6,0.6
+sfrt_hard_k10 [MLP],PC1,e,0,0.0
+sfrt_hard_k10 [MLP],PC1,b,5,0.5
+sfrt_hard_k10 [MLP],PC1,t,0,0.0
+sfrt_hard_k10 [MLP],PC1,lOCode,1,0.1
+sfrt_hard_k10 [MLP],PC1,lOComment,10,1.0
+sfrt_hard_k10 [MLP],PC1,lOBlank,9,0.9
+sfrt_hard_k10 [MLP],PC1,locCodeAndComment,0,0.0
+sfrt_hard_k10 [MLP],PC1,uniq_Op,10,1.0
+sfrt_hard_k10 [MLP],PC1,uniq_Opnd,8,0.8
+sfrt_hard_k10 [MLP],PC1,total_Op,1,0.1
+sfrt_hard_k10 [MLP],PC1,total_Opnd,8,0.8
+sfrt_hard_k10 [MLP],PC1,branchCount,7,0.7
+sfrt_hard_k10 [Random Forest],CM1,loc,10,1.0
+sfrt_hard_k10 [Random Forest],CM1,v(g),2,0.2
+sfrt_hard_k10 [Random Forest],CM1,ev(g),4,0.4
+sfrt_hard_k10 [Random Forest],CM1,iv(g),10,1.0
+sfrt_hard_k10 [Random Forest],CM1,n,0,0.0
+sfrt_hard_k10 [Random Forest],CM1,v,0,0.0
+sfrt_hard_k10 [Random Forest],CM1,l,0,0.0
+sfrt_hard_k10 [Random Forest],CM1,d,0,0.0
+sfrt_hard_k10 [Random Forest],CM1,i,10,1.0
+sfrt_hard_k10 [Random Forest],CM1,e,0,0.0
+sfrt_hard_k10 [Random Forest],CM1,b,10,1.0
+sfrt_hard_k10 [Random Forest],CM1,t,0,0.0
+sfrt_hard_k10 [Random Forest],CM1,lOCode,0,0.0
+sfrt_hard_k10 [Random Forest],CM1,lOComment,10,1.0
+sfrt_hard_k10 [Random Forest],CM1,lOBlank,10,1.0
+sfrt_hard_k10 [Random Forest],CM1,locCodeAndComment,10,1.0
+sfrt_hard_k10 [Random Forest],CM1,uniq_Op,0,0.0
+sfrt_hard_k10 [Random Forest],CM1,uniq_Opnd,10,1.0
+sfrt_hard_k10 [Random Forest],CM1,total_Op,0,0.0
+sfrt_hard_k10 [Random Forest],CM1,total_Opnd,10,1.0
+sfrt_hard_k10 [Random Forest],CM1,branchCount,4,0.4
+sfrt_hard_k10 [Random Forest],JM1,loc,10,1.0
+sfrt_hard_k10 [Random Forest],JM1,v(g),0,0.0
+sfrt_hard_k10 [Random Forest],JM1,ev(g),0,0.0
+sfrt_hard_k10 [Random Forest],JM1,iv(g),10,1.0
+sfrt_hard_k10 [Random Forest],JM1,n,0,0.0
+sfrt_hard_k10 [Random Forest],JM1,v,0,0.0
+sfrt_hard_k10 [Random Forest],JM1,l,0,0.0
+sfrt_hard_k10 [Random Forest],JM1,d,0,0.0
+sfrt_hard_k10 [Random Forest],JM1,i,10,1.0
+sfrt_hard_k10 [Random Forest],JM1,e,0,0.0
+sfrt_hard_k10 [Random Forest],JM1,b,10,1.0
+sfrt_hard_k10 [Random Forest],JM1,t,0,0.0
+sfrt_hard_k10 [Random Forest],JM1,lOCode,10,1.0
+sfrt_hard_k10 [Random Forest],JM1,lOComment,10,1.0
+sfrt_hard_k10 [Random Forest],JM1,lOBlank,10,1.0
+sfrt_hard_k10 [Random Forest],JM1,locCodeAndComment,6,0.6
+sfrt_hard_k10 [Random Forest],JM1,uniq_Op,4,0.4
+sfrt_hard_k10 [Random Forest],JM1,uniq_Opnd,10,1.0
+sfrt_hard_k10 [Random Forest],JM1,total_Op,0,0.0
+sfrt_hard_k10 [Random Forest],JM1,total_Opnd,10,1.0
+sfrt_hard_k10 [Random Forest],JM1,branchCount,0,0.0
+sfrt_hard_k10 [Random Forest],KC1,loc,10,1.0
+sfrt_hard_k10 [Random Forest],KC1,v(g),0,0.0
+sfrt_hard_k10 [Random Forest],KC1,ev(g),2,0.2
+sfrt_hard_k10 [Random Forest],KC1,iv(g),10,1.0
+sfrt_hard_k10 [Random Forest],KC1,n,0,0.0
+sfrt_hard_k10 [Random Forest],KC1,v,0,0.0
+sfrt_hard_k10 [Random Forest],KC1,l,0,0.0
+sfrt_hard_k10 [Random Forest],KC1,d,0,0.0
+sfrt_hard_k10 [Random Forest],KC1,i,10,1.0
+sfrt_hard_k10 [Random Forest],KC1,e,0,0.0
+sfrt_hard_k10 [Random Forest],KC1,b,10,1.0
+sfrt_hard_k10 [Random Forest],KC1,t,0,0.0
+sfrt_hard_k10 [Random Forest],KC1,lOCode,10,1.0
+sfrt_hard_k10 [Random Forest],KC1,lOComment,10,1.0
+sfrt_hard_k10 [Random Forest],KC1,lOBlank,10,1.0
+sfrt_hard_k10 [Random Forest],KC1,locCodeAndComment,10,1.0
+sfrt_hard_k10 [Random Forest],KC1,uniq_Op,3,0.3
+sfrt_hard_k10 [Random Forest],KC1,uniq_Opnd,10,1.0
+sfrt_hard_k10 [Random Forest],KC1,total_Op,0,0.0
+sfrt_hard_k10 [Random Forest],KC1,total_Opnd,5,0.5
+sfrt_hard_k10 [Random Forest],KC1,branchCount,0,0.0
+sfrt_hard_k10 [Random Forest],KC2,loc,10,1.0
+sfrt_hard_k10 [Random Forest],KC2,v(g),1,0.1
+sfrt_hard_k10 [Random Forest],KC2,ev(g),1,0.1
+sfrt_hard_k10 [Random Forest],KC2,iv(g),10,1.0
+sfrt_hard_k10 [Random Forest],KC2,n,0,0.0
+sfrt_hard_k10 [Random Forest],KC2,v,0,0.0
+sfrt_hard_k10 [Random Forest],KC2,l,0,0.0
+sfrt_hard_k10 [Random Forest],KC2,d,0,0.0
+sfrt_hard_k10 [Random Forest],KC2,i,10,1.0
+sfrt_hard_k10 [Random Forest],KC2,e,0,0.0
+sfrt_hard_k10 [Random Forest],KC2,b,10,1.0
+sfrt_hard_k10 [Random Forest],KC2,t,0,0.0
+sfrt_hard_k10 [Random Forest],KC2,lOCode,9,0.9
+sfrt_hard_k10 [Random Forest],KC2,lOComment,10,1.0
+sfrt_hard_k10 [Random Forest],KC2,lOBlank,10,1.0
+sfrt_hard_k10 [Random Forest],KC2,locCodeAndComment,10,1.0
+sfrt_hard_k10 [Random Forest],KC2,uniq_Op,0,0.0
+sfrt_hard_k10 [Random Forest],KC2,uniq_Opnd,10,1.0
+sfrt_hard_k10 [Random Forest],KC2,total_Op,0,0.0
+sfrt_hard_k10 [Random Forest],KC2,total_Opnd,1,0.1
+sfrt_hard_k10 [Random Forest],KC2,branchCount,8,0.8
+sfrt_hard_k10 [Random Forest],PC1,loc,10,1.0
+sfrt_hard_k10 [Random Forest],PC1,v(g),2,0.2
+sfrt_hard_k10 [Random Forest],PC1,ev(g),4,0.4
+sfrt_hard_k10 [Random Forest],PC1,iv(g),10,1.0
+sfrt_hard_k10 [Random Forest],PC1,n,0,0.0
+sfrt_hard_k10 [Random Forest],PC1,v,0,0.0
+sfrt_hard_k10 [Random Forest],PC1,l,0,0.0
+sfrt_hard_k10 [Random Forest],PC1,d,0,0.0
+sfrt_hard_k10 [Random Forest],PC1,i,7,0.7
+sfrt_hard_k10 [Random Forest],PC1,e,0,0.0
+sfrt_hard_k10 [Random Forest],PC1,b,10,1.0
+sfrt_hard_k10 [Random Forest],PC1,t,0,0.0
+sfrt_hard_k10 [Random Forest],PC1,lOCode,10,1.0
+sfrt_hard_k10 [Random Forest],PC1,lOComment,10,1.0
+sfrt_hard_k10 [Random Forest],PC1,lOBlank,10,1.0
+sfrt_hard_k10 [Random Forest],PC1,locCodeAndComment,0,0.0
+sfrt_hard_k10 [Random Forest],PC1,uniq_Op,5,0.5
+sfrt_hard_k10 [Random Forest],PC1,uniq_Opnd,10,1.0
+sfrt_hard_k10 [Random Forest],PC1,total_Op,0,0.0
+sfrt_hard_k10 [Random Forest],PC1,total_Opnd,10,1.0
+sfrt_hard_k10 [Random Forest],PC1,branchCount,2,0.2
+sfrt_hard_k10 [XGBoost],CM1,loc,10,1.0
+sfrt_hard_k10 [XGBoost],CM1,v(g),2,0.2
+sfrt_hard_k10 [XGBoost],CM1,ev(g),10,1.0
+sfrt_hard_k10 [XGBoost],CM1,iv(g),10,1.0
+sfrt_hard_k10 [XGBoost],CM1,n,0,0.0
+sfrt_hard_k10 [XGBoost],CM1,v,0,0.0
+sfrt_hard_k10 [XGBoost],CM1,l,0,0.0
+sfrt_hard_k10 [XGBoost],CM1,d,0,0.0
+sfrt_hard_k10 [XGBoost],CM1,i,10,1.0
+sfrt_hard_k10 [XGBoost],CM1,e,0,0.0
+sfrt_hard_k10 [XGBoost],CM1,b,0,0.0
+sfrt_hard_k10 [XGBoost],CM1,t,0,0.0
+sfrt_hard_k10 [XGBoost],CM1,lOCode,0,0.0
+sfrt_hard_k10 [XGBoost],CM1,lOComment,10,1.0
+sfrt_hard_k10 [XGBoost],CM1,lOBlank,10,1.0
+sfrt_hard_k10 [XGBoost],CM1,locCodeAndComment,10,1.0
+sfrt_hard_k10 [XGBoost],CM1,uniq_Op,10,1.0
+sfrt_hard_k10 [XGBoost],CM1,uniq_Opnd,8,0.8
+sfrt_hard_k10 [XGBoost],CM1,total_Op,0,0.0
+sfrt_hard_k10 [XGBoost],CM1,total_Opnd,10,1.0
+sfrt_hard_k10 [XGBoost],CM1,branchCount,0,0.0
+sfrt_hard_k10 [XGBoost],JM1,loc,10,1.0
+sfrt_hard_k10 [XGBoost],JM1,v(g),0,0.0
+sfrt_hard_k10 [XGBoost],JM1,ev(g),3,0.3
+sfrt_hard_k10 [XGBoost],JM1,iv(g),5,0.5
+sfrt_hard_k10 [XGBoost],JM1,n,0,0.0
+sfrt_hard_k10 [XGBoost],JM1,v,0,0.0
+sfrt_hard_k10 [XGBoost],JM1,l,1,0.1
+sfrt_hard_k10 [XGBoost],JM1,d,0,0.0
+sfrt_hard_k10 [XGBoost],JM1,i,10,1.0
+sfrt_hard_k10 [XGBoost],JM1,e,0,0.0
+sfrt_hard_k10 [XGBoost],JM1,b,8,0.8
+sfrt_hard_k10 [XGBoost],JM1,t,0,0.0
+sfrt_hard_k10 [XGBoost],JM1,lOCode,10,1.0
+sfrt_hard_k10 [XGBoost],JM1,lOComment,10,1.0
+sfrt_hard_k10 [XGBoost],JM1,lOBlank,10,1.0
+sfrt_hard_k10 [XGBoost],JM1,locCodeAndComment,5,0.5
+sfrt_hard_k10 [XGBoost],JM1,uniq_Op,10,1.0
+sfrt_hard_k10 [XGBoost],JM1,uniq_Opnd,8,0.8
+sfrt_hard_k10 [XGBoost],JM1,total_Op,0,0.0
+sfrt_hard_k10 [XGBoost],JM1,total_Opnd,10,1.0
+sfrt_hard_k10 [XGBoost],JM1,branchCount,0,0.0
+sfrt_hard_k10 [XGBoost],KC1,loc,10,1.0
+sfrt_hard_k10 [XGBoost],KC1,v(g),1,0.1
+sfrt_hard_k10 [XGBoost],KC1,ev(g),8,0.8
+sfrt_hard_k10 [XGBoost],KC1,iv(g),10,1.0
+sfrt_hard_k10 [XGBoost],KC1,n,0,0.0
+sfrt_hard_k10 [XGBoost],KC1,v,0,0.0
+sfrt_hard_k10 [XGBoost],KC1,l,0,0.0
+sfrt_hard_k10 [XGBoost],KC1,d,0,0.0
+sfrt_hard_k10 [XGBoost],KC1,i,10,1.0
+sfrt_hard_k10 [XGBoost],KC1,e,0,0.0
+sfrt_hard_k10 [XGBoost],KC1,b,5,0.5
+sfrt_hard_k10 [XGBoost],KC1,t,0,0.0
+sfrt_hard_k10 [XGBoost],KC1,lOCode,3,0.3
+sfrt_hard_k10 [XGBoost],KC1,lOComment,10,1.0
+sfrt_hard_k10 [XGBoost],KC1,lOBlank,10,1.0
+sfrt_hard_k10 [XGBoost],KC1,locCodeAndComment,10,1.0
+sfrt_hard_k10 [XGBoost],KC1,uniq_Op,10,1.0
+sfrt_hard_k10 [XGBoost],KC1,uniq_Opnd,3,0.3
+sfrt_hard_k10 [XGBoost],KC1,total_Op,0,0.0
+sfrt_hard_k10 [XGBoost],KC1,total_Opnd,10,1.0
+sfrt_hard_k10 [XGBoost],KC1,branchCount,0,0.0
+sfrt_hard_k10 [XGBoost],KC2,loc,10,1.0
+sfrt_hard_k10 [XGBoost],KC2,v(g),7,0.7
+sfrt_hard_k10 [XGBoost],KC2,ev(g),6,0.6
+sfrt_hard_k10 [XGBoost],KC2,iv(g),10,1.0
+sfrt_hard_k10 [XGBoost],KC2,n,0,0.0
+sfrt_hard_k10 [XGBoost],KC2,v,0,0.0
+sfrt_hard_k10 [XGBoost],KC2,l,0,0.0
+sfrt_hard_k10 [XGBoost],KC2,d,0,0.0
+sfrt_hard_k10 [XGBoost],KC2,i,10,1.0
+sfrt_hard_k10 [XGBoost],KC2,e,0,0.0
+sfrt_hard_k10 [XGBoost],KC2,b,4,0.4
+sfrt_hard_k10 [XGBoost],KC2,t,0,0.0
+sfrt_hard_k10 [XGBoost],KC2,lOCode,10,1.0
+sfrt_hard_k10 [XGBoost],KC2,lOComment,10,1.0
+sfrt_hard_k10 [XGBoost],KC2,lOBlank,10,1.0
+sfrt_hard_k10 [XGBoost],KC2,locCodeAndComment,10,1.0
+sfrt_hard_k10 [XGBoost],KC2,uniq_Op,9,0.9
+sfrt_hard_k10 [XGBoost],KC2,uniq_Opnd,3,0.3
+sfrt_hard_k10 [XGBoost],KC2,total_Op,0,0.0
+sfrt_hard_k10 [XGBoost],KC2,total_Opnd,1,0.1
+sfrt_hard_k10 [XGBoost],KC2,branchCount,0,0.0
+sfrt_hard_k10 [XGBoost],PC1,loc,10,1.0
+sfrt_hard_k10 [XGBoost],PC1,v(g),9,0.9
+sfrt_hard_k10 [XGBoost],PC1,ev(g),7,0.7
+sfrt_hard_k10 [XGBoost],PC1,iv(g),10,1.0
+sfrt_hard_k10 [XGBoost],PC1,n,0,0.0
+sfrt_hard_k10 [XGBoost],PC1,v,0,0.0
+sfrt_hard_k10 [XGBoost],PC1,l,0,0.0
+sfrt_hard_k10 [XGBoost],PC1,d,0,0.0
+sfrt_hard_k10 [XGBoost],PC1,i,9,0.9
+sfrt_hard_k10 [XGBoost],PC1,e,0,0.0
+sfrt_hard_k10 [XGBoost],PC1,b,4,0.4
+sfrt_hard_k10 [XGBoost],PC1,t,0,0.0
+sfrt_hard_k10 [XGBoost],PC1,lOCode,10,1.0
+sfrt_hard_k10 [XGBoost],PC1,lOComment,10,1.0
+sfrt_hard_k10 [XGBoost],PC1,lOBlank,10,1.0
+sfrt_hard_k10 [XGBoost],PC1,locCodeAndComment,0,0.0
+sfrt_hard_k10 [XGBoost],PC1,uniq_Op,10,1.0
+sfrt_hard_k10 [XGBoost],PC1,uniq_Opnd,1,0.1
+sfrt_hard_k10 [XGBoost],PC1,total_Op,0,0.0
+sfrt_hard_k10 [XGBoost],PC1,total_Opnd,10,1.0
+sfrt_hard_k10 [XGBoost],PC1,branchCount,0,0.0
+sfrt_hard_k15 [Logistic Regression],CM1,loc,10,1.0
+sfrt_hard_k15 [Logistic Regression],CM1,v(g),10,1.0
+sfrt_hard_k15 [Logistic Regression],CM1,ev(g),9,0.9
+sfrt_hard_k15 [Logistic Regression],CM1,iv(g),10,1.0
+sfrt_hard_k15 [Logistic Regression],CM1,n,10,1.0
+sfrt_hard_k15 [Logistic Regression],CM1,v,10,1.0
+sfrt_hard_k15 [Logistic Regression],CM1,l,0,0.0
+sfrt_hard_k15 [Logistic Regression],CM1,d,10,1.0
+sfrt_hard_k15 [Logistic Regression],CM1,i,3,0.3
+sfrt_hard_k15 [Logistic Regression],CM1,e,1,0.1
+sfrt_hard_k15 [Logistic Regression],CM1,b,10,1.0
+sfrt_hard_k15 [Logistic Regression],CM1,t,0,0.0
+sfrt_hard_k15 [Logistic Regression],CM1,lOCode,10,1.0
+sfrt_hard_k15 [Logistic Regression],CM1,lOComment,0,0.0
+sfrt_hard_k15 [Logistic Regression],CM1,lOBlank,6,0.6
+sfrt_hard_k15 [Logistic Regression],CM1,locCodeAndComment,1,0.1
+sfrt_hard_k15 [Logistic Regression],CM1,uniq_Op,10,1.0
+sfrt_hard_k15 [Logistic Regression],CM1,uniq_Opnd,10,1.0
+sfrt_hard_k15 [Logistic Regression],CM1,total_Op,10,1.0
+sfrt_hard_k15 [Logistic Regression],CM1,total_Opnd,10,1.0
+sfrt_hard_k15 [Logistic Regression],CM1,branchCount,10,1.0
+sfrt_hard_k15 [Logistic Regression],JM1,loc,5,0.5
+sfrt_hard_k15 [Logistic Regression],JM1,v(g),10,1.0
+sfrt_hard_k15 [Logistic Regression],JM1,ev(g),4,0.4
+sfrt_hard_k15 [Logistic Regression],JM1,iv(g),10,1.0
+sfrt_hard_k15 [Logistic Regression],JM1,n,6,0.6
+sfrt_hard_k15 [Logistic Regression],JM1,v,10,1.0
+sfrt_hard_k15 [Logistic Regression],JM1,l,0,0.0
+sfrt_hard_k15 [Logistic Regression],JM1,d,10,1.0
+sfrt_hard_k15 [Logistic Regression],JM1,i,10,1.0
+sfrt_hard_k15 [Logistic Regression],JM1,e,0,0.0
+sfrt_hard_k15 [Logistic Regression],JM1,b,10,1.0
+sfrt_hard_k15 [Logistic Regression],JM1,t,0,0.0
+sfrt_hard_k15 [Logistic Regression],JM1,lOCode,8,0.8
+sfrt_hard_k15 [Logistic Regression],JM1,lOComment,10,1.0
+sfrt_hard_k15 [Logistic Regression],JM1,lOBlank,5,0.5
+sfrt_hard_k15 [Logistic Regression],JM1,locCodeAndComment,2,0.2
+sfrt_hard_k15 [Logistic Regression],JM1,uniq_Op,10,1.0
+sfrt_hard_k15 [Logistic Regression],JM1,uniq_Opnd,10,1.0
+sfrt_hard_k15 [Logistic Regression],JM1,total_Op,10,1.0
+sfrt_hard_k15 [Logistic Regression],JM1,total_Opnd,10,1.0
+sfrt_hard_k15 [Logistic Regression],JM1,branchCount,10,1.0
+sfrt_hard_k15 [Logistic Regression],KC1,loc,10,1.0
+sfrt_hard_k15 [Logistic Regression],KC1,v(g),10,1.0
+sfrt_hard_k15 [Logistic Regression],KC1,ev(g),1,0.1
+sfrt_hard_k15 [Logistic Regression],KC1,iv(g),8,0.8
+sfrt_hard_k15 [Logistic Regression],KC1,n,10,1.0
+sfrt_hard_k15 [Logistic Regression],KC1,v,10,1.0
+sfrt_hard_k15 [Logistic Regression],KC1,l,0,0.0
+sfrt_hard_k15 [Logistic Regression],KC1,d,10,1.0
+sfrt_hard_k15 [Logistic Regression],KC1,i,10,1.0
+sfrt_hard_k15 [Logistic Regression],KC1,e,0,0.0
+sfrt_hard_k15 [Logistic Regression],KC1,b,10,1.0
+sfrt_hard_k15 [Logistic Regression],KC1,t,0,0.0
+sfrt_hard_k15 [Logistic Regression],KC1,lOCode,9,0.9
+sfrt_hard_k15 [Logistic Regression],KC1,lOComment,10,1.0
+sfrt_hard_k15 [Logistic Regression],KC1,lOBlank,4,0.4
+sfrt_hard_k15 [Logistic Regression],KC1,locCodeAndComment,0,0.0
+sfrt_hard_k15 [Logistic Regression],KC1,uniq_Op,10,1.0
+sfrt_hard_k15 [Logistic Regression],KC1,uniq_Opnd,10,1.0
+sfrt_hard_k15 [Logistic Regression],KC1,total_Op,8,0.8
+sfrt_hard_k15 [Logistic Regression],KC1,total_Opnd,10,1.0
+sfrt_hard_k15 [Logistic Regression],KC1,branchCount,10,1.0
+sfrt_hard_k15 [Logistic Regression],KC2,loc,10,1.0
+sfrt_hard_k15 [Logistic Regression],KC2,v(g),10,1.0
+sfrt_hard_k15 [Logistic Regression],KC2,ev(g),0,0.0
+sfrt_hard_k15 [Logistic Regression],KC2,iv(g),10,1.0
+sfrt_hard_k15 [Logistic Regression],KC2,n,10,1.0
+sfrt_hard_k15 [Logistic Regression],KC2,v,10,1.0
+sfrt_hard_k15 [Logistic Regression],KC2,l,0,0.0
+sfrt_hard_k15 [Logistic Regression],KC2,d,10,1.0
+sfrt_hard_k15 [Logistic Regression],KC2,i,6,0.6
+sfrt_hard_k15 [Logistic Regression],KC2,e,0,0.0
+sfrt_hard_k15 [Logistic Regression],KC2,b,10,1.0
+sfrt_hard_k15 [Logistic Regression],KC2,t,0,0.0
+sfrt_hard_k15 [Logistic Regression],KC2,lOCode,10,1.0
+sfrt_hard_k15 [Logistic Regression],KC2,lOComment,10,1.0
+sfrt_hard_k15 [Logistic Regression],KC2,lOBlank,4,0.4
+sfrt_hard_k15 [Logistic Regression],KC2,locCodeAndComment,0,0.0
+sfrt_hard_k15 [Logistic Regression],KC2,uniq_Op,10,1.0
+sfrt_hard_k15 [Logistic Regression],KC2,uniq_Opnd,10,1.0
+sfrt_hard_k15 [Logistic Regression],KC2,total_Op,10,1.0
+sfrt_hard_k15 [Logistic Regression],KC2,total_Opnd,10,1.0
+sfrt_hard_k15 [Logistic Regression],KC2,branchCount,10,1.0
+sfrt_hard_k15 [Logistic Regression],PC1,loc,10,1.0
+sfrt_hard_k15 [Logistic Regression],PC1,v(g),10,1.0
+sfrt_hard_k15 [Logistic Regression],PC1,ev(g),1,0.1
+sfrt_hard_k15 [Logistic Regression],PC1,iv(g),10,1.0
+sfrt_hard_k15 [Logistic Regression],PC1,n,10,1.0
+sfrt_hard_k15 [Logistic Regression],PC1,v,10,1.0
+sfrt_hard_k15 [Logistic Regression],PC1,l,0,0.0
+sfrt_hard_k15 [Logistic Regression],PC1,d,10,1.0
+sfrt_hard_k15 [Logistic Regression],PC1,i,9,0.9
+sfrt_hard_k15 [Logistic Regression],PC1,e,0,0.0
+sfrt_hard_k15 [Logistic Regression],PC1,b,10,1.0
+sfrt_hard_k15 [Logistic Regression],PC1,t,0,0.0
+sfrt_hard_k15 [Logistic Regression],PC1,lOCode,10,1.0
+sfrt_hard_k15 [Logistic Regression],PC1,lOComment,10,1.0
+sfrt_hard_k15 [Logistic Regression],PC1,lOBlank,0,0.0
+sfrt_hard_k15 [Logistic Regression],PC1,locCodeAndComment,0,0.0
+sfrt_hard_k15 [Logistic Regression],PC1,uniq_Op,10,1.0
+sfrt_hard_k15 [Logistic Regression],PC1,uniq_Opnd,10,1.0
+sfrt_hard_k15 [Logistic Regression],PC1,total_Op,10,1.0
+sfrt_hard_k15 [Logistic Regression],PC1,total_Opnd,10,1.0
+sfrt_hard_k15 [Logistic Regression],PC1,branchCount,10,1.0
+sfrt_hard_k15 [MLP],CM1,loc,8,0.8
+sfrt_hard_k15 [MLP],CM1,v(g),8,0.8
+sfrt_hard_k15 [MLP],CM1,ev(g),5,0.5
+sfrt_hard_k15 [MLP],CM1,iv(g),5,0.5
+sfrt_hard_k15 [MLP],CM1,n,7,0.7
+sfrt_hard_k15 [MLP],CM1,v,4,0.4
+sfrt_hard_k15 [MLP],CM1,l,10,1.0
+sfrt_hard_k15 [MLP],CM1,d,10,1.0
+sfrt_hard_k15 [MLP],CM1,i,9,0.9
+sfrt_hard_k15 [MLP],CM1,e,0,0.0
+sfrt_hard_k15 [MLP],CM1,b,7,0.7
+sfrt_hard_k15 [MLP],CM1,t,0,0.0
+sfrt_hard_k15 [MLP],CM1,lOCode,4,0.4
+sfrt_hard_k15 [MLP],CM1,lOComment,7,0.7
+sfrt_hard_k15 [MLP],CM1,lOBlank,10,1.0
+sfrt_hard_k15 [MLP],CM1,locCodeAndComment,10,1.0
+sfrt_hard_k15 [MLP],CM1,uniq_Op,10,1.0
+sfrt_hard_k15 [MLP],CM1,uniq_Opnd,10,1.0
+sfrt_hard_k15 [MLP],CM1,total_Op,6,0.6
+sfrt_hard_k15 [MLP],CM1,total_Opnd,10,1.0
+sfrt_hard_k15 [MLP],CM1,branchCount,10,1.0
+sfrt_hard_k15 [MLP],JM1,loc,4,0.4
+sfrt_hard_k15 [MLP],JM1,v(g),8,0.8
+sfrt_hard_k15 [MLP],JM1,ev(g),6,0.6
+sfrt_hard_k15 [MLP],JM1,iv(g),4,0.4
+sfrt_hard_k15 [MLP],JM1,n,8,0.8
+sfrt_hard_k15 [MLP],JM1,v,4,0.4
+sfrt_hard_k15 [MLP],JM1,l,9,0.9
+sfrt_hard_k15 [MLP],JM1,d,10,1.0
+sfrt_hard_k15 [MLP],JM1,i,8,0.8
+sfrt_hard_k15 [MLP],JM1,e,1,0.1
+sfrt_hard_k15 [MLP],JM1,b,7,0.7
+sfrt_hard_k15 [MLP],JM1,t,0,0.0
+sfrt_hard_k15 [MLP],JM1,lOCode,8,0.8
+sfrt_hard_k15 [MLP],JM1,lOComment,10,1.0
+sfrt_hard_k15 [MLP],JM1,lOBlank,10,1.0
+sfrt_hard_k15 [MLP],JM1,locCodeAndComment,9,0.9
+sfrt_hard_k15 [MLP],JM1,uniq_Op,10,1.0
+sfrt_hard_k15 [MLP],JM1,uniq_Opnd,10,1.0
+sfrt_hard_k15 [MLP],JM1,total_Op,7,0.7
+sfrt_hard_k15 [MLP],JM1,total_Opnd,7,0.7
+sfrt_hard_k15 [MLP],JM1,branchCount,10,1.0
+sfrt_hard_k15 [MLP],KC1,loc,8,0.8
+sfrt_hard_k15 [MLP],KC1,v(g),8,0.8
+sfrt_hard_k15 [MLP],KC1,ev(g),6,0.6
+sfrt_hard_k15 [MLP],KC1,iv(g),4,0.4
+sfrt_hard_k15 [MLP],KC1,n,6,0.6
+sfrt_hard_k15 [MLP],KC1,v,2,0.2
+sfrt_hard_k15 [MLP],KC1,l,10,1.0
+sfrt_hard_k15 [MLP],KC1,d,10,1.0
+sfrt_hard_k15 [MLP],KC1,i,9,0.9
+sfrt_hard_k15 [MLP],KC1,e,0,0.0
+sfrt_hard_k15 [MLP],KC1,b,6,0.6
+sfrt_hard_k15 [MLP],KC1,t,0,0.0
+sfrt_hard_k15 [MLP],KC1,lOCode,7,0.7
+sfrt_hard_k15 [MLP],KC1,lOComment,10,1.0
+sfrt_hard_k15 [MLP],KC1,lOBlank,10,1.0
+sfrt_hard_k15 [MLP],KC1,locCodeAndComment,10,1.0
+sfrt_hard_k15 [MLP],KC1,uniq_Op,10,1.0
+sfrt_hard_k15 [MLP],KC1,uniq_Opnd,10,1.0
+sfrt_hard_k15 [MLP],KC1,total_Op,4,0.4
+sfrt_hard_k15 [MLP],KC1,total_Opnd,10,1.0
+sfrt_hard_k15 [MLP],KC1,branchCount,10,1.0
+sfrt_hard_k15 [MLP],KC2,loc,8,0.8
+sfrt_hard_k15 [MLP],KC2,v(g),7,0.7
+sfrt_hard_k15 [MLP],KC2,ev(g),8,0.8
+sfrt_hard_k15 [MLP],KC2,iv(g),4,0.4
+sfrt_hard_k15 [MLP],KC2,n,5,0.5
+sfrt_hard_k15 [MLP],KC2,v,4,0.4
+sfrt_hard_k15 [MLP],KC2,l,10,1.0
+sfrt_hard_k15 [MLP],KC2,d,10,1.0
+sfrt_hard_k15 [MLP],KC2,i,10,1.0
+sfrt_hard_k15 [MLP],KC2,e,0,0.0
+sfrt_hard_k15 [MLP],KC2,b,6,0.6
+sfrt_hard_k15 [MLP],KC2,t,0,0.0
+sfrt_hard_k15 [MLP],KC2,lOCode,5,0.5
+sfrt_hard_k15 [MLP],KC2,lOComment,10,1.0
+sfrt_hard_k15 [MLP],KC2,lOBlank,10,1.0
+sfrt_hard_k15 [MLP],KC2,locCodeAndComment,10,1.0
+sfrt_hard_k15 [MLP],KC2,uniq_Op,10,1.0
+sfrt_hard_k15 [MLP],KC2,uniq_Opnd,10,1.0
+sfrt_hard_k15 [MLP],KC2,total_Op,3,0.3
+sfrt_hard_k15 [MLP],KC2,total_Opnd,10,1.0
+sfrt_hard_k15 [MLP],KC2,branchCount,10,1.0
+sfrt_hard_k15 [MLP],PC1,loc,8,0.8
+sfrt_hard_k15 [MLP],PC1,v(g),9,0.9
+sfrt_hard_k15 [MLP],PC1,ev(g),8,0.8
+sfrt_hard_k15 [MLP],PC1,iv(g),4,0.4
+sfrt_hard_k15 [MLP],PC1,n,6,0.6
+sfrt_hard_k15 [MLP],PC1,v,5,0.5
+sfrt_hard_k15 [MLP],PC1,l,7,0.7
+sfrt_hard_k15 [MLP],PC1,d,10,1.0
+sfrt_hard_k15 [MLP],PC1,i,8,0.8
+sfrt_hard_k15 [MLP],PC1,e,1,0.1
+sfrt_hard_k15 [MLP],PC1,b,6,0.6
+sfrt_hard_k15 [MLP],PC1,t,0,0.0
+sfrt_hard_k15 [MLP],PC1,lOCode,7,0.7
+sfrt_hard_k15 [MLP],PC1,lOComment,10,1.0
+sfrt_hard_k15 [MLP],PC1,lOBlank,10,1.0
+sfrt_hard_k15 [MLP],PC1,locCodeAndComment,4,0.4
+sfrt_hard_k15 [MLP],PC1,uniq_Op,10,1.0
+sfrt_hard_k15 [MLP],PC1,uniq_Opnd,10,1.0
+sfrt_hard_k15 [MLP],PC1,total_Op,8,0.8
+sfrt_hard_k15 [MLP],PC1,total_Opnd,10,1.0
+sfrt_hard_k15 [MLP],PC1,branchCount,9,0.9
+sfrt_hard_k15 [Random Forest],CM1,loc,10,1.0
+sfrt_hard_k15 [Random Forest],CM1,v(g),10,1.0
+sfrt_hard_k15 [Random Forest],CM1,ev(g),10,1.0
+sfrt_hard_k15 [Random Forest],CM1,iv(g),10,1.0
+sfrt_hard_k15 [Random Forest],CM1,n,0,0.0
+sfrt_hard_k15 [Random Forest],CM1,v,1,0.1
+sfrt_hard_k15 [Random Forest],CM1,l,2,0.2
+sfrt_hard_k15 [Random Forest],CM1,d,7,0.7
+sfrt_hard_k15 [Random Forest],CM1,i,10,1.0
+sfrt_hard_k15 [Random Forest],CM1,e,0,0.0
+sfrt_hard_k15 [Random Forest],CM1,b,10,1.0
+sfrt_hard_k15 [Random Forest],CM1,t,0,0.0
+sfrt_hard_k15 [Random Forest],CM1,lOCode,10,1.0
+sfrt_hard_k15 [Random Forest],CM1,lOComment,10,1.0
+sfrt_hard_k15 [Random Forest],CM1,lOBlank,10,1.0
+sfrt_hard_k15 [Random Forest],CM1,locCodeAndComment,10,1.0
+sfrt_hard_k15 [Random Forest],CM1,uniq_Op,7,0.7
+sfrt_hard_k15 [Random Forest],CM1,uniq_Opnd,10,1.0
+sfrt_hard_k15 [Random Forest],CM1,total_Op,3,0.3
+sfrt_hard_k15 [Random Forest],CM1,total_Opnd,10,1.0
+sfrt_hard_k15 [Random Forest],CM1,branchCount,10,1.0
+sfrt_hard_k15 [Random Forest],JM1,loc,10,1.0
+sfrt_hard_k15 [Random Forest],JM1,v(g),3,0.3
+sfrt_hard_k15 [Random Forest],JM1,ev(g),2,0.2
+sfrt_hard_k15 [Random Forest],JM1,iv(g),10,1.0
+sfrt_hard_k15 [Random Forest],JM1,n,0,0.0
+sfrt_hard_k15 [Random Forest],JM1,v,9,0.9
+sfrt_hard_k15 [Random Forest],JM1,l,6,0.6
+sfrt_hard_k15 [Random Forest],JM1,d,5,0.5
+sfrt_hard_k15 [Random Forest],JM1,i,10,1.0
+sfrt_hard_k15 [Random Forest],JM1,e,3,0.3
+sfrt_hard_k15 [Random Forest],JM1,b,10,1.0
+sfrt_hard_k15 [Random Forest],JM1,t,3,0.3
+sfrt_hard_k15 [Random Forest],JM1,lOCode,10,1.0
+sfrt_hard_k15 [Random Forest],JM1,lOComment,10,1.0
+sfrt_hard_k15 [Random Forest],JM1,lOBlank,10,1.0
+sfrt_hard_k15 [Random Forest],JM1,locCodeAndComment,10,1.0
+sfrt_hard_k15 [Random Forest],JM1,uniq_Op,10,1.0
+sfrt_hard_k15 [Random Forest],JM1,uniq_Opnd,10,1.0
+sfrt_hard_k15 [Random Forest],JM1,total_Op,5,0.5
+sfrt_hard_k15 [Random Forest],JM1,total_Opnd,10,1.0
+sfrt_hard_k15 [Random Forest],JM1,branchCount,4,0.4
+sfrt_hard_k15 [Random Forest],KC1,loc,10,1.0
+sfrt_hard_k15 [Random Forest],KC1,v(g),10,1.0
+sfrt_hard_k15 [Random Forest],KC1,ev(g),9,0.9
+sfrt_hard_k15 [Random Forest],KC1,iv(g),10,1.0
+sfrt_hard_k15 [Random Forest],KC1,n,0,0.0
+sfrt_hard_k15 [Random Forest],KC1,v,2,0.2
+sfrt_hard_k15 [Random Forest],KC1,l,3,0.3
+sfrt_hard_k15 [Random Forest],KC1,d,0,0.0
+sfrt_hard_k15 [Random Forest],KC1,i,10,1.0
+sfrt_hard_k15 [Random Forest],KC1,e,0,0.0
+sfrt_hard_k15 [Random Forest],KC1,b,10,1.0
+sfrt_hard_k15 [Random Forest],KC1,t,0,0.0
+sfrt_hard_k15 [Random Forest],KC1,lOCode,10,1.0
+sfrt_hard_k15 [Random Forest],KC1,lOComment,10,1.0
+sfrt_hard_k15 [Random Forest],KC1,lOBlank,10,1.0
+sfrt_hard_k15 [Random Forest],KC1,locCodeAndComment,10,1.0
+sfrt_hard_k15 [Random Forest],KC1,uniq_Op,10,1.0
+sfrt_hard_k15 [Random Forest],KC1,uniq_Opnd,10,1.0
+sfrt_hard_k15 [Random Forest],KC1,total_Op,7,0.7
+sfrt_hard_k15 [Random Forest],KC1,total_Opnd,10,1.0
+sfrt_hard_k15 [Random Forest],KC1,branchCount,9,0.9
+sfrt_hard_k15 [Random Forest],KC2,loc,10,1.0
+sfrt_hard_k15 [Random Forest],KC2,v(g),10,1.0
+sfrt_hard_k15 [Random Forest],KC2,ev(g),7,0.7
+sfrt_hard_k15 [Random Forest],KC2,iv(g),10,1.0
+sfrt_hard_k15 [Random Forest],KC2,n,0,0.0
+sfrt_hard_k15 [Random Forest],KC2,v,0,0.0
+sfrt_hard_k15 [Random Forest],KC2,l,8,0.8
+sfrt_hard_k15 [Random Forest],KC2,d,6,0.6
+sfrt_hard_k15 [Random Forest],KC2,i,10,1.0
+sfrt_hard_k15 [Random Forest],KC2,e,1,0.1
+sfrt_hard_k15 [Random Forest],KC2,b,10,1.0
+sfrt_hard_k15 [Random Forest],KC2,t,0,0.0
+sfrt_hard_k15 [Random Forest],KC2,lOCode,10,1.0
+sfrt_hard_k15 [Random Forest],KC2,lOComment,10,1.0
+sfrt_hard_k15 [Random Forest],KC2,lOBlank,10,1.0
+sfrt_hard_k15 [Random Forest],KC2,locCodeAndComment,10,1.0
+sfrt_hard_k15 [Random Forest],KC2,uniq_Op,10,1.0
+sfrt_hard_k15 [Random Forest],KC2,uniq_Opnd,10,1.0
+sfrt_hard_k15 [Random Forest],KC2,total_Op,0,0.0
+sfrt_hard_k15 [Random Forest],KC2,total_Opnd,8,0.8
+sfrt_hard_k15 [Random Forest],KC2,branchCount,10,1.0
+sfrt_hard_k15 [Random Forest],PC1,loc,10,1.0
+sfrt_hard_k15 [Random Forest],PC1,v(g),10,1.0
+sfrt_hard_k15 [Random Forest],PC1,ev(g),10,1.0
+sfrt_hard_k15 [Random Forest],PC1,iv(g),10,1.0
+sfrt_hard_k15 [Random Forest],PC1,n,0,0.0
+sfrt_hard_k15 [Random Forest],PC1,v,5,0.5
+sfrt_hard_k15 [Random Forest],PC1,l,1,0.1
+sfrt_hard_k15 [Random Forest],PC1,d,2,0.2
+sfrt_hard_k15 [Random Forest],PC1,i,10,1.0
+sfrt_hard_k15 [Random Forest],PC1,e,3,0.3
+sfrt_hard_k15 [Random Forest],PC1,b,10,1.0
+sfrt_hard_k15 [Random Forest],PC1,t,4,0.4
+sfrt_hard_k15 [Random Forest],PC1,lOCode,10,1.0
+sfrt_hard_k15 [Random Forest],PC1,lOComment,10,1.0
+sfrt_hard_k15 [Random Forest],PC1,lOBlank,10,1.0
+sfrt_hard_k15 [Random Forest],PC1,locCodeAndComment,0,0.0
+sfrt_hard_k15 [Random Forest],PC1,uniq_Op,9,0.9
+sfrt_hard_k15 [Random Forest],PC1,uniq_Opnd,10,1.0
+sfrt_hard_k15 [Random Forest],PC1,total_Op,6,0.6
+sfrt_hard_k15 [Random Forest],PC1,total_Opnd,10,1.0
+sfrt_hard_k15 [Random Forest],PC1,branchCount,10,1.0
+sfrt_hard_k15 [XGBoost],CM1,loc,10,1.0
+sfrt_hard_k15 [XGBoost],CM1,v(g),9,0.9
+sfrt_hard_k15 [XGBoost],CM1,ev(g),10,1.0
+sfrt_hard_k15 [XGBoost],CM1,iv(g),10,1.0
+sfrt_hard_k15 [XGBoost],CM1,n,0,0.0
+sfrt_hard_k15 [XGBoost],CM1,v,0,0.0
+sfrt_hard_k15 [XGBoost],CM1,l,4,0.4
+sfrt_hard_k15 [XGBoost],CM1,d,8,0.8
+sfrt_hard_k15 [XGBoost],CM1,i,10,1.0
+sfrt_hard_k15 [XGBoost],CM1,e,6,0.6
+sfrt_hard_k15 [XGBoost],CM1,b,2,0.2
+sfrt_hard_k15 [XGBoost],CM1,t,0,0.0
+sfrt_hard_k15 [XGBoost],CM1,lOCode,7,0.7
+sfrt_hard_k15 [XGBoost],CM1,lOComment,10,1.0
+sfrt_hard_k15 [XGBoost],CM1,lOBlank,10,1.0
+sfrt_hard_k15 [XGBoost],CM1,locCodeAndComment,10,1.0
+sfrt_hard_k15 [XGBoost],CM1,uniq_Op,10,1.0
+sfrt_hard_k15 [XGBoost],CM1,uniq_Opnd,10,1.0
+sfrt_hard_k15 [XGBoost],CM1,total_Op,5,0.5
+sfrt_hard_k15 [XGBoost],CM1,total_Opnd,10,1.0
+sfrt_hard_k15 [XGBoost],CM1,branchCount,9,0.9
+sfrt_hard_k15 [XGBoost],JM1,loc,10,1.0
+sfrt_hard_k15 [XGBoost],JM1,v(g),8,0.8
+sfrt_hard_k15 [XGBoost],JM1,ev(g),10,1.0
+sfrt_hard_k15 [XGBoost],JM1,iv(g),10,1.0
+sfrt_hard_k15 [XGBoost],JM1,n,0,0.0
+sfrt_hard_k15 [XGBoost],JM1,v,0,0.0
+sfrt_hard_k15 [XGBoost],JM1,l,5,0.5
+sfrt_hard_k15 [XGBoost],JM1,d,4,0.4
+sfrt_hard_k15 [XGBoost],JM1,i,10,1.0
+sfrt_hard_k15 [XGBoost],JM1,e,5,0.5
+sfrt_hard_k15 [XGBoost],JM1,b,10,1.0
+sfrt_hard_k15 [XGBoost],JM1,t,0,0.0
+sfrt_hard_k15 [XGBoost],JM1,lOCode,10,1.0
+sfrt_hard_k15 [XGBoost],JM1,lOComment,10,1.0
+sfrt_hard_k15 [XGBoost],JM1,lOBlank,10,1.0
+sfrt_hard_k15 [XGBoost],JM1,locCodeAndComment,10,1.0
+sfrt_hard_k15 [XGBoost],JM1,uniq_Op,10,1.0
+sfrt_hard_k15 [XGBoost],JM1,uniq_Opnd,10,1.0
+sfrt_hard_k15 [XGBoost],JM1,total_Op,4,0.4
+sfrt_hard_k15 [XGBoost],JM1,total_Opnd,10,1.0
+sfrt_hard_k15 [XGBoost],JM1,branchCount,4,0.4
+sfrt_hard_k15 [XGBoost],KC1,loc,10,1.0
+sfrt_hard_k15 [XGBoost],KC1,v(g),9,0.9
+sfrt_hard_k15 [XGBoost],KC1,ev(g),10,1.0
+sfrt_hard_k15 [XGBoost],KC1,iv(g),10,1.0
+sfrt_hard_k15 [XGBoost],KC1,n,0,0.0
+sfrt_hard_k15 [XGBoost],KC1,v,0,0.0
+sfrt_hard_k15 [XGBoost],KC1,l,2,0.2
+sfrt_hard_k15 [XGBoost],KC1,d,0,0.0
+sfrt_hard_k15 [XGBoost],KC1,i,10,1.0
+sfrt_hard_k15 [XGBoost],KC1,e,1,0.1
+sfrt_hard_k15 [XGBoost],KC1,b,10,1.0
+sfrt_hard_k15 [XGBoost],KC1,t,0,0.0
+sfrt_hard_k15 [XGBoost],KC1,lOCode,10,1.0
+sfrt_hard_k15 [XGBoost],KC1,lOComment,10,1.0
+sfrt_hard_k15 [XGBoost],KC1,lOBlank,10,1.0
+sfrt_hard_k15 [XGBoost],KC1,locCodeAndComment,10,1.0
+sfrt_hard_k15 [XGBoost],KC1,uniq_Op,10,1.0
+sfrt_hard_k15 [XGBoost],KC1,uniq_Opnd,10,1.0
+sfrt_hard_k15 [XGBoost],KC1,total_Op,8,0.8
+sfrt_hard_k15 [XGBoost],KC1,total_Opnd,10,1.0
+sfrt_hard_k15 [XGBoost],KC1,branchCount,10,1.0
+sfrt_hard_k15 [XGBoost],KC2,loc,10,1.0
+sfrt_hard_k15 [XGBoost],KC2,v(g),10,1.0
+sfrt_hard_k15 [XGBoost],KC2,ev(g),10,1.0
+sfrt_hard_k15 [XGBoost],KC2,iv(g),10,1.0
+sfrt_hard_k15 [XGBoost],KC2,n,0,0.0
+sfrt_hard_k15 [XGBoost],KC2,v,0,0.0
+sfrt_hard_k15 [XGBoost],KC2,l,7,0.7
+sfrt_hard_k15 [XGBoost],KC2,d,8,0.8
+sfrt_hard_k15 [XGBoost],KC2,i,10,1.0
+sfrt_hard_k15 [XGBoost],KC2,e,1,0.1
+sfrt_hard_k15 [XGBoost],KC2,b,9,0.9
+sfrt_hard_k15 [XGBoost],KC2,t,0,0.0
+sfrt_hard_k15 [XGBoost],KC2,lOCode,10,1.0
+sfrt_hard_k15 [XGBoost],KC2,lOComment,10,1.0
+sfrt_hard_k15 [XGBoost],KC2,lOBlank,10,1.0
+sfrt_hard_k15 [XGBoost],KC2,locCodeAndComment,10,1.0
+sfrt_hard_k15 [XGBoost],KC2,uniq_Op,10,1.0
+sfrt_hard_k15 [XGBoost],KC2,uniq_Opnd,8,0.8
+sfrt_hard_k15 [XGBoost],KC2,total_Op,0,0.0
+sfrt_hard_k15 [XGBoost],KC2,total_Opnd,10,1.0
+sfrt_hard_k15 [XGBoost],KC2,branchCount,7,0.7
+sfrt_hard_k15 [XGBoost],PC1,loc,10,1.0
+sfrt_hard_k15 [XGBoost],PC1,v(g),10,1.0
+sfrt_hard_k15 [XGBoost],PC1,ev(g),10,1.0
+sfrt_hard_k15 [XGBoost],PC1,iv(g),10,1.0
+sfrt_hard_k15 [XGBoost],PC1,n,0,0.0
+sfrt_hard_k15 [XGBoost],PC1,v,0,0.0
+sfrt_hard_k15 [XGBoost],PC1,l,0,0.0
+sfrt_hard_k15 [XGBoost],PC1,d,9,0.9
+sfrt_hard_k15 [XGBoost],PC1,i,10,1.0
+sfrt_hard_k15 [XGBoost],PC1,e,5,0.5
+sfrt_hard_k15 [XGBoost],PC1,b,10,1.0
+sfrt_hard_k15 [XGBoost],PC1,t,0,0.0
+sfrt_hard_k15 [XGBoost],PC1,lOCode,10,1.0
+sfrt_hard_k15 [XGBoost],PC1,lOComment,10,1.0
+sfrt_hard_k15 [XGBoost],PC1,lOBlank,10,1.0
+sfrt_hard_k15 [XGBoost],PC1,locCodeAndComment,5,0.5
+sfrt_hard_k15 [XGBoost],PC1,uniq_Op,10,1.0
+sfrt_hard_k15 [XGBoost],PC1,uniq_Opnd,10,1.0
+sfrt_hard_k15 [XGBoost],PC1,total_Op,8,0.8
+sfrt_hard_k15 [XGBoost],PC1,total_Opnd,10,1.0
+sfrt_hard_k15 [XGBoost],PC1,branchCount,3,0.3
+sfrt_hard_k5 [Logistic Regression],CM1,loc,0,0.0
+sfrt_hard_k5 [Logistic Regression],CM1,v(g),9,0.9
+sfrt_hard_k5 [Logistic Regression],CM1,ev(g),0,0.0
+sfrt_hard_k5 [Logistic Regression],CM1,iv(g),0,0.0
+sfrt_hard_k5 [Logistic Regression],CM1,n,1,0.1
+sfrt_hard_k5 [Logistic Regression],CM1,v,0,0.0
+sfrt_hard_k5 [Logistic Regression],CM1,l,0,0.0
+sfrt_hard_k5 [Logistic Regression],CM1,d,10,1.0
+sfrt_hard_k5 [Logistic Regression],CM1,i,0,0.0
+sfrt_hard_k5 [Logistic Regression],CM1,e,0,0.0
+sfrt_hard_k5 [Logistic Regression],CM1,b,10,1.0
+sfrt_hard_k5 [Logistic Regression],CM1,t,0,0.0
+sfrt_hard_k5 [Logistic Regression],CM1,lOCode,0,0.0
+sfrt_hard_k5 [Logistic Regression],CM1,lOComment,0,0.0
+sfrt_hard_k5 [Logistic Regression],CM1,lOBlank,0,0.0
+sfrt_hard_k5 [Logistic Regression],CM1,locCodeAndComment,0,0.0
+sfrt_hard_k5 [Logistic Regression],CM1,uniq_Op,0,0.0
+sfrt_hard_k5 [Logistic Regression],CM1,uniq_Opnd,10,1.0
+sfrt_hard_k5 [Logistic Regression],CM1,total_Op,0,0.0
+sfrt_hard_k5 [Logistic Regression],CM1,total_Opnd,10,1.0
+sfrt_hard_k5 [Logistic Regression],CM1,branchCount,0,0.0
+sfrt_hard_k5 [Logistic Regression],JM1,loc,0,0.0
+sfrt_hard_k5 [Logistic Regression],JM1,v(g),4,0.4
+sfrt_hard_k5 [Logistic Regression],JM1,ev(g),0,0.0
+sfrt_hard_k5 [Logistic Regression],JM1,iv(g),0,0.0
+sfrt_hard_k5 [Logistic Regression],JM1,n,0,0.0
+sfrt_hard_k5 [Logistic Regression],JM1,v,0,0.0
+sfrt_hard_k5 [Logistic Regression],JM1,l,0,0.0
+sfrt_hard_k5 [Logistic Regression],JM1,d,10,1.0
+sfrt_hard_k5 [Logistic Regression],JM1,i,0,0.0
+sfrt_hard_k5 [Logistic Regression],JM1,e,0,0.0
+sfrt_hard_k5 [Logistic Regression],JM1,b,8,0.8
+sfrt_hard_k5 [Logistic Regression],JM1,t,0,0.0
+sfrt_hard_k5 [Logistic Regression],JM1,lOCode,0,0.0
+sfrt_hard_k5 [Logistic Regression],JM1,lOComment,0,0.0
+sfrt_hard_k5 [Logistic Regression],JM1,lOBlank,0,0.0
+sfrt_hard_k5 [Logistic Regression],JM1,locCodeAndComment,0,0.0
+sfrt_hard_k5 [Logistic Regression],JM1,uniq_Op,10,1.0
+sfrt_hard_k5 [Logistic Regression],JM1,uniq_Opnd,10,1.0
+sfrt_hard_k5 [Logistic Regression],JM1,total_Op,1,0.1
+sfrt_hard_k5 [Logistic Regression],JM1,total_Opnd,7,0.7
+sfrt_hard_k5 [Logistic Regression],JM1,branchCount,0,0.0
+sfrt_hard_k5 [Logistic Regression],KC1,loc,0,0.0
+sfrt_hard_k5 [Logistic Regression],KC1,v(g),4,0.4
+sfrt_hard_k5 [Logistic Regression],KC1,ev(g),0,0.0
+sfrt_hard_k5 [Logistic Regression],KC1,iv(g),0,0.0
+sfrt_hard_k5 [Logistic Regression],KC1,n,0,0.0
+sfrt_hard_k5 [Logistic Regression],KC1,v,0,0.0
+sfrt_hard_k5 [Logistic Regression],KC1,l,0,0.0
+sfrt_hard_k5 [Logistic Regression],KC1,d,10,1.0
+sfrt_hard_k5 [Logistic Regression],KC1,i,0,0.0
+sfrt_hard_k5 [Logistic Regression],KC1,e,0,0.0
+sfrt_hard_k5 [Logistic Regression],KC1,b,2,0.2
+sfrt_hard_k5 [Logistic Regression],KC1,t,0,0.0
+sfrt_hard_k5 [Logistic Regression],KC1,lOCode,0,0.0
+sfrt_hard_k5 [Logistic Regression],KC1,lOComment,0,0.0
+sfrt_hard_k5 [Logistic Regression],KC1,lOBlank,0,0.0
+sfrt_hard_k5 [Logistic Regression],KC1,locCodeAndComment,0,0.0
+sfrt_hard_k5 [Logistic Regression],KC1,uniq_Op,10,1.0
+sfrt_hard_k5 [Logistic Regression],KC1,uniq_Opnd,10,1.0
+sfrt_hard_k5 [Logistic Regression],KC1,total_Op,0,0.0
+sfrt_hard_k5 [Logistic Regression],KC1,total_Opnd,10,1.0
+sfrt_hard_k5 [Logistic Regression],KC1,branchCount,4,0.4
+sfrt_hard_k5 [Logistic Regression],KC2,loc,0,0.0
+sfrt_hard_k5 [Logistic Regression],KC2,v(g),10,1.0
+sfrt_hard_k5 [Logistic Regression],KC2,ev(g),0,0.0
+sfrt_hard_k5 [Logistic Regression],KC2,iv(g),0,0.0
+sfrt_hard_k5 [Logistic Regression],KC2,n,0,0.0
+sfrt_hard_k5 [Logistic Regression],KC2,v,0,0.0
+sfrt_hard_k5 [Logistic Regression],KC2,l,0,0.0
+sfrt_hard_k5 [Logistic Regression],KC2,d,10,1.0
+sfrt_hard_k5 [Logistic Regression],KC2,i,0,0.0
+sfrt_hard_k5 [Logistic Regression],KC2,e,0,0.0
+sfrt_hard_k5 [Logistic Regression],KC2,b,2,0.2
+sfrt_hard_k5 [Logistic Regression],KC2,t,0,0.0
+sfrt_hard_k5 [Logistic Regression],KC2,lOCode,0,0.0
+sfrt_hard_k5 [Logistic Regression],KC2,lOComment,0,0.0
+sfrt_hard_k5 [Logistic Regression],KC2,lOBlank,0,0.0
+sfrt_hard_k5 [Logistic Regression],KC2,locCodeAndComment,0,0.0
+sfrt_hard_k5 [Logistic Regression],KC2,uniq_Op,10,1.0
+sfrt_hard_k5 [Logistic Regression],KC2,uniq_Opnd,10,1.0
+sfrt_hard_k5 [Logistic Regression],KC2,total_Op,0,0.0
+sfrt_hard_k5 [Logistic Regression],KC2,total_Opnd,8,0.8
+sfrt_hard_k5 [Logistic Regression],KC2,branchCount,0,0.0
+sfrt_hard_k5 [Logistic Regression],PC1,loc,1,0.1
+sfrt_hard_k5 [Logistic Regression],PC1,v(g),10,1.0
+sfrt_hard_k5 [Logistic Regression],PC1,ev(g),0,0.0
+sfrt_hard_k5 [Logistic Regression],PC1,iv(g),0,0.0
+sfrt_hard_k5 [Logistic Regression],PC1,n,1,0.1
+sfrt_hard_k5 [Logistic Regression],PC1,v,0,0.0
+sfrt_hard_k5 [Logistic Regression],PC1,l,0,0.0
+sfrt_hard_k5 [Logistic Regression],PC1,d,4,0.4
+sfrt_hard_k5 [Logistic Regression],PC1,i,0,0.0
+sfrt_hard_k5 [Logistic Regression],PC1,e,0,0.0
+sfrt_hard_k5 [Logistic Regression],PC1,b,4,0.4
+sfrt_hard_k5 [Logistic Regression],PC1,t,0,0.0
+sfrt_hard_k5 [Logistic Regression],PC1,lOCode,0,0.0
+sfrt_hard_k5 [Logistic Regression],PC1,lOComment,0,0.0
+sfrt_hard_k5 [Logistic Regression],PC1,lOBlank,0,0.0
+sfrt_hard_k5 [Logistic Regression],PC1,locCodeAndComment,0,0.0
+sfrt_hard_k5 [Logistic Regression],PC1,uniq_Op,1,0.1
+sfrt_hard_k5 [Logistic Regression],PC1,uniq_Opnd,10,1.0
+sfrt_hard_k5 [Logistic Regression],PC1,total_Op,8,0.8
+sfrt_hard_k5 [Logistic Regression],PC1,total_Opnd,10,1.0
+sfrt_hard_k5 [Logistic Regression],PC1,branchCount,1,0.1
+sfrt_hard_k5 [MLP],CM1,loc,0,0.0
+sfrt_hard_k5 [MLP],CM1,v(g),1,0.1
+sfrt_hard_k5 [MLP],CM1,ev(g),0,0.0
+sfrt_hard_k5 [MLP],CM1,iv(g),0,0.0
+sfrt_hard_k5 [MLP],CM1,n,4,0.4
+sfrt_hard_k5 [MLP],CM1,v,0,0.0
+sfrt_hard_k5 [MLP],CM1,l,0,0.0
+sfrt_hard_k5 [MLP],CM1,d,8,0.8
+sfrt_hard_k5 [MLP],CM1,i,3,0.3
+sfrt_hard_k5 [MLP],CM1,e,0,0.0
+sfrt_hard_k5 [MLP],CM1,b,1,0.1
+sfrt_hard_k5 [MLP],CM1,t,0,0.0
+sfrt_hard_k5 [MLP],CM1,lOCode,0,0.0
+sfrt_hard_k5 [MLP],CM1,lOComment,0,0.0
+sfrt_hard_k5 [MLP],CM1,lOBlank,9,0.9
+sfrt_hard_k5 [MLP],CM1,locCodeAndComment,0,0.0
+sfrt_hard_k5 [MLP],CM1,uniq_Op,10,1.0
+sfrt_hard_k5 [MLP],CM1,uniq_Opnd,8,0.8
+sfrt_hard_k5 [MLP],CM1,total_Op,0,0.0
+sfrt_hard_k5 [MLP],CM1,total_Opnd,3,0.3
+sfrt_hard_k5 [MLP],CM1,branchCount,3,0.3
+sfrt_hard_k5 [MLP],JM1,loc,0,0.0
+sfrt_hard_k5 [MLP],JM1,v(g),1,0.1
+sfrt_hard_k5 [MLP],JM1,ev(g),0,0.0
+sfrt_hard_k5 [MLP],JM1,iv(g),0,0.0
+sfrt_hard_k5 [MLP],JM1,n,4,0.4
+sfrt_hard_k5 [MLP],JM1,v,0,0.0
+sfrt_hard_k5 [MLP],JM1,l,0,0.0
+sfrt_hard_k5 [MLP],JM1,d,6,0.6
+sfrt_hard_k5 [MLP],JM1,i,4,0.4
+sfrt_hard_k5 [MLP],JM1,e,0,0.0
+sfrt_hard_k5 [MLP],JM1,b,3,0.3
+sfrt_hard_k5 [MLP],JM1,t,0,0.0
+sfrt_hard_k5 [MLP],JM1,lOCode,0,0.0
+sfrt_hard_k5 [MLP],JM1,lOComment,6,0.6
+sfrt_hard_k5 [MLP],JM1,lOBlank,3,0.3
+sfrt_hard_k5 [MLP],JM1,locCodeAndComment,0,0.0
+sfrt_hard_k5 [MLP],JM1,uniq_Op,10,1.0
+sfrt_hard_k5 [MLP],JM1,uniq_Opnd,8,0.8
+sfrt_hard_k5 [MLP],JM1,total_Op,0,0.0
+sfrt_hard_k5 [MLP],JM1,total_Opnd,1,0.1
+sfrt_hard_k5 [MLP],JM1,branchCount,4,0.4
+sfrt_hard_k5 [MLP],KC1,loc,3,0.3
+sfrt_hard_k5 [MLP],KC1,v(g),1,0.1
+sfrt_hard_k5 [MLP],KC1,ev(g),0,0.0
+sfrt_hard_k5 [MLP],KC1,iv(g),0,0.0
+sfrt_hard_k5 [MLP],KC1,n,2,0.2
+sfrt_hard_k5 [MLP],KC1,v,0,0.0
+sfrt_hard_k5 [MLP],KC1,l,0,0.0
+sfrt_hard_k5 [MLP],KC1,d,7,0.7
+sfrt_hard_k5 [MLP],KC1,i,6,0.6
+sfrt_hard_k5 [MLP],KC1,e,0,0.0
+sfrt_hard_k5 [MLP],KC1,b,0,0.0
+sfrt_hard_k5 [MLP],KC1,t,0,0.0
+sfrt_hard_k5 [MLP],KC1,lOCode,0,0.0
+sfrt_hard_k5 [MLP],KC1,lOComment,5,0.5
+sfrt_hard_k5 [MLP],KC1,lOBlank,9,0.9
+sfrt_hard_k5 [MLP],KC1,locCodeAndComment,0,0.0
+sfrt_hard_k5 [MLP],KC1,uniq_Op,10,1.0
+sfrt_hard_k5 [MLP],KC1,uniq_Opnd,4,0.4
+sfrt_hard_k5 [MLP],KC1,total_Op,0,0.0
+sfrt_hard_k5 [MLP],KC1,total_Opnd,0,0.0
+sfrt_hard_k5 [MLP],KC1,branchCount,3,0.3
+sfrt_hard_k5 [MLP],KC2,loc,2,0.2
+sfrt_hard_k5 [MLP],KC2,v(g),1,0.1
+sfrt_hard_k5 [MLP],KC2,ev(g),0,0.0
+sfrt_hard_k5 [MLP],KC2,iv(g),0,0.0
+sfrt_hard_k5 [MLP],KC2,n,2,0.2
+sfrt_hard_k5 [MLP],KC2,v,0,0.0
+sfrt_hard_k5 [MLP],KC2,l,0,0.0
+sfrt_hard_k5 [MLP],KC2,d,9,0.9
+sfrt_hard_k5 [MLP],KC2,i,3,0.3
+sfrt_hard_k5 [MLP],KC2,e,0,0.0
+sfrt_hard_k5 [MLP],KC2,b,1,0.1
+sfrt_hard_k5 [MLP],KC2,t,0,0.0
+sfrt_hard_k5 [MLP],KC2,lOCode,0,0.0
+sfrt_hard_k5 [MLP],KC2,lOComment,4,0.4
+sfrt_hard_k5 [MLP],KC2,lOBlank,8,0.8
+sfrt_hard_k5 [MLP],KC2,locCodeAndComment,0,0.0
+sfrt_hard_k5 [MLP],KC2,uniq_Op,10,1.0
+sfrt_hard_k5 [MLP],KC2,uniq_Opnd,4,0.4
+sfrt_hard_k5 [MLP],KC2,total_Op,0,0.0
+sfrt_hard_k5 [MLP],KC2,total_Opnd,1,0.1
+sfrt_hard_k5 [MLP],KC2,branchCount,5,0.5
+sfrt_hard_k5 [MLP],PC1,loc,3,0.3
+sfrt_hard_k5 [MLP],PC1,v(g),2,0.2
+sfrt_hard_k5 [MLP],PC1,ev(g),0,0.0
+sfrt_hard_k5 [MLP],PC1,iv(g),0,0.0
+sfrt_hard_k5 [MLP],PC1,n,4,0.4
+sfrt_hard_k5 [MLP],PC1,v,1,0.1
+sfrt_hard_k5 [MLP],PC1,l,0,0.0
+sfrt_hard_k5 [MLP],PC1,d,6,0.6
+sfrt_hard_k5 [MLP],PC1,i,4,0.4
+sfrt_hard_k5 [MLP],PC1,e,0,0.0
+sfrt_hard_k5 [MLP],PC1,b,2,0.2
+sfrt_hard_k5 [MLP],PC1,t,0,0.0
+sfrt_hard_k5 [MLP],PC1,lOCode,0,0.0
+sfrt_hard_k5 [MLP],PC1,lOComment,5,0.5
+sfrt_hard_k5 [MLP],PC1,lOBlank,4,0.4
+sfrt_hard_k5 [MLP],PC1,locCodeAndComment,0,0.0
+sfrt_hard_k5 [MLP],PC1,uniq_Op,8,0.8
+sfrt_hard_k5 [MLP],PC1,uniq_Opnd,4,0.4
+sfrt_hard_k5 [MLP],PC1,total_Op,0,0.0
+sfrt_hard_k5 [MLP],PC1,total_Opnd,3,0.3
+sfrt_hard_k5 [MLP],PC1,branchCount,4,0.4
+sfrt_hard_k5 [Random Forest],CM1,loc,10,1.0
+sfrt_hard_k5 [Random Forest],CM1,v(g),0,0.0
+sfrt_hard_k5 [Random Forest],CM1,ev(g),0,0.0
+sfrt_hard_k5 [Random Forest],CM1,iv(g),8,0.8
+sfrt_hard_k5 [Random Forest],CM1,n,0,0.0
+sfrt_hard_k5 [Random Forest],CM1,v,0,0.0
+sfrt_hard_k5 [Random Forest],CM1,l,0,0.0
+sfrt_hard_k5 [Random Forest],CM1,d,0,0.0
+sfrt_hard_k5 [Random Forest],CM1,i,2,0.2
+sfrt_hard_k5 [Random Forest],CM1,e,0,0.0
+sfrt_hard_k5 [Random Forest],CM1,b,2,0.2
+sfrt_hard_k5 [Random Forest],CM1,t,0,0.0
+sfrt_hard_k5 [Random Forest],CM1,lOCode,0,0.0
+sfrt_hard_k5 [Random Forest],CM1,lOComment,2,0.2
+sfrt_hard_k5 [Random Forest],CM1,lOBlank,10,1.0
+sfrt_hard_k5 [Random Forest],CM1,locCodeAndComment,4,0.4
+sfrt_hard_k5 [Random Forest],CM1,uniq_Op,0,0.0
+sfrt_hard_k5 [Random Forest],CM1,uniq_Opnd,10,1.0
+sfrt_hard_k5 [Random Forest],CM1,total_Op,0,0.0
+sfrt_hard_k5 [Random Forest],CM1,total_Opnd,2,0.2
+sfrt_hard_k5 [Random Forest],CM1,branchCount,0,0.0
+sfrt_hard_k5 [Random Forest],JM1,loc,5,0.5
+sfrt_hard_k5 [Random Forest],JM1,v(g),0,0.0
+sfrt_hard_k5 [Random Forest],JM1,ev(g),0,0.0
+sfrt_hard_k5 [Random Forest],JM1,iv(g),0,0.0
+sfrt_hard_k5 [Random Forest],JM1,n,0,0.0
+sfrt_hard_k5 [Random Forest],JM1,v,0,0.0
+sfrt_hard_k5 [Random Forest],JM1,l,0,0.0
+sfrt_hard_k5 [Random Forest],JM1,d,0,0.0
+sfrt_hard_k5 [Random Forest],JM1,i,4,0.4
+sfrt_hard_k5 [Random Forest],JM1,e,0,0.0
+sfrt_hard_k5 [Random Forest],JM1,b,9,0.9
+sfrt_hard_k5 [Random Forest],JM1,t,0,0.0
+sfrt_hard_k5 [Random Forest],JM1,lOCode,0,0.0
+sfrt_hard_k5 [Random Forest],JM1,lOComment,10,1.0
+sfrt_hard_k5 [Random Forest],JM1,lOBlank,10,1.0
+sfrt_hard_k5 [Random Forest],JM1,locCodeAndComment,0,0.0
+sfrt_hard_k5 [Random Forest],JM1,uniq_Op,0,0.0
+sfrt_hard_k5 [Random Forest],JM1,uniq_Opnd,10,1.0
+sfrt_hard_k5 [Random Forest],JM1,total_Op,0,0.0
+sfrt_hard_k5 [Random Forest],JM1,total_Opnd,2,0.2
+sfrt_hard_k5 [Random Forest],JM1,branchCount,0,0.0
+sfrt_hard_k5 [Random Forest],KC1,loc,10,1.0
+sfrt_hard_k5 [Random Forest],KC1,v(g),0,0.0
+sfrt_hard_k5 [Random Forest],KC1,ev(g),0,0.0
+sfrt_hard_k5 [Random Forest],KC1,iv(g),9,0.9
+sfrt_hard_k5 [Random Forest],KC1,n,0,0.0
+sfrt_hard_k5 [Random Forest],KC1,v,0,0.0
+sfrt_hard_k5 [Random Forest],KC1,l,0,0.0
+sfrt_hard_k5 [Random Forest],KC1,d,0,0.0
+sfrt_hard_k5 [Random Forest],KC1,i,0,0.0
+sfrt_hard_k5 [Random Forest],KC1,e,0,0.0
+sfrt_hard_k5 [Random Forest],KC1,b,4,0.4
+sfrt_hard_k5 [Random Forest],KC1,t,0,0.0
+sfrt_hard_k5 [Random Forest],KC1,lOCode,0,0.0
+sfrt_hard_k5 [Random Forest],KC1,lOComment,10,1.0
+sfrt_hard_k5 [Random Forest],KC1,lOBlank,10,1.0
+sfrt_hard_k5 [Random Forest],KC1,locCodeAndComment,0,0.0
+sfrt_hard_k5 [Random Forest],KC1,uniq_Op,0,0.0
+sfrt_hard_k5 [Random Forest],KC1,uniq_Opnd,7,0.7
+sfrt_hard_k5 [Random Forest],KC1,total_Op,0,0.0
+sfrt_hard_k5 [Random Forest],KC1,total_Opnd,0,0.0
+sfrt_hard_k5 [Random Forest],KC1,branchCount,0,0.0
+sfrt_hard_k5 [Random Forest],KC2,loc,10,1.0
+sfrt_hard_k5 [Random Forest],KC2,v(g),0,0.0
+sfrt_hard_k5 [Random Forest],KC2,ev(g),0,0.0
+sfrt_hard_k5 [Random Forest],KC2,iv(g),10,1.0
+sfrt_hard_k5 [Random Forest],KC2,n,0,0.0
+sfrt_hard_k5 [Random Forest],KC2,v,0,0.0
+sfrt_hard_k5 [Random Forest],KC2,l,0,0.0
+sfrt_hard_k5 [Random Forest],KC2,d,0,0.0
+sfrt_hard_k5 [Random Forest],KC2,i,0,0.0
+sfrt_hard_k5 [Random Forest],KC2,e,0,0.0
+sfrt_hard_k5 [Random Forest],KC2,b,1,0.1
+sfrt_hard_k5 [Random Forest],KC2,t,0,0.0
+sfrt_hard_k5 [Random Forest],KC2,lOCode,0,0.0
+sfrt_hard_k5 [Random Forest],KC2,lOComment,10,1.0
+sfrt_hard_k5 [Random Forest],KC2,lOBlank,10,1.0
+sfrt_hard_k5 [Random Forest],KC2,locCodeAndComment,3,0.3
+sfrt_hard_k5 [Random Forest],KC2,uniq_Op,0,0.0
+sfrt_hard_k5 [Random Forest],KC2,uniq_Opnd,6,0.6
+sfrt_hard_k5 [Random Forest],KC2,total_Op,0,0.0
+sfrt_hard_k5 [Random Forest],KC2,total_Opnd,0,0.0
+sfrt_hard_k5 [Random Forest],KC2,branchCount,0,0.0
+sfrt_hard_k5 [Random Forest],PC1,loc,10,1.0
+sfrt_hard_k5 [Random Forest],PC1,v(g),0,0.0
+sfrt_hard_k5 [Random Forest],PC1,ev(g),0,0.0
+sfrt_hard_k5 [Random Forest],PC1,iv(g),10,1.0
+sfrt_hard_k5 [Random Forest],PC1,n,0,0.0
+sfrt_hard_k5 [Random Forest],PC1,v,0,0.0
+sfrt_hard_k5 [Random Forest],PC1,l,0,0.0
+sfrt_hard_k5 [Random Forest],PC1,d,0,0.0
+sfrt_hard_k5 [Random Forest],PC1,i,0,0.0
+sfrt_hard_k5 [Random Forest],PC1,e,0,0.0
+sfrt_hard_k5 [Random Forest],PC1,b,5,0.5
+sfrt_hard_k5 [Random Forest],PC1,t,0,0.0
+sfrt_hard_k5 [Random Forest],PC1,lOCode,0,0.0
+sfrt_hard_k5 [Random Forest],PC1,lOComment,10,1.0
+sfrt_hard_k5 [Random Forest],PC1,lOBlank,10,1.0
+sfrt_hard_k5 [Random Forest],PC1,locCodeAndComment,0,0.0
+sfrt_hard_k5 [Random Forest],PC1,uniq_Op,0,0.0
+sfrt_hard_k5 [Random Forest],PC1,uniq_Opnd,4,0.4
+sfrt_hard_k5 [Random Forest],PC1,total_Op,0,0.0
+sfrt_hard_k5 [Random Forest],PC1,total_Opnd,1,0.1
+sfrt_hard_k5 [Random Forest],PC1,branchCount,0,0.0
+sfrt_hard_k5 [XGBoost],CM1,loc,2,0.2
+sfrt_hard_k5 [XGBoost],CM1,v(g),0,0.0
+sfrt_hard_k5 [XGBoost],CM1,ev(g),2,0.2
+sfrt_hard_k5 [XGBoost],CM1,iv(g),9,0.9
+sfrt_hard_k5 [XGBoost],CM1,n,0,0.0
+sfrt_hard_k5 [XGBoost],CM1,v,0,0.0
+sfrt_hard_k5 [XGBoost],CM1,l,0,0.0
+sfrt_hard_k5 [XGBoost],CM1,d,0,0.0
+sfrt_hard_k5 [XGBoost],CM1,i,1,0.1
+sfrt_hard_k5 [XGBoost],CM1,e,0,0.0
+sfrt_hard_k5 [XGBoost],CM1,b,0,0.0
+sfrt_hard_k5 [XGBoost],CM1,t,0,0.0
+sfrt_hard_k5 [XGBoost],CM1,lOCode,0,0.0
+sfrt_hard_k5 [XGBoost],CM1,lOComment,4,0.4
+sfrt_hard_k5 [XGBoost],CM1,lOBlank,10,1.0
+sfrt_hard_k5 [XGBoost],CM1,locCodeAndComment,10,1.0
+sfrt_hard_k5 [XGBoost],CM1,uniq_Op,3,0.3
+sfrt_hard_k5 [XGBoost],CM1,uniq_Opnd,1,0.1
+sfrt_hard_k5 [XGBoost],CM1,total_Op,0,0.0
+sfrt_hard_k5 [XGBoost],CM1,total_Opnd,8,0.8
+sfrt_hard_k5 [XGBoost],CM1,branchCount,0,0.0
+sfrt_hard_k5 [XGBoost],JM1,loc,6,0.6
+sfrt_hard_k5 [XGBoost],JM1,v(g),0,0.0
+sfrt_hard_k5 [XGBoost],JM1,ev(g),0,0.0
+sfrt_hard_k5 [XGBoost],JM1,iv(g),0,0.0
+sfrt_hard_k5 [XGBoost],JM1,n,0,0.0
+sfrt_hard_k5 [XGBoost],JM1,v,0,0.0
+sfrt_hard_k5 [XGBoost],JM1,l,0,0.0
+sfrt_hard_k5 [XGBoost],JM1,d,0,0.0
+sfrt_hard_k5 [XGBoost],JM1,i,4,0.4
+sfrt_hard_k5 [XGBoost],JM1,e,0,0.0
+sfrt_hard_k5 [XGBoost],JM1,b,0,0.0
+sfrt_hard_k5 [XGBoost],JM1,t,0,0.0
+sfrt_hard_k5 [XGBoost],JM1,lOCode,1,0.1
+sfrt_hard_k5 [XGBoost],JM1,lOComment,10,1.0
+sfrt_hard_k5 [XGBoost],JM1,lOBlank,10,1.0
+sfrt_hard_k5 [XGBoost],JM1,locCodeAndComment,0,0.0
+sfrt_hard_k5 [XGBoost],JM1,uniq_Op,6,0.6
+sfrt_hard_k5 [XGBoost],JM1,uniq_Opnd,3,0.3
+sfrt_hard_k5 [XGBoost],JM1,total_Op,0,0.0
+sfrt_hard_k5 [XGBoost],JM1,total_Opnd,10,1.0
+sfrt_hard_k5 [XGBoost],JM1,branchCount,0,0.0
+sfrt_hard_k5 [XGBoost],KC1,loc,8,0.8
+sfrt_hard_k5 [XGBoost],KC1,v(g),0,0.0
+sfrt_hard_k5 [XGBoost],KC1,ev(g),1,0.1
+sfrt_hard_k5 [XGBoost],KC1,iv(g),10,1.0
+sfrt_hard_k5 [XGBoost],KC1,n,0,0.0
+sfrt_hard_k5 [XGBoost],KC1,v,0,0.0
+sfrt_hard_k5 [XGBoost],KC1,l,0,0.0
+sfrt_hard_k5 [XGBoost],KC1,d,0,0.0
+sfrt_hard_k5 [XGBoost],KC1,i,1,0.1
+sfrt_hard_k5 [XGBoost],KC1,e,0,0.0
+sfrt_hard_k5 [XGBoost],KC1,b,0,0.0
+sfrt_hard_k5 [XGBoost],KC1,t,0,0.0
+sfrt_hard_k5 [XGBoost],KC1,lOCode,0,0.0
+sfrt_hard_k5 [XGBoost],KC1,lOComment,10,1.0
+sfrt_hard_k5 [XGBoost],KC1,lOBlank,10,1.0
+sfrt_hard_k5 [XGBoost],KC1,locCodeAndComment,7,0.7
+sfrt_hard_k5 [XGBoost],KC1,uniq_Op,1,0.1
+sfrt_hard_k5 [XGBoost],KC1,uniq_Opnd,1,0.1
+sfrt_hard_k5 [XGBoost],KC1,total_Op,0,0.0
+sfrt_hard_k5 [XGBoost],KC1,total_Opnd,1,0.1
+sfrt_hard_k5 [XGBoost],KC1,branchCount,0,0.0
+sfrt_hard_k5 [XGBoost],KC2,loc,10,1.0
+sfrt_hard_k5 [XGBoost],KC2,v(g),0,0.0
+sfrt_hard_k5 [XGBoost],KC2,ev(g),0,0.0
+sfrt_hard_k5 [XGBoost],KC2,iv(g),10,1.0
+sfrt_hard_k5 [XGBoost],KC2,n,0,0.0
+sfrt_hard_k5 [XGBoost],KC2,v,0,0.0
+sfrt_hard_k5 [XGBoost],KC2,l,0,0.0
+sfrt_hard_k5 [XGBoost],KC2,d,0,0.0
+sfrt_hard_k5 [XGBoost],KC2,i,2,0.2
+sfrt_hard_k5 [XGBoost],KC2,e,0,0.0
+sfrt_hard_k5 [XGBoost],KC2,b,0,0.0
+sfrt_hard_k5 [XGBoost],KC2,t,0,0.0
+sfrt_hard_k5 [XGBoost],KC2,lOCode,0,0.0
+sfrt_hard_k5 [XGBoost],KC2,lOComment,10,1.0
+sfrt_hard_k5 [XGBoost],KC2,lOBlank,10,1.0
+sfrt_hard_k5 [XGBoost],KC2,locCodeAndComment,8,0.8
+sfrt_hard_k5 [XGBoost],KC2,uniq_Op,0,0.0
+sfrt_hard_k5 [XGBoost],KC2,uniq_Opnd,0,0.0
+sfrt_hard_k5 [XGBoost],KC2,total_Op,0,0.0
+sfrt_hard_k5 [XGBoost],KC2,total_Opnd,0,0.0
+sfrt_hard_k5 [XGBoost],KC2,branchCount,0,0.0
+sfrt_hard_k5 [XGBoost],PC1,loc,10,1.0
+sfrt_hard_k5 [XGBoost],PC1,v(g),0,0.0
+sfrt_hard_k5 [XGBoost],PC1,ev(g),2,0.2
+sfrt_hard_k5 [XGBoost],PC1,iv(g),9,0.9
+sfrt_hard_k5 [XGBoost],PC1,n,0,0.0
+sfrt_hard_k5 [XGBoost],PC1,v,0,0.0
+sfrt_hard_k5 [XGBoost],PC1,l,0,0.0
+sfrt_hard_k5 [XGBoost],PC1,d,0,0.0
+sfrt_hard_k5 [XGBoost],PC1,i,0,0.0
+sfrt_hard_k5 [XGBoost],PC1,e,0,0.0
+sfrt_hard_k5 [XGBoost],PC1,b,0,0.0
+sfrt_hard_k5 [XGBoost],PC1,t,0,0.0
+sfrt_hard_k5 [XGBoost],PC1,lOCode,0,0.0
+sfrt_hard_k5 [XGBoost],PC1,lOComment,10,1.0
+sfrt_hard_k5 [XGBoost],PC1,lOBlank,10,1.0
+sfrt_hard_k5 [XGBoost],PC1,locCodeAndComment,0,0.0
+sfrt_hard_k5 [XGBoost],PC1,uniq_Op,0,0.0
+sfrt_hard_k5 [XGBoost],PC1,uniq_Opnd,1,0.1
+sfrt_hard_k5 [XGBoost],PC1,total_Op,0,0.0
+sfrt_hard_k5 [XGBoost],PC1,total_Opnd,8,0.8
+sfrt_hard_k5 [XGBoost],PC1,branchCount,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],CM1,loc,1,0.1
+sfrt_hardstab_k10 [Logistic Regression],CM1,v(g),10,1.0
+sfrt_hardstab_k10 [Logistic Regression],CM1,ev(g),0,0.0
+sfrt_hardstab_k10 [Logistic Regression],CM1,iv(g),3,0.3
+sfrt_hardstab_k10 [Logistic Regression],CM1,n,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],CM1,v,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],CM1,l,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],CM1,d,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],CM1,i,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],CM1,e,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],CM1,b,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],CM1,t,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],CM1,lOCode,1,0.1
+sfrt_hardstab_k10 [Logistic Regression],CM1,lOComment,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],CM1,lOBlank,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],CM1,locCodeAndComment,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],CM1,uniq_Op,8,0.8
+sfrt_hardstab_k10 [Logistic Regression],CM1,uniq_Opnd,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],CM1,total_Op,7,0.7
+sfrt_hardstab_k10 [Logistic Regression],CM1,total_Opnd,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],CM1,branchCount,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],JM1,loc,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],JM1,v(g),10,1.0
+sfrt_hardstab_k10 [Logistic Regression],JM1,ev(g),0,0.0
+sfrt_hardstab_k10 [Logistic Regression],JM1,iv(g),10,1.0
+sfrt_hardstab_k10 [Logistic Regression],JM1,n,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],JM1,v,9,0.9
+sfrt_hardstab_k10 [Logistic Regression],JM1,l,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],JM1,d,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],JM1,i,3,0.3
+sfrt_hardstab_k10 [Logistic Regression],JM1,e,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],JM1,b,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],JM1,t,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],JM1,lOCode,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],JM1,lOComment,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],JM1,lOBlank,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],JM1,locCodeAndComment,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],JM1,uniq_Op,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],JM1,uniq_Opnd,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],JM1,total_Op,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],JM1,total_Opnd,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],JM1,branchCount,8,0.8
+sfrt_hardstab_k10 [Logistic Regression],KC1,loc,8,0.8
+sfrt_hardstab_k10 [Logistic Regression],KC1,v(g),10,1.0
+sfrt_hardstab_k10 [Logistic Regression],KC1,ev(g),0,0.0
+sfrt_hardstab_k10 [Logistic Regression],KC1,iv(g),2,0.2
+sfrt_hardstab_k10 [Logistic Regression],KC1,n,1,0.1
+sfrt_hardstab_k10 [Logistic Regression],KC1,v,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],KC1,l,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],KC1,d,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],KC1,i,2,0.2
+sfrt_hardstab_k10 [Logistic Regression],KC1,e,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],KC1,b,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],KC1,t,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],KC1,lOCode,6,0.6
+sfrt_hardstab_k10 [Logistic Regression],KC1,lOComment,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],KC1,lOBlank,1,0.1
+sfrt_hardstab_k10 [Logistic Regression],KC1,locCodeAndComment,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],KC1,uniq_Op,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],KC1,uniq_Opnd,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],KC1,total_Op,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],KC1,total_Opnd,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],KC1,branchCount,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],KC2,loc,7,0.7
+sfrt_hardstab_k10 [Logistic Regression],KC2,v(g),10,1.0
+sfrt_hardstab_k10 [Logistic Regression],KC2,ev(g),0,0.0
+sfrt_hardstab_k10 [Logistic Regression],KC2,iv(g),4,0.4
+sfrt_hardstab_k10 [Logistic Regression],KC2,n,2,0.2
+sfrt_hardstab_k10 [Logistic Regression],KC2,v,6,0.6
+sfrt_hardstab_k10 [Logistic Regression],KC2,l,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],KC2,d,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],KC2,i,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],KC2,e,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],KC2,b,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],KC2,t,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],KC2,lOCode,1,0.1
+sfrt_hardstab_k10 [Logistic Regression],KC2,lOComment,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],KC2,lOBlank,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],KC2,locCodeAndComment,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],KC2,uniq_Op,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],KC2,uniq_Opnd,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],KC2,total_Op,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],KC2,total_Opnd,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],KC2,branchCount,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],PC1,loc,6,0.6
+sfrt_hardstab_k10 [Logistic Regression],PC1,v(g),10,1.0
+sfrt_hardstab_k10 [Logistic Regression],PC1,ev(g),0,0.0
+sfrt_hardstab_k10 [Logistic Regression],PC1,iv(g),2,0.2
+sfrt_hardstab_k10 [Logistic Regression],PC1,n,9,0.9
+sfrt_hardstab_k10 [Logistic Regression],PC1,v,2,0.2
+sfrt_hardstab_k10 [Logistic Regression],PC1,l,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],PC1,d,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],PC1,i,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],PC1,e,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],PC1,b,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],PC1,t,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],PC1,lOCode,5,0.5
+sfrt_hardstab_k10 [Logistic Regression],PC1,lOComment,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],PC1,lOBlank,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],PC1,locCodeAndComment,0,0.0
+sfrt_hardstab_k10 [Logistic Regression],PC1,uniq_Op,8,0.8
+sfrt_hardstab_k10 [Logistic Regression],PC1,uniq_Opnd,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],PC1,total_Op,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],PC1,total_Opnd,10,1.0
+sfrt_hardstab_k10 [Logistic Regression],PC1,branchCount,8,0.8
+sfrt_hardstab_k10 [MLP],CM1,loc,3,0.3
+sfrt_hardstab_k10 [MLP],CM1,v(g),5,0.5
+sfrt_hardstab_k10 [MLP],CM1,ev(g),2,0.2
+sfrt_hardstab_k10 [MLP],CM1,iv(g),1,0.1
+sfrt_hardstab_k10 [MLP],CM1,n,4,0.4
+sfrt_hardstab_k10 [MLP],CM1,v,2,0.2
+sfrt_hardstab_k10 [MLP],CM1,l,6,0.6
+sfrt_hardstab_k10 [MLP],CM1,d,10,1.0
+sfrt_hardstab_k10 [MLP],CM1,i,7,0.7
+sfrt_hardstab_k10 [MLP],CM1,e,0,0.0
+sfrt_hardstab_k10 [MLP],CM1,b,6,0.6
+sfrt_hardstab_k10 [MLP],CM1,t,0,0.0
+sfrt_hardstab_k10 [MLP],CM1,lOCode,0,0.0
+sfrt_hardstab_k10 [MLP],CM1,lOComment,1,0.1
+sfrt_hardstab_k10 [MLP],CM1,lOBlank,9,0.9
+sfrt_hardstab_k10 [MLP],CM1,locCodeAndComment,7,0.7
+sfrt_hardstab_k10 [MLP],CM1,uniq_Op,10,1.0
+sfrt_hardstab_k10 [MLP],CM1,uniq_Opnd,10,1.0
+sfrt_hardstab_k10 [MLP],CM1,total_Op,3,0.3
+sfrt_hardstab_k10 [MLP],CM1,total_Opnd,7,0.7
+sfrt_hardstab_k10 [MLP],CM1,branchCount,7,0.7
+sfrt_hardstab_k10 [MLP],JM1,loc,2,0.2
+sfrt_hardstab_k10 [MLP],JM1,v(g),5,0.5
+sfrt_hardstab_k10 [MLP],JM1,ev(g),2,0.2
+sfrt_hardstab_k10 [MLP],JM1,iv(g),2,0.2
+sfrt_hardstab_k10 [MLP],JM1,n,4,0.4
+sfrt_hardstab_k10 [MLP],JM1,v,1,0.1
+sfrt_hardstab_k10 [MLP],JM1,l,7,0.7
+sfrt_hardstab_k10 [MLP],JM1,d,10,1.0
+sfrt_hardstab_k10 [MLP],JM1,i,7,0.7
+sfrt_hardstab_k10 [MLP],JM1,e,0,0.0
+sfrt_hardstab_k10 [MLP],JM1,b,5,0.5
+sfrt_hardstab_k10 [MLP],JM1,t,0,0.0
+sfrt_hardstab_k10 [MLP],JM1,lOCode,1,0.1
+sfrt_hardstab_k10 [MLP],JM1,lOComment,10,1.0
+sfrt_hardstab_k10 [MLP],JM1,lOBlank,9,0.9
+sfrt_hardstab_k10 [MLP],JM1,locCodeAndComment,4,0.4
+sfrt_hardstab_k10 [MLP],JM1,uniq_Op,10,1.0
+sfrt_hardstab_k10 [MLP],JM1,uniq_Opnd,10,1.0
+sfrt_hardstab_k10 [MLP],JM1,total_Op,1,0.1
+sfrt_hardstab_k10 [MLP],JM1,total_Opnd,2,0.2
+sfrt_hardstab_k10 [MLP],JM1,branchCount,8,0.8
+sfrt_hardstab_k10 [MLP],KC1,loc,4,0.4
+sfrt_hardstab_k10 [MLP],KC1,v(g),6,0.6
+sfrt_hardstab_k10 [MLP],KC1,ev(g),1,0.1
+sfrt_hardstab_k10 [MLP],KC1,iv(g),2,0.2
+sfrt_hardstab_k10 [MLP],KC1,n,3,0.3
+sfrt_hardstab_k10 [MLP],KC1,v,0,0.0
+sfrt_hardstab_k10 [MLP],KC1,l,5,0.5
+sfrt_hardstab_k10 [MLP],KC1,d,10,1.0
+sfrt_hardstab_k10 [MLP],KC1,i,8,0.8
+sfrt_hardstab_k10 [MLP],KC1,e,0,0.0
+sfrt_hardstab_k10 [MLP],KC1,b,5,0.5
+sfrt_hardstab_k10 [MLP],KC1,t,0,0.0
+sfrt_hardstab_k10 [MLP],KC1,lOCode,1,0.1
+sfrt_hardstab_k10 [MLP],KC1,lOComment,10,1.0
+sfrt_hardstab_k10 [MLP],KC1,lOBlank,10,1.0
+sfrt_hardstab_k10 [MLP],KC1,locCodeAndComment,3,0.3
+sfrt_hardstab_k10 [MLP],KC1,uniq_Op,10,1.0
+sfrt_hardstab_k10 [MLP],KC1,uniq_Opnd,10,1.0
+sfrt_hardstab_k10 [MLP],KC1,total_Op,0,0.0
+sfrt_hardstab_k10 [MLP],KC1,total_Opnd,2,0.2
+sfrt_hardstab_k10 [MLP],KC1,branchCount,10,1.0
+sfrt_hardstab_k10 [MLP],KC2,loc,5,0.5
+sfrt_hardstab_k10 [MLP],KC2,v(g),5,0.5
+sfrt_hardstab_k10 [MLP],KC2,ev(g),1,0.1
+sfrt_hardstab_k10 [MLP],KC2,iv(g),1,0.1
+sfrt_hardstab_k10 [MLP],KC2,n,3,0.3
+sfrt_hardstab_k10 [MLP],KC2,v,0,0.0
+sfrt_hardstab_k10 [MLP],KC2,l,5,0.5
+sfrt_hardstab_k10 [MLP],KC2,d,10,1.0
+sfrt_hardstab_k10 [MLP],KC2,i,7,0.7
+sfrt_hardstab_k10 [MLP],KC2,e,0,0.0
+sfrt_hardstab_k10 [MLP],KC2,b,5,0.5
+sfrt_hardstab_k10 [MLP],KC2,t,0,0.0
+sfrt_hardstab_k10 [MLP],KC2,lOCode,2,0.2
+sfrt_hardstab_k10 [MLP],KC2,lOComment,7,0.7
+sfrt_hardstab_k10 [MLP],KC2,lOBlank,10,1.0
+sfrt_hardstab_k10 [MLP],KC2,locCodeAndComment,4,0.4
+sfrt_hardstab_k10 [MLP],KC2,uniq_Op,10,1.0
+sfrt_hardstab_k10 [MLP],KC2,uniq_Opnd,10,1.0
+sfrt_hardstab_k10 [MLP],KC2,total_Op,0,0.0
+sfrt_hardstab_k10 [MLP],KC2,total_Opnd,6,0.6
+sfrt_hardstab_k10 [MLP],KC2,branchCount,9,0.9
+sfrt_hardstab_k10 [MLP],PC1,loc,6,0.6
+sfrt_hardstab_k10 [MLP],PC1,v(g),6,0.6
+sfrt_hardstab_k10 [MLP],PC1,ev(g),4,0.4
+sfrt_hardstab_k10 [MLP],PC1,iv(g),3,0.3
+sfrt_hardstab_k10 [MLP],PC1,n,4,0.4
+sfrt_hardstab_k10 [MLP],PC1,v,1,0.1
+sfrt_hardstab_k10 [MLP],PC1,l,3,0.3
+sfrt_hardstab_k10 [MLP],PC1,d,8,0.8
+sfrt_hardstab_k10 [MLP],PC1,i,8,0.8
+sfrt_hardstab_k10 [MLP],PC1,e,0,0.0
+sfrt_hardstab_k10 [MLP],PC1,b,5,0.5
+sfrt_hardstab_k10 [MLP],PC1,t,0,0.0
+sfrt_hardstab_k10 [MLP],PC1,lOCode,2,0.2
+sfrt_hardstab_k10 [MLP],PC1,lOComment,8,0.8
+sfrt_hardstab_k10 [MLP],PC1,lOBlank,9,0.9
+sfrt_hardstab_k10 [MLP],PC1,locCodeAndComment,0,0.0
+sfrt_hardstab_k10 [MLP],PC1,uniq_Op,10,1.0
+sfrt_hardstab_k10 [MLP],PC1,uniq_Opnd,8,0.8
+sfrt_hardstab_k10 [MLP],PC1,total_Op,0,0.0
+sfrt_hardstab_k10 [MLP],PC1,total_Opnd,8,0.8
+sfrt_hardstab_k10 [MLP],PC1,branchCount,7,0.7
+sfrt_hardstab_k10 [Random Forest],CM1,loc,10,1.0
+sfrt_hardstab_k10 [Random Forest],CM1,v(g),2,0.2
+sfrt_hardstab_k10 [Random Forest],CM1,ev(g),2,0.2
+sfrt_hardstab_k10 [Random Forest],CM1,iv(g),10,1.0
+sfrt_hardstab_k10 [Random Forest],CM1,n,0,0.0
+sfrt_hardstab_k10 [Random Forest],CM1,v,0,0.0
+sfrt_hardstab_k10 [Random Forest],CM1,l,0,0.0
+sfrt_hardstab_k10 [Random Forest],CM1,d,0,0.0
+sfrt_hardstab_k10 [Random Forest],CM1,i,10,1.0
+sfrt_hardstab_k10 [Random Forest],CM1,e,0,0.0
+sfrt_hardstab_k10 [Random Forest],CM1,b,10,1.0
+sfrt_hardstab_k10 [Random Forest],CM1,t,0,0.0
+sfrt_hardstab_k10 [Random Forest],CM1,lOCode,8,0.8
+sfrt_hardstab_k10 [Random Forest],CM1,lOComment,10,1.0
+sfrt_hardstab_k10 [Random Forest],CM1,lOBlank,10,1.0
+sfrt_hardstab_k10 [Random Forest],CM1,locCodeAndComment,4,0.4
+sfrt_hardstab_k10 [Random Forest],CM1,uniq_Op,5,0.5
+sfrt_hardstab_k10 [Random Forest],CM1,uniq_Opnd,10,1.0
+sfrt_hardstab_k10 [Random Forest],CM1,total_Op,0,0.0
+sfrt_hardstab_k10 [Random Forest],CM1,total_Opnd,9,0.9
+sfrt_hardstab_k10 [Random Forest],CM1,branchCount,0,0.0
+sfrt_hardstab_k10 [Random Forest],JM1,loc,10,1.0
+sfrt_hardstab_k10 [Random Forest],JM1,v(g),0,0.0
+sfrt_hardstab_k10 [Random Forest],JM1,ev(g),0,0.0
+sfrt_hardstab_k10 [Random Forest],JM1,iv(g),9,0.9
+sfrt_hardstab_k10 [Random Forest],JM1,n,0,0.0
+sfrt_hardstab_k10 [Random Forest],JM1,v,2,0.2
+sfrt_hardstab_k10 [Random Forest],JM1,l,0,0.0
+sfrt_hardstab_k10 [Random Forest],JM1,d,0,0.0
+sfrt_hardstab_k10 [Random Forest],JM1,i,10,1.0
+sfrt_hardstab_k10 [Random Forest],JM1,e,0,0.0
+sfrt_hardstab_k10 [Random Forest],JM1,b,10,1.0
+sfrt_hardstab_k10 [Random Forest],JM1,t,0,0.0
+sfrt_hardstab_k10 [Random Forest],JM1,lOCode,10,1.0
+sfrt_hardstab_k10 [Random Forest],JM1,lOComment,10,1.0
+sfrt_hardstab_k10 [Random Forest],JM1,lOBlank,10,1.0
+sfrt_hardstab_k10 [Random Forest],JM1,locCodeAndComment,0,0.0
+sfrt_hardstab_k10 [Random Forest],JM1,uniq_Op,10,1.0
+sfrt_hardstab_k10 [Random Forest],JM1,uniq_Opnd,10,1.0
+sfrt_hardstab_k10 [Random Forest],JM1,total_Op,0,0.0
+sfrt_hardstab_k10 [Random Forest],JM1,total_Opnd,9,0.9
+sfrt_hardstab_k10 [Random Forest],JM1,branchCount,0,0.0
+sfrt_hardstab_k10 [Random Forest],KC1,loc,10,1.0
+sfrt_hardstab_k10 [Random Forest],KC1,v(g),2,0.2
+sfrt_hardstab_k10 [Random Forest],KC1,ev(g),3,0.3
+sfrt_hardstab_k10 [Random Forest],KC1,iv(g),10,1.0
+sfrt_hardstab_k10 [Random Forest],KC1,n,0,0.0
+sfrt_hardstab_k10 [Random Forest],KC1,v,1,0.1
+sfrt_hardstab_k10 [Random Forest],KC1,l,0,0.0
+sfrt_hardstab_k10 [Random Forest],KC1,d,0,0.0
+sfrt_hardstab_k10 [Random Forest],KC1,i,10,1.0
+sfrt_hardstab_k10 [Random Forest],KC1,e,0,0.0
+sfrt_hardstab_k10 [Random Forest],KC1,b,10,1.0
+sfrt_hardstab_k10 [Random Forest],KC1,t,0,0.0
+sfrt_hardstab_k10 [Random Forest],KC1,lOCode,10,1.0
+sfrt_hardstab_k10 [Random Forest],KC1,lOComment,10,1.0
+sfrt_hardstab_k10 [Random Forest],KC1,lOBlank,10,1.0
+sfrt_hardstab_k10 [Random Forest],KC1,locCodeAndComment,4,0.4
+sfrt_hardstab_k10 [Random Forest],KC1,uniq_Op,10,1.0
+sfrt_hardstab_k10 [Random Forest],KC1,uniq_Opnd,10,1.0
+sfrt_hardstab_k10 [Random Forest],KC1,total_Op,0,0.0
+sfrt_hardstab_k10 [Random Forest],KC1,total_Opnd,0,0.0
+sfrt_hardstab_k10 [Random Forest],KC1,branchCount,0,0.0
+sfrt_hardstab_k10 [Random Forest],KC2,loc,10,1.0
+sfrt_hardstab_k10 [Random Forest],KC2,v(g),0,0.0
+sfrt_hardstab_k10 [Random Forest],KC2,ev(g),0,0.0
+sfrt_hardstab_k10 [Random Forest],KC2,iv(g),10,1.0
+sfrt_hardstab_k10 [Random Forest],KC2,n,0,0.0
+sfrt_hardstab_k10 [Random Forest],KC2,v,0,0.0
+sfrt_hardstab_k10 [Random Forest],KC2,l,6,0.6
+sfrt_hardstab_k10 [Random Forest],KC2,d,0,0.0
+sfrt_hardstab_k10 [Random Forest],KC2,i,10,1.0
+sfrt_hardstab_k10 [Random Forest],KC2,e,0,0.0
+sfrt_hardstab_k10 [Random Forest],KC2,b,10,1.0
+sfrt_hardstab_k10 [Random Forest],KC2,t,0,0.0
+sfrt_hardstab_k10 [Random Forest],KC2,lOCode,6,0.6
+sfrt_hardstab_k10 [Random Forest],KC2,lOComment,10,1.0
+sfrt_hardstab_k10 [Random Forest],KC2,lOBlank,10,1.0
+sfrt_hardstab_k10 [Random Forest],KC2,locCodeAndComment,6,0.6
+sfrt_hardstab_k10 [Random Forest],KC2,uniq_Op,6,0.6
+sfrt_hardstab_k10 [Random Forest],KC2,uniq_Opnd,10,1.0
+sfrt_hardstab_k10 [Random Forest],KC2,total_Op,0,0.0
+sfrt_hardstab_k10 [Random Forest],KC2,total_Opnd,0,0.0
+sfrt_hardstab_k10 [Random Forest],KC2,branchCount,6,0.6
+sfrt_hardstab_k10 [Random Forest],PC1,loc,10,1.0
+sfrt_hardstab_k10 [Random Forest],PC1,v(g),5,0.5
+sfrt_hardstab_k10 [Random Forest],PC1,ev(g),2,0.2
+sfrt_hardstab_k10 [Random Forest],PC1,iv(g),10,1.0
+sfrt_hardstab_k10 [Random Forest],PC1,n,0,0.0
+sfrt_hardstab_k10 [Random Forest],PC1,v,0,0.0
+sfrt_hardstab_k10 [Random Forest],PC1,l,0,0.0
+sfrt_hardstab_k10 [Random Forest],PC1,d,0,0.0
+sfrt_hardstab_k10 [Random Forest],PC1,i,10,1.0
+sfrt_hardstab_k10 [Random Forest],PC1,e,0,0.0
+sfrt_hardstab_k10 [Random Forest],PC1,b,10,1.0
+sfrt_hardstab_k10 [Random Forest],PC1,t,0,0.0
+sfrt_hardstab_k10 [Random Forest],PC1,lOCode,10,1.0
+sfrt_hardstab_k10 [Random Forest],PC1,lOComment,10,1.0
+sfrt_hardstab_k10 [Random Forest],PC1,lOBlank,10,1.0
+sfrt_hardstab_k10 [Random Forest],PC1,locCodeAndComment,0,0.0
+sfrt_hardstab_k10 [Random Forest],PC1,uniq_Op,5,0.5
+sfrt_hardstab_k10 [Random Forest],PC1,uniq_Opnd,10,1.0
+sfrt_hardstab_k10 [Random Forest],PC1,total_Op,0,0.0
+sfrt_hardstab_k10 [Random Forest],PC1,total_Opnd,7,0.7
+sfrt_hardstab_k10 [Random Forest],PC1,branchCount,1,0.1
+sfrt_hardstab_k10 [XGBoost],CM1,loc,10,1.0
+sfrt_hardstab_k10 [XGBoost],CM1,v(g),1,0.1
+sfrt_hardstab_k10 [XGBoost],CM1,ev(g),10,1.0
+sfrt_hardstab_k10 [XGBoost],CM1,iv(g),10,1.0
+sfrt_hardstab_k10 [XGBoost],CM1,n,0,0.0
+sfrt_hardstab_k10 [XGBoost],CM1,v,0,0.0
+sfrt_hardstab_k10 [XGBoost],CM1,l,0,0.0
+sfrt_hardstab_k10 [XGBoost],CM1,d,1,0.1
+sfrt_hardstab_k10 [XGBoost],CM1,i,10,1.0
+sfrt_hardstab_k10 [XGBoost],CM1,e,0,0.0
+sfrt_hardstab_k10 [XGBoost],CM1,b,0,0.0
+sfrt_hardstab_k10 [XGBoost],CM1,t,0,0.0
+sfrt_hardstab_k10 [XGBoost],CM1,lOCode,0,0.0
+sfrt_hardstab_k10 [XGBoost],CM1,lOComment,10,1.0
+sfrt_hardstab_k10 [XGBoost],CM1,lOBlank,10,1.0
+sfrt_hardstab_k10 [XGBoost],CM1,locCodeAndComment,10,1.0
+sfrt_hardstab_k10 [XGBoost],CM1,uniq_Op,10,1.0
+sfrt_hardstab_k10 [XGBoost],CM1,uniq_Opnd,7,0.7
+sfrt_hardstab_k10 [XGBoost],CM1,total_Op,0,0.0
+sfrt_hardstab_k10 [XGBoost],CM1,total_Opnd,9,0.9
+sfrt_hardstab_k10 [XGBoost],CM1,branchCount,2,0.2
+sfrt_hardstab_k10 [XGBoost],JM1,loc,10,1.0
+sfrt_hardstab_k10 [XGBoost],JM1,v(g),2,0.2
+sfrt_hardstab_k10 [XGBoost],JM1,ev(g),4,0.4
+sfrt_hardstab_k10 [XGBoost],JM1,iv(g),9,0.9
+sfrt_hardstab_k10 [XGBoost],JM1,n,0,0.0
+sfrt_hardstab_k10 [XGBoost],JM1,v,0,0.0
+sfrt_hardstab_k10 [XGBoost],JM1,l,1,0.1
+sfrt_hardstab_k10 [XGBoost],JM1,d,1,0.1
+sfrt_hardstab_k10 [XGBoost],JM1,i,10,1.0
+sfrt_hardstab_k10 [XGBoost],JM1,e,0,0.0
+sfrt_hardstab_k10 [XGBoost],JM1,b,4,0.4
+sfrt_hardstab_k10 [XGBoost],JM1,t,0,0.0
+sfrt_hardstab_k10 [XGBoost],JM1,lOCode,7,0.7
+sfrt_hardstab_k10 [XGBoost],JM1,lOComment,10,1.0
+sfrt_hardstab_k10 [XGBoost],JM1,lOBlank,10,1.0
+sfrt_hardstab_k10 [XGBoost],JM1,locCodeAndComment,0,0.0
+sfrt_hardstab_k10 [XGBoost],JM1,uniq_Op,10,1.0
+sfrt_hardstab_k10 [XGBoost],JM1,uniq_Opnd,9,0.9
+sfrt_hardstab_k10 [XGBoost],JM1,total_Op,0,0.0
+sfrt_hardstab_k10 [XGBoost],JM1,total_Opnd,10,1.0
+sfrt_hardstab_k10 [XGBoost],JM1,branchCount,3,0.3
+sfrt_hardstab_k10 [XGBoost],KC1,loc,10,1.0
+sfrt_hardstab_k10 [XGBoost],KC1,v(g),4,0.4
+sfrt_hardstab_k10 [XGBoost],KC1,ev(g),10,1.0
+sfrt_hardstab_k10 [XGBoost],KC1,iv(g),10,1.0
+sfrt_hardstab_k10 [XGBoost],KC1,n,0,0.0
+sfrt_hardstab_k10 [XGBoost],KC1,v,0,0.0
+sfrt_hardstab_k10 [XGBoost],KC1,l,0,0.0
+sfrt_hardstab_k10 [XGBoost],KC1,d,0,0.0
+sfrt_hardstab_k10 [XGBoost],KC1,i,10,1.0
+sfrt_hardstab_k10 [XGBoost],KC1,e,0,0.0
+sfrt_hardstab_k10 [XGBoost],KC1,b,2,0.2
+sfrt_hardstab_k10 [XGBoost],KC1,t,0,0.0
+sfrt_hardstab_k10 [XGBoost],KC1,lOCode,0,0.0
+sfrt_hardstab_k10 [XGBoost],KC1,lOComment,10,1.0
+sfrt_hardstab_k10 [XGBoost],KC1,lOBlank,10,1.0
+sfrt_hardstab_k10 [XGBoost],KC1,locCodeAndComment,8,0.8
+sfrt_hardstab_k10 [XGBoost],KC1,uniq_Op,10,1.0
+sfrt_hardstab_k10 [XGBoost],KC1,uniq_Opnd,2,0.2
+sfrt_hardstab_k10 [XGBoost],KC1,total_Op,2,0.2
+sfrt_hardstab_k10 [XGBoost],KC1,total_Opnd,9,0.9
+sfrt_hardstab_k10 [XGBoost],KC1,branchCount,3,0.3
+sfrt_hardstab_k10 [XGBoost],KC2,loc,10,1.0
+sfrt_hardstab_k10 [XGBoost],KC2,v(g),7,0.7
+sfrt_hardstab_k10 [XGBoost],KC2,ev(g),6,0.6
+sfrt_hardstab_k10 [XGBoost],KC2,iv(g),10,1.0
+sfrt_hardstab_k10 [XGBoost],KC2,n,0,0.0
+sfrt_hardstab_k10 [XGBoost],KC2,v,0,0.0
+sfrt_hardstab_k10 [XGBoost],KC2,l,0,0.0
+sfrt_hardstab_k10 [XGBoost],KC2,d,1,0.1
+sfrt_hardstab_k10 [XGBoost],KC2,i,10,1.0
+sfrt_hardstab_k10 [XGBoost],KC2,e,0,0.0
+sfrt_hardstab_k10 [XGBoost],KC2,b,0,0.0
+sfrt_hardstab_k10 [XGBoost],KC2,t,0,0.0
+sfrt_hardstab_k10 [XGBoost],KC2,lOCode,4,0.4
+sfrt_hardstab_k10 [XGBoost],KC2,lOComment,10,1.0
+sfrt_hardstab_k10 [XGBoost],KC2,lOBlank,10,1.0
+sfrt_hardstab_k10 [XGBoost],KC2,locCodeAndComment,7,0.7
+sfrt_hardstab_k10 [XGBoost],KC2,uniq_Op,10,1.0
+sfrt_hardstab_k10 [XGBoost],KC2,uniq_Opnd,3,0.3
+sfrt_hardstab_k10 [XGBoost],KC2,total_Op,2,0.2
+sfrt_hardstab_k10 [XGBoost],KC2,total_Opnd,5,0.5
+sfrt_hardstab_k10 [XGBoost],KC2,branchCount,5,0.5
+sfrt_hardstab_k10 [XGBoost],PC1,loc,10,1.0
+sfrt_hardstab_k10 [XGBoost],PC1,v(g),10,1.0
+sfrt_hardstab_k10 [XGBoost],PC1,ev(g),7,0.7
+sfrt_hardstab_k10 [XGBoost],PC1,iv(g),10,1.0
+sfrt_hardstab_k10 [XGBoost],PC1,n,0,0.0
+sfrt_hardstab_k10 [XGBoost],PC1,v,0,0.0
+sfrt_hardstab_k10 [XGBoost],PC1,l,0,0.0
+sfrt_hardstab_k10 [XGBoost],PC1,d,0,0.0
+sfrt_hardstab_k10 [XGBoost],PC1,i,10,1.0
+sfrt_hardstab_k10 [XGBoost],PC1,e,0,0.0
+sfrt_hardstab_k10 [XGBoost],PC1,b,1,0.1
+sfrt_hardstab_k10 [XGBoost],PC1,t,0,0.0
+sfrt_hardstab_k10 [XGBoost],PC1,lOCode,9,0.9
+sfrt_hardstab_k10 [XGBoost],PC1,lOComment,10,1.0
+sfrt_hardstab_k10 [XGBoost],PC1,lOBlank,10,1.0
+sfrt_hardstab_k10 [XGBoost],PC1,locCodeAndComment,0,0.0
+sfrt_hardstab_k10 [XGBoost],PC1,uniq_Op,9,0.9
+sfrt_hardstab_k10 [XGBoost],PC1,uniq_Opnd,1,0.1
+sfrt_hardstab_k10 [XGBoost],PC1,total_Op,2,0.2
+sfrt_hardstab_k10 [XGBoost],PC1,total_Opnd,10,1.0
+sfrt_hardstab_k10 [XGBoost],PC1,branchCount,1,0.1
+sfrt_hardstab_k15 [Logistic Regression],CM1,loc,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],CM1,v(g),10,1.0
+sfrt_hardstab_k15 [Logistic Regression],CM1,ev(g),10,1.0
+sfrt_hardstab_k15 [Logistic Regression],CM1,iv(g),10,1.0
+sfrt_hardstab_k15 [Logistic Regression],CM1,n,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],CM1,v,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],CM1,l,0,0.0
+sfrt_hardstab_k15 [Logistic Regression],CM1,d,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],CM1,i,4,0.4
+sfrt_hardstab_k15 [Logistic Regression],CM1,e,2,0.2
+sfrt_hardstab_k15 [Logistic Regression],CM1,b,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],CM1,t,0,0.0
+sfrt_hardstab_k15 [Logistic Regression],CM1,lOCode,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],CM1,lOComment,0,0.0
+sfrt_hardstab_k15 [Logistic Regression],CM1,lOBlank,2,0.2
+sfrt_hardstab_k15 [Logistic Regression],CM1,locCodeAndComment,2,0.2
+sfrt_hardstab_k15 [Logistic Regression],CM1,uniq_Op,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],CM1,uniq_Opnd,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],CM1,total_Op,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],CM1,total_Opnd,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],CM1,branchCount,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],JM1,loc,4,0.4
+sfrt_hardstab_k15 [Logistic Regression],JM1,v(g),10,1.0
+sfrt_hardstab_k15 [Logistic Regression],JM1,ev(g),7,0.7
+sfrt_hardstab_k15 [Logistic Regression],JM1,iv(g),10,1.0
+sfrt_hardstab_k15 [Logistic Regression],JM1,n,4,0.4
+sfrt_hardstab_k15 [Logistic Regression],JM1,v,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],JM1,l,0,0.0
+sfrt_hardstab_k15 [Logistic Regression],JM1,d,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],JM1,i,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],JM1,e,0,0.0
+sfrt_hardstab_k15 [Logistic Regression],JM1,b,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],JM1,t,0,0.0
+sfrt_hardstab_k15 [Logistic Regression],JM1,lOCode,9,0.9
+sfrt_hardstab_k15 [Logistic Regression],JM1,lOComment,8,0.8
+sfrt_hardstab_k15 [Logistic Regression],JM1,lOBlank,5,0.5
+sfrt_hardstab_k15 [Logistic Regression],JM1,locCodeAndComment,3,0.3
+sfrt_hardstab_k15 [Logistic Regression],JM1,uniq_Op,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],JM1,uniq_Opnd,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],JM1,total_Op,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],JM1,total_Opnd,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],JM1,branchCount,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],KC1,loc,9,0.9
+sfrt_hardstab_k15 [Logistic Regression],KC1,v(g),10,1.0
+sfrt_hardstab_k15 [Logistic Regression],KC1,ev(g),4,0.4
+sfrt_hardstab_k15 [Logistic Regression],KC1,iv(g),8,0.8
+sfrt_hardstab_k15 [Logistic Regression],KC1,n,9,0.9
+sfrt_hardstab_k15 [Logistic Regression],KC1,v,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],KC1,l,0,0.0
+sfrt_hardstab_k15 [Logistic Regression],KC1,d,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],KC1,i,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],KC1,e,0,0.0
+sfrt_hardstab_k15 [Logistic Regression],KC1,b,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],KC1,t,0,0.0
+sfrt_hardstab_k15 [Logistic Regression],KC1,lOCode,9,0.9
+sfrt_hardstab_k15 [Logistic Regression],KC1,lOComment,8,0.8
+sfrt_hardstab_k15 [Logistic Regression],KC1,lOBlank,4,0.4
+sfrt_hardstab_k15 [Logistic Regression],KC1,locCodeAndComment,0,0.0
+sfrt_hardstab_k15 [Logistic Regression],KC1,uniq_Op,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],KC1,uniq_Opnd,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],KC1,total_Op,9,0.9
+sfrt_hardstab_k15 [Logistic Regression],KC1,total_Opnd,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],KC1,branchCount,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],KC2,loc,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],KC2,v(g),10,1.0
+sfrt_hardstab_k15 [Logistic Regression],KC2,ev(g),0,0.0
+sfrt_hardstab_k15 [Logistic Regression],KC2,iv(g),10,1.0
+sfrt_hardstab_k15 [Logistic Regression],KC2,n,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],KC2,v,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],KC2,l,0,0.0
+sfrt_hardstab_k15 [Logistic Regression],KC2,d,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],KC2,i,6,0.6
+sfrt_hardstab_k15 [Logistic Regression],KC2,e,0,0.0
+sfrt_hardstab_k15 [Logistic Regression],KC2,b,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],KC2,t,0,0.0
+sfrt_hardstab_k15 [Logistic Regression],KC2,lOCode,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],KC2,lOComment,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],KC2,lOBlank,4,0.4
+sfrt_hardstab_k15 [Logistic Regression],KC2,locCodeAndComment,0,0.0
+sfrt_hardstab_k15 [Logistic Regression],KC2,uniq_Op,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],KC2,uniq_Opnd,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],KC2,total_Op,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],KC2,total_Opnd,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],KC2,branchCount,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],PC1,loc,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],PC1,v(g),10,1.0
+sfrt_hardstab_k15 [Logistic Regression],PC1,ev(g),4,0.4
+sfrt_hardstab_k15 [Logistic Regression],PC1,iv(g),10,1.0
+sfrt_hardstab_k15 [Logistic Regression],PC1,n,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],PC1,v,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],PC1,l,0,0.0
+sfrt_hardstab_k15 [Logistic Regression],PC1,d,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],PC1,i,7,0.7
+sfrt_hardstab_k15 [Logistic Regression],PC1,e,0,0.0
+sfrt_hardstab_k15 [Logistic Regression],PC1,b,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],PC1,t,0,0.0
+sfrt_hardstab_k15 [Logistic Regression],PC1,lOCode,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],PC1,lOComment,9,0.9
+sfrt_hardstab_k15 [Logistic Regression],PC1,lOBlank,0,0.0
+sfrt_hardstab_k15 [Logistic Regression],PC1,locCodeAndComment,0,0.0
+sfrt_hardstab_k15 [Logistic Regression],PC1,uniq_Op,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],PC1,uniq_Opnd,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],PC1,total_Op,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],PC1,total_Opnd,10,1.0
+sfrt_hardstab_k15 [Logistic Regression],PC1,branchCount,10,1.0
+sfrt_hardstab_k15 [MLP],CM1,loc,8,0.8
+sfrt_hardstab_k15 [MLP],CM1,v(g),8,0.8
+sfrt_hardstab_k15 [MLP],CM1,ev(g),6,0.6
+sfrt_hardstab_k15 [MLP],CM1,iv(g),5,0.5
+sfrt_hardstab_k15 [MLP],CM1,n,7,0.7
+sfrt_hardstab_k15 [MLP],CM1,v,2,0.2
+sfrt_hardstab_k15 [MLP],CM1,l,10,1.0
+sfrt_hardstab_k15 [MLP],CM1,d,10,1.0
+sfrt_hardstab_k15 [MLP],CM1,i,10,1.0
+sfrt_hardstab_k15 [MLP],CM1,e,0,0.0
+sfrt_hardstab_k15 [MLP],CM1,b,7,0.7
+sfrt_hardstab_k15 [MLP],CM1,t,0,0.0
+sfrt_hardstab_k15 [MLP],CM1,lOCode,6,0.6
+sfrt_hardstab_k15 [MLP],CM1,lOComment,8,0.8
+sfrt_hardstab_k15 [MLP],CM1,lOBlank,10,1.0
+sfrt_hardstab_k15 [MLP],CM1,locCodeAndComment,9,0.9
+sfrt_hardstab_k15 [MLP],CM1,uniq_Op,10,1.0
+sfrt_hardstab_k15 [MLP],CM1,uniq_Opnd,10,1.0
+sfrt_hardstab_k15 [MLP],CM1,total_Op,6,0.6
+sfrt_hardstab_k15 [MLP],CM1,total_Opnd,9,0.9
+sfrt_hardstab_k15 [MLP],CM1,branchCount,9,0.9
+sfrt_hardstab_k15 [MLP],JM1,loc,4,0.4
+sfrt_hardstab_k15 [MLP],JM1,v(g),9,0.9
+sfrt_hardstab_k15 [MLP],JM1,ev(g),6,0.6
+sfrt_hardstab_k15 [MLP],JM1,iv(g),6,0.6
+sfrt_hardstab_k15 [MLP],JM1,n,5,0.5
+sfrt_hardstab_k15 [MLP],JM1,v,4,0.4
+sfrt_hardstab_k15 [MLP],JM1,l,10,1.0
+sfrt_hardstab_k15 [MLP],JM1,d,10,1.0
+sfrt_hardstab_k15 [MLP],JM1,i,9,0.9
+sfrt_hardstab_k15 [MLP],JM1,e,1,0.1
+sfrt_hardstab_k15 [MLP],JM1,b,7,0.7
+sfrt_hardstab_k15 [MLP],JM1,t,0,0.0
+sfrt_hardstab_k15 [MLP],JM1,lOCode,8,0.8
+sfrt_hardstab_k15 [MLP],JM1,lOComment,10,1.0
+sfrt_hardstab_k15 [MLP],JM1,lOBlank,10,1.0
+sfrt_hardstab_k15 [MLP],JM1,locCodeAndComment,9,0.9
+sfrt_hardstab_k15 [MLP],JM1,uniq_Op,10,1.0
+sfrt_hardstab_k15 [MLP],JM1,uniq_Opnd,10,1.0
+sfrt_hardstab_k15 [MLP],JM1,total_Op,6,0.6
+sfrt_hardstab_k15 [MLP],JM1,total_Opnd,6,0.6
+sfrt_hardstab_k15 [MLP],JM1,branchCount,10,1.0
+sfrt_hardstab_k15 [MLP],KC1,loc,8,0.8
+sfrt_hardstab_k15 [MLP],KC1,v(g),9,0.9
+sfrt_hardstab_k15 [MLP],KC1,ev(g),6,0.6
+sfrt_hardstab_k15 [MLP],KC1,iv(g),6,0.6
+sfrt_hardstab_k15 [MLP],KC1,n,5,0.5
+sfrt_hardstab_k15 [MLP],KC1,v,2,0.2
+sfrt_hardstab_k15 [MLP],KC1,l,10,1.0
+sfrt_hardstab_k15 [MLP],KC1,d,10,1.0
+sfrt_hardstab_k15 [MLP],KC1,i,9,0.9
+sfrt_hardstab_k15 [MLP],KC1,e,0,0.0
+sfrt_hardstab_k15 [MLP],KC1,b,6,0.6
+sfrt_hardstab_k15 [MLP],KC1,t,0,0.0
+sfrt_hardstab_k15 [MLP],KC1,lOCode,8,0.8
+sfrt_hardstab_k15 [MLP],KC1,lOComment,10,1.0
+sfrt_hardstab_k15 [MLP],KC1,lOBlank,10,1.0
+sfrt_hardstab_k15 [MLP],KC1,locCodeAndComment,8,0.8
+sfrt_hardstab_k15 [MLP],KC1,uniq_Op,10,1.0
+sfrt_hardstab_k15 [MLP],KC1,uniq_Opnd,10,1.0
+sfrt_hardstab_k15 [MLP],KC1,total_Op,3,0.3
+sfrt_hardstab_k15 [MLP],KC1,total_Opnd,10,1.0
+sfrt_hardstab_k15 [MLP],KC1,branchCount,10,1.0
+sfrt_hardstab_k15 [MLP],KC2,loc,9,0.9
+sfrt_hardstab_k15 [MLP],KC2,v(g),8,0.8
+sfrt_hardstab_k15 [MLP],KC2,ev(g),8,0.8
+sfrt_hardstab_k15 [MLP],KC2,iv(g),6,0.6
+sfrt_hardstab_k15 [MLP],KC2,n,5,0.5
+sfrt_hardstab_k15 [MLP],KC2,v,2,0.2
+sfrt_hardstab_k15 [MLP],KC2,l,9,0.9
+sfrt_hardstab_k15 [MLP],KC2,d,10,1.0
+sfrt_hardstab_k15 [MLP],KC2,i,10,1.0
+sfrt_hardstab_k15 [MLP],KC2,e,0,0.0
+sfrt_hardstab_k15 [MLP],KC2,b,6,0.6
+sfrt_hardstab_k15 [MLP],KC2,t,0,0.0
+sfrt_hardstab_k15 [MLP],KC2,lOCode,6,0.6
+sfrt_hardstab_k15 [MLP],KC2,lOComment,10,1.0
+sfrt_hardstab_k15 [MLP],KC2,lOBlank,10,1.0
+sfrt_hardstab_k15 [MLP],KC2,locCodeAndComment,10,1.0
+sfrt_hardstab_k15 [MLP],KC2,uniq_Op,10,1.0
+sfrt_hardstab_k15 [MLP],KC2,uniq_Opnd,10,1.0
+sfrt_hardstab_k15 [MLP],KC2,total_Op,2,0.2
+sfrt_hardstab_k15 [MLP],KC2,total_Opnd,9,0.9
+sfrt_hardstab_k15 [MLP],KC2,branchCount,10,1.0
+sfrt_hardstab_k15 [MLP],PC1,loc,9,0.9
+sfrt_hardstab_k15 [MLP],PC1,v(g),8,0.8
+sfrt_hardstab_k15 [MLP],PC1,ev(g),9,0.9
+sfrt_hardstab_k15 [MLP],PC1,iv(g),5,0.5
+sfrt_hardstab_k15 [MLP],PC1,n,6,0.6
+sfrt_hardstab_k15 [MLP],PC1,v,5,0.5
+sfrt_hardstab_k15 [MLP],PC1,l,8,0.8
+sfrt_hardstab_k15 [MLP],PC1,d,10,1.0
+sfrt_hardstab_k15 [MLP],PC1,i,9,0.9
+sfrt_hardstab_k15 [MLP],PC1,e,0,0.0
+sfrt_hardstab_k15 [MLP],PC1,b,6,0.6
+sfrt_hardstab_k15 [MLP],PC1,t,0,0.0
+sfrt_hardstab_k15 [MLP],PC1,lOCode,7,0.7
+sfrt_hardstab_k15 [MLP],PC1,lOComment,10,1.0
+sfrt_hardstab_k15 [MLP],PC1,lOBlank,10,1.0
+sfrt_hardstab_k15 [MLP],PC1,locCodeAndComment,3,0.3
+sfrt_hardstab_k15 [MLP],PC1,uniq_Op,10,1.0
+sfrt_hardstab_k15 [MLP],PC1,uniq_Opnd,10,1.0
+sfrt_hardstab_k15 [MLP],PC1,total_Op,7,0.7
+sfrt_hardstab_k15 [MLP],PC1,total_Opnd,9,0.9
+sfrt_hardstab_k15 [MLP],PC1,branchCount,9,0.9
+sfrt_hardstab_k15 [Random Forest],CM1,loc,10,1.0
+sfrt_hardstab_k15 [Random Forest],CM1,v(g),9,0.9
+sfrt_hardstab_k15 [Random Forest],CM1,ev(g),5,0.5
+sfrt_hardstab_k15 [Random Forest],CM1,iv(g),10,1.0
+sfrt_hardstab_k15 [Random Forest],CM1,n,0,0.0
+sfrt_hardstab_k15 [Random Forest],CM1,v,1,0.1
+sfrt_hardstab_k15 [Random Forest],CM1,l,8,0.8
+sfrt_hardstab_k15 [Random Forest],CM1,d,2,0.2
+sfrt_hardstab_k15 [Random Forest],CM1,i,10,1.0
+sfrt_hardstab_k15 [Random Forest],CM1,e,0,0.0
+sfrt_hardstab_k15 [Random Forest],CM1,b,10,1.0
+sfrt_hardstab_k15 [Random Forest],CM1,t,0,0.0
+sfrt_hardstab_k15 [Random Forest],CM1,lOCode,10,1.0
+sfrt_hardstab_k15 [Random Forest],CM1,lOComment,10,1.0
+sfrt_hardstab_k15 [Random Forest],CM1,lOBlank,10,1.0
+sfrt_hardstab_k15 [Random Forest],CM1,locCodeAndComment,9,0.9
+sfrt_hardstab_k15 [Random Forest],CM1,uniq_Op,10,1.0
+sfrt_hardstab_k15 [Random Forest],CM1,uniq_Opnd,10,1.0
+sfrt_hardstab_k15 [Random Forest],CM1,total_Op,6,0.6
+sfrt_hardstab_k15 [Random Forest],CM1,total_Opnd,10,1.0
+sfrt_hardstab_k15 [Random Forest],CM1,branchCount,10,1.0
+sfrt_hardstab_k15 [Random Forest],JM1,loc,10,1.0
+sfrt_hardstab_k15 [Random Forest],JM1,v(g),6,0.6
+sfrt_hardstab_k15 [Random Forest],JM1,ev(g),4,0.4
+sfrt_hardstab_k15 [Random Forest],JM1,iv(g),10,1.0
+sfrt_hardstab_k15 [Random Forest],JM1,n,2,0.2
+sfrt_hardstab_k15 [Random Forest],JM1,v,10,1.0
+sfrt_hardstab_k15 [Random Forest],JM1,l,9,0.9
+sfrt_hardstab_k15 [Random Forest],JM1,d,2,0.2
+sfrt_hardstab_k15 [Random Forest],JM1,i,10,1.0
+sfrt_hardstab_k15 [Random Forest],JM1,e,2,0.2
+sfrt_hardstab_k15 [Random Forest],JM1,b,10,1.0
+sfrt_hardstab_k15 [Random Forest],JM1,t,3,0.3
+sfrt_hardstab_k15 [Random Forest],JM1,lOCode,10,1.0
+sfrt_hardstab_k15 [Random Forest],JM1,lOComment,10,1.0
+sfrt_hardstab_k15 [Random Forest],JM1,lOBlank,10,1.0
+sfrt_hardstab_k15 [Random Forest],JM1,locCodeAndComment,0,0.0
+sfrt_hardstab_k15 [Random Forest],JM1,uniq_Op,10,1.0
+sfrt_hardstab_k15 [Random Forest],JM1,uniq_Opnd,10,1.0
+sfrt_hardstab_k15 [Random Forest],JM1,total_Op,8,0.8
+sfrt_hardstab_k15 [Random Forest],JM1,total_Opnd,10,1.0
+sfrt_hardstab_k15 [Random Forest],JM1,branchCount,4,0.4
+sfrt_hardstab_k15 [Random Forest],KC1,loc,10,1.0
+sfrt_hardstab_k15 [Random Forest],KC1,v(g),7,0.7
+sfrt_hardstab_k15 [Random Forest],KC1,ev(g),8,0.8
+sfrt_hardstab_k15 [Random Forest],KC1,iv(g),10,1.0
+sfrt_hardstab_k15 [Random Forest],KC1,n,0,0.0
+sfrt_hardstab_k15 [Random Forest],KC1,v,4,0.4
+sfrt_hardstab_k15 [Random Forest],KC1,l,9,0.9
+sfrt_hardstab_k15 [Random Forest],KC1,d,1,0.1
+sfrt_hardstab_k15 [Random Forest],KC1,i,10,1.0
+sfrt_hardstab_k15 [Random Forest],KC1,e,2,0.2
+sfrt_hardstab_k15 [Random Forest],KC1,b,10,1.0
+sfrt_hardstab_k15 [Random Forest],KC1,t,0,0.0
+sfrt_hardstab_k15 [Random Forest],KC1,lOCode,10,1.0
+sfrt_hardstab_k15 [Random Forest],KC1,lOComment,10,1.0
+sfrt_hardstab_k15 [Random Forest],KC1,lOBlank,10,1.0
+sfrt_hardstab_k15 [Random Forest],KC1,locCodeAndComment,10,1.0
+sfrt_hardstab_k15 [Random Forest],KC1,uniq_Op,10,1.0
+sfrt_hardstab_k15 [Random Forest],KC1,uniq_Opnd,10,1.0
+sfrt_hardstab_k15 [Random Forest],KC1,total_Op,7,0.7
+sfrt_hardstab_k15 [Random Forest],KC1,total_Opnd,7,0.7
+sfrt_hardstab_k15 [Random Forest],KC1,branchCount,5,0.5
+sfrt_hardstab_k15 [Random Forest],KC2,loc,10,1.0
+sfrt_hardstab_k15 [Random Forest],KC2,v(g),10,1.0
+sfrt_hardstab_k15 [Random Forest],KC2,ev(g),5,0.5
+sfrt_hardstab_k15 [Random Forest],KC2,iv(g),10,1.0
+sfrt_hardstab_k15 [Random Forest],KC2,n,0,0.0
+sfrt_hardstab_k15 [Random Forest],KC2,v,3,0.3
+sfrt_hardstab_k15 [Random Forest],KC2,l,10,1.0
+sfrt_hardstab_k15 [Random Forest],KC2,d,2,0.2
+sfrt_hardstab_k15 [Random Forest],KC2,i,10,1.0
+sfrt_hardstab_k15 [Random Forest],KC2,e,1,0.1
+sfrt_hardstab_k15 [Random Forest],KC2,b,10,1.0
+sfrt_hardstab_k15 [Random Forest],KC2,t,1,0.1
+sfrt_hardstab_k15 [Random Forest],KC2,lOCode,10,1.0
+sfrt_hardstab_k15 [Random Forest],KC2,lOComment,10,1.0
+sfrt_hardstab_k15 [Random Forest],KC2,lOBlank,10,1.0
+sfrt_hardstab_k15 [Random Forest],KC2,locCodeAndComment,10,1.0
+sfrt_hardstab_k15 [Random Forest],KC2,uniq_Op,10,1.0
+sfrt_hardstab_k15 [Random Forest],KC2,uniq_Opnd,10,1.0
+sfrt_hardstab_k15 [Random Forest],KC2,total_Op,5,0.5
+sfrt_hardstab_k15 [Random Forest],KC2,total_Opnd,3,0.3
+sfrt_hardstab_k15 [Random Forest],KC2,branchCount,10,1.0
+sfrt_hardstab_k15 [Random Forest],PC1,loc,10,1.0
+sfrt_hardstab_k15 [Random Forest],PC1,v(g),10,1.0
+sfrt_hardstab_k15 [Random Forest],PC1,ev(g),7,0.7
+sfrt_hardstab_k15 [Random Forest],PC1,iv(g),10,1.0
+sfrt_hardstab_k15 [Random Forest],PC1,n,0,0.0
+sfrt_hardstab_k15 [Random Forest],PC1,v,6,0.6
+sfrt_hardstab_k15 [Random Forest],PC1,l,4,0.4
+sfrt_hardstab_k15 [Random Forest],PC1,d,0,0.0
+sfrt_hardstab_k15 [Random Forest],PC1,i,10,1.0
+sfrt_hardstab_k15 [Random Forest],PC1,e,4,0.4
+sfrt_hardstab_k15 [Random Forest],PC1,b,10,1.0
+sfrt_hardstab_k15 [Random Forest],PC1,t,3,0.3
+sfrt_hardstab_k15 [Random Forest],PC1,lOCode,10,1.0
+sfrt_hardstab_k15 [Random Forest],PC1,lOComment,10,1.0
+sfrt_hardstab_k15 [Random Forest],PC1,lOBlank,10,1.0
+sfrt_hardstab_k15 [Random Forest],PC1,locCodeAndComment,0,0.0
+sfrt_hardstab_k15 [Random Forest],PC1,uniq_Op,10,1.0
+sfrt_hardstab_k15 [Random Forest],PC1,uniq_Opnd,10,1.0
+sfrt_hardstab_k15 [Random Forest],PC1,total_Op,7,0.7
+sfrt_hardstab_k15 [Random Forest],PC1,total_Opnd,10,1.0
+sfrt_hardstab_k15 [Random Forest],PC1,branchCount,9,0.9
+sfrt_hardstab_k15 [XGBoost],CM1,loc,10,1.0
+sfrt_hardstab_k15 [XGBoost],CM1,v(g),9,0.9
+sfrt_hardstab_k15 [XGBoost],CM1,ev(g),10,1.0
+sfrt_hardstab_k15 [XGBoost],CM1,iv(g),10,1.0
+sfrt_hardstab_k15 [XGBoost],CM1,n,0,0.0
+sfrt_hardstab_k15 [XGBoost],CM1,v,0,0.0
+sfrt_hardstab_k15 [XGBoost],CM1,l,4,0.4
+sfrt_hardstab_k15 [XGBoost],CM1,d,7,0.7
+sfrt_hardstab_k15 [XGBoost],CM1,i,10,1.0
+sfrt_hardstab_k15 [XGBoost],CM1,e,9,0.9
+sfrt_hardstab_k15 [XGBoost],CM1,b,1,0.1
+sfrt_hardstab_k15 [XGBoost],CM1,t,0,0.0
+sfrt_hardstab_k15 [XGBoost],CM1,lOCode,1,0.1
+sfrt_hardstab_k15 [XGBoost],CM1,lOComment,10,1.0
+sfrt_hardstab_k15 [XGBoost],CM1,lOBlank,10,1.0
+sfrt_hardstab_k15 [XGBoost],CM1,locCodeAndComment,10,1.0
+sfrt_hardstab_k15 [XGBoost],CM1,uniq_Op,10,1.0
+sfrt_hardstab_k15 [XGBoost],CM1,uniq_Opnd,10,1.0
+sfrt_hardstab_k15 [XGBoost],CM1,total_Op,9,0.9
+sfrt_hardstab_k15 [XGBoost],CM1,total_Opnd,10,1.0
+sfrt_hardstab_k15 [XGBoost],CM1,branchCount,10,1.0
+sfrt_hardstab_k15 [XGBoost],JM1,loc,10,1.0
+sfrt_hardstab_k15 [XGBoost],JM1,v(g),9,0.9
+sfrt_hardstab_k15 [XGBoost],JM1,ev(g),10,1.0
+sfrt_hardstab_k15 [XGBoost],JM1,iv(g),10,1.0
+sfrt_hardstab_k15 [XGBoost],JM1,n,0,0.0
+sfrt_hardstab_k15 [XGBoost],JM1,v,0,0.0
+sfrt_hardstab_k15 [XGBoost],JM1,l,8,0.8
+sfrt_hardstab_k15 [XGBoost],JM1,d,1,0.1
+sfrt_hardstab_k15 [XGBoost],JM1,i,10,1.0
+sfrt_hardstab_k15 [XGBoost],JM1,e,5,0.5
+sfrt_hardstab_k15 [XGBoost],JM1,b,10,1.0
+sfrt_hardstab_k15 [XGBoost],JM1,t,0,0.0
+sfrt_hardstab_k15 [XGBoost],JM1,lOCode,10,1.0
+sfrt_hardstab_k15 [XGBoost],JM1,lOComment,10,1.0
+sfrt_hardstab_k15 [XGBoost],JM1,lOBlank,10,1.0
+sfrt_hardstab_k15 [XGBoost],JM1,locCodeAndComment,1,0.1
+sfrt_hardstab_k15 [XGBoost],JM1,uniq_Op,10,1.0
+sfrt_hardstab_k15 [XGBoost],JM1,uniq_Opnd,10,1.0
+sfrt_hardstab_k15 [XGBoost],JM1,total_Op,8,0.8
+sfrt_hardstab_k15 [XGBoost],JM1,total_Opnd,10,1.0
+sfrt_hardstab_k15 [XGBoost],JM1,branchCount,8,0.8
+sfrt_hardstab_k15 [XGBoost],KC1,loc,10,1.0
+sfrt_hardstab_k15 [XGBoost],KC1,v(g),9,0.9
+sfrt_hardstab_k15 [XGBoost],KC1,ev(g),10,1.0
+sfrt_hardstab_k15 [XGBoost],KC1,iv(g),10,1.0
+sfrt_hardstab_k15 [XGBoost],KC1,n,0,0.0
+sfrt_hardstab_k15 [XGBoost],KC1,v,0,0.0
+sfrt_hardstab_k15 [XGBoost],KC1,l,3,0.3
+sfrt_hardstab_k15 [XGBoost],KC1,d,2,0.2
+sfrt_hardstab_k15 [XGBoost],KC1,i,10,1.0
+sfrt_hardstab_k15 [XGBoost],KC1,e,1,0.1
+sfrt_hardstab_k15 [XGBoost],KC1,b,9,0.9
+sfrt_hardstab_k15 [XGBoost],KC1,t,0,0.0
+sfrt_hardstab_k15 [XGBoost],KC1,lOCode,7,0.7
+sfrt_hardstab_k15 [XGBoost],KC1,lOComment,10,1.0
+sfrt_hardstab_k15 [XGBoost],KC1,lOBlank,10,1.0
+sfrt_hardstab_k15 [XGBoost],KC1,locCodeAndComment,10,1.0
+sfrt_hardstab_k15 [XGBoost],KC1,uniq_Op,10,1.0
+sfrt_hardstab_k15 [XGBoost],KC1,uniq_Opnd,10,1.0
+sfrt_hardstab_k15 [XGBoost],KC1,total_Op,9,0.9
+sfrt_hardstab_k15 [XGBoost],KC1,total_Opnd,10,1.0
+sfrt_hardstab_k15 [XGBoost],KC1,branchCount,10,1.0
+sfrt_hardstab_k15 [XGBoost],KC2,loc,10,1.0
+sfrt_hardstab_k15 [XGBoost],KC2,v(g),10,1.0
+sfrt_hardstab_k15 [XGBoost],KC2,ev(g),10,1.0
+sfrt_hardstab_k15 [XGBoost],KC2,iv(g),10,1.0
+sfrt_hardstab_k15 [XGBoost],KC2,n,0,0.0
+sfrt_hardstab_k15 [XGBoost],KC2,v,0,0.0
+sfrt_hardstab_k15 [XGBoost],KC2,l,8,0.8
+sfrt_hardstab_k15 [XGBoost],KC2,d,4,0.4
+sfrt_hardstab_k15 [XGBoost],KC2,i,10,1.0
+sfrt_hardstab_k15 [XGBoost],KC2,e,0,0.0
+sfrt_hardstab_k15 [XGBoost],KC2,b,2,0.2
+sfrt_hardstab_k15 [XGBoost],KC2,t,0,0.0
+sfrt_hardstab_k15 [XGBoost],KC2,lOCode,10,1.0
+sfrt_hardstab_k15 [XGBoost],KC2,lOComment,10,1.0
+sfrt_hardstab_k15 [XGBoost],KC2,lOBlank,10,1.0
+sfrt_hardstab_k15 [XGBoost],KC2,locCodeAndComment,10,1.0
+sfrt_hardstab_k15 [XGBoost],KC2,uniq_Op,10,1.0
+sfrt_hardstab_k15 [XGBoost],KC2,uniq_Opnd,7,0.7
+sfrt_hardstab_k15 [XGBoost],KC2,total_Op,9,0.9
+sfrt_hardstab_k15 [XGBoost],KC2,total_Opnd,10,1.0
+sfrt_hardstab_k15 [XGBoost],KC2,branchCount,10,1.0
+sfrt_hardstab_k15 [XGBoost],PC1,loc,10,1.0
+sfrt_hardstab_k15 [XGBoost],PC1,v(g),10,1.0
+sfrt_hardstab_k15 [XGBoost],PC1,ev(g),10,1.0
+sfrt_hardstab_k15 [XGBoost],PC1,iv(g),10,1.0
+sfrt_hardstab_k15 [XGBoost],PC1,n,2,0.2
+sfrt_hardstab_k15 [XGBoost],PC1,v,0,0.0
+sfrt_hardstab_k15 [XGBoost],PC1,l,3,0.3
+sfrt_hardstab_k15 [XGBoost],PC1,d,6,0.6
+sfrt_hardstab_k15 [XGBoost],PC1,i,10,1.0
+sfrt_hardstab_k15 [XGBoost],PC1,e,3,0.3
+sfrt_hardstab_k15 [XGBoost],PC1,b,10,1.0
+sfrt_hardstab_k15 [XGBoost],PC1,t,0,0.0
+sfrt_hardstab_k15 [XGBoost],PC1,lOCode,10,1.0
+sfrt_hardstab_k15 [XGBoost],PC1,lOComment,10,1.0
+sfrt_hardstab_k15 [XGBoost],PC1,lOBlank,10,1.0
+sfrt_hardstab_k15 [XGBoost],PC1,locCodeAndComment,0,0.0
+sfrt_hardstab_k15 [XGBoost],PC1,uniq_Op,10,1.0
+sfrt_hardstab_k15 [XGBoost],PC1,uniq_Opnd,8,0.8
+sfrt_hardstab_k15 [XGBoost],PC1,total_Op,9,0.9
+sfrt_hardstab_k15 [XGBoost],PC1,total_Opnd,10,1.0
+sfrt_hardstab_k15 [XGBoost],PC1,branchCount,9,0.9
+sfrt_hardstab_k5 [Logistic Regression],CM1,loc,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],CM1,v(g),9,0.9
+sfrt_hardstab_k5 [Logistic Regression],CM1,ev(g),0,0.0
+sfrt_hardstab_k5 [Logistic Regression],CM1,iv(g),0,0.0
+sfrt_hardstab_k5 [Logistic Regression],CM1,n,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],CM1,v,1,0.1
+sfrt_hardstab_k5 [Logistic Regression],CM1,l,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],CM1,d,10,1.0
+sfrt_hardstab_k5 [Logistic Regression],CM1,i,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],CM1,e,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],CM1,b,10,1.0
+sfrt_hardstab_k5 [Logistic Regression],CM1,t,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],CM1,lOCode,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],CM1,lOComment,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],CM1,lOBlank,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],CM1,locCodeAndComment,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],CM1,uniq_Op,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],CM1,uniq_Opnd,10,1.0
+sfrt_hardstab_k5 [Logistic Regression],CM1,total_Op,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],CM1,total_Opnd,10,1.0
+sfrt_hardstab_k5 [Logistic Regression],CM1,branchCount,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],JM1,loc,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],JM1,v(g),2,0.2
+sfrt_hardstab_k5 [Logistic Regression],JM1,ev(g),0,0.0
+sfrt_hardstab_k5 [Logistic Regression],JM1,iv(g),2,0.2
+sfrt_hardstab_k5 [Logistic Regression],JM1,n,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],JM1,v,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],JM1,l,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],JM1,d,10,1.0
+sfrt_hardstab_k5 [Logistic Regression],JM1,i,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],JM1,e,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],JM1,b,7,0.7
+sfrt_hardstab_k5 [Logistic Regression],JM1,t,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],JM1,lOCode,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],JM1,lOComment,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],JM1,lOBlank,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],JM1,locCodeAndComment,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],JM1,uniq_Op,10,1.0
+sfrt_hardstab_k5 [Logistic Regression],JM1,uniq_Opnd,10,1.0
+sfrt_hardstab_k5 [Logistic Regression],JM1,total_Op,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],JM1,total_Opnd,9,0.9
+sfrt_hardstab_k5 [Logistic Regression],JM1,branchCount,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC1,loc,1,0.1
+sfrt_hardstab_k5 [Logistic Regression],KC1,v(g),5,0.5
+sfrt_hardstab_k5 [Logistic Regression],KC1,ev(g),0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC1,iv(g),0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC1,n,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC1,v,1,0.1
+sfrt_hardstab_k5 [Logistic Regression],KC1,l,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC1,d,7,0.7
+sfrt_hardstab_k5 [Logistic Regression],KC1,i,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC1,e,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC1,b,2,0.2
+sfrt_hardstab_k5 [Logistic Regression],KC1,t,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC1,lOCode,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC1,lOComment,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC1,lOBlank,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC1,locCodeAndComment,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC1,uniq_Op,10,1.0
+sfrt_hardstab_k5 [Logistic Regression],KC1,uniq_Opnd,10,1.0
+sfrt_hardstab_k5 [Logistic Regression],KC1,total_Op,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC1,total_Opnd,10,1.0
+sfrt_hardstab_k5 [Logistic Regression],KC1,branchCount,4,0.4
+sfrt_hardstab_k5 [Logistic Regression],KC2,loc,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC2,v(g),10,1.0
+sfrt_hardstab_k5 [Logistic Regression],KC2,ev(g),0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC2,iv(g),0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC2,n,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC2,v,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC2,l,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC2,d,10,1.0
+sfrt_hardstab_k5 [Logistic Regression],KC2,i,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC2,e,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC2,b,3,0.3
+sfrt_hardstab_k5 [Logistic Regression],KC2,t,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC2,lOCode,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC2,lOComment,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC2,lOBlank,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC2,locCodeAndComment,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC2,uniq_Op,5,0.5
+sfrt_hardstab_k5 [Logistic Regression],KC2,uniq_Opnd,10,1.0
+sfrt_hardstab_k5 [Logistic Regression],KC2,total_Op,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],KC2,total_Opnd,9,0.9
+sfrt_hardstab_k5 [Logistic Regression],KC2,branchCount,3,0.3
+sfrt_hardstab_k5 [Logistic Regression],PC1,loc,1,0.1
+sfrt_hardstab_k5 [Logistic Regression],PC1,v(g),10,1.0
+sfrt_hardstab_k5 [Logistic Regression],PC1,ev(g),0,0.0
+sfrt_hardstab_k5 [Logistic Regression],PC1,iv(g),0,0.0
+sfrt_hardstab_k5 [Logistic Regression],PC1,n,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],PC1,v,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],PC1,l,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],PC1,d,7,0.7
+sfrt_hardstab_k5 [Logistic Regression],PC1,i,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],PC1,e,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],PC1,b,5,0.5
+sfrt_hardstab_k5 [Logistic Regression],PC1,t,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],PC1,lOCode,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],PC1,lOComment,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],PC1,lOBlank,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],PC1,locCodeAndComment,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],PC1,uniq_Op,0,0.0
+sfrt_hardstab_k5 [Logistic Regression],PC1,uniq_Opnd,10,1.0
+sfrt_hardstab_k5 [Logistic Regression],PC1,total_Op,7,0.7
+sfrt_hardstab_k5 [Logistic Regression],PC1,total_Opnd,10,1.0
+sfrt_hardstab_k5 [Logistic Regression],PC1,branchCount,0,0.0
+sfrt_hardstab_k5 [MLP],CM1,loc,0,0.0
+sfrt_hardstab_k5 [MLP],CM1,v(g),1,0.1
+sfrt_hardstab_k5 [MLP],CM1,ev(g),0,0.0
+sfrt_hardstab_k5 [MLP],CM1,iv(g),0,0.0
+sfrt_hardstab_k5 [MLP],CM1,n,3,0.3
+sfrt_hardstab_k5 [MLP],CM1,v,0,0.0
+sfrt_hardstab_k5 [MLP],CM1,l,0,0.0
+sfrt_hardstab_k5 [MLP],CM1,d,9,0.9
+sfrt_hardstab_k5 [MLP],CM1,i,6,0.6
+sfrt_hardstab_k5 [MLP],CM1,e,0,0.0
+sfrt_hardstab_k5 [MLP],CM1,b,2,0.2
+sfrt_hardstab_k5 [MLP],CM1,t,0,0.0
+sfrt_hardstab_k5 [MLP],CM1,lOCode,0,0.0
+sfrt_hardstab_k5 [MLP],CM1,lOComment,0,0.0
+sfrt_hardstab_k5 [MLP],CM1,lOBlank,9,0.9
+sfrt_hardstab_k5 [MLP],CM1,locCodeAndComment,1,0.1
+sfrt_hardstab_k5 [MLP],CM1,uniq_Op,8,0.8
+sfrt_hardstab_k5 [MLP],CM1,uniq_Opnd,7,0.7
+sfrt_hardstab_k5 [MLP],CM1,total_Op,0,0.0
+sfrt_hardstab_k5 [MLP],CM1,total_Opnd,1,0.1
+sfrt_hardstab_k5 [MLP],CM1,branchCount,3,0.3
+sfrt_hardstab_k5 [MLP],JM1,loc,0,0.0
+sfrt_hardstab_k5 [MLP],JM1,v(g),2,0.2
+sfrt_hardstab_k5 [MLP],JM1,ev(g),0,0.0
+sfrt_hardstab_k5 [MLP],JM1,iv(g),0,0.0
+sfrt_hardstab_k5 [MLP],JM1,n,4,0.4
+sfrt_hardstab_k5 [MLP],JM1,v,0,0.0
+sfrt_hardstab_k5 [MLP],JM1,l,1,0.1
+sfrt_hardstab_k5 [MLP],JM1,d,6,0.6
+sfrt_hardstab_k5 [MLP],JM1,i,5,0.5
+sfrt_hardstab_k5 [MLP],JM1,e,0,0.0
+sfrt_hardstab_k5 [MLP],JM1,b,5,0.5
+sfrt_hardstab_k5 [MLP],JM1,t,0,0.0
+sfrt_hardstab_k5 [MLP],JM1,lOCode,0,0.0
+sfrt_hardstab_k5 [MLP],JM1,lOComment,2,0.2
+sfrt_hardstab_k5 [MLP],JM1,lOBlank,4,0.4
+sfrt_hardstab_k5 [MLP],JM1,locCodeAndComment,0,0.0
+sfrt_hardstab_k5 [MLP],JM1,uniq_Op,9,0.9
+sfrt_hardstab_k5 [MLP],JM1,uniq_Opnd,8,0.8
+sfrt_hardstab_k5 [MLP],JM1,total_Op,0,0.0
+sfrt_hardstab_k5 [MLP],JM1,total_Opnd,0,0.0
+sfrt_hardstab_k5 [MLP],JM1,branchCount,4,0.4
+sfrt_hardstab_k5 [MLP],KC1,loc,3,0.3
+sfrt_hardstab_k5 [MLP],KC1,v(g),1,0.1
+sfrt_hardstab_k5 [MLP],KC1,ev(g),0,0.0
+sfrt_hardstab_k5 [MLP],KC1,iv(g),0,0.0
+sfrt_hardstab_k5 [MLP],KC1,n,2,0.2
+sfrt_hardstab_k5 [MLP],KC1,v,0,0.0
+sfrt_hardstab_k5 [MLP],KC1,l,0,0.0
+sfrt_hardstab_k5 [MLP],KC1,d,7,0.7
+sfrt_hardstab_k5 [MLP],KC1,i,6,0.6
+sfrt_hardstab_k5 [MLP],KC1,e,0,0.0
+sfrt_hardstab_k5 [MLP],KC1,b,0,0.0
+sfrt_hardstab_k5 [MLP],KC1,t,0,0.0
+sfrt_hardstab_k5 [MLP],KC1,lOCode,0,0.0
+sfrt_hardstab_k5 [MLP],KC1,lOComment,2,0.2
+sfrt_hardstab_k5 [MLP],KC1,lOBlank,9,0.9
+sfrt_hardstab_k5 [MLP],KC1,locCodeAndComment,0,0.0
+sfrt_hardstab_k5 [MLP],KC1,uniq_Op,10,1.0
+sfrt_hardstab_k5 [MLP],KC1,uniq_Opnd,5,0.5
+sfrt_hardstab_k5 [MLP],KC1,total_Op,0,0.0
+sfrt_hardstab_k5 [MLP],KC1,total_Opnd,0,0.0
+sfrt_hardstab_k5 [MLP],KC1,branchCount,5,0.5
+sfrt_hardstab_k5 [MLP],KC2,loc,1,0.1
+sfrt_hardstab_k5 [MLP],KC2,v(g),1,0.1
+sfrt_hardstab_k5 [MLP],KC2,ev(g),0,0.0
+sfrt_hardstab_k5 [MLP],KC2,iv(g),0,0.0
+sfrt_hardstab_k5 [MLP],KC2,n,2,0.2
+sfrt_hardstab_k5 [MLP],KC2,v,0,0.0
+sfrt_hardstab_k5 [MLP],KC2,l,1,0.1
+sfrt_hardstab_k5 [MLP],KC2,d,9,0.9
+sfrt_hardstab_k5 [MLP],KC2,i,6,0.6
+sfrt_hardstab_k5 [MLP],KC2,e,0,0.0
+sfrt_hardstab_k5 [MLP],KC2,b,1,0.1
+sfrt_hardstab_k5 [MLP],KC2,t,0,0.0
+sfrt_hardstab_k5 [MLP],KC2,lOCode,0,0.0
+sfrt_hardstab_k5 [MLP],KC2,lOComment,0,0.0
+sfrt_hardstab_k5 [MLP],KC2,lOBlank,8,0.8
+sfrt_hardstab_k5 [MLP],KC2,locCodeAndComment,0,0.0
+sfrt_hardstab_k5 [MLP],KC2,uniq_Op,10,1.0
+sfrt_hardstab_k5 [MLP],KC2,uniq_Opnd,5,0.5
+sfrt_hardstab_k5 [MLP],KC2,total_Op,0,0.0
+sfrt_hardstab_k5 [MLP],KC2,total_Opnd,0,0.0
+sfrt_hardstab_k5 [MLP],KC2,branchCount,6,0.6
+sfrt_hardstab_k5 [MLP],PC1,loc,3,0.3
+sfrt_hardstab_k5 [MLP],PC1,v(g),1,0.1
+sfrt_hardstab_k5 [MLP],PC1,ev(g),2,0.2
+sfrt_hardstab_k5 [MLP],PC1,iv(g),0,0.0
+sfrt_hardstab_k5 [MLP],PC1,n,4,0.4
+sfrt_hardstab_k5 [MLP],PC1,v,1,0.1
+sfrt_hardstab_k5 [MLP],PC1,l,0,0.0
+sfrt_hardstab_k5 [MLP],PC1,d,6,0.6
+sfrt_hardstab_k5 [MLP],PC1,i,5,0.5
+sfrt_hardstab_k5 [MLP],PC1,e,0,0.0
+sfrt_hardstab_k5 [MLP],PC1,b,2,0.2
+sfrt_hardstab_k5 [MLP],PC1,t,0,0.0
+sfrt_hardstab_k5 [MLP],PC1,lOCode,0,0.0
+sfrt_hardstab_k5 [MLP],PC1,lOComment,2,0.2
+sfrt_hardstab_k5 [MLP],PC1,lOBlank,4,0.4
+sfrt_hardstab_k5 [MLP],PC1,locCodeAndComment,0,0.0
+sfrt_hardstab_k5 [MLP],PC1,uniq_Op,9,0.9
+sfrt_hardstab_k5 [MLP],PC1,uniq_Opnd,6,0.6
+sfrt_hardstab_k5 [MLP],PC1,total_Op,0,0.0
+sfrt_hardstab_k5 [MLP],PC1,total_Opnd,1,0.1
+sfrt_hardstab_k5 [MLP],PC1,branchCount,4,0.4
+sfrt_hardstab_k5 [Random Forest],CM1,loc,10,1.0
+sfrt_hardstab_k5 [Random Forest],CM1,v(g),0,0.0
+sfrt_hardstab_k5 [Random Forest],CM1,ev(g),0,0.0
+sfrt_hardstab_k5 [Random Forest],CM1,iv(g),2,0.2
+sfrt_hardstab_k5 [Random Forest],CM1,n,0,0.0
+sfrt_hardstab_k5 [Random Forest],CM1,v,0,0.0
+sfrt_hardstab_k5 [Random Forest],CM1,l,0,0.0
+sfrt_hardstab_k5 [Random Forest],CM1,d,0,0.0
+sfrt_hardstab_k5 [Random Forest],CM1,i,9,0.9
+sfrt_hardstab_k5 [Random Forest],CM1,e,0,0.0
+sfrt_hardstab_k5 [Random Forest],CM1,b,3,0.3
+sfrt_hardstab_k5 [Random Forest],CM1,t,0,0.0
+sfrt_hardstab_k5 [Random Forest],CM1,lOCode,0,0.0
+sfrt_hardstab_k5 [Random Forest],CM1,lOComment,5,0.5
+sfrt_hardstab_k5 [Random Forest],CM1,lOBlank,10,1.0
+sfrt_hardstab_k5 [Random Forest],CM1,locCodeAndComment,0,0.0
+sfrt_hardstab_k5 [Random Forest],CM1,uniq_Op,0,0.0
+sfrt_hardstab_k5 [Random Forest],CM1,uniq_Opnd,10,1.0
+sfrt_hardstab_k5 [Random Forest],CM1,total_Op,0,0.0
+sfrt_hardstab_k5 [Random Forest],CM1,total_Opnd,1,0.1
+sfrt_hardstab_k5 [Random Forest],CM1,branchCount,0,0.0
+sfrt_hardstab_k5 [Random Forest],JM1,loc,7,0.7
+sfrt_hardstab_k5 [Random Forest],JM1,v(g),0,0.0
+sfrt_hardstab_k5 [Random Forest],JM1,ev(g),0,0.0
+sfrt_hardstab_k5 [Random Forest],JM1,iv(g),0,0.0
+sfrt_hardstab_k5 [Random Forest],JM1,n,0,0.0
+sfrt_hardstab_k5 [Random Forest],JM1,v,0,0.0
+sfrt_hardstab_k5 [Random Forest],JM1,l,0,0.0
+sfrt_hardstab_k5 [Random Forest],JM1,d,0,0.0
+sfrt_hardstab_k5 [Random Forest],JM1,i,6,0.6
+sfrt_hardstab_k5 [Random Forest],JM1,e,0,0.0
+sfrt_hardstab_k5 [Random Forest],JM1,b,10,1.0
+sfrt_hardstab_k5 [Random Forest],JM1,t,0,0.0
+sfrt_hardstab_k5 [Random Forest],JM1,lOCode,0,0.0
+sfrt_hardstab_k5 [Random Forest],JM1,lOComment,7,0.7
+sfrt_hardstab_k5 [Random Forest],JM1,lOBlank,10,1.0
+sfrt_hardstab_k5 [Random Forest],JM1,locCodeAndComment,0,0.0
+sfrt_hardstab_k5 [Random Forest],JM1,uniq_Op,0,0.0
+sfrt_hardstab_k5 [Random Forest],JM1,uniq_Opnd,10,1.0
+sfrt_hardstab_k5 [Random Forest],JM1,total_Op,0,0.0
+sfrt_hardstab_k5 [Random Forest],JM1,total_Opnd,0,0.0
+sfrt_hardstab_k5 [Random Forest],JM1,branchCount,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC1,loc,10,1.0
+sfrt_hardstab_k5 [Random Forest],KC1,v(g),0,0.0
+sfrt_hardstab_k5 [Random Forest],KC1,ev(g),0,0.0
+sfrt_hardstab_k5 [Random Forest],KC1,iv(g),7,0.7
+sfrt_hardstab_k5 [Random Forest],KC1,n,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC1,v,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC1,l,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC1,d,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC1,i,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC1,e,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC1,b,3,0.3
+sfrt_hardstab_k5 [Random Forest],KC1,t,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC1,lOCode,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC1,lOComment,10,1.0
+sfrt_hardstab_k5 [Random Forest],KC1,lOBlank,10,1.0
+sfrt_hardstab_k5 [Random Forest],KC1,locCodeAndComment,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC1,uniq_Op,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC1,uniq_Opnd,10,1.0
+sfrt_hardstab_k5 [Random Forest],KC1,total_Op,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC1,total_Opnd,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC1,branchCount,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC2,loc,10,1.0
+sfrt_hardstab_k5 [Random Forest],KC2,v(g),0,0.0
+sfrt_hardstab_k5 [Random Forest],KC2,ev(g),0,0.0
+sfrt_hardstab_k5 [Random Forest],KC2,iv(g),10,1.0
+sfrt_hardstab_k5 [Random Forest],KC2,n,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC2,v,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC2,l,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC2,d,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC2,i,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC2,e,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC2,b,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC2,t,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC2,lOCode,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC2,lOComment,10,1.0
+sfrt_hardstab_k5 [Random Forest],KC2,lOBlank,10,1.0
+sfrt_hardstab_k5 [Random Forest],KC2,locCodeAndComment,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC2,uniq_Op,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC2,uniq_Opnd,10,1.0
+sfrt_hardstab_k5 [Random Forest],KC2,total_Op,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC2,total_Opnd,0,0.0
+sfrt_hardstab_k5 [Random Forest],KC2,branchCount,0,0.0
+sfrt_hardstab_k5 [Random Forest],PC1,loc,10,1.0
+sfrt_hardstab_k5 [Random Forest],PC1,v(g),0,0.0
+sfrt_hardstab_k5 [Random Forest],PC1,ev(g),0,0.0
+sfrt_hardstab_k5 [Random Forest],PC1,iv(g),10,1.0
+sfrt_hardstab_k5 [Random Forest],PC1,n,0,0.0
+sfrt_hardstab_k5 [Random Forest],PC1,v,0,0.0
+sfrt_hardstab_k5 [Random Forest],PC1,l,0,0.0
+sfrt_hardstab_k5 [Random Forest],PC1,d,0,0.0
+sfrt_hardstab_k5 [Random Forest],PC1,i,0,0.0
+sfrt_hardstab_k5 [Random Forest],PC1,e,0,0.0
+sfrt_hardstab_k5 [Random Forest],PC1,b,8,0.8
+sfrt_hardstab_k5 [Random Forest],PC1,t,0,0.0
+sfrt_hardstab_k5 [Random Forest],PC1,lOCode,0,0.0
+sfrt_hardstab_k5 [Random Forest],PC1,lOComment,2,0.2
+sfrt_hardstab_k5 [Random Forest],PC1,lOBlank,10,1.0
+sfrt_hardstab_k5 [Random Forest],PC1,locCodeAndComment,0,0.0
+sfrt_hardstab_k5 [Random Forest],PC1,uniq_Op,0,0.0
+sfrt_hardstab_k5 [Random Forest],PC1,uniq_Opnd,10,1.0
+sfrt_hardstab_k5 [Random Forest],PC1,total_Op,0,0.0
+sfrt_hardstab_k5 [Random Forest],PC1,total_Opnd,0,0.0
+sfrt_hardstab_k5 [Random Forest],PC1,branchCount,0,0.0
+sfrt_hardstab_k5 [XGBoost],CM1,loc,4,0.4
+sfrt_hardstab_k5 [XGBoost],CM1,v(g),0,0.0
+sfrt_hardstab_k5 [XGBoost],CM1,ev(g),3,0.3
+sfrt_hardstab_k5 [XGBoost],CM1,iv(g),1,0.1
+sfrt_hardstab_k5 [XGBoost],CM1,n,0,0.0
+sfrt_hardstab_k5 [XGBoost],CM1,v,0,0.0
+sfrt_hardstab_k5 [XGBoost],CM1,l,0,0.0
+sfrt_hardstab_k5 [XGBoost],CM1,d,0,0.0
+sfrt_hardstab_k5 [XGBoost],CM1,i,9,0.9
+sfrt_hardstab_k5 [XGBoost],CM1,e,0,0.0
+sfrt_hardstab_k5 [XGBoost],CM1,b,0,0.0
+sfrt_hardstab_k5 [XGBoost],CM1,t,0,0.0
+sfrt_hardstab_k5 [XGBoost],CM1,lOCode,0,0.0
+sfrt_hardstab_k5 [XGBoost],CM1,lOComment,9,0.9
+sfrt_hardstab_k5 [XGBoost],CM1,lOBlank,10,1.0
+sfrt_hardstab_k5 [XGBoost],CM1,locCodeAndComment,1,0.1
+sfrt_hardstab_k5 [XGBoost],CM1,uniq_Op,8,0.8
+sfrt_hardstab_k5 [XGBoost],CM1,uniq_Opnd,1,0.1
+sfrt_hardstab_k5 [XGBoost],CM1,total_Op,0,0.0
+sfrt_hardstab_k5 [XGBoost],CM1,total_Opnd,4,0.4
+sfrt_hardstab_k5 [XGBoost],CM1,branchCount,0,0.0
+sfrt_hardstab_k5 [XGBoost],JM1,loc,6,0.6
+sfrt_hardstab_k5 [XGBoost],JM1,v(g),0,0.0
+sfrt_hardstab_k5 [XGBoost],JM1,ev(g),0,0.0
+sfrt_hardstab_k5 [XGBoost],JM1,iv(g),0,0.0
+sfrt_hardstab_k5 [XGBoost],JM1,n,0,0.0
+sfrt_hardstab_k5 [XGBoost],JM1,v,0,0.0
+sfrt_hardstab_k5 [XGBoost],JM1,l,0,0.0
+sfrt_hardstab_k5 [XGBoost],JM1,d,0,0.0
+sfrt_hardstab_k5 [XGBoost],JM1,i,10,1.0
+sfrt_hardstab_k5 [XGBoost],JM1,e,0,0.0
+sfrt_hardstab_k5 [XGBoost],JM1,b,0,0.0
+sfrt_hardstab_k5 [XGBoost],JM1,t,0,0.0
+sfrt_hardstab_k5 [XGBoost],JM1,lOCode,0,0.0
+sfrt_hardstab_k5 [XGBoost],JM1,lOComment,10,1.0
+sfrt_hardstab_k5 [XGBoost],JM1,lOBlank,10,1.0
+sfrt_hardstab_k5 [XGBoost],JM1,locCodeAndComment,0,0.0
+sfrt_hardstab_k5 [XGBoost],JM1,uniq_Op,10,1.0
+sfrt_hardstab_k5 [XGBoost],JM1,uniq_Opnd,2,0.2
+sfrt_hardstab_k5 [XGBoost],JM1,total_Op,0,0.0
+sfrt_hardstab_k5 [XGBoost],JM1,total_Opnd,2,0.2
+sfrt_hardstab_k5 [XGBoost],JM1,branchCount,0,0.0
+sfrt_hardstab_k5 [XGBoost],KC1,loc,10,1.0
+sfrt_hardstab_k5 [XGBoost],KC1,v(g),0,0.0
+sfrt_hardstab_k5 [XGBoost],KC1,ev(g),2,0.2
+sfrt_hardstab_k5 [XGBoost],KC1,iv(g),8,0.8
+sfrt_hardstab_k5 [XGBoost],KC1,n,0,0.0
+sfrt_hardstab_k5 [XGBoost],KC1,v,0,0.0
+sfrt_hardstab_k5 [XGBoost],KC1,l,0,0.0
+sfrt_hardstab_k5 [XGBoost],KC1,d,0,0.0
+sfrt_hardstab_k5 [XGBoost],KC1,i,6,0.6
+sfrt_hardstab_k5 [XGBoost],KC1,e,0,0.0
+sfrt_hardstab_k5 [XGBoost],KC1,b,0,0.0
+sfrt_hardstab_k5 [XGBoost],KC1,t,0,0.0
+sfrt_hardstab_k5 [XGBoost],KC1,lOCode,0,0.0
+sfrt_hardstab_k5 [XGBoost],KC1,lOComment,10,1.0
+sfrt_hardstab_k5 [XGBoost],KC1,lOBlank,10,1.0
+sfrt_hardstab_k5 [XGBoost],KC1,locCodeAndComment,0,0.0
+sfrt_hardstab_k5 [XGBoost],KC1,uniq_Op,3,0.3
+sfrt_hardstab_k5 [XGBoost],KC1,uniq_Opnd,0,0.0
+sfrt_hardstab_k5 [XGBoost],KC1,total_Op,0,0.0
+sfrt_hardstab_k5 [XGBoost],KC1,total_Opnd,0,0.0
+sfrt_hardstab_k5 [XGBoost],KC1,branchCount,1,0.1
+sfrt_hardstab_k5 [XGBoost],KC2,loc,10,1.0
+sfrt_hardstab_k5 [XGBoost],KC2,v(g),0,0.0
+sfrt_hardstab_k5 [XGBoost],KC2,ev(g),0,0.0
+sfrt_hardstab_k5 [XGBoost],KC2,iv(g),10,1.0
+sfrt_hardstab_k5 [XGBoost],KC2,n,0,0.0
+sfrt_hardstab_k5 [XGBoost],KC2,v,0,0.0
+sfrt_hardstab_k5 [XGBoost],KC2,l,0,0.0
+sfrt_hardstab_k5 [XGBoost],KC2,d,0,0.0
+sfrt_hardstab_k5 [XGBoost],KC2,i,9,0.9
+sfrt_hardstab_k5 [XGBoost],KC2,e,0,0.0
+sfrt_hardstab_k5 [XGBoost],KC2,b,0,0.0
+sfrt_hardstab_k5 [XGBoost],KC2,t,0,0.0
+sfrt_hardstab_k5 [XGBoost],KC2,lOCode,0,0.0
+sfrt_hardstab_k5 [XGBoost],KC2,lOComment,10,1.0
+sfrt_hardstab_k5 [XGBoost],KC2,lOBlank,10,1.0
+sfrt_hardstab_k5 [XGBoost],KC2,locCodeAndComment,0,0.0
+sfrt_hardstab_k5 [XGBoost],KC2,uniq_Op,1,0.1
+sfrt_hardstab_k5 [XGBoost],KC2,uniq_Opnd,0,0.0
+sfrt_hardstab_k5 [XGBoost],KC2,total_Op,0,0.0
+sfrt_hardstab_k5 [XGBoost],KC2,total_Opnd,0,0.0
+sfrt_hardstab_k5 [XGBoost],KC2,branchCount,0,0.0
+sfrt_hardstab_k5 [XGBoost],PC1,loc,10,1.0
+sfrt_hardstab_k5 [XGBoost],PC1,v(g),5,0.5
+sfrt_hardstab_k5 [XGBoost],PC1,ev(g),2,0.2
+sfrt_hardstab_k5 [XGBoost],PC1,iv(g),3,0.3
+sfrt_hardstab_k5 [XGBoost],PC1,n,0,0.0
+sfrt_hardstab_k5 [XGBoost],PC1,v,0,0.0
+sfrt_hardstab_k5 [XGBoost],PC1,l,0,0.0
+sfrt_hardstab_k5 [XGBoost],PC1,d,0,0.0
+sfrt_hardstab_k5 [XGBoost],PC1,i,6,0.6
+sfrt_hardstab_k5 [XGBoost],PC1,e,0,0.0
+sfrt_hardstab_k5 [XGBoost],PC1,b,0,0.0
+sfrt_hardstab_k5 [XGBoost],PC1,t,0,0.0
+sfrt_hardstab_k5 [XGBoost],PC1,lOCode,1,0.1
+sfrt_hardstab_k5 [XGBoost],PC1,lOComment,10,1.0
+sfrt_hardstab_k5 [XGBoost],PC1,lOBlank,10,1.0
+sfrt_hardstab_k5 [XGBoost],PC1,locCodeAndComment,0,0.0
+sfrt_hardstab_k5 [XGBoost],PC1,uniq_Op,1,0.1
+sfrt_hardstab_k5 [XGBoost],PC1,uniq_Opnd,0,0.0
+sfrt_hardstab_k5 [XGBoost],PC1,total_Op,0,0.0
+sfrt_hardstab_k5 [XGBoost],PC1,total_Opnd,2,0.2
+sfrt_hardstab_k5 [XGBoost],PC1,branchCount,0,0.0
+variance_k10,CM1,loc,0,0.0
+variance_k10,CM1,v(g),0,0.0
+variance_k10,CM1,ev(g),10,1.0
+variance_k10,CM1,iv(g),0,0.0
+variance_k10,CM1,n,10,1.0
+variance_k10,CM1,v,10,1.0
+variance_k10,CM1,l,0,0.0
+variance_k10,CM1,d,10,1.0
+variance_k10,CM1,i,10,1.0
+variance_k10,CM1,e,10,1.0
+variance_k10,CM1,b,0,0.0
+variance_k10,CM1,t,10,1.0
+variance_k10,CM1,lOCode,0,0.0
+variance_k10,CM1,lOComment,10,1.0
+variance_k10,CM1,lOBlank,0,0.0
+variance_k10,CM1,locCodeAndComment,0,0.0
+variance_k10,CM1,uniq_Op,0,0.0
+variance_k10,CM1,uniq_Opnd,0,0.0
+variance_k10,CM1,total_Op,10,1.0
+variance_k10,CM1,total_Opnd,10,1.0
+variance_k10,CM1,branchCount,0,0.0
+variance_k10,JM1,loc,0,0.0
+variance_k10,JM1,v(g),10,1.0
+variance_k10,JM1,ev(g),0,0.0
+variance_k10,JM1,iv(g),0,0.0
+variance_k10,JM1,n,0,0.0
+variance_k10,JM1,v,10,1.0
+variance_k10,JM1,l,0,0.0
+variance_k10,JM1,d,0,0.0
+variance_k10,JM1,i,0,0.0
+variance_k10,JM1,e,10,1.0
+variance_k10,JM1,b,0,0.0
+variance_k10,JM1,t,10,1.0
+variance_k10,JM1,lOCode,10,1.0
+variance_k10,JM1,lOComment,10,1.0
+variance_k10,JM1,lOBlank,10,1.0
+variance_k10,JM1,locCodeAndComment,0,0.0
+variance_k10,JM1,uniq_Op,0,0.0
+variance_k10,JM1,uniq_Opnd,0,0.0
+variance_k10,JM1,total_Op,10,1.0
+variance_k10,JM1,total_Opnd,10,1.0
+variance_k10,JM1,branchCount,10,1.0
+variance_k10,KC1,loc,0,0.0
+variance_k10,KC1,v(g),0,0.0
+variance_k10,KC1,ev(g),0,0.0
+variance_k10,KC1,iv(g),0,0.0
+variance_k10,KC1,n,10,1.0
+variance_k10,KC1,v,10,1.0
+variance_k10,KC1,l,0,0.0
+variance_k10,KC1,d,10,1.0
+variance_k10,KC1,i,10,1.0
+variance_k10,KC1,e,10,1.0
+variance_k10,KC1,b,0,0.0
+variance_k10,KC1,t,10,1.0
+variance_k10,KC1,lOCode,10,1.0
+variance_k10,KC1,lOComment,10,1.0
+variance_k10,KC1,lOBlank,0,0.0
+variance_k10,KC1,locCodeAndComment,0,0.0
+variance_k10,KC1,uniq_Op,0,0.0
+variance_k10,KC1,uniq_Opnd,0,0.0
+variance_k10,KC1,total_Op,10,1.0
+variance_k10,KC1,total_Opnd,10,1.0
+variance_k10,KC1,branchCount,0,0.0
+variance_k10,KC2,loc,0,0.0
+variance_k10,KC2,v(g),0,0.0
+variance_k10,KC2,ev(g),0,0.0
+variance_k10,KC2,iv(g),0,0.0
+variance_k10,KC2,n,10,1.0
+variance_k10,KC2,v,10,1.0
+variance_k10,KC2,l,0,0.0
+variance_k10,KC2,d,10,1.0
+variance_k10,KC2,i,10,1.0
+variance_k10,KC2,e,10,1.0
+variance_k10,KC2,b,0,0.0
+variance_k10,KC2,t,10,1.0
+variance_k10,KC2,lOCode,10,1.0
+variance_k10,KC2,lOComment,10,1.0
+variance_k10,KC2,lOBlank,0,0.0
+variance_k10,KC2,locCodeAndComment,0,0.0
+variance_k10,KC2,uniq_Op,0,0.0
+variance_k10,KC2,uniq_Opnd,0,0.0
+variance_k10,KC2,total_Op,10,1.0
+variance_k10,KC2,total_Opnd,10,1.0
+variance_k10,KC2,branchCount,0,0.0
+variance_k10,PC1,loc,0,0.0
+variance_k10,PC1,v(g),0,0.0
+variance_k10,PC1,ev(g),0,0.0
+variance_k10,PC1,iv(g),0,0.0
+variance_k10,PC1,n,10,1.0
+variance_k10,PC1,v,10,1.0
+variance_k10,PC1,l,0,0.0
+variance_k10,PC1,d,10,1.0
+variance_k10,PC1,i,10,1.0
+variance_k10,PC1,e,10,1.0
+variance_k10,PC1,b,0,0.0
+variance_k10,PC1,t,10,1.0
+variance_k10,PC1,lOCode,10,1.0
+variance_k10,PC1,lOComment,10,1.0
+variance_k10,PC1,lOBlank,0,0.0
+variance_k10,PC1,locCodeAndComment,0,0.0
+variance_k10,PC1,uniq_Op,0,0.0
+variance_k10,PC1,uniq_Opnd,0,0.0
+variance_k10,PC1,total_Op,10,1.0
+variance_k10,PC1,total_Opnd,10,1.0
+variance_k10,PC1,branchCount,0,0.0
+variance_k15,CM1,loc,0,0.0
+variance_k15,CM1,v(g),10,1.0
+variance_k15,CM1,ev(g),10,1.0
+variance_k15,CM1,iv(g),0,0.0
+variance_k15,CM1,n,10,1.0
+variance_k15,CM1,v,10,1.0
+variance_k15,CM1,l,0,0.0
+variance_k15,CM1,d,10,1.0
+variance_k15,CM1,i,10,1.0
+variance_k15,CM1,e,10,1.0
+variance_k15,CM1,b,0,0.0
+variance_k15,CM1,t,10,1.0
+variance_k15,CM1,lOCode,10,1.0
+variance_k15,CM1,lOComment,10,1.0
+variance_k15,CM1,lOBlank,10,1.0
+variance_k15,CM1,locCodeAndComment,0,0.0
+variance_k15,CM1,uniq_Op,0,0.0
+variance_k15,CM1,uniq_Opnd,10,1.0
+variance_k15,CM1,total_Op,10,1.0
+variance_k15,CM1,total_Opnd,10,1.0
+variance_k15,CM1,branchCount,10,1.0
+variance_k15,JM1,loc,0,0.0
+variance_k15,JM1,v(g),10,1.0
+variance_k15,JM1,ev(g),10,1.0
+variance_k15,JM1,iv(g),10,1.0
+variance_k15,JM1,n,10,1.0
+variance_k15,JM1,v,10,1.0
+variance_k15,JM1,l,0,0.0
+variance_k15,JM1,d,10,1.0
+variance_k15,JM1,i,0,0.0
+variance_k15,JM1,e,10,1.0
+variance_k15,JM1,b,0,0.0
+variance_k15,JM1,t,10,1.0
+variance_k15,JM1,lOCode,10,1.0
+variance_k15,JM1,lOComment,10,1.0
+variance_k15,JM1,lOBlank,10,1.0
+variance_k15,JM1,locCodeAndComment,0,0.0
+variance_k15,JM1,uniq_Op,0,0.0
+variance_k15,JM1,uniq_Opnd,10,1.0
+variance_k15,JM1,total_Op,10,1.0
+variance_k15,JM1,total_Opnd,10,1.0
+variance_k15,JM1,branchCount,10,1.0
+variance_k15,KC1,loc,0,0.0
+variance_k15,KC1,v(g),0,0.0
+variance_k15,KC1,ev(g),10,1.0
+variance_k15,KC1,iv(g),0,0.0
+variance_k15,KC1,n,10,1.0
+variance_k15,KC1,v,10,1.0
+variance_k15,KC1,l,0,0.0
+variance_k15,KC1,d,10,1.0
+variance_k15,KC1,i,10,1.0
+variance_k15,KC1,e,10,1.0
+variance_k15,KC1,b,0,0.0
+variance_k15,KC1,t,10,1.0
+variance_k15,KC1,lOCode,10,1.0
+variance_k15,KC1,lOComment,10,1.0
+variance_k15,KC1,lOBlank,10,1.0
+variance_k15,KC1,locCodeAndComment,0,0.0
+variance_k15,KC1,uniq_Op,10,1.0
+variance_k15,KC1,uniq_Opnd,10,1.0
+variance_k15,KC1,total_Op,10,1.0
+variance_k15,KC1,total_Opnd,10,1.0
+variance_k15,KC1,branchCount,10,1.0
+variance_k15,KC2,loc,0,0.0
+variance_k15,KC2,v(g),10,1.0
+variance_k15,KC2,ev(g),10,1.0
+variance_k15,KC2,iv(g),0,0.0
+variance_k15,KC2,n,10,1.0
+variance_k15,KC2,v,10,1.0
+variance_k15,KC2,l,0,0.0
+variance_k15,KC2,d,10,1.0
+variance_k15,KC2,i,10,1.0
+variance_k15,KC2,e,10,1.0
+variance_k15,KC2,b,0,0.0
+variance_k15,KC2,t,10,1.0
+variance_k15,KC2,lOCode,10,1.0
+variance_k15,KC2,lOComment,10,1.0
+variance_k15,KC2,lOBlank,10,1.0
+variance_k15,KC2,locCodeAndComment,0,0.0
+variance_k15,KC2,uniq_Op,0,0.0
+variance_k15,KC2,uniq_Opnd,10,1.0
+variance_k15,KC2,total_Op,10,1.0
+variance_k15,KC2,total_Opnd,10,1.0
+variance_k15,KC2,branchCount,10,1.0
+variance_k15,PC1,loc,0,0.0
+variance_k15,PC1,v(g),0,0.0
+variance_k15,PC1,ev(g),10,1.0
+variance_k15,PC1,iv(g),0,0.0
+variance_k15,PC1,n,10,1.0
+variance_k15,PC1,v,10,1.0
+variance_k15,PC1,l,0,0.0
+variance_k15,PC1,d,10,1.0
+variance_k15,PC1,i,10,1.0
+variance_k15,PC1,e,10,1.0
+variance_k15,PC1,b,0,0.0
+variance_k15,PC1,t,10,1.0
+variance_k15,PC1,lOCode,10,1.0
+variance_k15,PC1,lOComment,10,1.0
+variance_k15,PC1,lOBlank,10,1.0
+variance_k15,PC1,locCodeAndComment,0,0.0
+variance_k15,PC1,uniq_Op,10,1.0
+variance_k15,PC1,uniq_Opnd,10,1.0
+variance_k15,PC1,total_Op,10,1.0
+variance_k15,PC1,total_Opnd,10,1.0
+variance_k15,PC1,branchCount,10,1.0
+variance_k5,CM1,loc,0,0.0
+variance_k5,CM1,v(g),0,0.0
+variance_k5,CM1,ev(g),0,0.0
+variance_k5,CM1,iv(g),0,0.0
+variance_k5,CM1,n,10,1.0
+variance_k5,CM1,v,10,1.0
+variance_k5,CM1,l,0,0.0
+variance_k5,CM1,d,0,0.0
+variance_k5,CM1,i,10,1.0
+variance_k5,CM1,e,10,1.0
+variance_k5,CM1,b,0,0.0
+variance_k5,CM1,t,0,0.0
+variance_k5,CM1,lOCode,0,0.0
+variance_k5,CM1,lOComment,0,0.0
+variance_k5,CM1,lOBlank,0,0.0
+variance_k5,CM1,locCodeAndComment,0,0.0
+variance_k5,CM1,uniq_Op,0,0.0
+variance_k5,CM1,uniq_Opnd,0,0.0
+variance_k5,CM1,total_Op,0,0.0
+variance_k5,CM1,total_Opnd,10,1.0
+variance_k5,CM1,branchCount,0,0.0
+variance_k5,JM1,loc,0,0.0
+variance_k5,JM1,v(g),0,0.0
+variance_k5,JM1,ev(g),0,0.0
+variance_k5,JM1,iv(g),0,0.0
+variance_k5,JM1,n,0,0.0
+variance_k5,JM1,v,0,0.0
+variance_k5,JM1,l,0,0.0
+variance_k5,JM1,d,0,0.0
+variance_k5,JM1,i,0,0.0
+variance_k5,JM1,e,0,0.0
+variance_k5,JM1,b,0,0.0
+variance_k5,JM1,t,10,1.0
+variance_k5,JM1,lOCode,10,1.0
+variance_k5,JM1,lOComment,10,1.0
+variance_k5,JM1,lOBlank,10,1.0
+variance_k5,JM1,locCodeAndComment,0,0.0
+variance_k5,JM1,uniq_Op,0,0.0
+variance_k5,JM1,uniq_Opnd,0,0.0
+variance_k5,JM1,total_Op,0,0.0
+variance_k5,JM1,total_Opnd,0,0.0
+variance_k5,JM1,branchCount,10,1.0
+variance_k5,KC1,loc,0,0.0
+variance_k5,KC1,v(g),0,0.0
+variance_k5,KC1,ev(g),0,0.0
+variance_k5,KC1,iv(g),0,0.0
+variance_k5,KC1,n,0,0.0
+variance_k5,KC1,v,10,1.0
+variance_k5,KC1,l,0,0.0
+variance_k5,KC1,d,0,0.0
+variance_k5,KC1,i,10,1.0
+variance_k5,KC1,e,10,1.0
+variance_k5,KC1,b,0,0.0
+variance_k5,KC1,t,0,0.0
+variance_k5,KC1,lOCode,0,0.0
+variance_k5,KC1,lOComment,10,1.0
+variance_k5,KC1,lOBlank,0,0.0
+variance_k5,KC1,locCodeAndComment,0,0.0
+variance_k5,KC1,uniq_Op,0,0.0
+variance_k5,KC1,uniq_Opnd,0,0.0
+variance_k5,KC1,total_Op,0,0.0
+variance_k5,KC1,total_Opnd,10,1.0
+variance_k5,KC1,branchCount,0,0.0
+variance_k5,KC2,loc,0,0.0
+variance_k5,KC2,v(g),0,0.0
+variance_k5,KC2,ev(g),0,0.0
+variance_k5,KC2,iv(g),0,0.0
+variance_k5,KC2,n,0,0.0
+variance_k5,KC2,v,10,1.0
+variance_k5,KC2,l,0,0.0
+variance_k5,KC2,d,0,0.0
+variance_k5,KC2,i,10,1.0
+variance_k5,KC2,e,10,1.0
+variance_k5,KC2,b,0,0.0
+variance_k5,KC2,t,0,0.0
+variance_k5,KC2,lOCode,0,0.0
+variance_k5,KC2,lOComment,10,1.0
+variance_k5,KC2,lOBlank,0,0.0
+variance_k5,KC2,locCodeAndComment,0,0.0
+variance_k5,KC2,uniq_Op,0,0.0
+variance_k5,KC2,uniq_Opnd,0,0.0
+variance_k5,KC2,total_Op,0,0.0
+variance_k5,KC2,total_Opnd,10,1.0
+variance_k5,KC2,branchCount,0,0.0
+variance_k5,PC1,loc,0,0.0
+variance_k5,PC1,v(g),0,0.0
+variance_k5,PC1,ev(g),0,0.0
+variance_k5,PC1,iv(g),0,0.0
+variance_k5,PC1,n,10,1.0
+variance_k5,PC1,v,10,1.0
+variance_k5,PC1,l,0,0.0
+variance_k5,PC1,d,0,0.0
+variance_k5,PC1,i,10,1.0
+variance_k5,PC1,e,10,1.0
+variance_k5,PC1,b,0,0.0
+variance_k5,PC1,t,0,0.0
+variance_k5,PC1,lOCode,0,0.0
+variance_k5,PC1,lOComment,0,0.0
+variance_k5,PC1,lOBlank,0,0.0
+variance_k5,PC1,locCodeAndComment,0,0.0
+variance_k5,PC1,uniq_Op,0,0.0
+variance_k5,PC1,uniq_Opnd,0,0.0
+variance_k5,PC1,total_Op,0,0.0
+variance_k5,PC1,total_Opnd,10,1.0
+variance_k5,PC1,branchCount,0,0.0

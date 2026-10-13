@@ -1,0 +1,17 @@
+Classifier,Metric,Role,Chi_square,p,MeanRank_unweighted,MeanRank_variance_k10,MeanRank_mutualinfo_k10,MeanRank_sfrt_soft,MeanRank_sfrt_hard_k10
+Logistic Regression,AUC-PR,PRIMARY,10.68,0.0136,2.4,4.0,1.4,2.2,
+Logistic Regression,MCC,PRIMARY,0.6,0.8964,2.2,2.8,2.6,2.4,
+Logistic Regression,F1,secondary,4.2,0.2407,2.2,3.4,1.8,2.6,
+Logistic Regression,AUC-ROC,secondary,7.32,0.0624,2.4,3.6,1.4,2.6,
+Random Forest,AUC-PR,PRIMARY,1.32,0.7244,2.2,2.6,3.0,,2.2
+Random Forest,MCC,PRIMARY,3.96,0.2658,2.6,1.6,3.2,,2.6
+Random Forest,F1,secondary,2.52,0.4717,2.0,2.6,2.2,,3.2
+Random Forest,AUC-ROC,secondary,9.0,0.0293,1.2,2.4,3.6,,2.8
+XGBoost,AUC-PR,PRIMARY,7.8,0.0503,3.4,1.6,1.8,,3.2
+XGBoost,MCC,PRIMARY,4.92,0.1777,3.4,1.8,2.0,,2.8
+XGBoost,F1,secondary,2.52,0.4717,3.0,2.4,1.8,,2.8
+XGBoost,AUC-ROC,secondary,3.96,0.2658,2.4,1.8,2.4,,3.4
+MLP,AUC-PR,PRIMARY,11.88,0.0078,3.4,2.2,1.0,3.4,
+MLP,MCC,PRIMARY,13.56,0.0036,3.4,2.0,1.0,3.6,
+MLP,F1,secondary,11.88,0.0078,3.4,2.2,1.0,3.4,
+MLP,AUC-ROC,secondary,13.56,0.0036,3.4,2.0,1.0,3.6,

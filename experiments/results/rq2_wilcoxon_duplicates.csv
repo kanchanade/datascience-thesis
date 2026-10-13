@@ -1,0 +1,33 @@
+Classifier,Metric,Role,SFRT,Comparator,Targets_improved_of_5,Mean_difference,p_one_sided,Effect_rank_biserial,Significant_0.05
+Logistic Regression,AUC-PR,PRIMARY,sfrt_soft,unweighted,1,-0.0066,0.9688,-0.87,False
+Logistic Regression,AUC-PR,PRIMARY,sfrt_soft,mutualinfo_k10,0,-0.0273,1.0,-1.0,False
+Logistic Regression,MCC,PRIMARY,sfrt_soft,unweighted,1,-0.0064,0.9688,-0.87,False
+Logistic Regression,MCC,PRIMARY,sfrt_soft,mutualinfo_k10,1,-0.0212,0.9375,-0.73,False
+Logistic Regression,F1,secondary,sfrt_soft,unweighted,1,-0.0049,0.9688,-0.87,False
+Logistic Regression,F1,secondary,sfrt_soft,mutualinfo_k10,1,-0.014,0.9062,-0.6,False
+Logistic Regression,AUC-ROC,secondary,sfrt_soft,unweighted,1,-0.0047,0.9688,-0.87,False
+Logistic Regression,AUC-ROC,secondary,sfrt_soft,mutualinfo_k10,0,-0.0258,1.0,-1.0,False
+Random Forest,AUC-PR,PRIMARY,sfrt_hard_k10,unweighted,2,-0.0002,0.5938,-0.07,False
+Random Forest,AUC-PR,PRIMARY,sfrt_hard_k10,mutualinfo_k10,3,0.0106,0.1562,0.6,False
+Random Forest,MCC,PRIMARY,sfrt_hard_k10,unweighted,3,0.0082,0.4062,0.2,False
+Random Forest,MCC,PRIMARY,sfrt_hard_k10,mutualinfo_k10,2,0.0194,0.5938,-0.07,False
+Random Forest,F1,secondary,sfrt_hard_k10,unweighted,2,0.0033,0.5938,-0.07,False
+Random Forest,F1,secondary,sfrt_hard_k10,mutualinfo_k10,1,0.001,0.7812,-0.33,False
+Random Forest,AUC-ROC,secondary,sfrt_hard_k10,unweighted,1,-0.0159,0.9688,-0.87,False
+Random Forest,AUC-ROC,secondary,sfrt_hard_k10,mutualinfo_k10,3,0.0157,0.1562,0.6,False
+XGBoost,AUC-PR,PRIMARY,sfrt_hard_k10,unweighted,4,0.0089,0.0625,0.87,False
+XGBoost,AUC-PR,PRIMARY,sfrt_hard_k10,mutualinfo_k10,3,0.0058,0.5,0.07,False
+XGBoost,MCC,PRIMARY,sfrt_hard_k10,unweighted,2,0.0114,0.4062,0.2,False
+XGBoost,MCC,PRIMARY,sfrt_hard_k10,mutualinfo_k10,2,0.0064,0.4062,0.2,False
+XGBoost,F1,secondary,sfrt_hard_k10,unweighted,3,0.0071,0.4062,0.2,False
+XGBoost,F1,secondary,sfrt_hard_k10,mutualinfo_k10,2,-0.0193,0.9062,-0.6,False
+XGBoost,AUC-ROC,secondary,sfrt_hard_k10,unweighted,2,-0.0085,0.7812,-0.33,False
+XGBoost,AUC-ROC,secondary,sfrt_hard_k10,mutualinfo_k10,2,0.0004,0.5,0.07,False
+MLP,AUC-PR,PRIMARY,sfrt_soft,unweighted,3,0.0036,0.4062,0.2,False
+MLP,AUC-PR,PRIMARY,sfrt_soft,mutualinfo_k10,0,-0.0582,1.0,-1.0,False
+MLP,MCC,PRIMARY,sfrt_soft,unweighted,4,0.0162,0.0625,0.87,False
+MLP,MCC,PRIMARY,sfrt_soft,mutualinfo_k10,0,-0.0644,1.0,-1.0,False
+MLP,F1,secondary,sfrt_soft,unweighted,3,0.0136,0.1562,0.6,False
+MLP,F1,secondary,sfrt_soft,mutualinfo_k10,0,-0.0521,1.0,-1.0,False
+MLP,AUC-ROC,secondary,sfrt_soft,unweighted,3,0.0064,0.3125,0.33,False
+MLP,AUC-ROC,secondary,sfrt_soft,mutualinfo_k10,0,-0.0846,1.0,-1.0,False

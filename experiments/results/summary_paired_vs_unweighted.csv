@@ -1,0 +1,57 @@
+Classifier,Method,MCC_mean_change,MCC_seeds_better,AUC-PR_mean_change,AUC-PR_seeds_better
+Logistic Regression,mutualinfo_k10,0.015,10/10,0.021,10/10
+Logistic Regression,mutualinfo_k15,0.019,10/10,0.016,10/10
+Logistic Regression,mutualinfo_k5,0.013,9/10,0.018,10/10
+Logistic Regression,sfrt_hard_k10,-0.003,4/10,-0.006,1/10
+Logistic Regression,sfrt_hard_k15,0.006,9/10,0.003,7/10
+Logistic Regression,sfrt_hard_k5,0.007,9/10,-0.002,2/10
+Logistic Regression,sfrt_hardstab_k10,-0.005,3/10,-0.004,5/10
+Logistic Regression,sfrt_hardstab_k15,0.005,6/10,0.003,6/10
+Logistic Regression,sfrt_hardstab_k5,0.004,7/10,-0.003,2/10
+Logistic Regression,sfrt_soft,-0.006,1/10,-0.007,0/10
+Logistic Regression,sfrt_softsharp,-0.004,5/10,-0.006,1/10
+Logistic Regression,sfrt_softstab,-0.006,2/10,-0.006,0/10
+Logistic Regression,variance_k10,-0.012,0/10,-0.009,0/10
+Logistic Regression,variance_k15,-0.009,1/10,-0.017,0/10
+Logistic Regression,variance_k5,-0.014,0/10,-0.013,0/10
+MLP,mutualinfo_k10,0.081,10/10,0.062,10/10
+MLP,mutualinfo_k15,0.075,10/10,0.05,10/10
+MLP,mutualinfo_k5,0.092,10/10,0.064,10/10
+MLP,sfrt_hard_k10,0.031,9/10,0.018,8/10
+MLP,sfrt_hard_k15,0.012,7/10,0.004,6/10
+MLP,sfrt_hard_k5,0.06,10/10,0.037,9/10
+MLP,sfrt_hardstab_k10,0.042,9/10,0.022,8/10
+MLP,sfrt_hardstab_k15,0.008,5/10,0.003,6/10
+MLP,sfrt_hardstab_k5,0.065,10/10,0.037,9/10
+MLP,sfrt_soft,0.016,7/10,0.004,5/10
+MLP,sfrt_softsharp,0.029,8/10,0.015,9/10
+MLP,sfrt_softstab,0.007,6/10,0.005,7/10
+MLP,variance_k10,0.052,10/10,0.021,8/10
+MLP,variance_k15,0.011,6/10,-0.001,4/10
+MLP,variance_k5,0.069,10/10,0.032,10/10
+Random Forest,mutualinfo_k10,-0.011,2/10,-0.011,1/10
+Random Forest,mutualinfo_k15,-0.003,5/10,-0.007,1/10
+Random Forest,mutualinfo_k5,-0.024,2/10,-0.033,0/10
+Random Forest,sfrt_hard_k10,0.008,7/10,-0.0,4/10
+Random Forest,sfrt_hard_k15,-0.009,4/10,0.002,6/10
+Random Forest,sfrt_hard_k5,-0.027,0/10,-0.038,0/10
+Random Forest,sfrt_hardstab_k10,-0.004,5/10,-0.003,4/10
+Random Forest,sfrt_hardstab_k15,-0.012,2/10,-0.0,5/10
+Random Forest,sfrt_hardstab_k5,-0.004,4/10,-0.023,0/10
+Random Forest,variance_k10,0.002,4/10,-0.025,0/10
+Random Forest,variance_k15,-0.013,1/10,-0.017,0/10
+Random Forest,variance_k5,-0.014,0/10,-0.046,0/10
+XGBoost,mutualinfo_k10,0.005,6/10,0.003,5/10
+XGBoost,mutualinfo_k15,0.016,7/10,0.01,8/10
+XGBoost,mutualinfo_k5,0.009,6/10,-0.001,3/10
+XGBoost,sfrt_hard_k10,0.011,6/10,0.009,9/10
+XGBoost,sfrt_hard_k15,0.007,6/10,-0.0,6/10
+XGBoost,sfrt_hard_k5,0.008,6/10,-0.01,3/10
+XGBoost,sfrt_hardstab_k10,0.014,8/10,0.007,10/10
+XGBoost,sfrt_hardstab_k15,0.011,8/10,0.005,7/10
+XGBoost,sfrt_hardstab_k5,0.017,7/10,0.009,8/10
+XGBoost,variance_k10,-0.001,5/10,0.003,5/10
+XGBoost,variance_k15,-0.016,3/10,-0.011,3/10
+XGBoost,variance_k5,-0.005,4/10,-0.019,0/10
+XGBoost,xgb_sampling_sfrt,-0.01,2/10,-0.005,3/10
+XGBoost,xgb_sampling_uniform,-0.002,4/10,0.001,6/10

@@ -1,0 +1,21 @@
+Classifier,Source,Mean_Spearman_with_other_sources
+Logistic Regression,CM1,0.23
+Logistic Regression,JM1,0.05
+Logistic Regression,KC1,0.05
+Logistic Regression,KC2,0.13
+Logistic Regression,PC1,0.11
+Random Forest,CM1,0.31
+Random Forest,JM1,0.19
+Random Forest,KC1,0.01
+Random Forest,KC2,0.16
+Random Forest,PC1,0.25
+XGBoost,CM1,0.45
+XGBoost,JM1,0.45
+XGBoost,KC1,0.49
+XGBoost,KC2,0.48
+XGBoost,PC1,0.52
+MLP,CM1,0.24
+MLP,JM1,0.31
+MLP,KC1,0.26
+MLP,KC2,0.37
+MLP,PC1,0.38

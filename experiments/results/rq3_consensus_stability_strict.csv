@@ -1,0 +1,141 @@
+Method,Classifier,Target,k,Mean_pairwise_Jaccard_over_seeds
+mutual information,(any),CM1,5,0.49135802469135803
+variance,(any),CM1,5,1.0
+mutual information,(any),CM1,10,0.7691271691271692
+variance,(any),CM1,10,1.0
+SFRT consensus (mean importance),Logistic Regression,CM1,5,0.7259259259259261
+SFRT consensus (rank / Borda),Logistic Regression,CM1,5,0.6338624338624338
+mean-vs-Borda agreement (same seed),Logistic Regression,CM1,5,0.6190476190476191
+SFRT consensus (mean importance),Logistic Regression,CM1,10,0.7925925925925927
+SFRT consensus (rank / Borda),Logistic Regression,CM1,10,0.6661486661486662
+mean-vs-Borda agreement (same seed),Logistic Regression,CM1,10,0.8030303030303031
+SFRT consensus (mean importance),Random Forest,CM1,5,0.7682539682539685
+SFRT consensus (rank / Borda),Random Forest,CM1,5,0.5796296296296296
+mean-vs-Borda agreement (same seed),Random Forest,CM1,5,0.5714285714285714
+SFRT consensus (mean importance),Random Forest,CM1,10,0.7925925925925928
+SFRT consensus (rank / Borda),Random Forest,CM1,10,0.7149961149961152
+mean-vs-Borda agreement (same seed),Random Forest,CM1,10,0.8393939393939395
+SFRT consensus (mean importance),XGBoost,CM1,5,0.8296296296296294
+SFRT consensus (rank / Borda),XGBoost,CM1,5,0.7798941798941795
+mean-vs-Borda agreement (same seed),XGBoost,CM1,5,0.6666666666666667
+SFRT consensus (mean importance),XGBoost,CM1,10,0.8606060606060607
+SFRT consensus (rank / Borda),XGBoost,CM1,10,0.7860657860657861
+mean-vs-Borda agreement (same seed),XGBoost,CM1,10,0.8727272727272728
+SFRT consensus (mean importance),MLP,CM1,5,0.4974426807760141
+SFRT consensus (rank / Borda),MLP,CM1,5,0.4170194003527336
+mean-vs-Borda agreement (same seed),MLP,CM1,5,0.7428571428571429
+SFRT consensus (mean importance),MLP,CM1,10,0.5833721833721833
+SFRT consensus (rank / Borda),MLP,CM1,10,0.5383283383283383
+mean-vs-Borda agreement (same seed),MLP,CM1,10,0.8363636363636365
+mutual information,(any),JM1,5,0.5047619047619047
+variance,(any),JM1,5,1.0
+mutual information,(any),JM1,10,0.6756206756206756
+variance,(any),JM1,10,1.0
+SFRT consensus (mean importance),Logistic Regression,JM1,5,0.9333333333333333
+SFRT consensus (rank / Borda),Logistic Regression,JM1,5,0.706878306878307
+mean-vs-Borda agreement (same seed),Logistic Regression,JM1,5,0.6761904761904762
+SFRT consensus (mean importance),Logistic Regression,JM1,10,0.8094276094276093
+SFRT consensus (rank / Borda),Logistic Regression,JM1,10,0.7447811447811448
+mean-vs-Borda agreement (same seed),Logistic Regression,JM1,10,0.787878787878788
+SFRT consensus (mean importance),Random Forest,JM1,5,0.7925925925925924
+SFRT consensus (rank / Borda),Random Forest,JM1,5,0.6084656084656085
+mean-vs-Borda agreement (same seed),Random Forest,JM1,5,0.7761904761904762
+SFRT consensus (mean importance),Random Forest,JM1,10,0.841750841750842
+SFRT consensus (rank / Borda),Random Forest,JM1,10,0.7804713804713804
+mean-vs-Borda agreement (same seed),Random Forest,JM1,10,0.7878787878787878
+SFRT consensus (mean importance),XGBoost,JM1,5,0.6529100529100528
+SFRT consensus (rank / Borda),XGBoost,JM1,5,0.7798941798941798
+mean-vs-Borda agreement (same seed),XGBoost,JM1,5,0.8666666666666666
+SFRT consensus (mean importance),XGBoost,JM1,10,0.8747474747474749
+SFRT consensus (rank / Borda),XGBoost,JM1,10,0.8498316498316499
+mean-vs-Borda agreement (same seed),XGBoost,JM1,10,0.809090909090909
+SFRT consensus (mean importance),MLP,JM1,5,0.49973544973544964
+SFRT consensus (rank / Borda),MLP,JM1,5,0.42786596119929443
+mean-vs-Borda agreement (same seed),MLP,JM1,5,0.6761904761904762
+SFRT consensus (mean importance),MLP,JM1,10,0.5663817663817664
+SFRT consensus (rank / Borda),MLP,JM1,10,0.5911051911051912
+mean-vs-Borda agreement (same seed),MLP,JM1,10,0.8575757575757577
+mutual information,(any),KC1,5,0.5597883597883598
+variance,(any),KC1,5,1.0
+mutual information,(any),KC1,10,0.7794871794871796
+variance,(any),KC1,10,1.0
+SFRT consensus (mean importance),Logistic Regression,KC1,5,0.6751322751322753
+SFRT consensus (rank / Borda),Logistic Regression,KC1,5,0.5571428571428569
+mean-vs-Borda agreement (same seed),Logistic Regression,KC1,5,0.5059523809523809
+SFRT consensus (mean importance),Logistic Regression,KC1,10,0.8121212121212124
+SFRT consensus (rank / Borda),Logistic Regression,KC1,10,0.7966329966329967
+mean-vs-Borda agreement (same seed),Logistic Regression,KC1,10,0.8545454545454547
+SFRT consensus (mean importance),Random Forest,KC1,5,0.7301587301587301
+SFRT consensus (rank / Borda),Random Forest,KC1,5,0.874074074074074
+mean-vs-Borda agreement (same seed),Random Forest,KC1,5,0.6428571428571429
+SFRT consensus (mean importance),Random Forest,KC1,10,0.8552188552188552
+SFRT consensus (rank / Borda),Random Forest,KC1,10,0.8316498316498316
+mean-vs-Borda agreement (same seed),Random Forest,KC1,10,0.8242424242424242
+SFRT consensus (mean importance),XGBoost,KC1,5,0.7481481481481481
+SFRT consensus (rank / Borda),XGBoost,KC1,5,0.8169312169312167
+mean-vs-Borda agreement (same seed),XGBoost,KC1,5,0.5714285714285714
+SFRT consensus (mean importance),XGBoost,KC1,10,0.8747474747474748
+SFRT consensus (rank / Borda),XGBoost,KC1,10,0.7872053872053874
+mean-vs-Borda agreement (same seed),XGBoost,KC1,10,0.8757575757575757
+SFRT consensus (mean importance),MLP,KC1,5,0.5365079365079365
+SFRT consensus (rank / Borda),MLP,KC1,5,0.4748677248677248
+mean-vs-Borda agreement (same seed),MLP,KC1,5,0.7666666666666666
+SFRT consensus (mean importance),MLP,KC1,10,0.6111666111666112
+SFRT consensus (rank / Borda),MLP,KC1,10,0.6377696377696378
+mean-vs-Borda agreement (same seed),MLP,KC1,10,0.8606060606060606
+mutual information,(any),KC2,5,0.4756613756613757
+variance,(any),KC2,5,1.0
+mutual information,(any),KC2,10,0.8343434343434344
+variance,(any),KC2,10,1.0
+SFRT consensus (mean importance),Logistic Regression,KC2,5,0.8148148148148147
+SFRT consensus (rank / Borda),Logistic Regression,KC2,5,0.6793650793650793
+mean-vs-Borda agreement (same seed),Logistic Regression,KC2,5,0.8333333333333334
+SFRT consensus (mean importance),Logistic Regression,KC2,10,0.7601139601139602
+SFRT consensus (rank / Borda),Logistic Regression,KC2,10,0.737943537943538
+mean-vs-Borda agreement (same seed),Logistic Regression,KC2,10,0.7575757575757576
+SFRT consensus (mean importance),Random Forest,KC2,5,0.7269841269841268
+SFRT consensus (rank / Borda),Random Forest,KC2,5,0.7555555555555554
+mean-vs-Borda agreement (same seed),Random Forest,KC2,5,0.7333333333333334
+SFRT consensus (mean importance),Random Forest,KC2,10,0.8828282828282832
+SFRT consensus (rank / Borda),Random Forest,KC2,10,0.8080808080808083
+mean-vs-Borda agreement (same seed),Random Forest,KC2,10,0.8545454545454547
+SFRT consensus (mean importance),XGBoost,KC2,5,0.7999999999999998
+SFRT consensus (rank / Borda),XGBoost,KC2,5,0.726984126984127
+mean-vs-Borda agreement (same seed),XGBoost,KC2,5,0.5476190476190477
+SFRT consensus (mean importance),XGBoost,KC2,10,0.8303030303030305
+SFRT consensus (rank / Borda),XGBoost,KC2,10,0.7452325452325452
+mean-vs-Borda agreement (same seed),XGBoost,KC2,10,0.7424242424242424
+SFRT consensus (mean importance),MLP,KC2,5,0.44744268077601407
+SFRT consensus (rank / Borda),MLP,KC2,5,0.36472663139329803
+mean-vs-Borda agreement (same seed),MLP,KC2,5,0.638095238095238
+SFRT consensus (mean importance),MLP,KC2,10,0.5992525992525994
+SFRT consensus (rank / Borda),MLP,KC2,10,0.5613645613645615
+mean-vs-Borda agreement (same seed),MLP,KC2,10,0.7424242424242424
+mutual information,(any),PC1,5,0.5404761904761904
+variance,(any),PC1,5,1.0
+mutual information,(any),PC1,10,0.7283087283087282
+variance,(any),PC1,10,1.0
+SFRT consensus (mean importance),Logistic Regression,PC1,5,0.7322751322751322
+SFRT consensus (rank / Borda),Logistic Regression,PC1,5,0.6539682539682541
+mean-vs-Borda agreement (same seed),Logistic Regression,PC1,5,0.7
+SFRT consensus (mean importance),Logistic Regression,PC1,10,0.8148148148148149
+SFRT consensus (rank / Borda),Logistic Regression,PC1,10,0.6797720797720799
+mean-vs-Borda agreement (same seed),Logistic Regression,PC1,10,0.7454545454545455
+SFRT consensus (mean importance),Random Forest,PC1,5,0.7851851851851849
+SFRT consensus (rank / Borda),Random Forest,PC1,5,0.6433862433862433
+mean-vs-Borda agreement (same seed),Random Forest,PC1,5,0.6428571428571429
+SFRT consensus (mean importance),Random Forest,PC1,10,0.7622895622895624
+SFRT consensus (rank / Borda),Random Forest,PC1,10,0.6867650867650869
+mean-vs-Borda agreement (same seed),Random Forest,PC1,10,0.8727272727272728
+SFRT consensus (mean importance),XGBoost,PC1,5,0.6560846560846562
+SFRT consensus (rank / Borda),XGBoost,PC1,5,0.6203703703703705
+mean-vs-Borda agreement (same seed),XGBoost,PC1,5,0.5630952380952381
+SFRT consensus (mean importance),XGBoost,PC1,10,0.892929292929293
+SFRT consensus (rank / Borda),XGBoost,PC1,10,0.7572649572649574
+mean-vs-Borda agreement (same seed),XGBoost,PC1,10,0.8727272727272728
+SFRT consensus (mean importance),MLP,PC1,5,0.3768959435626102
+SFRT consensus (rank / Borda),MLP,PC1,5,0.3838624338624338
+mean-vs-Borda agreement (same seed),MLP,PC1,5,0.6523809523809524
+SFRT consensus (mean importance),MLP,PC1,10,0.5791171791171792
+SFRT consensus (rank / Borda),MLP,PC1,10,0.5352647352647354
+mean-vs-Borda agreement (same seed),MLP,PC1,10,0.7878787878787878
