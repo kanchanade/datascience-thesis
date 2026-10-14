@@ -15,7 +15,7 @@ Python 3.11.
 ## Data
 The raw files are NOT in this repository (see .gitignore). Source: GitHub mirror
 https://github.com/ApoorvaKrisna/NASA-promise-dataset-repository
-(PROMISE software engineering repository). Retrieved <YYYY-MM-DD>, mirror commit
+(PROMISE software engineering repository). Retrieved 2026-09-27, mirror commit
 3898d21e287c130c76d458faf65793d32483076d. Full provenance, known data-quality issues and
 the reasons another source was rejected are in `docs/data_provenance.md`.
 
@@ -93,4 +93,4 @@ Not yet: charts for the final results; source-imbalance (equal rows per source) 
 because JM1 makes up most of the pooled training data.
 
 Older scripts from the first stage of the project (run_*.py, crossproject_*.py, baseline_*.py,
-sfrt_*.py) and their result files have been removed; `src/` supersedes them.
+sfrt_*.py) and their result files have been removed; `src/` supersedes them.git add -A
