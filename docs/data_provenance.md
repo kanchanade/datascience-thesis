@@ -4,7 +4,7 @@
 All five datasets (CM1, JM1, KC1, KC2, PC1) were sourced from a single GitHub mirror
 providing the datasets in the standard 21-metric PROMISE/tera-PROMISE schema:
 https://github.com/ApoorvaKrisna/NASA-promise-dataset-repository
-(retrieved <2021-02-03>, commit <full 3898d21e287c130c76d458faf65793d32483076d>).
+(retrieved 2026-09-27, commit <full 3898d21e287c130c76d458faf65793d32483076d>).
 
 ## Alternative source evaluated and rejected
 The Shepperd et al. (2013) NASA MDP repository (klainfo/NASADefectDataset on GitHub)
