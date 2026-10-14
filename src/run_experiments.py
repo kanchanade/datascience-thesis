@@ -8,8 +8,7 @@ Examples (run from the project folder):
     python src/run_experiments.py --level duplicates    # sensitivity analysis
     python src/run_experiments.py --methods unweighted mutualinfo_k10 --jobs 4
 
-It is safe to stop and restart: runs already in the output file are skipped.
-Results go to experiments/results/runs_<level>.csv
+Results in experiments/results/runs_<level>.csv
 """
 
 import argparse

@@ -2,9 +2,7 @@
 Shared evaluation module: ONE leave-one-project-out protocol used by every
 method (baselines now, SFRT next).
 
-Why this exists
----------------
-Dr Dang's review (Section 5, item 8) found ten near-identical scripts, and a
+Review document (Section 5, item 8) found ten near-identical scripts, and a
 hand edit that went wrong in one of them. Here the loading, pooling, scaling,
 SMOTE, training and scoring code is written ONCE. A method is just a
 "feature step" plugged into that protocol, so SFRT will later be evaluated by

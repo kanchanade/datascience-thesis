@@ -5,43 +5,6 @@ RQ3: how stable are SHAP feature-importance rankings?
          (a) different models trained on the same project, and
          (b) the same model type across different projects?
 
-What this script measures (no new model training - it reuses the per-source
-SHAP vectors cached by run_experiments.py; anything missing is computed):
-
-  NOISE FLOOR   same model, same project, different seed.
-                How much do the SHAP rankings move just because of random
-                choices (SMOTE, model start-up, SHAP sampling)? Nothing can
-                be expected to agree MORE than this.
-  RQ3(b)        same model type, different projects (same seed).
-  RQ3(a)        different model types, same project (same seed).
-  RANDOM        two random rankings, as the "no agreement at all" reference.
-
-Each comparison uses:
-  Spearman rank correlation of the two normalised importance vectors, and
-  the overlap (Jaccard) of the top-5 and top-10 features.
-Reading the numbers: if cross-project agreement is close to the noise floor,
-the projects agree about as well as a project agrees with ITSELF - the ranking
-differences are mostly noise. If it is far below the noise floor, the projects
-genuinely disagree about which features matter, and a consensus across them
-has less to agree on.
-
-Extra analyses (the review's Section 10):
-  * GROUPED: the 21 metrics are heavily correlated (e.g. loc, lOCode, n, v, b).
-    Highly correlated metrics are grouped (|Spearman| >= 0.9, average linkage)
-    and importance is summed inside each group, so SHAP spreading credit among
-    near-copies is not counted as disagreement.
-  * CONSENSUS STABILITY: how much the SFRT top-k set changes between seeds,
-    compared with mutual information. Also a rank-based (Borda) consensus
-    against the mean-importance consensus.
-  * OUTLIER SOURCE: how well each source project agrees with the others
-    (JM1 is 77-83% of the pooled data, so it matters whether it is the odd one out).
-
-Ties: tree models give exactly zero importance to unused features. Top-k sets
-break such ties by feature order, so top-k overlaps are slightly rough for
-Random Forest / XGBoost; Spearman handles ties properly.
-
-Run:  python src/analyse_rq3.py [--level strict] [--seeds 0-9]
-Writes experiments/results/rq3_*_<level>.csv
 """
 
 import argparse

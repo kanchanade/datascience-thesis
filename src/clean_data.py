@@ -1,38 +1,14 @@
 """
-Cleaning script: the ONLY place the "strict" cleaning rules are defined.
+Data cleaning script: the ONLY place the "strict" cleaning rules are defined.
 
-What it does, in plain words
-----------------------------
-The five files in data/processed/ (cm1_cleaned.csv, ...) have had exact
-duplicate rows removed already. Dr Dang's review (Section 6) found that
+
+The five files in data/processed/ (cm1 , jm1 ,kc1, kc2, pc1) have had exact
+duplicate rows removed already. Review document (Section 6) found that
 several data problems remain. This script removes them with clear, written
 rules, and records exactly how many rows each rule removed.
-
-It reads  : data/processed/{name}_cleaned.csv   (duplicates-only cleaning)
-It writes : data/final/{name}_strict.csv        (strict cleaning)
-            experiments/results/cleaning_log.csv (rows removed per rule)
-
-Both versions are kept on purpose: experiments can be run at either cleaning
-level (see run_experiments.py --level), so the effect of the cleaning choice
-can be reported as a sensitivity analysis.
-
-The five strict rules (after Shepperd et al., 2013, Data quality: Some
-comments on the NASA software defect datasets):
-  R1  Artefact row: all 21 features equal 1 (a placeholder row from the raw
-      files, labelled defective, left in every dataset).
-  R2  Conflicting labels: another row has IDENTICAL feature values but the
-      opposite defect label. Both rows are removed because the label cannot
-      be trusted.
-  R3  Implausible: Halstead length n = 0 although lines of code (loc) > 0.
-  R4  Inconsistent: n does not equal total_Op + total_Opnd (the Halstead
-      definition of length).
-  R5  Implausible: loc = 0.
-A row can break more than one rule; it is removed once and counted under
-every rule it breaks, so the per-rule counts can add up to more than the
-number of rows removed.
-
-Run from anywhere:   python src/clean_data.py
 """
+
+
 
 import argparse
 from pathlib import Path
