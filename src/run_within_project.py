@@ -1,29 +1,13 @@
 """
-Within-project evaluation (RQ1), on the same data, classifiers and metrics as
-the cross-project experiments, so the two settings can be compared directly.
+RQ1: within-project results, for comparison with the cross-project runs.
 
-    RQ1: How do standard classifiers perform for within-project versus
-         cross-project defect prediction?
-
-Protocol (same as the original Step 2 notebook, now seed-controlled):
-  * stratified 10-fold cross-validation INSIDE one project;
-  * per fold: scale (Logistic Regression and MLP only), SMOTE on the TRAINING
-    fold only, train, score on the untouched test fold;
-  * the seed sets the fold shuffle, SMOTE and the classifier;
-  * a project's score for one seed = the mean over its 10 folds.
-Ten seeds give the same seed-to-seed spread as the cross-project runs.
-
-Two comparability notes to state in the thesis:
-  * a within-project model trains on ~90% of ONE project; a cross-project model
-    trains on FOUR pooled projects (JM1-dominated). Sizes and mixes differ.
-  * random folds can put near-duplicate modules on both sides of a split,
-    which flatters within-project scores; strict cleaning removes conflicting
-    duplicates but not near-duplicates.
+Stratified 10-fold cross-validation inside each project, ten seeds. Scaling
+(Logistic Regression and MLP only) and SMOTE are fitted on the training folds only.
+Note: a within-project model trains on about 90% of one project, a cross-project
+model on four pooled projects, so the two settings are not exactly like for like.
 
 Run:  python src/run_within_project.py [--level strict] [--seeds 0-9] [--jobs 2]
-Writes experiments/results/within_<level>.csv  (one row per classifier/project/seed)
-and prints the within- vs cross-project comparison if runs_<level>.csv exists.
-Safe to stop and restart (finished rows are skipped).
+Writes experiments/results/within_<level>.csv. Safe to stop and restart.
 """
 
 import argparse
