@@ -1,5 +1,10 @@
 """
-Summarise the source-balance ablation (run_source_balance.py).
+Summaries of the source-balance ablation (run_source_balance.py).
+
+experiments/results/ablation_balance_<level>.csv and runs_<level>.csv
+ablation_balance_summary_<level>.csv   mean +/- sd per method and training table
+         ablation_balance_change_<level>.csv    change vs unweighted inside each table
+         ablation_balance_mix_effect_<level>.csv  equal table minus size-matched control
 
 """
 

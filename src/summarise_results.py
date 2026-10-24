@@ -1,17 +1,12 @@
 """
-Turns the long per-seed results file into the tables.
+Summary tables from the per-run results file.
 
-Reads  : experiments/results/runs_<level>.csv   (one row per method/classifier/target/seed)
-Writes : experiments/results/summary_by_method_<level>.csv      mean +/- sd over seeds
-         experiments/results/summary_paired_vs_unweighted_<level>.csv
-                                                          change vs unweighted, seed by seed
-         experiments/results/summary_per_target_ci_<level>.csv   per-target change with 95% interval
-         experiments/results/selection_frequency_<level>.csv     how often each feature was chosen
-         experiments/results/selection_distinct_sets_<level>.csv how many different feature sets appeared
+Reads  : experiments/results/runs_<level>.csv
+Writes : summary_by_method_<level>.csv, summary_paired_vs_unweighted_<level>.csv,
+         summary_per_target_ci_<level>.csv, selection_frequency_<level>.csv,
+         selection_distinct_sets_<level>.csv   (all in experiments/results/)
+Scores are averaged over the 5 target projects within each seed, then summarised over seeds.
 
-How the numbers are built:
-  1. For each seed, average a score over the 5 target projects.
-  2. Then take the mean and standard deviation of that over the seeds.
 Run:  python src/summarise_results.py [--level strict]
 """
 

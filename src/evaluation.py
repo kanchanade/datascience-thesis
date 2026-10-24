@@ -1,22 +1,14 @@
 """
-Shared evaluation module: ONE leave-one-project-out protocol used by every
-method (baselines now, SFRT next).
+Shared evaluation module: one leave-one-project-out protocol used by every method.
 
+For one target project, classifier, feature step and seed:
+  1. Pool the 4 other projects as source data. The target is used only for scoring.
+  2. The feature step sees the source data only and returns which features to keep
+     and, optionally, per-feature weights.
+  3. Scale (Logistic Regression and MLP only), apply any weights, then SMOTE.
+  4. Train, predict on the target, and score F1, MCC, AUC-ROC and AUC-PR.
 
-The protocol, for one target project, one classifier, one feature step, one seed:
-  1. Pool the 4 other projects as the SOURCE data. The target is never used
-     for training, selection, scaling or SMOTE - only for the final scoring.
-  2. The feature step looks at the source data only and returns a "plan":
-       - which feature columns to keep (or None = keep all 21)
-       - optional per-feature weights (or None) applied AFTER scaling
-  3. Keep the chosen columns, then scale (Logistic Regression and MLP only,
-     because they are scale-sensitive; the tree models use raw values).
-  4. Apply the weights (if any), then balance the source data with SMOTE.
-  5. Train, predict on the target, score F1, MCC, AUC-ROC and AUC-PR.
-     (F1 and MCC use the usual 0.5 probability threshold.)
-
-The seed controls every random step: SMOTE, classifier initialisation,
-mutual-information estimation and (later) SHAP's internal sampling.
+The seed controls every random step (SMOTE, classifiers, mutual information, SHAP).
 """
 
 import hashlib
