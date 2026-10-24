@@ -1,6 +1,6 @@
 """
 Runs the experiments: every (method x classifier x target x seed) combination,
-saving ONE ROW PER RUN to a long-format CSV (as the review asks, Section 7).
+saving ONE ROW PER RUN to a long-format CSV.
 
 Examples (run from the project folder):
     python src/run_experiments.py                       # all methods, 10 seeds, strict data

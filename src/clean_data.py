@@ -4,8 +4,7 @@ Cleaning script: the ONLY place the "strict" cleaning rules are defined.
 What it does, in plain words
 ----------------------------
 The five files in data/processed/ (cm1_cleaned.csv, ...) have had exact
-duplicate rows removed already. Dr Dang's review (Section 6) found that
-several data problems remain. This script removes them with clear, written
+duplicate rows removed already. Several data problems remain. This script removes them with clear, written
 rules, and records exactly how many rows each rule removed.
 
 It reads  : data/processed/{name}_cleaned.csv   (duplicates-only cleaning)

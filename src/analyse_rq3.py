@@ -25,7 +25,7 @@ differences are mostly noise. If it is far below the noise floor, the projects
 genuinely disagree about which features matter, and a consensus across them
 has less to agree on.
 
-Extra analyses (the review's Section 10):
+Extra analyses:
   * GROUPED: the 21 metrics are heavily correlated (e.g. loc, lOCode, n, v, b).
     Highly correlated metrics are grouped (|Spearman| >= 0.9, average linkage)
     and importance is summed inside each group, so SHAP spreading credit among

@@ -9,7 +9,7 @@ Writes : experiments/results/summary_by_method_<level>.csv      mean +/- sd over
          experiments/results/selection_frequency_<level>.csv     how often each feature was chosen
          experiments/results/selection_distinct_sets_<level>.csv how many different feature sets appeared
 
-How the numbers are built (same convention as the review's Table 8):
+How the numbers are built:
   1. For each seed, average a score over the 5 target projects.
   2. Then take the mean and standard deviation of that over the seeds.
 Run:  python src/summarise_results.py [--level strict]

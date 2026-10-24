@@ -52,8 +52,8 @@ FEATURE_COLUMNS = [
 CLASSIFIER_NAMES = ["Logistic Regression", "Random Forest", "XGBoost", "MLP"]
 NEEDS_SCALING = {"Logistic Regression", "MLP"}
 
-# Extra Logistic Regression settings (review, Section 9.1: SFRT's effect on
-# Logistic Regression depends on the regularisation strength C).
+# Extra Logistic Regression settings (SFRT's effect on Logistic Regression
+# depends on the regularisation strength C). Not used for the reported results.
 LR_C_VARIANTS = ["Logistic Regression C=0.1", "Logistic Regression C=10"]
 
 
@@ -175,7 +175,7 @@ def unweighted_step():
 
 def variance_step(k_keep):
     """Keep the k features with the HIGHEST variance.
-    Following the review (Section 8, item 2): the features are very right-skewed,
+    The features are very right-skewed,
     so on min-max scaled RAW values a few huge modules shrink the variance of
     every other module toward zero. We take log(1 + x) first, then min-max
     scale, then compute the variance.
@@ -213,7 +213,7 @@ def mutual_info_step(k_keep):
 #   3. consensus c_j = mean over sources, optionally penalised for
 #      disagreement:  c_j = mu_j / (1 + lambda * sd_j / mu_j)
 #      (lambda = 0 is the plain mean from the plan; lambda = 1 is the
-#      "stability-penalised" ablation from the review, Section 9.3)
+#      "stability-penalised" variant)
 #   4. hard variant: keep the top-k features by consensus
 #      soft variant: multiply features by weights w_j ~ c_j^gamma (mean 1)
 # Only SOURCE projects are used - the target is never touched.
@@ -292,8 +292,7 @@ def sfrt_hard_step(k_keep, lam=0.0):
 def sfrt_soft_step(lam=0.0, gamma=1.0):
     """SFRT reweighting variant: scale each (standardised) feature by its weight.
     Only meaningful for Logistic Regression and the MLP - trees split on
-    thresholds, so multiplying a feature by a constant changes nothing
-    (review, Section 9.1)."""
+    thresholds, so multiplying a feature by a constant changes nothing."""
     def step(X_source, y_source, source_parts, classifier_name, seed):
         consensus, _ = consensus_scores(source_parts, classifier_name, seed, lam)
         weights = consensus ** gamma
@@ -302,8 +301,7 @@ def sfrt_soft_step(lam=0.0, gamma=1.0):
 
 
 def xgb_sampling_step(use_consensus=True):
-    """A reweighting mechanism that DOES work for trees (review, Section 9.1,
-    action 2): XGBoost offers each split a random half of the features
+    """A reweighting mechanism that DOES work for trees: XGBoost offers each split a random half of the features
     (colsample_bynode = 0.5), drawn in proportion to feature_weights. With
     use_consensus=False the weights are uniform - the control that separates
     the effect of the consensus from the effect of feature sub-sampling."""

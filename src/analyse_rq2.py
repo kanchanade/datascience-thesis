@@ -1,5 +1,5 @@
 """
-RQ2 / H2 statistics, following review (Section 9.6).
+RQ2 / H2 statistics.
 
 PRE-SPECIFIED ANALYSIS PLAN (written before any SFRT result was inspected)
   Primary metrics : AUC-PR and MCC.  F1 and AUC-ROC are secondary.
@@ -7,7 +7,7 @@ PRE-SPECIFIED ANALYSIS PLAN (written before any SFRT result was inspected)
                       Random Forest, XGBoost -> sfrt_hard_k10 (trees cannot be reweighted)
                       Logistic Regression, MLP -> sfrt_soft
   Comparators     : unweighted, and mutual information at the same k
-                    (mutualinfo_k10) - the strongest baseline in the review.
+                    (mutualinfo_k10) - the strongest baseline.
                     (sfrt_soft keeps all 21 features, so its fair partner is
                     unweighted; it is also compared with mutualinfo_k10 for reference.)
   Test            : for each classifier and metric, take each of the 5 target
