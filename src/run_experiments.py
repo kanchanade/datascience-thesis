@@ -1,15 +1,9 @@
 """
-Runs the experiments: every (method x classifier x target x seed) combination,
-saving ONE ROW PER RUN to a long-format CSV.
+Runs every method x classifier x target x seed and writes one row per run
+to experiments/results/runs_<level>.csv.
 
-Examples (run from the project folder):
-    python src/run_experiments.py                       # all methods, 10 seeds, strict data
-    python src/run_experiments.py --seeds 0-2           # quick test with 3 seeds
-    python src/run_experiments.py --level duplicates    # sensitivity analysis
-    python src/run_experiments.py --methods unweighted mutualinfo_k10 --jobs 4
-
-It is safe to stop and restart: runs already in the output file are skipped.
-Results go to experiments/results/runs_<level>.csv
+Run:  python src/run_experiments.py [--level strict|duplicates] [--seeds 0-9] [--jobs 4]
+Safe to stop and restart: runs already in the file are skipped.
 """
 
 import argparse

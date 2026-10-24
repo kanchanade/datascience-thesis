@@ -8,6 +8,16 @@ model on four pooled projects, so the two settings are not exactly like for like
 
 Run:  python src/run_within_project.py [--level strict] [--seeds 0-9] [--jobs 2]
 Writes experiments/results/within_<level>.csv. Safe to stop and restart.
+
+Source-balance ablation: does JM1's dominance of the pooled training data
+drive the cross-project results?
+
+Trains each method on two reduced source tables: "equal" (the same number of rows
+from each source, 328 by default) and "size_matched" (the same total number of rows,
+sampled from the pooled table). The SFRT consensus still uses the full sources.
+Writes experiments/results/ablation_balance_<level>.csv, one row per run.
+
+
 """
 
 import argparse

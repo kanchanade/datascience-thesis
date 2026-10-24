@@ -1,16 +1,10 @@
-"""Make the three Chapter 4 figures from the saved result files.
+"""
+Draws Figures 4.1 to 4.3 (strict data) from the saved result files.
 
-Reads (strict cleaning level, the main analysis):
-    experiments/results/runs_strict.csv       cross-project runs
-    experiments/results/within_strict.csv     within-project runs
-    experiments/results/rq3_summary_strict.csv  SHAP agreement (RQ3)
-Writes:
-    experiments/figures/Fig4_1_within_vs_cross.png
-    experiments/figures/Fig4_2_change_vs_unweighted.png
-    experiments/figures/Fig4_3_shap_agreement.png
+Reads  : runs_strict.csv, within_strict.csv, rq3_summary_strict.csv
+Writes : experiments/figures/Fig4_1_*.png, Fig4_2_*.png, Fig4_3_*.png
 
-Run from the repository root:   python src/make_figures.py
-Needs: pandas, numpy, matplotlib.
+Run:  python src/make_figures.py
 """
 from pathlib import Path
 import sys
