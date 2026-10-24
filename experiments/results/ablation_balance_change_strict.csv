@@ -1,0 +1,67 @@
+Classifier,Method,Pool,MCC_change,MCC_seeds_better,AUC-PR_change,AUC-PR_seeds_better
+Logistic Regression,variance_k10,full,-0.011,0/10,-0.011,0/10
+Logistic Regression,mutualinfo_k5,full,-0.005,4/10,0.004,7/10
+Logistic Regression,mutualinfo_k10,full,0.004,9/10,0.008,10/10
+Logistic Regression,sfrt_hard_k5,full,0.01,10/10,0.005,9/10
+Logistic Regression,sfrt_hard_k10,full,-0.003,2/10,-0.005,2/10
+Logistic Regression,sfrt_soft,full,-0.002,4/10,-0.0,4/10
+Logistic Regression,variance_k10,size_matched,0.003,4/10,0.007,8/10
+Logistic Regression,mutualinfo_k5,size_matched,0.004,6/10,0.013,8/10
+Logistic Regression,mutualinfo_k10,size_matched,0.007,6/10,0.017,6/10
+Logistic Regression,sfrt_hard_k5,size_matched,0.037,10/10,0.033,10/10
+Logistic Regression,sfrt_hard_k10,size_matched,0.02,9/10,0.019,7/10
+Logistic Regression,sfrt_soft,size_matched,0.004,9/10,0.002,6/10
+Logistic Regression,variance_k10,equal,-0.005,3/10,0.003,5/10
+Logistic Regression,mutualinfo_k5,equal,-0.001,6/10,0.005,6/10
+Logistic Regression,mutualinfo_k10,equal,0.007,7/10,0.008,7/10
+Logistic Regression,sfrt_hard_k5,equal,0.022,9/10,0.007,7/10
+Logistic Regression,sfrt_hard_k10,equal,0.008,6/10,-0.001,4/10
+Logistic Regression,sfrt_soft,equal,0.006,7/10,0.003,7/10
+Random Forest,variance_k10,full,0.023,10/10,-0.01,0/10
+Random Forest,mutualinfo_k5,full,-0.016,2/10,-0.03,0/10
+Random Forest,mutualinfo_k10,full,-0.012,2/10,-0.017,0/10
+Random Forest,sfrt_hard_k5,full,-0.014,4/10,-0.039,0/10
+Random Forest,sfrt_hard_k10,full,-0.008,2/10,-0.006,3/10
+Random Forest,variance_k10,size_matched,0.018,8/10,-0.003,4/10
+Random Forest,mutualinfo_k5,size_matched,-0.031,2/10,-0.032,1/10
+Random Forest,mutualinfo_k10,size_matched,-0.005,2/10,-0.009,2/10
+Random Forest,sfrt_hard_k5,size_matched,-0.01,4/10,-0.016,3/10
+Random Forest,sfrt_hard_k10,size_matched,-0.003,4/10,0.002,5/10
+Random Forest,variance_k10,equal,0.013,8/10,0.003,5/10
+Random Forest,mutualinfo_k5,equal,-0.024,2/10,-0.021,1/10
+Random Forest,mutualinfo_k10,equal,-0.008,3/10,-0.002,4/10
+Random Forest,sfrt_hard_k5,equal,-0.019,2/10,-0.016,0/10
+Random Forest,sfrt_hard_k10,equal,-0.013,3/10,0.001,4/10
+XGBoost,variance_k10,full,0.041,10/10,0.026,10/10
+XGBoost,mutualinfo_k5,full,0.032,9/10,0.014,9/10
+XGBoost,mutualinfo_k10,full,0.022,9/10,0.016,10/10
+XGBoost,sfrt_hard_k5,full,-0.002,5/10,-0.001,4/10
+XGBoost,sfrt_hard_k10,full,0.012,8/10,0.009,6/10
+XGBoost,variance_k10,size_matched,0.001,5/10,-0.002,4/10
+XGBoost,mutualinfo_k5,size_matched,-0.019,1/10,-0.016,2/10
+XGBoost,mutualinfo_k10,size_matched,-0.007,5/10,-0.006,4/10
+XGBoost,sfrt_hard_k5,size_matched,-0.017,3/10,-0.011,3/10
+XGBoost,sfrt_hard_k10,size_matched,-0.004,4/10,-0.002,6/10
+XGBoost,variance_k10,equal,0.021,9/10,0.012,8/10
+XGBoost,mutualinfo_k5,equal,-0.016,2/10,-0.012,3/10
+XGBoost,mutualinfo_k10,equal,0.001,6/10,0.003,6/10
+XGBoost,sfrt_hard_k5,equal,-0.024,3/10,-0.011,3/10
+XGBoost,sfrt_hard_k10,equal,-0.009,3/10,-0.004,2/10
+MLP,variance_k10,full,0.042,10/10,0.033,10/10
+MLP,mutualinfo_k5,full,0.084,10/10,0.068,10/10
+MLP,mutualinfo_k10,full,0.079,10/10,0.066,10/10
+MLP,sfrt_hard_k5,full,0.083,10/10,0.059,10/10
+MLP,sfrt_hard_k10,full,0.028,7/10,0.018,8/10
+MLP,sfrt_soft,full,-0.004,4/10,-0.003,5/10
+MLP,variance_k10,size_matched,0.014,7/10,0.013,8/10
+MLP,mutualinfo_k5,size_matched,0.024,9/10,0.026,9/10
+MLP,mutualinfo_k10,size_matched,0.021,10/10,0.021,9/10
+MLP,sfrt_hard_k5,size_matched,0.04,10/10,0.033,10/10
+MLP,sfrt_hard_k10,size_matched,0.022,9/10,0.017,8/10
+MLP,sfrt_soft,size_matched,0.01,8/10,0.008,8/10
+MLP,variance_k10,equal,0.047,10/10,0.042,10/10
+MLP,mutualinfo_k5,equal,0.052,9/10,0.056,10/10
+MLP,mutualinfo_k10,equal,0.048,10/10,0.042,10/10
+MLP,sfrt_hard_k5,equal,0.063,10/10,0.035,10/10
+MLP,sfrt_hard_k10,equal,0.042,10/10,0.027,9/10
+MLP,sfrt_soft,equal,-0.004,3/10,-0.0,4/10

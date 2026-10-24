@@ -1,0 +1,79 @@
+Classifier,Method,Pool,MCC,AUC-PR
+Logistic Regression,unweighted,full,0.283 +/- 0.003,0.401 +/- 0.003
+Logistic Regression,unweighted,size_matched,0.254 +/- 0.020,0.370 +/- 0.019
+Logistic Regression,unweighted,equal,0.265 +/- 0.013,0.385 +/- 0.012
+Logistic Regression,variance_k10,full,0.272 +/- 0.002,0.390 +/- 0.001
+Logistic Regression,variance_k10,size_matched,0.257 +/- 0.014,0.377 +/- 0.014
+Logistic Regression,variance_k10,equal,0.260 +/- 0.010,0.388 +/- 0.010
+Logistic Regression,mutualinfo_k5,full,0.278 +/- 0.008,0.405 +/- 0.006
+Logistic Regression,mutualinfo_k5,size_matched,0.258 +/- 0.024,0.383 +/- 0.015
+Logistic Regression,mutualinfo_k5,equal,0.264 +/- 0.024,0.390 +/- 0.016
+Logistic Regression,mutualinfo_k10,full,0.287 +/- 0.002,0.409 +/- 0.002
+Logistic Regression,mutualinfo_k10,size_matched,0.261 +/- 0.015,0.387 +/- 0.012
+Logistic Regression,mutualinfo_k10,equal,0.272 +/- 0.017,0.393 +/- 0.009
+Logistic Regression,sfrt_hard_k5,full,0.293 +/- 0.003,0.406 +/- 0.002
+Logistic Regression,sfrt_hard_k5,size_matched,0.291 +/- 0.006,0.404 +/- 0.006
+Logistic Regression,sfrt_hard_k5,equal,0.287 +/- 0.013,0.392 +/- 0.011
+Logistic Regression,sfrt_hard_k10,full,0.280 +/- 0.011,0.396 +/- 0.005
+Logistic Regression,sfrt_hard_k10,size_matched,0.275 +/- 0.011,0.389 +/- 0.009
+Logistic Regression,sfrt_hard_k10,equal,0.273 +/- 0.016,0.385 +/- 0.016
+Logistic Regression,sfrt_soft,full,0.281 +/- 0.005,0.401 +/- 0.003
+Logistic Regression,sfrt_soft,size_matched,0.258 +/- 0.017,0.372 +/- 0.017
+Logistic Regression,sfrt_soft,equal,0.271 +/- 0.009,0.389 +/- 0.009
+Random Forest,unweighted,full,0.203 +/- 0.009,0.361 +/- 0.006
+Random Forest,unweighted,size_matched,0.199 +/- 0.022,0.343 +/- 0.016
+Random Forest,unweighted,equal,0.202 +/- 0.017,0.330 +/- 0.008
+Random Forest,variance_k10,full,0.226 +/- 0.005,0.351 +/- 0.006
+Random Forest,variance_k10,size_matched,0.217 +/- 0.021,0.340 +/- 0.012
+Random Forest,variance_k10,equal,0.215 +/- 0.014,0.332 +/- 0.012
+Random Forest,mutualinfo_k5,full,0.187 +/- 0.019,0.331 +/- 0.011
+Random Forest,mutualinfo_k5,size_matched,0.168 +/- 0.022,0.311 +/- 0.022
+Random Forest,mutualinfo_k5,equal,0.178 +/- 0.027,0.309 +/- 0.017
+Random Forest,mutualinfo_k10,full,0.191 +/- 0.006,0.345 +/- 0.007
+Random Forest,mutualinfo_k10,size_matched,0.194 +/- 0.026,0.334 +/- 0.019
+Random Forest,mutualinfo_k10,equal,0.194 +/- 0.016,0.328 +/- 0.017
+Random Forest,sfrt_hard_k5,full,0.189 +/- 0.023,0.323 +/- 0.010
+Random Forest,sfrt_hard_k5,size_matched,0.189 +/- 0.022,0.328 +/- 0.014
+Random Forest,sfrt_hard_k5,equal,0.183 +/- 0.020,0.314 +/- 0.011
+Random Forest,sfrt_hard_k10,full,0.195 +/- 0.017,0.355 +/- 0.005
+Random Forest,sfrt_hard_k10,size_matched,0.196 +/- 0.019,0.345 +/- 0.011
+Random Forest,sfrt_hard_k10,equal,0.190 +/- 0.016,0.331 +/- 0.011
+XGBoost,unweighted,full,0.183 +/- 0.009,0.330 +/- 0.006
+XGBoost,unweighted,size_matched,0.178 +/- 0.021,0.319 +/- 0.016
+XGBoost,unweighted,equal,0.186 +/- 0.015,0.315 +/- 0.013
+XGBoost,variance_k10,full,0.225 +/- 0.011,0.356 +/- 0.006
+XGBoost,variance_k10,size_matched,0.180 +/- 0.017,0.317 +/- 0.016
+XGBoost,variance_k10,equal,0.207 +/- 0.028,0.327 +/- 0.017
+XGBoost,mutualinfo_k5,full,0.216 +/- 0.021,0.344 +/- 0.008
+XGBoost,mutualinfo_k5,size_matched,0.159 +/- 0.023,0.303 +/- 0.020
+XGBoost,mutualinfo_k5,equal,0.170 +/- 0.028,0.303 +/- 0.015
+XGBoost,mutualinfo_k10,full,0.205 +/- 0.021,0.346 +/- 0.010
+XGBoost,mutualinfo_k10,size_matched,0.171 +/- 0.026,0.314 +/- 0.019
+XGBoost,mutualinfo_k10,equal,0.187 +/- 0.027,0.318 +/- 0.015
+XGBoost,sfrt_hard_k5,full,0.182 +/- 0.016,0.329 +/- 0.007
+XGBoost,sfrt_hard_k5,size_matched,0.161 +/- 0.033,0.309 +/- 0.018
+XGBoost,sfrt_hard_k5,equal,0.162 +/- 0.016,0.305 +/- 0.012
+XGBoost,sfrt_hard_k10,full,0.196 +/- 0.011,0.340 +/- 0.012
+XGBoost,sfrt_hard_k10,size_matched,0.175 +/- 0.024,0.317 +/- 0.016
+XGBoost,sfrt_hard_k10,equal,0.177 +/- 0.018,0.311 +/- 0.013
+MLP,unweighted,full,0.179 +/- 0.022,0.330 +/- 0.012
+MLP,unweighted,size_matched,0.233 +/- 0.018,0.366 +/- 0.018
+MLP,unweighted,equal,0.192 +/- 0.026,0.332 +/- 0.022
+MLP,variance_k10,full,0.222 +/- 0.013,0.364 +/- 0.011
+MLP,variance_k10,size_matched,0.247 +/- 0.020,0.379 +/- 0.016
+MLP,variance_k10,equal,0.239 +/- 0.015,0.373 +/- 0.007
+MLP,mutualinfo_k5,full,0.263 +/- 0.021,0.398 +/- 0.011
+MLP,mutualinfo_k5,size_matched,0.258 +/- 0.023,0.392 +/- 0.014
+MLP,mutualinfo_k5,equal,0.244 +/- 0.026,0.388 +/- 0.015
+MLP,mutualinfo_k10,full,0.258 +/- 0.018,0.396 +/- 0.008
+MLP,mutualinfo_k10,size_matched,0.255 +/- 0.011,0.387 +/- 0.013
+MLP,mutualinfo_k10,equal,0.240 +/- 0.025,0.374 +/- 0.014
+MLP,sfrt_hard_k5,full,0.263 +/- 0.015,0.390 +/- 0.013
+MLP,sfrt_hard_k5,size_matched,0.273 +/- 0.012,0.399 +/- 0.008
+MLP,sfrt_hard_k5,equal,0.255 +/- 0.024,0.367 +/- 0.017
+MLP,sfrt_hard_k10,full,0.208 +/- 0.028,0.348 +/- 0.017
+MLP,sfrt_hard_k10,size_matched,0.255 +/- 0.021,0.383 +/- 0.012
+MLP,sfrt_hard_k10,equal,0.234 +/- 0.016,0.359 +/- 0.017
+MLP,sfrt_soft,full,0.175 +/- 0.016,0.327 +/- 0.013
+MLP,sfrt_soft,size_matched,0.244 +/- 0.019,0.374 +/- 0.019
+MLP,sfrt_soft,equal,0.188 +/- 0.036,0.332 +/- 0.028

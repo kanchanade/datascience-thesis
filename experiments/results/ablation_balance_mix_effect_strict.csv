@@ -1,0 +1,9 @@
+Classifier,Metric,Targets_better,Mean_difference,p_one_sided
+Logistic Regression,MCC,3/5,0.011,0.3125
+Logistic Regression,AUC-PR,4/5,0.015,0.1562
+Random Forest,MCC,3/5,0.004,0.5
+Random Forest,AUC-PR,3/5,-0.013,0.6875
+XGBoost,MCC,3/5,0.008,0.3125
+XGBoost,AUC-PR,3/5,-0.004,0.5938
+MLP,MCC,1/5,-0.041,0.9062
+MLP,AUC-PR,1/5,-0.034,0.9375
