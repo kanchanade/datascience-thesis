@@ -42,9 +42,13 @@ Results are written to `experiments/results/runs_<level>.csv`, one row per
     python src/analyse_rq2.py                           # pre-specified RQ2 statistics (Wilcoxon, Friedman)
     python src/run_within_project.py                    # RQ1: within-project 10-fold CV x 10 seeds, then within vs cross comparison
     python src/analyse_rq3.py                           # RQ3: SHAP stability (noise floor, across projects, across models, grouped)
+    python src/run_source_balance.py                    # source-balance ablation: equal and size-matched training tables (strict data)
+    python src/analyse_source_balance.py                # summaries of the ablation
+    python src/make_figures.py                          # Figures 4.1 to 4.3 into experiments/figures/
 
 Each script takes `--level strict|duplicates` (default `strict`) and, where relevant,
-`--seeds` (default `0-9`).
+`--seeds` (default `0-9`). `run_source_balance.py` also takes `--jobs` (parallel workers) and
+can be stopped and restarted. The ablation was run on the strict data only.
 
 ## Code layout
 * `src/clean_data.py`         - the cleaning rules (R1-R5), documented in the file header.
@@ -53,6 +57,9 @@ Each script takes `--level strict|duplicates` (default `strict`) and, where rele
 * `src/summarise_results.py`, `src/analyse_rq2.py` - tables and statistics from the runs file.
 * `src/run_within_project.py` - RQ1, within-project evaluation on the same data and metrics.
 * `src/analyse_rq3.py`        - RQ3, reads the cached SHAP vectors.
+* `src/run_source_balance.py`, `src/analyse_source_balance.py` - the source-balance ablation
+  (does JM1's dominance of the pooled training data explain the results?).
+* `src/make_figures.py`       - draws the three results figures from the saved result files.
 * `notebooks/Final EDA.ipynb` - exploratory data analysis (run on the duplicate-removed data).
 * `notebooks/Archive/`        - the original within-project baseline notebook, kept for reference.
 
@@ -75,7 +82,13 @@ because tree models cannot be reweighted), and `xgb_sampling_sfrt` with its cont
 | `rq1_within_vs_cross_<level>.csv` | within versus cross-project, per project, one-sided Wilcoxon |
 | `rq2_wilcoxon_<level>.csv`, `rq2_friedman_<level>.csv` | pre-specified RQ2 statistics |
 | `rq3_*_<level>.csv` | SHAP ranking agreement, noise floor, source outliers, consensus stability |
+| `ablation_balance_<level>.csv` | every ablation run (equal and size-matched training tables) |
+| `ablation_balance_summary_<level>.csv` | ablation: mean +/- sd per method, classifier and table |
+| `ablation_balance_change_<level>.csv` | ablation: change versus unweighted inside each table |
+| `ablation_balance_mix_effect_<level>.csv` | ablation: equal table minus size-matched control |
 | `cleaning_log.csv` | strict-level cleaning counts per rule and project |
+
+Figures are written to `experiments/figures/`.
 
 ## Protocol notes
 * Leave-one-project-out; ten seeds (0-9); SMOTE on the training data only.
@@ -84,13 +97,16 @@ because tree models cannot be reweighted), and `xgb_sampling_sfrt` with its cont
 * Primary metrics: AUC-PR and MCC. F1 and AUC-ROC are reported as secondary.
 * With five target projects the smallest possible one-sided Wilcoxon p-value is 1/32 = 0.031.
 * The single-source setting was dropped, because SFRT needs at least two source projects.
+* Source-balance ablation: an `equal` table (328 rows from each source) and a `size_matched`
+  control (1,312 rows sampled from the pooled table). The SFRT consensus is always built
+  from the full source projects.
+* Tree-model scores can differ slightly on other hardware, so a re-run should agree to
+  within small differences, not to the last digit.
 
 ## Status
 Done: cleaning (both levels), baselines, SFRT variants and ablations, multi-seed runner,
-RQ1 within-project protocol, RQ2 statistics, RQ3 stability analysis.
-
-Not yet: charts for the final results; source-imbalance (equal rows per source) ablation,
-because JM1 makes up most of the pooled training data.
+RQ1 within-project protocol, RQ2 statistics, RQ3 stability analysis, source-balance
+ablation, results figures.
 
 Older scripts from the first stage of the project (run_*.py, crossproject_*.py, baseline_*.py,
-sfrt_*.py) and their result files have been removed; `src/` supersedes them.git add -A
+sfrt_*.py) and their result files have been removed; `src/` supersedes them.
