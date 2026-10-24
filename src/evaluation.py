@@ -2,13 +2,6 @@
 Shared evaluation module: ONE leave-one-project-out protocol used by every
 method (baselines now, SFRT next).
 
-Why this exists
----------------
-Dr Dang's review (Section 5, item 8) found ten near-identical scripts, and a
-hand edit that went wrong in one of them. Here the loading, pooling, scaling,
-SMOTE, training and scoring code is written ONCE. A method is just a
-"feature step" plugged into that protocol, so SFRT will later be evaluated by
-exactly the same code as the baselines.
 
 The protocol, for one target project, one classifier, one feature step, one seed:
   1. Pool the 4 other projects as the SOURCE data. The target is never used
@@ -88,12 +81,59 @@ def load_all_data(level="strict", root=PROJECT_ROOT):
     return data
 
 
-def pool_sources(data, target_name):
-    """Stack the 4 non-target projects into one training table."""
+def _stratified_sample(X, y, n_rows, rng):
+    """Random sample of n_rows rows that keeps the defect rate of (X, y)."""
+    n_rows = min(n_rows, len(y))
+    positives = np.flatnonzero(y.values == 1)
+    negatives = np.flatnonzero(y.values == 0)
+    n_pos = int(round(n_rows * len(positives) / len(y)))
+    n_pos = min(max(n_pos, 1), len(positives))
+    n_neg = min(n_rows - n_pos, len(negatives))
+    rows = np.concatenate([rng.choice(positives, n_pos, replace=False),
+                           rng.choice(negatives, n_neg, replace=False)])
+    rows.sort()
+    return X.iloc[rows].reset_index(drop=True), y.iloc[rows].reset_index(drop=True)
+
+
+def smallest_source_size(data):
+    """Rows in the smallest of the five projects (the default 'rows per source'
+    for the source-balance ablation)."""
+    return min(len(data[n][1]) for n in DATASET_NAMES)
+
+
+def pool_sources(data, target_name, mode="full", seed=0, rows_per_source=None):
+    """Stack the 4 non-target projects into one training table.
+
+    mode = "full"          all rows of the four projects (the main experiments).
+    mode = "equal"         source-balance ablation: every source contributes the
+                           SAME number of rows (rows_per_source, default = size of
+                           the smallest project), sampled at random but keeping
+                           each source's own defect rate.
+    mode = "size_matched"  control for the ablation: a random sample of the pooled
+                           table with the SAME total size as "equal" (4 x
+                           rows_per_source) but the natural, JM1-dominated mix.
+    Comparing "equal" with "size_matched" separates the effect of the source mix
+    from the effect of simply training on fewer rows."""
     source_names = [n for n in DATASET_NAMES if n != target_name]
-    X = pd.concat([data[n][0] for n in source_names], ignore_index=True)
-    y = pd.concat([data[n][1] for n in source_names], ignore_index=True)
-    return X, y, source_names
+    if mode == "full":
+        X = pd.concat([data[n][0] for n in source_names], ignore_index=True)
+        y = pd.concat([data[n][1] for n in source_names], ignore_index=True)
+        return X, y, source_names
+    n_each = rows_per_source or smallest_source_size(data)
+    if mode == "equal":
+        parts = []
+        for name in source_names:
+            rng = np.random.default_rng([seed, DATASET_NAMES.index(name), 1])
+            parts.append(_stratified_sample(*data[name], n_each, rng))
+        return (pd.concat([p[0] for p in parts], ignore_index=True),
+                pd.concat([p[1] for p in parts], ignore_index=True), source_names)
+    if mode == "size_matched":
+        X = pd.concat([data[n][0] for n in source_names], ignore_index=True)
+        y = pd.concat([data[n][1] for n in source_names], ignore_index=True)
+        rng = np.random.default_rng([seed, DATASET_NAMES.index(target_name), 2])
+        X, y = _stratified_sample(X, y, n_each * len(source_names), rng)
+        return X, y, source_names
+    raise ValueError("mode must be 'full', 'equal' or 'size_matched'")
 
 
 # ----------------------------------------------------------------------
@@ -280,12 +320,17 @@ def xgb_sampling_step(use_consensus=True):
 # ----------------------------------------------------------------------
 # The one protocol
 # ----------------------------------------------------------------------
-def evaluate(data, target_name, classifier_name, feature_step, seed):
-    """Run one leave-one-project-out evaluation. Returns a dict of scores."""
+def evaluate(data, target_name, classifier_name, feature_step, seed,
+             pool_mode="full", rows_per_source=None):
+    """Run one leave-one-project-out evaluation. Returns a dict of scores.
+    pool_mode / rows_per_source only change the TRAINING table (see pool_sources);
+    the default ("full") is the protocol used for every main result. The SFRT
+    consensus is always built from the full source projects, so a given SFRT
+    feature choice does not depend on the pool mode."""
     np.random.seed(seed)  # also seeds libraries that use numpy's global RNG (SHAP)
 
     X_target, y_target = data[target_name]
-    X_source, y_source, source_names = pool_sources(data, target_name)
+    X_source, y_source, source_names = pool_sources(data, target_name, pool_mode, seed, rows_per_source)
     source_parts = {n: data[n] for n in source_names}
 
     kept, weights, info = feature_step(X_source, y_source, source_parts, classifier_name, seed)
