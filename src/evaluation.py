@@ -174,7 +174,7 @@ def variance_step(k_keep):
     Honest note: this removes the outlier effect, but loc can still rank low
     (its log-scale spread is smaller than the Halstead metrics, which span
     several orders of magnitude). Variance ignores the label and depends on
-    scale, so it stays a weak baseline - state this rule and reason in the thesis."""
+    scale, so it stays a weak baseline."""
     def step(X_source, y_source, source_parts, classifier_name, seed):
         logged = np.log1p(np.clip(X_source.values, 0, None))
         scaled = MinMaxScaler().fit_transform(logged)

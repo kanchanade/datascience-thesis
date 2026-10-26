@@ -31,10 +31,10 @@ cites. It was rejected for two reasons:
 | KC2 | 522 | 522 (matches) |
 | PC1 | 1,109 | 1,109 (matches) |
 
-JM1's raw count (13,204) differs from the ~10,878-10,885 commonly cited. The cause could
-not be established. It is consistent with different distributors reporting different
-counts for the same project (Shepperd et al., 2013), but this was not verified, so it is
-recorded as an unexplained limitation. The other four projects match the cited figures.
+JM1's raw count (13,204) differs from the ~10,878-10,885 commonly cited. The
+difference is explained: the mirror's last commit appended duplicate rows to
+JM1. After exact-duplicate removal the count matches the cited figure, and
+the other four projects match the cited figures directly.
 
 ### 2. A systematic single-row artefact
 Every one of the five raw files contains, as its first data row, a row with

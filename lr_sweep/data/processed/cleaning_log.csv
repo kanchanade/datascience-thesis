@@ -1,0 +1,6 @@
+dataset,rows_before_cleaning,artefact_rows_removed,exact_duplicates_removed,rows_after_cleaning,missing_values_found,zero_variance_features,remaining_fractional_anomalies,defect_rate_pct
+cm1,498,1,56,441,0,[],{},10.88
+jm1,13204,1,4296,8907,0,[],{},22.5
+kc1,2109,1,897,1211,0,[],{},26.01
+kc2,522,1,147,374,0,[],{},28.07
+pc1,1109,1,155,953,0,[],{},7.35

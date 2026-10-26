@@ -1,5 +1,20 @@
 """
+
 RQ2 statistics: does SFRT beat the unweighted baseline and mutual information?
+
+PRE-SPECIFIED ANALYSIS PLAN (fixed before the final runs)
+- Primary metrics: AUC-PR and MCC.
+- Primary SFRT variant per classifier: hard top-10 for Random Forest and
+  XGBoost, soft reweighting for Logistic Regression and MLP.
+- Comparators: unweighted and mutual information (top-10).
+- Test: one-sided Wilcoxon signed-rank over the 5 target projects, using the
+  seed-averaged difference for each target. Effect size: rank-biserial.
+  Per-target 95% intervals are reported.
+- Everything else (other methods, F1, AUC-ROC) is exploratory.
+- Friedman test across unweighted, variance_k10, mutualinfo_k10 and the
+  primary SFRT variant.
+
+   
 """
 import argparse
 from pathlib import Path
