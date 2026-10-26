@@ -254,10 +254,18 @@ def source_importance(source_name, X, y, classifier_name, seed):
 
     cache_file.parent.mkdir(parents=True, exist_ok=True)
     temporary = cache_file.with_suffix(f".{os.getpid()}.tmp.npy")   # write-then-rename so parallel
+  
     np.save(temporary, importance)                                   # workers never read a half-written file
-    os.replace(temporary, cache_file)
+    try:
+        os.replace(temporary, cache_file)
+    except PermissionError:
+        # Windows refuses the rename when another worker is saving the same
+        # file at the same moment. Both hold the same vector, so the other
+        # copy is as good as ours.
+        temporary.unlink(missing_ok=True)
+        if not cache_file.exists():
+            raise
     return importance
-
 
 def consensus_scores(source_parts, classifier_name, seed, lam=0.0):
     """Normalise each source's importance vector, then combine them. Returns
