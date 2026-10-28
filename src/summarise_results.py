@@ -6,6 +6,7 @@ Writes : summary_by_method_<level>.csv, summary_paired_vs_unweighted_<level>.csv
          summary_per_target_ci_<level>.csv, selection_frequency_<level>.csv,
          selection_distinct_sets_<level>.csv   (all in experiments/results/)
 Scores are averaged over the 5 target projects within each seed, then summarised over seeds.
+The per-target table compares every method with the unweighted run of the same classifier.
 
 Run:  python src/summarise_results.py [--level strict]
 """
@@ -68,15 +69,19 @@ def main():
     print(paired.to_string(index=False), "\n")
 
     # ---- 3. per-target change with a 95% interval over seeds ----
-    # (does the difference on THIS target exceed seed noise?  averaged over classifiers)
-    per_target = runs.groupby(["Method", "Target_Dataset", "Seed"])[["MCC", "AUC-PR"]].mean().reset_index()
-    base_t = per_target[per_target.Method == "unweighted"].set_index(["Target_Dataset", "Seed"])
+    # Each method is compared with the unweighted run of the SAME classifier on the
+    # SAME target and seed. (The earlier version averaged each method over the
+    # classifiers it ran with and compared that with unweighted averaged over all
+    # four classifiers, which mixed classifiers for the soft SFRT and XGBoost-only
+    # methods and showed gains that did not exist.)
+    per_target = runs.groupby(["Method", "Classifier", "Target_Dataset", "Seed"])[["MCC", "AUC-PR"]].mean().reset_index()
+    base_t = per_target[per_target.Method == "unweighted"].set_index(["Classifier", "Target_Dataset", "Seed"])
     rows = []
-    for (method, target), g in per_target[per_target.Method != "unweighted"].groupby(["Method", "Target_Dataset"]):
+    for (method, clf, target), g in per_target[per_target.Method != "unweighted"].groupby(["Method", "Classifier", "Target_Dataset"]):
         g = g.set_index("Seed")
-        row = {"Method": method, "Target": target}
+        row = {"Method": method, "Classifier": clf, "Target": target}
         for m in ["MCC", "AUC-PR"]:
-            diff = g[m] - base_t.loc[target][m].reindex(g.index)
+            diff = g[m] - base_t.loc[(clf, target)][m].reindex(g.index)
             mean, n = diff.mean(), len(diff)
             half = stats.t.ppf(0.975, n - 1) * diff.std(ddof=1) / np.sqrt(n) if n > 1 else np.nan
             row[f"{m}_change"] = round(mean, 3)
@@ -85,7 +90,7 @@ def main():
             row[f"{m}_exceeds_seed_noise"] = bool(n > 1 and (mean - half > 0 or mean + half < 0))
         rows.append(row)
     pd.DataFrame(rows).to_csv(folder / f"summary_per_target_ci_{args.level}.csv", index=False)
-    print(f"Per-target intervals saved to summary_per_target_ci_{args.level}.csv\n")
+    print(f"Per-target intervals (same classifier) saved to summary_per_target_ci_{args.level}.csv\n")
 
     # ---- 4. selection frequency. Only methods that actually drop features.
     #         Variance and mutual-information selection do not depend on the classifier

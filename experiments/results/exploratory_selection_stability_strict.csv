@@ -1,0 +1,6 @@
+Method,Classifier,5,10
+SFRT consensus (mean importance),Logistic Regression,0.78,0.8
+SFRT consensus (mean importance),MLP,0.47,0.59
+SFRT consensus (mean importance),Random Forest,0.76,0.83
+SFRT consensus (mean importance),XGBoost,0.74,0.87
+mutual information,(any),0.51,0.76

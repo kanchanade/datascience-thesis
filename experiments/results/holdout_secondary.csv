@@ -1,0 +1,21 @@
+Table,Classifier,Comparison,Metric,Targets,Targets_better,Mean_difference,p_one_sided,Rank_biserial
+full,Logistic Regression,sfrt_hard_k5 vs mutualinfo_k5,MCC,7,3,-0.0104,0.7656,-0.29
+full,Logistic Regression,sfrt_hard_k5 vs mutualinfo_k5,AUC-PR,7,2,-0.0157,0.9609,-0.71
+full,MLP,sfrt_hard_k5 vs mutualinfo_k5,MCC,7,2,0.0006,0.7656,-0.29
+full,MLP,sfrt_hard_k5 vs mutualinfo_k5,AUC-PR,7,2,-0.0016,0.7656,-0.29
+small,Logistic Regression,sfrt_hard_k5 vs unweighted,MCC,7,4,0.0163,0.2891,0.29
+small,Logistic Regression,sfrt_hard_k5 vs unweighted,AUC-PR,7,5,0.0054,0.3438,0.21
+small,Logistic Regression,sfrt_hard_k5 vs mutualinfo_k5,MCC,7,2,0.0019,0.8125,-0.36
+small,Logistic Regression,sfrt_hard_k5 vs mutualinfo_k5,AUC-PR,7,2,-0.0102,0.9453,-0.64
+small,MLP,sfrt_hard_k5 vs unweighted,MCC,7,6,0.0309,0.0234,0.86
+small,MLP,sfrt_hard_k5 vs unweighted,AUC-PR,7,5,0.0144,0.0781,0.64
+small,MLP,sfrt_hard_k5 vs mutualinfo_k5,MCC,7,4,0.0046,0.5312,0.0
+small,MLP,sfrt_hard_k5 vs mutualinfo_k5,AUC-PR,7,3,-0.0003,0.6562,-0.14
+full,Random Forest,sfrt_hard_k5 vs unweighted,MCC,7,1,-0.0531,0.9844,-0.86
+full,Random Forest,sfrt_hard_k5 vs unweighted,AUC-PR,7,1,-0.0518,0.9922,-0.93
+full,XGBoost,sfrt_hard_k5 vs unweighted,MCC,7,3,-0.0173,0.8516,-0.43
+full,XGBoost,sfrt_hard_k5 vs unweighted,AUC-PR,7,1,-0.0226,0.9453,-0.64
+small,Random Forest,sfrt_hard_k5 vs unweighted,MCC,7,1,-0.0217,0.9609,-0.71
+small,Random Forest,sfrt_hard_k5 vs unweighted,AUC-PR,7,1,-0.0211,0.9609,-0.71
+small,XGBoost,sfrt_hard_k5 vs unweighted,MCC,7,3,-0.0004,0.4688,0.07
+small,XGBoost,sfrt_hard_k5 vs unweighted,AUC-PR,7,3,-0.0037,0.6562,-0.14

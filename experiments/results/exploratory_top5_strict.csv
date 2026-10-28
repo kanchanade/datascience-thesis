@@ -1,0 +1,25 @@
+Classifier,Training_table,Comparison,MCC_change,MCC_targets_better,MCC_seeds_better,AUC-PR_change,AUC-PR_targets_better,AUC-PR_seeds_better
+Logistic Regression,full,sfrt_hard_k5 vs unweighted,0.01,4/5,10/10,0.005,4/5,9/10
+Logistic Regression,full,sfrt_hard_k5 vs mutualinfo_k5,0.015,3/5,9/10,0.001,2/5,6/10
+Logistic Regression,size_matched,sfrt_hard_k5 vs unweighted,0.037,5/5,10/10,0.033,5/5,10/10
+Logistic Regression,size_matched,sfrt_hard_k5 vs mutualinfo_k5,0.033,5/5,10/10,0.02,4/5,9/10
+Logistic Regression,equal,sfrt_hard_k5 vs unweighted,0.022,4/5,9/10,0.007,4/5,7/10
+Logistic Regression,equal,sfrt_hard_k5 vs mutualinfo_k5,0.023,4/5,9/10,0.002,4/5,5/10
+Random Forest,full,sfrt_hard_k5 vs unweighted,-0.014,2/5,4/10,-0.039,1/5,0/10
+Random Forest,full,sfrt_hard_k5 vs mutualinfo_k5,0.002,1/5,4/10,-0.008,1/5,3/10
+Random Forest,size_matched,sfrt_hard_k5 vs unweighted,-0.01,3/5,4/10,-0.016,1/5,3/10
+Random Forest,size_matched,sfrt_hard_k5 vs mutualinfo_k5,0.021,3/5,6/10,0.016,4/5,7/10
+Random Forest,equal,sfrt_hard_k5 vs unweighted,-0.019,1/5,2/10,-0.016,2/5,0/10
+Random Forest,equal,sfrt_hard_k5 vs mutualinfo_k5,0.005,1/5,5/10,0.005,3/5,5/10
+XGBoost,full,sfrt_hard_k5 vs unweighted,-0.002,2/5,5/10,-0.001,3/5,4/10
+XGBoost,full,sfrt_hard_k5 vs mutualinfo_k5,-0.034,1/5,2/10,-0.015,1/5,1/10
+XGBoost,size_matched,sfrt_hard_k5 vs unweighted,-0.017,1/5,3/10,-0.011,1/5,3/10
+XGBoost,size_matched,sfrt_hard_k5 vs mutualinfo_k5,0.002,3/5,5/10,0.006,4/5,5/10
+XGBoost,equal,sfrt_hard_k5 vs unweighted,-0.024,0/5,3/10,-0.011,1/5,3/10
+XGBoost,equal,sfrt_hard_k5 vs mutualinfo_k5,-0.008,1/5,4/10,0.002,1/5,5/10
+MLP,full,sfrt_hard_k5 vs unweighted,0.083,5/5,10/10,0.059,5/5,10/10
+MLP,full,sfrt_hard_k5 vs mutualinfo_k5,-0.001,2/5,5/10,-0.009,3/5,4/10
+MLP,size_matched,sfrt_hard_k5 vs unweighted,0.04,5/5,10/10,0.033,5/5,10/10
+MLP,size_matched,sfrt_hard_k5 vs mutualinfo_k5,0.016,3/5,7/10,0.007,4/5,8/10
+MLP,equal,sfrt_hard_k5 vs unweighted,0.063,4/5,10/10,0.035,4/5,10/10
+MLP,equal,sfrt_hard_k5 vs mutualinfo_k5,0.012,4/5,9/10,-0.022,0/5,0/10

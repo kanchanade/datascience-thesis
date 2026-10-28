@@ -1,0 +1,25 @@
+Table,Classifier,Method,MCC,AUC-PR
+full,Logistic Regression,mutualinfo_k5,0.21,0.308
+full,Logistic Regression,sfrt_hard_k5,0.2,0.292
+full,Logistic Regression,unweighted,0.185,0.292
+full,MLP,mutualinfo_k5,0.222,0.307
+full,MLP,sfrt_hard_k5,0.223,0.306
+full,MLP,unweighted,0.198,0.281
+full,Random Forest,mutualinfo_k5,0.128,0.272
+full,Random Forest,sfrt_hard_k5,0.138,0.27
+full,Random Forest,unweighted,0.191,0.322
+full,XGBoost,mutualinfo_k5,0.158,0.277
+full,XGBoost,sfrt_hard_k5,0.162,0.277
+full,XGBoost,unweighted,0.179,0.299
+small,Logistic Regression,mutualinfo_k5,0.195,0.298
+small,Logistic Regression,sfrt_hard_k5,0.196,0.288
+small,Logistic Regression,unweighted,0.18,0.283
+small,MLP,mutualinfo_k5,0.217,0.303
+small,MLP,sfrt_hard_k5,0.221,0.303
+small,MLP,unweighted,0.191,0.288
+small,Random Forest,mutualinfo_k5,0.14,0.264
+small,Random Forest,sfrt_hard_k5,0.143,0.265
+small,Random Forest,unweighted,0.165,0.287
+small,XGBoost,mutualinfo_k5,0.142,0.255
+small,XGBoost,sfrt_hard_k5,0.152,0.264
+small,XGBoost,unweighted,0.153,0.268

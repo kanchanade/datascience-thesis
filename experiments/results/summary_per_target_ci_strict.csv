@@ -1,86 +1,281 @@
-Method,Target,MCC_change,MCC_CI95_low,MCC_CI95_high,MCC_exceeds_seed_noise,AUC-PR_change,AUC-PR_CI95_low,AUC-PR_CI95_high,AUC-PR_exceeds_seed_noise
-mutualinfo_k10,CM1,0.031,0.008,0.055,True,0.017,0.004,0.029,True
-mutualinfo_k10,JM1,0.018,0.008,0.027,True,0.018,0.012,0.024,True
-mutualinfo_k10,KC1,0.017,0.011,0.023,True,0.026,0.021,0.03,True
-mutualinfo_k10,KC2,0.04,0.023,0.057,True,0.023,0.012,0.034,True
-mutualinfo_k10,PC1,0.01,-0.001,0.022,False,0.01,-0.004,0.023,False
-mutualinfo_k15,CM1,0.063,0.041,0.085,True,0.028,0.018,0.038,True
-mutualinfo_k15,JM1,0.017,0.01,0.023,True,0.011,0.007,0.015,True
-mutualinfo_k15,KC1,0.006,-0.001,0.013,False,0.014,0.009,0.019,True
-mutualinfo_k15,KC2,0.003,-0.008,0.015,False,0.013,0.005,0.022,True
-mutualinfo_k15,PC1,0.023,0.009,0.037,True,0.009,-0.007,0.025,False
-mutualinfo_k5,CM1,0.048,0.012,0.085,True,0.018,-0.006,0.041,False
-mutualinfo_k5,JM1,0.017,0.01,0.024,True,0.019,0.015,0.022,True
-mutualinfo_k5,KC1,0.022,0.015,0.028,True,0.025,0.021,0.028,True
-mutualinfo_k5,KC2,0.055,0.04,0.069,True,0.016,0.003,0.029,True
-mutualinfo_k5,PC1,-0.023,-0.041,-0.004,True,-0.006,-0.019,0.007,False
-sfrt_hard_k10,CM1,0.025,0.003,0.048,True,0.008,-0.003,0.019,False
-sfrt_hard_k10,JM1,-0.004,-0.014,0.006,False,-0.001,-0.008,0.006,False
-sfrt_hard_k10,KC1,0.014,0.007,0.021,True,0.011,0.006,0.016,True
-sfrt_hard_k10,KC2,0.009,-0.003,0.02,False,0.014,0.008,0.02,True
-sfrt_hard_k10,PC1,-0.007,-0.022,0.007,False,-0.012,-0.027,0.003,False
-sfrt_hard_k15,CM1,0.014,-0.019,0.046,False,0.015,-0.003,0.032,False
-sfrt_hard_k15,JM1,-0.001,-0.011,0.008,False,0.0,-0.006,0.006,False
-sfrt_hard_k15,KC1,0.002,-0.007,0.012,False,0.001,-0.005,0.006,False
-sfrt_hard_k15,KC2,-0.004,-0.02,0.012,False,-0.005,-0.014,0.005,False
-sfrt_hard_k15,PC1,-0.021,-0.039,-0.003,True,-0.018,-0.028,-0.008,True
-sfrt_hard_k5,CM1,0.067,0.053,0.081,True,0.013,0.006,0.021,True
-sfrt_hard_k5,JM1,-0.005,-0.017,0.006,False,-0.003,-0.011,0.004,False
-sfrt_hard_k5,KC1,0.03,0.025,0.034,True,0.029,0.027,0.032,True
-sfrt_hard_k5,KC2,0.026,0.009,0.043,True,0.009,-0.003,0.02,False
-sfrt_hard_k5,PC1,-0.02,-0.042,0.002,False,-0.016,-0.034,0.001,False
-sfrt_hardstab_k10,CM1,0.025,0.008,0.041,True,0.006,-0.004,0.016,False
-sfrt_hardstab_k10,JM1,-0.001,-0.009,0.008,False,-0.0,-0.004,0.003,False
-sfrt_hardstab_k10,KC1,0.015,0.005,0.024,True,0.015,0.008,0.023,True
-sfrt_hardstab_k10,KC2,0.009,-0.01,0.028,False,0.015,0.004,0.026,True
-sfrt_hardstab_k10,PC1,-0.004,-0.019,0.01,False,-0.006,-0.023,0.012,False
-sfrt_hardstab_k15,CM1,0.009,-0.023,0.041,False,0.013,-0.007,0.032,False
-sfrt_hardstab_k15,JM1,0.002,-0.008,0.013,False,0.001,-0.005,0.006,False
-sfrt_hardstab_k15,KC1,0.005,-0.003,0.012,False,0.001,-0.005,0.006,False
-sfrt_hardstab_k15,KC2,-0.004,-0.017,0.01,False,-0.001,-0.013,0.01,False
-sfrt_hardstab_k15,PC1,-0.005,-0.017,0.007,False,-0.005,-0.012,0.001,False
-sfrt_hardstab_k5,CM1,0.083,0.065,0.1,True,0.026,0.018,0.035,True
-sfrt_hardstab_k5,JM1,-0.01,-0.023,0.002,False,-0.007,-0.014,0.0,False
-sfrt_hardstab_k5,KC1,0.03,0.021,0.039,True,0.033,0.029,0.038,True
-sfrt_hardstab_k5,KC2,0.016,0.004,0.029,True,0.014,0.006,0.021,True
-sfrt_hardstab_k5,PC1,-0.021,-0.039,-0.002,True,-0.016,-0.035,0.004,False
-sfrt_soft,CM1,0.023,0.005,0.042,True,-0.009,-0.019,0.0,False
-sfrt_soft,JM1,-0.008,-0.021,0.006,False,0.001,-0.007,0.009,False
-sfrt_soft,KC1,0.035,0.02,0.049,True,0.023,0.016,0.03,True
-sfrt_soft,KC2,0.027,0.013,0.041,True,0.011,-0.001,0.022,False
-sfrt_soft,PC1,0.003,-0.015,0.021,False,0.015,-0.003,0.033,False
-sfrt_softsharp,CM1,0.05,0.029,0.07,True,0.008,-0.007,0.023,False
-sfrt_softsharp,JM1,-0.0,-0.012,0.012,False,0.006,0.002,0.01,True
-sfrt_softsharp,KC1,0.041,0.032,0.05,True,0.021,0.016,0.027,True
-sfrt_softsharp,KC2,0.051,0.029,0.074,True,0.022,0.008,0.037,True
-sfrt_softsharp,PC1,-0.005,-0.024,0.013,False,0.01,-0.005,0.025,False
-sfrt_softstab,CM1,0.024,-0.0,0.049,False,-0.011,-0.025,0.004,False
-sfrt_softstab,JM1,-0.001,-0.012,0.01,False,0.005,-0.001,0.011,False
-sfrt_softstab,KC1,0.037,0.025,0.049,True,0.024,0.019,0.029,True
-sfrt_softstab,KC2,0.037,0.017,0.057,True,0.019,0.005,0.034,True
-sfrt_softstab,PC1,-0.007,-0.029,0.016,False,0.008,-0.008,0.023,False
-variance_k10,CM1,0.084,0.067,0.101,True,0.024,0.012,0.037,True
-variance_k10,JM1,0.019,0.01,0.028,True,0.006,0.001,0.011,True
-variance_k10,KC1,0.017,0.011,0.023,True,0.008,0.004,0.012,True
-variance_k10,KC2,0.012,-0.001,0.026,False,0.012,0.006,0.019,True
-variance_k10,PC1,-0.013,-0.027,0.002,False,-0.003,-0.018,0.012,False
-variance_k15,CM1,0.025,-0.001,0.051,False,0.009,-0.005,0.023,False
-variance_k15,JM1,0.013,0.004,0.022,True,0.007,0.003,0.011,True
-variance_k15,KC1,0.014,0.005,0.023,True,0.007,0.003,0.01,True
-variance_k15,KC2,0.017,0.0,0.034,True,0.009,-0.001,0.019,False
-variance_k15,PC1,-0.024,-0.039,-0.009,True,-0.009,-0.024,0.006,False
-variance_k5,CM1,0.056,0.041,0.071,True,0.009,-0.0,0.018,False
-variance_k5,JM1,0.018,0.01,0.026,True,0.002,-0.001,0.006,False
-variance_k5,KC1,0.008,0.001,0.014,True,0.009,0.005,0.013,True
-variance_k5,KC2,0.002,-0.016,0.019,False,-0.029,-0.039,-0.019,True
-variance_k5,PC1,-0.034,-0.048,-0.02,True,-0.036,-0.051,-0.021,True
-xgb_sampling_sfrt,CM1,0.044,0.007,0.08,True,0.009,-0.019,0.037,False
-xgb_sampling_sfrt,JM1,-0.013,-0.022,-0.004,True,-0.013,-0.017,-0.008,True
-xgb_sampling_sfrt,KC1,-0.024,-0.041,-0.008,True,-0.02,-0.028,-0.012,True
-xgb_sampling_sfrt,KC2,-0.049,-0.069,-0.029,True,-0.034,-0.05,-0.017,True
-xgb_sampling_sfrt,PC1,-0.037,-0.062,-0.011,True,-0.037,-0.049,-0.025,True
-xgb_sampling_uniform,CM1,0.033,-0.018,0.083,False,0.002,-0.023,0.026,False
-xgb_sampling_uniform,JM1,-0.014,-0.021,-0.007,True,-0.012,-0.014,-0.009,True
-xgb_sampling_uniform,KC1,-0.026,-0.038,-0.013,True,-0.025,-0.031,-0.019,True
-xgb_sampling_uniform,KC2,-0.038,-0.067,-0.01,True,-0.047,-0.063,-0.031,True
-xgb_sampling_uniform,PC1,-0.072,-0.1,-0.044,True,-0.051,-0.071,-0.031,True
+Method,Classifier,Target,MCC_change,MCC_CI95_low,MCC_CI95_high,MCC_exceeds_seed_noise,AUC-PR_change,AUC-PR_CI95_low,AUC-PR_CI95_high,AUC-PR_exceeds_seed_noise
+mutualinfo_k10,Logistic Regression,CM1,0.059,0.051,0.067,True,0.042,0.037,0.048,True
+mutualinfo_k10,Logistic Regression,JM1,0.011,0.008,0.014,True,0.01,0.004,0.016,True
+mutualinfo_k10,Logistic Regression,KC1,-0.024,-0.028,-0.02,True,0.002,0.001,0.003,True
+mutualinfo_k10,Logistic Regression,KC2,-0.011,-0.02,-0.003,True,0.003,0.002,0.005,True
+mutualinfo_k10,Logistic Regression,PC1,-0.014,-0.021,-0.007,True,-0.016,-0.022,-0.01,True
+mutualinfo_k10,MLP,CM1,0.123,0.059,0.188,True,0.085,0.05,0.12,True
+mutualinfo_k10,MLP,JM1,0.052,0.025,0.079,True,0.046,0.03,0.062,True
+mutualinfo_k10,MLP,KC1,0.058,0.042,0.075,True,0.058,0.043,0.073,True
+mutualinfo_k10,MLP,KC2,0.109,0.068,0.15,True,0.078,0.054,0.102,True
+mutualinfo_k10,MLP,PC1,0.053,0.007,0.098,True,0.062,0.025,0.1,True
+mutualinfo_k10,Random Forest,CM1,-0.03,-0.06,0.001,False,-0.045,-0.055,-0.035,True
+mutualinfo_k10,Random Forest,JM1,-0.003,-0.012,0.007,False,0.003,-0.004,0.009,False
+mutualinfo_k10,Random Forest,KC1,0.026,0.015,0.037,True,0.023,0.015,0.032,True
+mutualinfo_k10,Random Forest,KC2,-0.042,-0.081,-0.003,True,-0.036,-0.058,-0.015,True
+mutualinfo_k10,Random Forest,PC1,-0.01,-0.024,0.004,False,-0.028,-0.039,-0.016,True
+mutualinfo_k10,XGBoost,CM1,-0.028,-0.076,0.02,False,-0.016,-0.049,0.017,False
+mutualinfo_k10,XGBoost,JM1,0.01,-0.001,0.021,False,0.012,0.006,0.018,True
+mutualinfo_k10,XGBoost,KC1,0.008,-0.008,0.024,False,0.018,0.01,0.027,True
+mutualinfo_k10,XGBoost,KC2,0.104,0.071,0.137,True,0.047,0.029,0.065,True
+mutualinfo_k10,XGBoost,PC1,0.013,-0.026,0.053,False,0.02,0.0,0.039,True
+mutualinfo_k15,Logistic Regression,CM1,0.062,0.054,0.069,True,0.045,0.037,0.053,True
+mutualinfo_k15,Logistic Regression,JM1,0.007,0.003,0.011,True,0.003,-0.004,0.009,False
+mutualinfo_k15,Logistic Regression,KC1,-0.018,-0.022,-0.014,True,-0.002,-0.003,-0.0,True
+mutualinfo_k15,Logistic Regression,KC2,-0.012,-0.019,-0.005,True,0.001,-0.0,0.003,False
+mutualinfo_k15,Logistic Regression,PC1,-0.023,-0.034,-0.012,True,-0.025,-0.033,-0.017,True
+mutualinfo_k15,MLP,CM1,0.118,0.048,0.188,True,0.069,0.034,0.103,True
+mutualinfo_k15,MLP,JM1,0.048,0.026,0.07,True,0.031,0.018,0.043,True
+mutualinfo_k15,MLP,KC1,0.019,-0.004,0.042,False,0.025,0.015,0.036,True
+mutualinfo_k15,MLP,KC2,0.015,-0.016,0.047,False,0.051,0.021,0.081,True
+mutualinfo_k15,MLP,PC1,0.049,0.002,0.095,True,0.041,-0.001,0.082,False
+mutualinfo_k15,Random Forest,CM1,0.042,-0.005,0.089,False,-0.004,-0.022,0.015,False
+mutualinfo_k15,Random Forest,JM1,-0.001,-0.008,0.006,False,0.001,-0.003,0.005,False
+mutualinfo_k15,Random Forest,KC1,0.02,0.01,0.031,True,0.02,0.012,0.029,True
+mutualinfo_k15,Random Forest,KC2,-0.025,-0.047,-0.003,True,-0.019,-0.031,-0.006,True
+mutualinfo_k15,Random Forest,PC1,0.009,-0.016,0.034,False,-0.006,-0.019,0.007,False
+mutualinfo_k15,XGBoost,CM1,0.031,-0.004,0.067,False,0.004,-0.009,0.016,False
+mutualinfo_k15,XGBoost,JM1,0.012,0.003,0.02,True,0.008,0.003,0.014,True
+mutualinfo_k15,XGBoost,KC1,0.002,-0.022,0.026,False,0.012,0.002,0.022,True
+mutualinfo_k15,XGBoost,KC2,0.035,0.005,0.065,True,0.02,0.007,0.033,True
+mutualinfo_k15,XGBoost,PC1,0.057,0.017,0.097,True,0.025,0.001,0.048,True
+mutualinfo_k5,Logistic Regression,CM1,0.053,0.032,0.074,True,0.04,0.031,0.049,True
+mutualinfo_k5,Logistic Regression,JM1,0.015,0.012,0.018,True,0.02,0.018,0.023,True
+mutualinfo_k5,Logistic Regression,KC1,-0.028,-0.034,-0.022,True,0.004,-0.001,0.009,False
+mutualinfo_k5,Logistic Regression,KC2,-0.006,-0.017,0.004,False,0.001,-0.004,0.006,False
+mutualinfo_k5,Logistic Regression,PC1,-0.057,-0.076,-0.037,True,-0.043,-0.063,-0.024,True
+mutualinfo_k5,MLP,CM1,0.129,0.047,0.212,True,0.08,0.02,0.141,True
+mutualinfo_k5,MLP,JM1,0.07,0.044,0.096,True,0.061,0.05,0.073,True
+mutualinfo_k5,MLP,KC1,0.075,0.064,0.086,True,0.072,0.06,0.085,True
+mutualinfo_k5,MLP,KC2,0.117,0.084,0.15,True,0.067,0.044,0.091,True
+mutualinfo_k5,MLP,PC1,0.028,-0.006,0.063,False,0.059,0.02,0.098,True
+mutualinfo_k5,Random Forest,CM1,0.029,-0.021,0.078,False,-0.039,-0.066,-0.012,True
+mutualinfo_k5,Random Forest,JM1,-0.01,-0.02,-0.0,True,-0.006,-0.014,0.002,False
+mutualinfo_k5,Random Forest,KC1,0.013,0.002,0.024,True,0.002,-0.004,0.009,False
+mutualinfo_k5,Random Forest,KC2,-0.037,-0.075,0.002,False,-0.058,-0.077,-0.04,True
+mutualinfo_k5,Random Forest,PC1,-0.077,-0.107,-0.048,True,-0.05,-0.07,-0.031,True
+mutualinfo_k5,XGBoost,CM1,-0.018,-0.084,0.048,False,-0.011,-0.049,0.026,False
+mutualinfo_k5,XGBoost,JM1,-0.007,-0.018,0.004,False,-0.001,-0.008,0.006,False
+mutualinfo_k5,XGBoost,KC1,0.027,0.008,0.047,True,0.02,0.01,0.029,True
+mutualinfo_k5,XGBoost,KC2,0.144,0.117,0.17,True,0.053,0.034,0.073,True
+mutualinfo_k5,XGBoost,PC1,0.014,-0.019,0.047,False,0.011,-0.003,0.025,False
+sfrt_hard_k10,Logistic Regression,CM1,0.049,0.024,0.074,True,0.034,0.025,0.042,True
+sfrt_hard_k10,Logistic Regression,JM1,-0.018,-0.026,-0.01,True,-0.009,-0.014,-0.003,True
+sfrt_hard_k10,Logistic Regression,KC1,-0.007,-0.014,-0.001,True,0.007,0.002,0.012,True
+sfrt_hard_k10,Logistic Regression,KC2,0.002,-0.007,0.012,False,0.002,-0.003,0.007,False
+sfrt_hard_k10,Logistic Regression,PC1,-0.041,-0.055,-0.028,True,-0.059,-0.068,-0.049,True
+sfrt_hard_k10,MLP,CM1,-0.014,-0.083,0.055,False,-0.015,-0.048,0.019,False
+sfrt_hard_k10,MLP,JM1,0.011,-0.023,0.044,False,0.004,-0.019,0.028,False
+sfrt_hard_k10,MLP,KC1,0.045,0.027,0.064,True,0.033,0.015,0.051,True
+sfrt_hard_k10,MLP,KC2,0.071,0.037,0.105,True,0.064,0.045,0.083,True
+sfrt_hard_k10,MLP,PC1,0.029,-0.016,0.075,False,0.001,-0.033,0.035,False
+sfrt_hard_k10,Random Forest,CM1,0.004,-0.053,0.06,False,-0.03,-0.051,-0.008,True
+sfrt_hard_k10,Random Forest,JM1,0.007,0.001,0.012,True,0.009,0.006,0.011,True
+sfrt_hard_k10,Random Forest,KC1,0.018,0.007,0.029,True,0.003,0.0,0.006,True
+sfrt_hard_k10,Random Forest,KC2,-0.026,-0.053,-0.0,True,-0.003,-0.015,0.009,False
+sfrt_hard_k10,Random Forest,PC1,-0.041,-0.047,-0.036,True,-0.01,-0.022,0.002,False
+sfrt_hard_k10,XGBoost,CM1,0.063,0.003,0.124,True,0.042,0.002,0.082,True
+sfrt_hard_k10,XGBoost,JM1,-0.016,-0.023,-0.008,True,-0.007,-0.014,-0.001,True
+sfrt_hard_k10,XGBoost,KC1,0.001,-0.016,0.019,False,0.0,-0.009,0.01,False
+sfrt_hard_k10,XGBoost,KC2,-0.012,-0.04,0.016,False,-0.006,-0.027,0.015,False
+sfrt_hard_k10,XGBoost,PC1,0.024,-0.014,0.062,False,0.018,-0.006,0.043,False
+sfrt_hard_k15,Logistic Regression,CM1,0.056,0.045,0.067,True,0.051,0.043,0.059,True
+sfrt_hard_k15,Logistic Regression,JM1,-0.004,-0.009,0.0,False,-0.001,-0.006,0.004,False
+sfrt_hard_k15,Logistic Regression,KC1,0.002,-0.003,0.006,False,0.003,0.003,0.004,True
+sfrt_hard_k15,Logistic Regression,KC2,-0.002,-0.008,0.004,False,0.001,-0.001,0.002,False
+sfrt_hard_k15,Logistic Regression,PC1,-0.02,-0.028,-0.011,True,-0.052,-0.059,-0.044,True
+sfrt_hard_k15,MLP,CM1,-0.023,-0.133,0.086,False,-0.01,-0.071,0.051,False
+sfrt_hard_k15,MLP,JM1,0.005,-0.026,0.037,False,0.004,-0.016,0.023,False
+sfrt_hard_k15,MLP,KC1,0.007,-0.016,0.03,False,0.004,-0.014,0.021,False
+sfrt_hard_k15,MLP,KC2,-0.018,-0.065,0.029,False,-0.013,-0.042,0.015,False
+sfrt_hard_k15,MLP,PC1,0.002,-0.049,0.053,False,0.005,-0.036,0.047,False
+sfrt_hard_k15,Random Forest,CM1,-0.011,-0.042,0.021,False,-0.007,-0.016,0.002,False
+sfrt_hard_k15,Random Forest,JM1,0.002,-0.003,0.008,False,0.004,0.001,0.007,True
+sfrt_hard_k15,Random Forest,KC1,0.004,-0.01,0.017,False,0.0,-0.004,0.004,False
+sfrt_hard_k15,Random Forest,KC2,-0.01,-0.039,0.02,False,-0.001,-0.01,0.008,False
+sfrt_hard_k15,Random Forest,PC1,-0.024,-0.04,-0.007,True,0.002,-0.009,0.013,False
+sfrt_hard_k15,XGBoost,CM1,0.033,-0.009,0.076,False,0.025,-0.002,0.052,False
+sfrt_hard_k15,XGBoost,JM1,-0.007,-0.019,0.005,False,-0.006,-0.014,0.001,False
+sfrt_hard_k15,XGBoost,KC1,-0.003,-0.023,0.017,False,-0.005,-0.013,0.003,False
+sfrt_hard_k15,XGBoost,KC2,0.014,-0.029,0.057,False,-0.004,-0.018,0.009,False
+sfrt_hard_k15,XGBoost,PC1,-0.043,-0.079,-0.007,True,-0.027,-0.045,-0.008,True
+sfrt_hard_k5,Logistic Regression,CM1,0.046,0.038,0.054,True,0.026,0.019,0.033,True
+sfrt_hard_k5,Logistic Regression,JM1,0.014,0.011,0.018,True,0.016,0.014,0.017,True
+sfrt_hard_k5,Logistic Regression,KC1,0.026,0.022,0.029,True,0.025,0.022,0.028,True
+sfrt_hard_k5,Logistic Regression,KC2,0.011,0.004,0.018,True,0.009,0.007,0.011,True
+sfrt_hard_k5,Logistic Regression,PC1,-0.045,-0.053,-0.037,True,-0.051,-0.061,-0.04,True
+sfrt_hard_k5,MLP,CM1,0.125,0.089,0.161,True,0.058,0.035,0.08,True
+sfrt_hard_k5,MLP,JM1,0.025,-0.014,0.064,False,0.014,-0.011,0.04,False
+sfrt_hard_k5,MLP,KC1,0.077,0.066,0.089,True,0.082,0.076,0.088,True
+sfrt_hard_k5,MLP,KC2,0.117,0.075,0.159,True,0.083,0.055,0.111,True
+sfrt_hard_k5,MLP,PC1,0.073,0.032,0.113,True,0.06,0.014,0.106,True
+sfrt_hard_k5,Random Forest,CM1,0.105,0.07,0.14,True,-0.046,-0.06,-0.033,True
+sfrt_hard_k5,Random Forest,JM1,-0.028,-0.042,-0.014,True,-0.019,-0.024,-0.014,True
+sfrt_hard_k5,Random Forest,KC1,0.005,-0.001,0.011,False,0.005,-0.006,0.016,False
+sfrt_hard_k5,Random Forest,KC2,-0.063,-0.091,-0.036,True,-0.062,-0.084,-0.04,True
+sfrt_hard_k5,Random Forest,PC1,-0.09,-0.138,-0.041,True,-0.07,-0.084,-0.056,True
+sfrt_hard_k5,XGBoost,CM1,-0.008,-0.049,0.034,False,0.017,-0.003,0.036,False
+sfrt_hard_k5,XGBoost,JM1,-0.034,-0.048,-0.019,True,-0.025,-0.035,-0.015,True
+sfrt_hard_k5,XGBoost,KC1,0.01,-0.008,0.029,False,0.006,-0.001,0.012,False
+sfrt_hard_k5,XGBoost,KC2,0.039,0.006,0.071,True,0.004,-0.021,0.03,False
+sfrt_hard_k5,XGBoost,PC1,-0.017,-0.06,0.026,False,-0.005,-0.024,0.014,False
+sfrt_hardstab_k10,Logistic Regression,CM1,0.034,0.02,0.049,True,0.026,0.017,0.035,True
+sfrt_hardstab_k10,Logistic Regression,JM1,-0.011,-0.019,-0.003,True,-0.01,-0.018,-0.002,True
+sfrt_hardstab_k10,Logistic Regression,KC1,-0.003,-0.01,0.004,False,0.01,0.005,0.015,True
+sfrt_hardstab_k10,Logistic Regression,KC2,0.006,-0.004,0.015,False,0.005,-0.001,0.01,False
+sfrt_hardstab_k10,Logistic Regression,PC1,-0.029,-0.037,-0.021,True,-0.05,-0.058,-0.041,True
+sfrt_hardstab_k10,MLP,CM1,-0.01,-0.069,0.05,False,-0.024,-0.049,0.001,False
+sfrt_hardstab_k10,MLP,JM1,0.016,-0.01,0.042,False,0.009,-0.004,0.021,False
+sfrt_hardstab_k10,MLP,KC1,0.049,0.026,0.073,True,0.041,0.016,0.066,True
+sfrt_hardstab_k10,MLP,KC2,0.05,0.005,0.095,True,0.054,0.025,0.083,True
+sfrt_hardstab_k10,MLP,PC1,0.039,-0.012,0.09,False,0.015,-0.041,0.071,False
+sfrt_hardstab_k10,Random Forest,CM1,0.002,-0.048,0.051,False,-0.026,-0.046,-0.006,True
+sfrt_hardstab_k10,Random Forest,JM1,0.007,-0.004,0.017,False,0.008,0.004,0.011,True
+sfrt_hardstab_k10,Random Forest,KC1,0.013,-0.001,0.027,False,0.007,0.003,0.012,True
+sfrt_hardstab_k10,Random Forest,KC2,-0.018,-0.041,0.005,False,-0.0,-0.013,0.013,False
+sfrt_hardstab_k10,Random Forest,PC1,-0.038,-0.051,-0.025,True,-0.008,-0.023,0.006,False
+sfrt_hardstab_k10,XGBoost,CM1,0.074,0.038,0.109,True,0.048,0.022,0.075,True
+sfrt_hardstab_k10,XGBoost,JM1,-0.014,-0.024,-0.003,True,-0.008,-0.012,-0.003,True
+sfrt_hardstab_k10,XGBoost,KC1,-0.001,-0.021,0.02,False,0.003,-0.006,0.011,False
+sfrt_hardstab_k10,XGBoost,KC2,-0.001,-0.026,0.023,False,0.001,-0.018,0.019,False
+sfrt_hardstab_k10,XGBoost,PC1,0.01,-0.021,0.042,False,0.021,0.002,0.04,True
+sfrt_hardstab_k15,Logistic Regression,CM1,0.058,0.037,0.078,True,0.044,0.02,0.068,True
+sfrt_hardstab_k15,Logistic Regression,JM1,-0.003,-0.008,0.002,False,-0.002,-0.007,0.003,False
+sfrt_hardstab_k15,Logistic Regression,KC1,-0.003,-0.008,0.003,False,0.003,0.001,0.004,True
+sfrt_hardstab_k15,Logistic Regression,KC2,-0.001,-0.006,0.004,False,0.001,-0.001,0.002,False
+sfrt_hardstab_k15,Logistic Regression,PC1,-0.024,-0.032,-0.015,True,-0.047,-0.055,-0.039,True
+sfrt_hardstab_k15,MLP,CM1,-0.023,-0.13,0.083,False,-0.009,-0.069,0.052,False
+sfrt_hardstab_k15,MLP,JM1,0.007,-0.027,0.042,False,0.005,-0.016,0.025,False
+sfrt_hardstab_k15,MLP,KC1,0.01,-0.015,0.036,False,0.004,-0.016,0.023,False
+sfrt_hardstab_k15,MLP,KC2,-0.01,-0.054,0.034,False,0.002,-0.032,0.035,False
+sfrt_hardstab_k15,MLP,PC1,0.004,-0.044,0.052,False,0.007,-0.023,0.038,False
+sfrt_hardstab_k15,Random Forest,CM1,-0.024,-0.05,0.001,False,-0.005,-0.02,0.011,False
+sfrt_hardstab_k15,Random Forest,JM1,0.006,0.002,0.011,True,0.003,-0.001,0.007,False
+sfrt_hardstab_k15,Random Forest,KC1,0.003,-0.006,0.011,False,-0.001,-0.006,0.005,False
+sfrt_hardstab_k15,Random Forest,KC2,-0.017,-0.044,0.009,False,-0.007,-0.015,0.0,False
+sfrt_hardstab_k15,Random Forest,PC1,-0.019,-0.044,0.005,False,0.005,-0.007,0.017,False
+sfrt_hardstab_k15,XGBoost,CM1,0.025,-0.015,0.066,False,0.02,-0.007,0.046,False
+sfrt_hardstab_k15,XGBoost,JM1,-0.001,-0.01,0.008,False,-0.003,-0.008,0.001,False
+sfrt_hardstab_k15,XGBoost,KC1,0.009,-0.007,0.024,False,-0.002,-0.011,0.006,False
+sfrt_hardstab_k15,XGBoost,KC2,0.014,-0.024,0.052,False,0.001,-0.014,0.015,False
+sfrt_hardstab_k15,XGBoost,PC1,0.019,-0.023,0.061,False,0.013,-0.008,0.035,False
+sfrt_hardstab_k5,Logistic Regression,CM1,0.043,0.036,0.05,True,0.027,0.021,0.033,True
+sfrt_hardstab_k5,Logistic Regression,JM1,0.009,0.003,0.016,True,0.011,0.006,0.015,True
+sfrt_hardstab_k5,Logistic Regression,KC1,0.022,0.017,0.026,True,0.024,0.022,0.027,True
+sfrt_hardstab_k5,Logistic Regression,KC2,0.012,0.004,0.019,True,0.009,0.007,0.011,True
+sfrt_hardstab_k5,Logistic Regression,PC1,-0.044,-0.05,-0.038,True,-0.047,-0.059,-0.035,True
+sfrt_hardstab_k5,MLP,CM1,0.124,0.085,0.163,True,0.041,0.016,0.065,True
+sfrt_hardstab_k5,MLP,JM1,0.024,-0.013,0.062,False,0.017,-0.003,0.037,False
+sfrt_hardstab_k5,MLP,KC1,0.086,0.072,0.1,True,0.088,0.079,0.098,True
+sfrt_hardstab_k5,MLP,KC2,0.097,0.063,0.131,True,0.083,0.062,0.104,True
+sfrt_hardstab_k5,MLP,PC1,0.065,0.024,0.107,True,0.049,-0.007,0.105,False
+sfrt_hardstab_k5,Random Forest,CM1,0.126,0.082,0.17,True,-0.004,-0.021,0.013,False
+sfrt_hardstab_k5,Random Forest,JM1,-0.03,-0.046,-0.014,True,-0.022,-0.033,-0.011,True
+sfrt_hardstab_k5,Random Forest,KC1,0.015,0.007,0.023,True,0.01,0.005,0.015,True
+sfrt_hardstab_k5,Random Forest,KC2,-0.035,-0.067,-0.004,True,-0.032,-0.048,-0.017,True
+sfrt_hardstab_k5,Random Forest,PC1,-0.104,-0.145,-0.064,True,-0.071,-0.086,-0.056,True
+sfrt_hardstab_k5,XGBoost,CM1,0.038,-0.013,0.088,False,0.041,0.008,0.074,True
+sfrt_hardstab_k5,XGBoost,JM1,-0.046,-0.062,-0.029,True,-0.032,-0.042,-0.022,True
+sfrt_hardstab_k5,XGBoost,KC1,-0.003,-0.034,0.028,False,0.011,-0.003,0.025,False
+sfrt_hardstab_k5,XGBoost,KC2,-0.008,-0.056,0.04,False,-0.006,-0.024,0.012,False
+sfrt_hardstab_k5,XGBoost,PC1,-0.0,-0.041,0.041,False,0.007,-0.013,0.027,False
+sfrt_soft,Logistic Regression,CM1,-0.008,-0.02,0.003,False,0.005,-0.001,0.01,False
+sfrt_soft,Logistic Regression,JM1,-0.001,-0.002,0.0,False,0.001,-0.0,0.001,False
+sfrt_soft,Logistic Regression,KC1,0.002,-0.0,0.005,False,0.0,-0.0,0.001,False
+sfrt_soft,Logistic Regression,KC2,0.006,0.002,0.011,True,-0.001,-0.002,0.0,False
+sfrt_soft,Logistic Regression,PC1,-0.007,-0.016,0.002,False,-0.005,-0.008,-0.002,True
+sfrt_soft,MLP,CM1,-0.015,-0.053,0.023,False,-0.023,-0.044,-0.003,True
+sfrt_soft,MLP,JM1,-0.013,-0.045,0.019,False,-0.006,-0.026,0.013,False
+sfrt_soft,MLP,KC1,0.019,-0.005,0.042,False,0.014,0.001,0.027,True
+sfrt_soft,MLP,KC2,-0.018,-0.047,0.012,False,-0.016,-0.039,0.008,False
+sfrt_soft,MLP,PC1,0.007,-0.041,0.055,False,0.014,-0.032,0.061,False
+sfrt_softsharp,Logistic Regression,CM1,0.035,0.026,0.045,True,0.032,0.024,0.041,True
+sfrt_softsharp,Logistic Regression,JM1,0.002,-0.001,0.005,False,0.004,0.003,0.005,True
+sfrt_softsharp,Logistic Regression,KC1,-0.0,-0.003,0.002,False,-0.003,-0.004,-0.002,True
+sfrt_softsharp,Logistic Regression,KC2,0.007,-0.001,0.014,False,-0.0,-0.002,0.001,False
+sfrt_softsharp,Logistic Regression,PC1,-0.023,-0.032,-0.014,True,-0.015,-0.021,-0.008,True
+sfrt_softsharp,MLP,CM1,-0.006,-0.063,0.05,False,-0.017,-0.053,0.019,False
+sfrt_softsharp,MLP,JM1,-0.002,-0.03,0.026,False,-0.001,-0.014,0.013,False
+sfrt_softsharp,MLP,KC1,0.034,0.017,0.051,True,0.014,0.002,0.026,True
+sfrt_softsharp,MLP,KC2,0.031,-0.007,0.07,False,0.007,-0.017,0.03,False
+sfrt_softsharp,MLP,PC1,0.006,-0.038,0.05,False,0.014,-0.027,0.054,False
+sfrt_softstab,Logistic Regression,CM1,-0.01,-0.021,0.002,False,0.003,-0.004,0.01,False
+sfrt_softstab,Logistic Regression,JM1,-0.0,-0.002,0.001,False,0.001,-0.001,0.002,False
+sfrt_softstab,Logistic Regression,KC1,-0.0,-0.003,0.003,False,-0.0,-0.001,0.0,False
+sfrt_softstab,Logistic Regression,KC2,0.005,0.001,0.01,True,-0.001,-0.002,-0.0,True
+sfrt_softstab,Logistic Regression,PC1,-0.011,-0.018,-0.004,True,-0.007,-0.01,-0.004,True
+sfrt_softstab,MLP,CM1,-0.012,-0.062,0.038,False,-0.025,-0.051,0.0,False
+sfrt_softstab,MLP,JM1,-0.001,-0.029,0.026,False,0.002,-0.014,0.018,False
+sfrt_softstab,MLP,KC1,0.026,0.003,0.05,True,0.016,0.004,0.028,True
+sfrt_softstab,MLP,KC2,0.003,-0.04,0.047,False,0.002,-0.025,0.028,False
+sfrt_softstab,MLP,PC1,-0.008,-0.059,0.044,False,0.001,-0.039,0.041,False
+variance_k10,Logistic Regression,CM1,0.025,0.02,0.029,True,-0.005,-0.011,0.001,False
+variance_k10,Logistic Regression,JM1,0.014,0.011,0.017,True,-0.008,-0.009,-0.007,True
+variance_k10,Logistic Regression,KC1,-0.01,-0.014,-0.007,True,-0.011,-0.012,-0.01,True
+variance_k10,Logistic Regression,KC2,-0.024,-0.032,-0.016,True,-0.01,-0.011,-0.008,True
+variance_k10,Logistic Regression,PC1,-0.059,-0.064,-0.054,True,-0.021,-0.024,-0.017,True
+variance_k10,MLP,CM1,0.071,0.013,0.129,True,0.058,0.028,0.088,True
+variance_k10,MLP,JM1,0.047,0.017,0.076,True,0.021,0.004,0.037,True
+variance_k10,MLP,KC1,0.048,0.027,0.069,True,0.027,0.012,0.041,True
+variance_k10,MLP,KC2,0.027,-0.006,0.061,False,0.051,0.03,0.072,True
+variance_k10,MLP,PC1,0.019,-0.023,0.061,False,0.011,-0.04,0.062,False
+variance_k10,Random Forest,CM1,0.14,0.117,0.164,True,-0.015,-0.026,-0.004,True
+variance_k10,Random Forest,JM1,0.007,0.002,0.012,True,0.008,0.004,0.011,True
+variance_k10,Random Forest,KC1,0.031,0.02,0.042,True,0.011,0.009,0.014,True
+variance_k10,Random Forest,KC2,0.002,-0.018,0.022,False,-0.009,-0.014,-0.004,True
+variance_k10,Random Forest,PC1,-0.065,-0.074,-0.056,True,-0.047,-0.057,-0.036,True
+variance_k10,XGBoost,CM1,0.1,0.056,0.145,True,0.059,0.035,0.083,True
+variance_k10,XGBoost,JM1,0.008,-0.002,0.018,False,0.002,-0.004,0.009,False
+variance_k10,XGBoost,KC1,0.0,-0.019,0.019,False,0.005,-0.0,0.011,False
+variance_k10,XGBoost,KC2,0.044,0.008,0.079,True,0.017,0.005,0.028,True
+variance_k10,XGBoost,PC1,0.053,0.013,0.093,True,0.044,0.03,0.058,True
+variance_k15,Logistic Regression,CM1,0.014,0.002,0.026,True,-0.027,-0.031,-0.023,True
+variance_k15,Logistic Regression,JM1,-0.003,-0.005,-0.0,True,-0.003,-0.004,-0.002,True
+variance_k15,Logistic Regression,KC1,-0.023,-0.026,-0.02,True,-0.014,-0.015,-0.013,True
+variance_k15,Logistic Regression,KC2,-0.012,-0.018,-0.007,True,-0.01,-0.011,-0.009,True
+variance_k15,Logistic Regression,PC1,-0.073,-0.081,-0.065,True,-0.05,-0.054,-0.047,True
+variance_k15,MLP,CM1,0.057,0.007,0.106,True,0.053,0.019,0.088,True
+variance_k15,MLP,JM1,0.042,0.014,0.069,True,0.027,0.011,0.042,True
+variance_k15,MLP,KC1,0.01,-0.013,0.034,False,0.014,-0.0,0.028,False
+variance_k15,MLP,KC2,0.003,-0.06,0.065,False,0.035,0.001,0.069,True
+variance_k15,MLP,PC1,-0.007,-0.057,0.042,False,-0.018,-0.068,0.031,False
+variance_k15,Random Forest,CM1,0.01,-0.024,0.043,False,-0.011,-0.024,0.003,False
+variance_k15,Random Forest,JM1,0.009,0.003,0.015,True,0.005,0.002,0.008,True
+variance_k15,Random Forest,KC1,0.05,0.04,0.059,True,0.015,0.012,0.018,True
+variance_k15,Random Forest,KC2,0.012,-0.005,0.029,False,-0.01,-0.02,-0.0,True
+variance_k15,Random Forest,PC1,-0.019,-0.032,-0.006,True,0.005,-0.006,0.015,False
+variance_k15,XGBoost,CM1,0.021,-0.046,0.087,False,0.02,-0.013,0.053,False
+variance_k15,XGBoost,JM1,0.003,-0.004,0.01,False,-0.001,-0.006,0.003,False
+variance_k15,XGBoost,KC1,0.02,-0.001,0.042,False,0.012,0.003,0.02,True
+variance_k15,XGBoost,KC2,0.066,0.034,0.099,True,0.021,0.003,0.038,True
+variance_k15,XGBoost,PC1,0.003,-0.038,0.045,False,0.029,0.009,0.048,True
+variance_k5,Logistic Regression,CM1,0.026,0.02,0.033,True,-0.017,-0.023,-0.011,True
+variance_k5,Logistic Regression,JM1,0.022,0.019,0.025,True,0.002,0.001,0.003,True
+variance_k5,Logistic Regression,KC1,0.005,0.001,0.009,True,0.002,0.001,0.003,True
+variance_k5,Logistic Regression,KC2,0.001,-0.007,0.009,False,-0.03,-0.031,-0.029,True
+variance_k5,Logistic Regression,PC1,-0.074,-0.079,-0.069,True,-0.065,-0.07,-0.06,True
+variance_k5,MLP,CM1,0.098,0.062,0.134,True,0.052,0.021,0.083,True
+variance_k5,MLP,JM1,0.061,0.035,0.087,True,0.035,0.021,0.049,True
+variance_k5,MLP,KC1,0.078,0.064,0.092,True,0.071,0.06,0.082,True
+variance_k5,MLP,KC2,0.076,0.034,0.119,True,0.064,0.042,0.085,True
+variance_k5,MLP,PC1,0.059,0.02,0.099,True,0.003,-0.04,0.046,False
+variance_k5,Random Forest,CM1,0.02,-0.005,0.044,False,-0.048,-0.059,-0.037,True
+variance_k5,Random Forest,JM1,-0.015,-0.021,-0.009,True,-0.013,-0.015,-0.01,True
+variance_k5,Random Forest,KC1,-0.044,-0.054,-0.034,True,-0.03,-0.033,-0.028,True
+variance_k5,Random Forest,KC2,-0.102,-0.13,-0.073,True,-0.149,-0.156,-0.142,True
+variance_k5,Random Forest,PC1,-0.12,-0.132,-0.108,True,-0.072,-0.081,-0.062,True
+variance_k5,XGBoost,CM1,0.08,0.044,0.116,True,0.049,0.027,0.071,True
+variance_k5,XGBoost,JM1,0.003,-0.006,0.013,False,-0.015,-0.02,-0.011,True
+variance_k5,XGBoost,KC1,-0.009,-0.028,0.01,False,-0.005,-0.014,0.005,False
+variance_k5,XGBoost,KC2,0.031,-0.006,0.068,False,-0.002,-0.027,0.024,False
+variance_k5,XGBoost,PC1,-0.002,-0.038,0.035,False,-0.01,-0.026,0.006,False
+xgb_sampling_sfrt,XGBoost,CM1,0.034,-0.02,0.088,False,0.023,-0.011,0.058,False
+xgb_sampling_sfrt,XGBoost,JM1,-0.005,-0.013,0.004,False,-0.003,-0.007,0.0,False
+xgb_sampling_sfrt,XGBoost,KC1,-0.002,-0.02,0.015,False,-0.0,-0.01,0.009,False
+xgb_sampling_sfrt,XGBoost,KC2,0.027,-0.005,0.059,False,0.012,-0.006,0.031,False
+xgb_sampling_sfrt,XGBoost,PC1,0.01,-0.034,0.053,False,0.002,-0.014,0.019,False
+xgb_sampling_uniform,XGBoost,CM1,0.023,-0.031,0.078,False,0.017,-0.011,0.044,False
+xgb_sampling_uniform,XGBoost,JM1,-0.005,-0.015,0.004,False,-0.002,-0.006,0.001,False
+xgb_sampling_uniform,XGBoost,KC1,-0.004,-0.021,0.013,False,-0.006,-0.011,-0.0,True
+xgb_sampling_uniform,XGBoost,KC2,0.038,-0.0,0.076,False,-0.001,-0.023,0.021,False
+xgb_sampling_uniform,XGBoost,PC1,-0.026,-0.069,0.017,False,-0.012,-0.029,0.005,False
