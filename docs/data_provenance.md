@@ -31,27 +31,34 @@ cites. It was rejected for two reasons:
 | KC2 | 522 | 522 (matches) |
 | PC1 | 1,109 | 1,109 (matches) |
 
-JM1's raw count (13,204) differs from the ~10,878-10,885 commonly cited. The
-difference is explained: the mirror's last commit appended duplicate rows to
-JM1. After exact-duplicate removal the count matches the cited figure, and
-the other four projects match the cited figures directly.
+JM1's raw count (13,204) differs from the ~10,878-10,885 commonly cited, and the
+count after duplicate removal (8,906 rows) does not match it either, because the
+cited file itself contains repeated rows. The mirror's JM1 holds every row of the
+10,878-row NASA MDP file (compared on the 14 whole-number metrics and the label)
+plus 2,326 extra rows: the two artefact rows (see 2 below), one further row, and
+2,323 copies of rows already in the file. After duplicate removal both files give
+the same set of distinct modules. The other four projects match the cited figures
+directly.
 
-### 2. A systematic single-row artefact
-Every one of the five raw files contains, as its first data row, a row with
-fractional values across multiple count-based metrics simultaneously (e.g.
-loc=1.1, uniq_Op=1.2, branchCount=1.4), which are logically impossible for
-count-based static code metrics. The same anomaly, at the same position, was also
-found in CM1's official ARFF file from the Shepperd et al. (2013) repository,
-indicating this is a long-standing artefact of the original ARFF construction
-process rather than corruption introduced by any one distributor. This single row
-was removed from each dataset (see the cleaning logs below).
+### 2. Two artefact rows per dataset
+Each raw file contains two artefact rows.
+* A row with fractional values across several count-based metrics at once (e.g.
+  loc=1.1, uniq_Op=1.2, branchCount=1.4), which is impossible for count metrics. It
+  is the first data row and is present in all five of the mirror's ARFF files.
+* A row in which all 21 metrics equal 1, labelled defective. It is present in all
+  five of the mirror's CSV files (and in four of its ARFF files).
+
+Neither row is in the NASA MDP files used by Shepperd et al. (2013): none of the 13
+files in OriginalData/MDP contains a row with fractional count values or an all-ones
+row. Both rows were therefore added by the mirror and are not part of the original
+data. Both were removed from every dataset (see the cleaning logs below).
 
 ### 3. High exact-duplicate rates
-| Dataset | Raw rows | Duplicates removed | % duplicated |
+| Dataset | Raw rows | Duplicates removed | % duplicated (of rows after the fractional row) |
 |---|---|---|---|
-| CM1 | 498 | 56 | 11.2% |
+| CM1 | 498 | 56 | 11.3% |
 | JM1 | 13,204 | 4,296 | 32.5% |
-| KC1 | 2,109 | 897 | 42.5% |
+| KC1 | 2,109 | 897 | 42.6% |
 | KC2 | 522 | 147 | 28.2% |
 | PC1 | 1,109 | 155 | 14.0% |
 
@@ -68,11 +75,11 @@ column below is the rate after exact-duplicate removal only; the strict level
 
 | Dataset | Defect rate (raw) | Defect rate (after duplicate removal) |
 |---|---|---|
-| CM1 | 9.8% | 10.9% |
+| CM1 | 9.8% | 10.7% |
 | JM1 | ~19% (typical lit. figure) | 22.5% |
-| KC1 | ~15% (typical lit. figure) | 26.0% |
-| KC2 | ~20% (typical lit. figure) | 28.1% |
-| PC1 | ~7% (typical lit. figure) | 7.4% |
+| KC1 | ~15% (typical lit. figure) | 25.9% |
+| KC2 | ~20% (typical lit. figure) | 27.9% |
+| PC1 | ~7% (typical lit. figure) | 7.3% |
 
 This is worth discussing explicitly in the thesis: it demonstrates that the
 duplicate-removal decision is not neutral with respect to class balance, which in
@@ -81,15 +88,15 @@ or at least an explicit methodological choice.
 
 ## Cleaning steps applied (in order)
 1. Standardise column names and target encoding across sources
-2. Remove the single systematic artefact row (fractional count-metric values)
+2. Remove the two artefact rows (the fractional-value row and the all-ones row)
 3. Remove exact duplicate rows (all 21 features + target identical)
 4. Verify: no missing values, no zero-variance features remaining
 5. Strict level only (`src/clean_data.py`): remove rows that break any of
-   R1 all-ones row; R2 conflicting labels for identical metrics; R3 n = 0 while loc > 0;
+   R1 all-ones row (none remain at this point, so R1 removes 0 rows); R2 conflicting labels for identical metrics; R3 n = 0 while loc > 0;
    R4 n != total_Op + total_Opnd; R5 loc = 0.
 
-Row counts, duplicate-removed level -> strict level: CM1 441 -> 438; JM1 8,907 -> 7,698
-(R2 = 176, R3 = 971, R4 = 139); KC1 1,211 -> 1,147; KC2 374 -> 328; PC1 953 -> 934.
+Row counts, duplicate-removed level -> strict level: CM1 440 -> 438; JM1 8,906 -> 7,698
+(R2 = 176, R3 = 971, R4 = 139); KC1 1,210 -> 1,147; KC2 373 -> 328; PC1 952 -> 934.
 The per-rule counts overlap, so they need not sum to the number of rows removed.
 
 ## Where things are
