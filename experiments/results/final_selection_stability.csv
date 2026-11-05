@@ -1,0 +1,5 @@
+Classifier,Dev_SFRT,Dev_MI,New_SFRT,New_MI
+Logistic Regression,0.78,0.51,0.74,0.53
+MLP,0.47,0.51,0.54,0.53
+Random Forest,0.76,0.51,0.82,0.53
+XGBoost,0.74,0.51,0.69,0.53

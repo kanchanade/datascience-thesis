@@ -1,0 +1,31 @@
+Classifier,Metric,Share_of_runs
+Logistic Regression,d,1.0
+Logistic Regression,uniq_Op,1.0
+Logistic Regression,uniq_Opnd,1.0
+Logistic Regression,v(g),0.8
+Logistic Regression,total_Op,0.7
+Logistic Regression,total_Opnd,0.4
+Logistic Regression,branchCount,0.1
+MLP,uniq_Op,1.0
+MLP,lOBlank,0.8
+MLP,lOComment,0.7
+MLP,d,0.7
+MLP,uniq_Opnd,0.7
+MLP,i,0.6
+MLP,n,0.3
+MLP,branchCount,0.1
+MLP,b,0.1
+Random Forest,iv(g),1.0
+Random Forest,lOComment,1.0
+Random Forest,lOBlank,1.0
+Random Forest,uniq_Opnd,1.0
+Random Forest,loc,0.6
+Random Forest,i,0.4
+XGBoost,i,1.0
+XGBoost,lOComment,1.0
+XGBoost,lOBlank,1.0
+XGBoost,iv(g),0.8
+XGBoost,uniq_Opnd,0.6
+XGBoost,uniq_Op,0.3
+XGBoost,locCodeAndComment,0.2
+XGBoost,loc,0.1
