@@ -33,6 +33,9 @@ issues: `docs/data_provenance.md`.
     python src/analyse_rq3.py                          # RQ3
     python src/run_source_balance.py                   # ablation
     python src/analyse_source_balance.py
+    python src/prepare_holdout_data.py                 # seven new projects
+    python src/run_holdout_test.py
+    python src/make_final_tables.py                    # SFRT top-5, small tables, selection stability
     python src/make_figures.py                         # Figures 4.1 to 4.3
 
 Logistic Regression at C = 0.1 and 10 (exploratory), run in a scratch copy:

@@ -1,8 +1,14 @@
 """
 Draws Figures 4.1 to 4.3 (strict data) from the saved result files.
 
-Reads  : runs_strict.csv, within_strict.csv, rq3_summary_strict.csv
-Writes : experiments/figures/Fig4_1_*.png, Fig4_2_*.png, Fig4_3_*.png
+Figure 4.1  within-project and cross-project performance
+Figure 4.2  agreement between SHAP importance rankings (RQ3)
+Figure 4.3  SFRT top-5 and mutual information top-5 against all 21 metrics,
+            on the five development projects and the seven new projects
+
+Reads  : runs_strict.csv, within_strict.csv, rq3_summary_strict.csv, holdout_runs.csv
+Writes : experiments/figures/Fig4_1_within_vs_cross.png,
+         Fig4_2_shap_agreement.png, Fig4_3_sfrt_top5.png
 
 Run:  python src/make_figures.py
 """
@@ -20,10 +26,12 @@ OUT.mkdir(parents=True, exist_ok=True)
 rs = pd.read_csv(RES / "runs_strict.csv")
 w = pd.read_csv(RES / "within_strict.csv")
 r3 = pd.read_csv(RES / "rq3_summary_strict.csv")
+new = pd.read_csv(RES / "holdout_runs.csv")
+new = new[new.Table == "full"]
 CL=['Logistic Regression','Random Forest','XGBoost','MLP']; SHORT={'Logistic Regression':'Logistic\nRegression','Random Forest':'Random\nForest','XGBoost':'XGBoost','MLP':'MLP'}
 S1,S2,S3='#2a78d6','#eb6834','#1baf7a'; INK='#0b0b0b'; INK2='#52514e'; GRID='#e4e3df'; BG='#fcfcfb'
 plt.rcParams.update({'font.size':9,'axes.edgecolor':'#bdbcb6','axes.labelcolor':INK2,'xtick.color':INK2,'ytick.color':INK2,'text.color':INK,'figure.facecolor':BG,'axes.facecolor':BG,'savefig.facecolor':BG,'axes.spines.top':False,'axes.spines.right':False})
-# Fig 1 within vs cross
+# Fig 4.1 within vs cross
 fig,axs=plt.subplots(1,2,figsize=(8.2,3.9),sharey=False)
 for ax,met in zip(axs,['MCC','AUC-PR']):
     x=np.arange(4); bw=0.36
@@ -43,27 +51,7 @@ h,l=axs[0].get_legend_handles_labels()
 fig.legend(h,l,loc='lower center',ncol=2,frameon=False,fontsize=8.5,bbox_to_anchor=(0.5,-0.01))
 fig.text(0.01,0.99,'Bars: mean over the five projects and ten seeds. Dots: the five per-project means.',fontsize=8,color=INK2,va='top')
 fig.tight_layout(rect=(0,0.07,1,0.95)); fig.savefig(OUT/'Fig4_1_within_vs_cross.png',dpi=300); plt.close(fig)
-# Fig 2 delta MCC vs unweighted per classifier
-PRIM={'Logistic Regression':'sfrt_soft','MLP':'sfrt_soft','Random Forest':'sfrt_hard_k10','XGBoost':'sfrt_hard_k10'}
-fig,axs=plt.subplots(2,2,figsize=(8.2,5.4),sharex=True)
-for ax,c in zip(axs.ravel(),CL):
-    meths=['mutualinfo_k10','variance_k10',PRIM[c]]; labs=['Mutual information (k=10)','Variance (k=10)','SFRT: soft reweighting' if PRIM[c]=='sfrt_soft' else 'SFRT: hard top-10']
-    cols=[S1,S1,S2]
-    base=rs[(rs.Method=='unweighted')&(rs.Classifier==c)].groupby(['Seed','Target_Dataset']).MCC.mean()
-    for i,(m,lab,col) in enumerate(zip(meths,labs,cols)):
-        v=rs[(rs.Method==m)&(rs.Classifier==c)].groupby(['Seed','Target_Dataset']).MCC.mean()-base
-        per=v.groupby('Target_Dataset').mean(); y=len(meths)-1-i
-        ax.barh(y,per.mean(),0.5,color=col,zorder=2,alpha=.9)
-        ax.scatter(per.values,np.full(len(per),y)+np.linspace(-.14,.14,len(per)),s=12,color=INK,alpha=.6,zorder=3,linewidths=0)
-        ax.text(0.228,y,f"{per.mean():+.3f}",va='center',ha='right',fontsize=8.5,color=INK,fontweight='bold')
-    ax.axvline(0,color=INK2,lw=.8,zorder=1); ax.set_yticks(range(len(meths))); ax.set_yticklabels(labs[::-1]); ax.set_title(c,loc='left',fontsize=10,fontweight='bold')
-    ax.xaxis.grid(True,color=GRID,zorder=0); ax.set_axisbelow(True); ax.tick_params(length=0); ax.set_xlim(-0.08,0.23); ax.set_xticks([-0.05,0,0.05,0.1,0.15])
-for ax in axs[1]: ax.set_xlabel('Change in MCC versus unweighted')
-from matplotlib.patches import Patch
-fig.legend([Patch(color=S1),Patch(color=S2)],['Baseline feature selection','SFRT (primary variant)'],loc='lower center',ncol=2,frameon=False,fontsize=8.5,bbox_to_anchor=(0.5,-0.005))
-fig.text(0.01,0.995,'Bars: mean over targets and seeds. Dots: the five targets (each averaged over ten seeds). Strict cleaning level.',fontsize=8,color=INK2,va='top')
-fig.tight_layout(rect=(0,0.05,1,0.96)); fig.savefig(OUT/'Fig4_2_change_vs_unweighted.png',dpi=300); plt.close(fig)
-# Fig 3 SHAP agreement
+# Fig 4.2 SHAP agreement
 def lab(r):
     c=r.Comparison
     if c.startswith('NOISE'): return r.Classifier
@@ -85,6 +73,29 @@ for ax,space,title in zip(axs,['features','groups'],['21 individual metrics','10
 from matplotlib.lines import Line2D
 fig.legend([Line2D([],[],marker='o',ls='',color=c,markersize=7) for _,_,c in order],[n for _,n,_ in order],loc='lower center',ncol=1,frameon=False,fontsize=8.5,bbox_to_anchor=(0.5,-0.005))
 fig.text(0.01,0.995,'Dashed line: expected agreement of two random rankings (about 0). Mean over projects, seeds and pairs.',fontsize=8,color=INK2,va='top')
-fig.tight_layout(rect=(0,0.1,1,0.965)); fig.savefig(OUT/'Fig4_3_shap_agreement.png',dpi=300); plt.close(fig)
+fig.tight_layout(rect=(0,0.1,1,0.965)); fig.savefig(OUT/'Fig4_2_shap_agreement.png',dpi=300); plt.close(fig)
+# Fig 4.3 SFRT top-5 and mutual information top-5 against all 21 metrics
+dev = rs.rename(columns={'Target_Dataset':'Target'})
+def change(runs, clf, method):
+    """Seed-averaged MCC per target, method minus all 21 metrics."""
+    g = runs[runs.Classifier==clf].groupby(['Method','Target']).MCC.mean().unstack(0)
+    return (g[method]-g['unweighted']).dropna()
+ROWS=[('Development: SFRT top-5',dev,'sfrt_hard_k5',S2),('Development: MI top-5',dev,'mutualinfo_k5',S1),
+      ('New projects: SFRT top-5',new,'sfrt_hard_k5',S2),('New projects: MI top-5',new,'mutualinfo_k5',S1)]
+fig,axs=plt.subplots(2,2,figsize=(8.4,5.8),sharex=True)
+for ax,c in zip(axs.ravel(),['Logistic Regression','MLP','Random Forest','XGBoost']):
+    for i,(name,runs,m,col) in enumerate(ROWS):
+        per=change(runs,c,m); y=len(ROWS)-1-i
+        ax.barh(y,per.mean(),0.5,color=col,zorder=2,alpha=.9)
+        ax.scatter(per.values,np.full(len(per),y)+np.linspace(-.14,.14,len(per)),s=12,color=INK,alpha=.6,zorder=3,linewidths=0)
+        ax.text(1.02,y,f"{per.mean():+.3f}",va='center',ha='left',fontsize=8.5,color=INK,fontweight='bold',transform=ax.get_yaxis_transform(),clip_on=False)
+    ax.axvline(0,color=INK2,lw=.8,zorder=1); ax.set_yticks(range(len(ROWS))); ax.set_yticklabels([r[0] for r in ROWS][::-1],fontsize=8)
+    ax.set_title(c,loc='left',fontsize=10,fontweight='bold'); ax.xaxis.grid(True,color=GRID,zorder=0); ax.set_axisbelow(True); ax.tick_params(length=0)
+    ax.set_xlim(-0.2,0.2); ax.set_xticks([-0.2,-0.1,0,0.1,0.2])
+for ax in axs[1]: ax.set_xlabel('Change in MCC versus all 21 metrics')
+from matplotlib.patches import Patch
+fig.legend([Patch(color=S2),Patch(color=S1)],['SFRT top-5','Mutual information (MI) top-5'],loc='lower center',ncol=2,frameon=False,fontsize=8.5,bbox_to_anchor=(0.5,-0.005))
+fig.text(0.01,0.995,'Bars: mean over targets. Dots: individual targets (five development projects, seven new projects), each averaged over ten seeds.',fontsize=8,color=INK2,va='top')
+fig.tight_layout(rect=(0,0.05,1,0.96),w_pad=4); fig.savefig(OUT/'Fig4_3_sfrt_top5.png',dpi=300); plt.close(fig)
 
 print('Figures written to', OUT)
